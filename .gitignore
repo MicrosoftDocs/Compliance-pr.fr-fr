@@ -1,0 +1,13 @@
+log/
+obj/
+_site/
+.optemp/
+_themes*/
+.vs/
+common/
+.vscode/
+*.ini
+.DS_Store
+Thumbs.db
+
+.openpublishing.buildcore.ps1

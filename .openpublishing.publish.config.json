@@ -26,7 +26,7 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft",
+      "url": "https://github.com/Microsoft/templates.docs.msft.fr-fr",
       "branch": "master",
       "branch_mapping": {}
     },
@@ -35,6 +35,15 @@
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
       "branch": "master",
       "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_repo.en-us",
+      "url": "https://github.com/MicrosoftDocs/Compliance-pr",
+      "branch": "live",
+      "branch_mapping": {
+        "live": "live",
+        "main": "main"
+      }
     }
   ],
   "branch_target_mapping": {

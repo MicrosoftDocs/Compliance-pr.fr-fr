@@ -46,7 +46,7 @@
       "extendBreadcrumb": true,
       "feedback_system": "None",
       "hide_comments": true,
-      "bilingual_type": "hover over"
+      "bilingual_type": "hover over",
       "feedback_github_repo": "MicrosoftDocs/Compliance",
       "feedback_product_url": "https://github.com/MicrosoftDocs/Compliance",
       "searchScope": ["Compliance"]

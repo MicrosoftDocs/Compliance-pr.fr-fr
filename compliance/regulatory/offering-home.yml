@@ -16,12 +16,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/30/2020
   localization_priority: Normal
-  ms.openlocfilehash: 6dabbb8599288d0291934135ef208b52b9ec0003
-  ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+  ms.openlocfilehash: 95c5b020d516d5fc7ccce6978c6f4cf0ad590b5f
+  ms.sourcegitcommit: 98b2d08699e942b4d4f3d7960df6e8e85030f5ec
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 11/30/2020
-  ms.locfileid: "49506994"
+  ms.lasthandoff: 12/01/2020
+  ms.locfileid: "49527121"
 conceptualContent:
   title: Offres de conformité pour Microsoft 365, Azure cloud services et d’autres services Microsoft
   summary: Microsoft propose des offres de conformité pour aider votre organisation à se conformer aux exigences nationales, régionales et sectorielles régissant la collecte et l’utilisation des données.
@@ -305,6 +305,8 @@ additionalContent:
         url: offering-tisax-germany.md
     - title: Régionaux
       links:
+      - text: OSPAR ABS (Singapour)
+        url: offering-abs-ospar.md
       - text: Lois canadiennes sur la protection de la vie privée
         url: offering-canadian-privacy-laws.md
       - text: Cyber Essentials plus (Royaume-Uni)

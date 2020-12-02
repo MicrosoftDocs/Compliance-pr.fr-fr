@@ -1,0 +1,217 @@
+### YamlMime:Hub
+title: Documentation sur la conformité
+summary: La documentation et les ressources Microsoft dont vous avez besoin afin de démarrer la conformité de votre entreprise ou organisation.
+brand: m365
+metadata:
+  title: Documentation sur la conformité
+  description: La documentation et les ressources Microsoft dont vous avez besoin afin de démarrer la conformité de votre entreprise ou organisation.
+  services: service
+  ms.service: service
+  ms.subservice: subservice
+  ms.topic: hub-page
+  ms.collection:
+  - M365-security-compliance
+  - MS-Compliance
+  author: robmazz
+  ms.author: robmazz
+  ms.date: 11/30/2020
+  ms.openlocfilehash: 9f175f0f0e3b42518999d2cc6c334cbd9b15b65b
+  ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+  ms.translationtype: HT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 11/30/2020
+  ms.locfileid: "49506947"
+highlightedContent:
+  items:
+  - title: Tâches rapides pour démarrer avec la conformité Microsoft 365
+    itemType: get-started
+    url: https://docs.microsoft.com/microsoft-365/compliance/compliance-quick-tasks
+  - title: Déployer la protection des informations pour la confidentialité des données
+    itemType: get-started
+    url: https://docs.microsoft.com/microsoft-365/solutions/information-protection-deploy
+  - title: En savoir plus sur la responsabilité partagée dans le cloud
+    itemType: overview
+    url: https://docs.microsoft.com/azure/security/fundamentals/shared-responsibility
+  - title: Découvrir comment Microsoft protège les données client
+    itemType: learn
+    url: https://docs.microsoft.com/learn/paths/audit-safeguard-customer-data/
+  - title: En savoir plus sur le Gestionnaire de conformité Microsoft
+    itemType: learn
+    url: https://docs.microsoft.com/learn/paths/compmgmt/
+  - title: Gérer les risques internes dans Microsoft 365
+    itemType: learn
+    url: https://docs.microsoft.com/learn/paths/m365-compliance-insider/
+  - title: Gérer la protection et la gouvernance des informations
+    itemType: learn
+    url: https://docs.microsoft.com/learn/paths/m365-compliance-information/
+  - title: En savoir plus sur Advanced eDiscovery et l’Audit avancé
+    itemType: learn
+    url: https://docs.microsoft.com/learn/paths/compliance-discover/
+productDirectory:
+  title: Conformité réglementaire
+  summary: Guide Microsoft sur la conformité aux normes et réglementations nationales et internationales.
+  items:
+  - title: Règlement général sur la protection des données (RGPD)
+    imageSrc: https://docs.microsoft.com/office/media/icons/compliance-blue.svg
+    summary: Le guide vous apporte des informations pour vous aider à honorer vos droits et à respecter les obligations en vertu du RGPD lorsque vous utilisez les produits et services Microsoft.
+    url: /compliance/regulatory/gdpr
+  - title: Offres pour la conformité Microsoft
+    imageSrc: https://docs.microsoft.com/office/media/icons/globe-internet.svg
+    summary: Microsoft vous propose une série d’offres sur la conformité pour aider votre organisation à se conformer aux exigences nationales, locales et sectorielles en matière de recueil et d’utilisation des données.
+    url: /compliance/regulatory/offering-home
+  - title: Conformité réglementaire et Microsoft Azure
+    imageSrc: https://docs.microsoft.com/media/logos/logo_azure.svg
+    summary: Découvrez la conformité réglementaire et les services cloud Microsoft Azure.
+    url: https://docs.microsoft.com/azure/compliance/
+conceptualContent:
+  title: Certification du service
+  summary: Démarrez vos évaluations des risques et de la sécurité en comprenant comment Microsoft protège les données client.
+  items:
+  - title: Architecture
+    links:
+    - url: https://docs.microsoft.com/learn/modules/audit-architecture/
+      itemType: learn
+      text: Découvrez l’architecture
+    - url: /compliance/assurance/assurance-architecture
+      itemType: concept
+      text: Vue d’ensemble de l’architecture
+  - title: Journalisation d'audit
+    links:
+    - url: https://docs.microsoft.com/learn/modules/audit-logging-monitoring/
+      itemType: learn
+      text: Découvrez la journalisation d’audit
+    - url: /compliance/assurance/assurance-audit-logging
+      itemType: concept
+      text: Aperçu sur la journalisation d’audit
+  - title: Sécurité des centres de données
+    links:
+    - url: https://docs.microsoft.com/learn/modules/audit-physical-security/
+      itemType: learn
+      text: Découvrez la sécurité des centres de données
+    - url: /compliance/assurance/assurance-datacenter-security
+      itemType: concept
+      text: Aperçu sur la sécurité des centres de données
+  - title: Chiffrement et gestion des clés
+    links:
+    - url: https://docs.microsoft.com/learn/modules/audit-encryption/
+      itemType: learn
+      text: Découvrez le chiffrement et la gestion des clés
+    - url: /compliance/assurance/assurance-encryption
+      itemType: concept
+      text: Aperçu sur le chiffrement et la gestion des clés
+  - title: Gouvernance
+    links:
+    - url: https://docs.microsoft.com/learn/modules/audit-governance/
+      itemType: learn
+      text: Découvrez la gestion des identités et des accès
+    - url: /compliance/assurance/assurance-governance
+      itemType: concept
+      text: Aperçu sur la gouvernance
+  - title: Ressources humaines
+    links:
+    - url: https://docs.microsoft.com/learn/modules/audit-governance/personnel-security-governance
+      itemType: learn
+      text: Découvrez les ressources humaines
+    - url: /compliance/assurance/assurance-human-resources
+      itemType: concept
+      text: Aperçu sur les ressources humaines
+  - title: Gestion des identités et des accès
+    links:
+    - url: https://docs.microsoft.com/learn/modules/audit-identity-access-management/
+      itemType: learn
+      text: Découvrez la gestion des identités et des accès
+    - url: /compliance/assurance/assurance-identity-and-access-management
+      itemType: concept
+      text: Aperçu sur la gestion des identités et des accès
+  - title: Gestion des incidents
+    links:
+    - url: https://docs.microsoft.com/learn/modules/audit-incident-management/
+      itemType: learn
+      text: Découvrez la gestion des incidents
+    - url: /compliance/assurance/assurance-incident-management
+      itemType: concept
+      text: Aperçu sur la gestion des incidents
+  - title: Sécurité réseau
+    links:
+    - url: /compliance/assurance/assurance-network-security
+      itemType: concept
+      text: Aperçu sur la sécurité réseau
+  - title: Confidentialité
+    links:
+    - url: https://docs.microsoft.com/learn/modules/audit-privacy/
+      itemType: learn
+      text: Découvrez la confidentialité
+    - url: /compliance/assurance/assurance-privacy
+      itemType: concept
+      text: Aperçu sur la confidentialité
+  - title: Résilience et continuité
+    links:
+    - url: https://docs.microsoft.com/learn/modules/audit-resiliency-continuity/
+      itemType: learn
+      text: Découvrez la résilience et la continuité
+    - url: /compliance/assurance/assurance-resiliency-and-continuity
+      itemType: concept
+      text: Aperçu sur la résilience et la continuité
+  - title: Gestion des risques
+    links:
+    - url: https://docs.microsoft.com/learn/modules/audit-risk-management/
+      itemType: learn
+      text: Découvrez la gestion des risques
+    - url: /compliance/assurance/assurance-risk-management
+      itemType: concept
+      text: Aperçu sur la gestion des risques
+  - title: Développement et opérations de sécurité
+    links:
+    - url: https://docs.microsoft.com/learn/modules/audit-security-development-operation/
+      itemType: learn
+      text: Découvrez le développement et les opérations de sécurité
+    - url: /compliance/assurance/assurance-security-development-and-operation
+      itemType: concept
+      text: Aperçu sur le développement et les opérations de sécurité
+  - title: Surveillance de la sécurité
+    links:
+    - url: https://docs.microsoft.com/learn/modules/audit-vulnerability-management/security-monitoring
+      itemType: learn
+      text: Découvrez la surveillance de la sécurité
+    - url: /compliance/assurance/assurance-security-monitoring
+      itemType: concept
+      text: Aperçu sur la surveillance de la sécurité
+  - title: Gestion de fournisseurs
+    links:
+    - url: https://docs.microsoft.com/learn/modules/audit-subprocessor-management/
+      itemType: learn
+      text: Découvrez la gestion des fournisseurs
+    - url: /compliance/assurance/assurance-supplier-management
+      itemType: concept
+      text: Aperçu sur la gestion des fournisseurs
+  - title: Gestion des vulnérabilités
+    links:
+    - url: https://docs.microsoft.com/learn/modules/audit-vulnerability-management/
+      itemType: learn
+      text: Découvrez la gestion des vulnérabilités
+    - url: /compliance/assurance/assurance-vulnerability-management
+      itemType: concept
+      text: Aperçu sur la gestion des vulnérabilités
+additionalContent:
+  sections:
+  - title: Démarrer la conformité dans Microsoft 365
+    summary: Si vous débutez avec la conformité Microsoft 365 et que vous vous demandez par où commencer, cette section vous propose les principales solutions et privilégie les domaines importants en matière de conformité.
+    items:
+    - title: En savoir plus sur le Gestionnaire de conformité
+      summary: Découvrez les composants clé du Gestionnaire de conformité et comment il permet de simplifier la conformité et de réduire les risques.
+      url: https://docs.microsoft.com/microsoft-365/compliance/compliance-manager
+    - title: Gérer les risques internes
+      summary: Minimisez les risques internes en détectant, examinant et en agissant sur des activités malveillantes ou commises par inadvertance au sein de votre organisation.
+      url: https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management
+    - title: Gérer la protection des informations
+      summary: Utilisez Microsoft Information Protection (MIP) pour vous permettre de découvrir, classifier et protéger les informations sensibles où qu’elles se trouvent.
+      url: https://docs.microsoft.com/microsoft-365/compliance/protect-information
+    - title: Gérer la gouvernance des informations
+      summary: Utilisez les fonctionnalités de gouvernance des informations de Microsoft (MIG) pour gérer vos données en matière de conformité ou d’obligations réglementaires.
+      url: https://docs.microsoft.com/microsoft-365/compliance/manage-information-governance
+    - title: Gestion de l’eDiscovery
+      summary: Utilisez eDiscovery pour identifier et analyser du contenu considéré comme preuve dans des procédures judiciaires.
+      url: https://docs.microsoft.com/microsoft-365/compliance/ediscovery
+    - title: Déployer la protection des informations pour la confidentialité des données
+      summary: Identifiez, localisez, protégez, gérez et répondez à des incidents relatifs à la confidentialité des données stockées dans les services Microsoft 365 qui sont soumis à des réglementations en matière de confidentialité des données.
+      url: https://docs.microsoft.com/microsoft-365/solutions/information-protection-deploy

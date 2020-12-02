@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d573e78ddf0f6f4b9845635a37f8dc8f82350066
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: db1168d494fd5a8d0a31176ccccdff72dd096f1d
+ms.sourcegitcommit: c697549cdc5785e163bd6147cf0d95ba61b078fe
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506963"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "49528890"
 ---
 # <a name="new-zealand-government-cloud-computing-security-and-privacy-considerations"></a>Considérations relatives à la sécurité et à la confidentialité du Cloud Government de la Nouvelle-Zélande
 
@@ -66,7 +66,6 @@ Si votre Agence est tenue de procéder à la certification et à l’accréditat
 - [Exigences en matière de gouvernement NZ pour le Cloud Computing](https://aka.ms/NZ-Cloud-Requirements)
 - [Cloud Computing : considérations relatives à la sécurité et à la confidentialité des informations (ISPC)](https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/)
 - [Conditions de Microsoft Online Services](https://aka.ms/Online-Services-Terms)
-- [Office 365 : intégration de l’architecture de messagerie et](https://download.microsoft.com/download/8/5/9/859CDCEE-D293-47D8-9B6A-670B108B48E1/Microsoft_Office_365_white_paper_EN_US.pdf) de l’architecture de référence (autres conseils Microsoft NZ sur l’adoption du service Cloud)
 - [Conformité sur le site Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="microsoft-responses-to-cloud-computing-ipsc"></a>Réponses Microsoft à « Cloud Computing IPSC »

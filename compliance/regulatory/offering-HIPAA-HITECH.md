@@ -16,18 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0e04239b8dcbe50d054ec02f2164a301c775aaac
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 4766d0152e2ee5b372157dd56f28690161f04045
+ms.sourcegitcommit: 5ebe2ba746bba2d5058dcc0469a67e81fa3a8dce
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507602"
+ms.lasthandoff: 12/02/2020
+ms.locfileid: "49559850"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>Loi HIPAA (Health Insurance Portability and Accountability Act) & Hi-Tech
 
 ## <a name="hipaa-and-the-hitech-act-overview"></a>Présentation des lois HIPAA et Hi-Tech
 
-Le HIPAA (Health Insurance Portability and Accountability Act) est une loi américaine sur la santé qui établit les conditions d’utilisation, de divulgation et de protection des informations d’intégrité identifiables individuellement. Il s’applique aux entités couvertes : les bureaux des médecins, les hôpitaux, les organismes d’assurance maladie et les autres sociétés de santé, avec accès aux informations de protection de l’état de santé des patients, ainsi qu’aux partenaires professionnels, tels que le service Cloud et les fournisseurs informatiques, qui traitent PHI en leur nom. (La plupart des entités couvertes n’exécutent pas de fonctions telles que le traitement des revendications ou des données personnelles ; elles s’appuient sur les associés de l’entreprise.)
+Le HIPAA (Health Insurance Portability and Accountability Act) est une loi américaine sur la santé qui établit les conditions d’utilisation, de divulgation et de protection des informations d’intégrité identifiables individuellement. Elle s’applique aux entités couvertes, aux bureaux des médecins, aux hôpitaux, aux organismes d’assurance maladie et aux autres sociétés de santé, avec accès aux informations médicales protégées des patients, ainsi qu’aux partenaires professionnels, tels que le service Cloud et les fournisseurs informatiques, qui traitent le processus PHI en leur nom. (La plupart des entités couvertes n’exécutent pas de fonctions telles que le traitement des revendications ou des données personnelles ; elles s’appuient sur les associés de l’entreprise.)
 
 La loi réglemente l’utilisation et la diffusion de la PHI dans quatre zones générales :
 
@@ -45,7 +45,7 @@ La règle finale de notification de violation Hi-Tech, qui requiert l’avis des
 
 ## <a name="microsoft-and-hipaa-and-the-hitech-act"></a>Microsoft et HIPAA et la loi Hi-Tech
 
-Les réglementations HIPAA imposent que les entités couvertes et leurs partenaires commerciaux, dans ce cas, Microsoft, lorsqu’elle fournit des services, y compris les services Cloud, aux entités couvertes, entrent des contrats pour s’assurer que ces partenaires professionnels protègeront correctement la fonction PHI. Ces contrats, ou HIPAA, clarifient et limitent la manière dont l’Association métier peut gérer la valeur de PHI, et définit l’adhésion de chaque partie aux dispositions de sécurité et de confidentialité définies dans les normes HIPAA et Hi-Tech Act. Une fois qu’un contrat est en place, les clients Microsoft (entités couvertes) peuvent utiliser ses services pour traiter et stocker la PHI.
+Les réglementations HIPAA imposent que les entités couvertes et leur entreprise associent, dans ce cas, Microsoft quand elle fournit des services, y compris des services Cloud, aux entités couvertes, concluez des contrats pour vous assurer que ces partenaires professionnels protègeront correctement la fonction PHI. Ces contrats, ou HIPAA, clarifient et limitent la manière dont l’Association métier peut gérer la valeur de PHI, et définit l’adhésion de chaque partie aux dispositions de sécurité et de confidentialité définies dans les normes HIPAA et Hi-Tech Act. Une fois qu’un contrat est en place, les clients de Microsoft (entités couvertes) peuvent utiliser ses services pour traiter et stocker la PHI.
 
 Il n’existe actuellement aucune certification officielle pour la conformité aux lois HIPAA ou Hi-Tech. Toutefois, les services Microsoft couverts par le contrat ont subi des audits effectués par des auditeurs indépendants accrédités pour la certification Microsoft ISO/IEC 27001.
 
@@ -57,8 +57,9 @@ Pour savoir comment le Cloud Microsoft aide les clients à prendre en charge les
 
 - [Azure et Azure Government](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App Security
-- [Le Cloud Microsoft pour le secteur de la santé](https://aka.ms/MicrosoftCloudforHealthcareCompliance)
-- Service Microsoft Microsoft Healthcare bot
+- [Microsoft Cloud pour les professionnels de l’informatique](https://aka.ms/MicrosoftCloudforHealthcareCompliance)
+- Service Microsoft Healthcare bot
+- Bureau géré Microsoft
 - Microsoft Stream
 - Services professionnels Microsoft : Premier et sur site pour Azure, Dynamics 365, Intune et pour les clients des entreprises moyennes et grandes de Microsoft 365 Entreprise
 - [Dynamics 365 et Dynamics 365 Service Public](https://aka.ms/d365-compliance-list)
@@ -71,11 +72,9 @@ Pour savoir comment le Cloud Microsoft aide les clients à prendre en charge les
 
 ## <a name="accelerate-your-deployment-of-hipaahitrust-solutions-on-azure"></a>Accélérez votre déploiement des solutions HIPAA/HITRUST sur Azure
 
-Commencez à tirer parti des avantages du Cloud pour les solutions de données d’intégrité avec le plan de sécurité et de conformité Azure (données d’intégrité HIPAA/HITRUST et IA). Ce plan fournit des outils et des conseils pour vous aider à créer des solutions HIPAA/HITRUST dès aujourd’hui.
+Commencez à tirer parti des avantages du Cloud pour les solutions de données d’intégrité avec le plan de [sécurité et de conformité Azure : HIPAA/HiTRUST Health Data and Aï](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust-9-2). Ce plan fournit des outils et des conseils pour vous aider à créer des solutions HIPAA/HITRUST dès aujourd’hui.
 
-[Commencer à utiliser le modèle Azure HIPAA/HITRUST](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust-9-2)
-
-## <a name="frequently-asked-questions"></a>Foire aux questions
+## <a name="frequently-asked-questions"></a>Questions fréquemment posées
 
 **Mon organisation peut-elle entrer dans un contrat avec Microsoft ?**
 
@@ -105,7 +104,7 @@ Pour aider les clients avec cette tâche, Microsoft a publié ces guides :
 - Le [Guide pratique de la conception de solutions d’intégrité sécurisée à l’aide de Microsoft Azure](https://aka.ms/azureindustrysecurity) vous permet de mieux comprendre ce qu’il faut faire pour adopter correctement un service Cloud de manière sécurisée.
 - [La gestion des exigences de sécurité et de confidentialité HIPAA dans le Cloud Microsoft](https://smb.blob.core.windows.net/smbproduction/Content/Microsoft_Cloud_Healthcare_HIPAA_Security_Privacy.pdf) offre une brève présentation des exigences en matière de réglementation. Elle fournit également une analyse détaillée de la façon dont les services Cloud de Microsoft ont été créés avec des méthodologies qui correspondent à ces exigences, ainsi que des instructions sur la création de solutions prêtes à la conformité.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de conformité Microsoft pour évaluer vos risques
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le gestionnaire de conformité de Microsoft pour évaluer votre risque
 
 Le [Gestionnaire de conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) est une fonctionnalité du [Centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) qui vous permet de comprendre l’état de conformité de votre organisation et de prendre des mesures pour réduire les risques. Le Gestionnaire de conformité propose un modèle premium pour créer une évaluation pour ce règlement. Recherchez le modèle dans la page des **modèles d’évaluation** dans le Gestionnaire de conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
 

@@ -1,5 +1,7 @@
 - name: Offres pour la conformité Microsoft
   items:
+    - name: Offres pour la conformité Microsoft
+      href: offering-home.yml
     - name: Global
       items:
         - name: Point de référence CIS
@@ -80,7 +82,7 @@
               href: offering-apra-australia.md
             - name: AMF et ACPR (France)
               href: offering-amf-acpr-france.md
-            - name: 'CFTC 1,31 (ÉTATS-UNIS)'
+            - name: "CFTC\_1.31 (ÉTATS-UNIS)"
               href: offering-cftc-1-31-us.md
             - name: EBA (UE)
               href: offering-eba-eu.md
@@ -226,7 +228,9 @@
       items:
         - name: Asie
           items:
-            - name: CS Mark (Gold) (Japon))
+            - name: ABS OSPAR (Singapour)
+              href: offering-abs-ospar.md
+            - name: CS Mark (Gold) (Japon)
               href: offering-cs-mark-gold-japan.md
             - name: DJCP (Chine)
               href: 'https://www.trustcenter.cn/compliance/default.html#DJCP'
@@ -292,7 +296,7 @@
               href: offering-pdpa-argentina.md
 - name: Règlement général sur la protection des données (RGPD)
   items:
-    - name: Vue d’ensemble de RGPD
+    - name: Vue d’ensemble du RGPD
       href: gdpr.md
     - name: Plan d’action recommandé pour le RGPD
       href: gdpr-action-plan.md
@@ -304,7 +308,7 @@
       items:
         - name: Listes de vérification de préparation sur la responsabilité
           href: gdpr-arc.md
-        - name: Azure et Dynamics 365
+        - name: "Azure et Dynamics\_365"
           href: gdpr-arc-azure-dynamics.md
         - name: Support et services professionnels Microsoft
           href: gdpr-arc-prof-services.md
@@ -314,11 +318,11 @@
       items:
         - name: Demandes des personnes concernées
           href: gdpr-data-subject-requests.md
-        - name: Gérer les demandes des personnes associées aux données avec l’outil de cas DSR
+        - name: Gérer les demandes des personnes concernées avec l’outil de dossier de DPC
           href: gdpr-manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md
         - name: Azure
           href: gdpr-dsr-azure.md
-        - name: Services Azure DevOps
+        - name: Azure DevOps Services
           href: gdpr-dsr-vsts.md
         - name: "Dynamics\_365"
           href: gdpr-dsr-dynamics365.md
@@ -328,7 +332,7 @@
           href: gdpr-dsr-prof-services.md
         - name: "Office\_365"
           href: gdpr-dsr-office365.md
-        - name: Famille Visual Studio
+        - name: Visual Studio Family
           href: gdpr-dsr-visual-studio-family.md
         - name: Windows Entreprise
           href: gdpr-dsr-windows.md
@@ -366,17 +370,17 @@
           href: gdpr-for-sharepoint-server.md
         - name: "RGPD pour Exchange\_Server"
           href: gdpr-for-exchange-server.md
-        - name: RGPD pour Skype entreprise Server & Lync Server
+        - name: "RGPD pour Skype\_Entreprise\_Server et Lync\_Server"
           href: gdpr-for-skype-for-business-server.md
         - name: "RGPD pour Project\_Server"
           href: gdpr-for-project-server.md
-        - name: RGPD pour Office Web Apps Server & Office Online Server
+        - name: "RGPD pour Office\_Web\_Apps\_Server et Office\_Online\_Server"
           href: gdpr-for-office-online-server.md
-        - name: "RGPD pour les partages de fichiers Windows\_Server en local"
+        - name: "RGPD pour les partages de fichiers Windows\_Server locaux"
           href: gdpr-for-on-premises-file-shares.md
     - name: Étapes supplémentaires pour exporter des données
       href: gdpr-system-generated-log-data.md
-    - name: RGPD pour les environnements de développement/test Office 365
+    - name: "RGPD pour les environnements de développement/test Office\_365"
       href: gdpr-discovery-protection-reporting-in-Office365-dev-test-environment.md
 - name: California Consumer Privacy Act (CCPA)
   items:

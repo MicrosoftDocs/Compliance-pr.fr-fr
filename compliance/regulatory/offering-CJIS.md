@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 46de9832d4ba155e0e500462b7c82fad16a3bda2
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 05458ef4c0ef85a00939f53698639ef1be9174ff
+ms.sourcegitcommit: 7651cdc4af88278aef02114b4331d8d379f10def
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507324"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "49568660"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>Stratégie de sécurité CJIS (pénal Justice Information Services)
 
@@ -31,7 +31,7 @@ La Division CJIS (pénal Justice Information Services) du FBI (USA Federal Burea
 
 La stratégie de sécurité CJIS intègre les directives de la présidence et du FBI, la législation fédérale et les décisions du Conseil de politique judiciaire de la communauté judiciaire pénale, ainsi que des instructions de l’Institut NIST (National Institute of Standards and Technology). La stratégie est régulièrement mise à jour pour refléter les besoins en matière de sécurité en évolution constante.
 
-La stratégie de sécurité CJIS définit 13 zones que les entrepreneurs privés, tels que les fournisseurs de services Cloud, doivent évaluer afin de déterminer si leur utilisation des services Cloud peut être cohérente avec les exigences CJIS. Ces domaines correspondent étroitement à NIST 800-53, qui sert également de base pour le programme fédéral de gestion des autorisations et d’autorisation ([FedRAMP (Office 365)](offering-FedRAMP.md)), un programme dans lequel Microsoft a été certifié pour ses offres de Cloud gouvernemental.
+La stratégie de sécurité CJIS définit 13 zones que les entrepreneurs privés, tels que les fournisseurs de services Cloud, doivent évaluer afin de déterminer si leur utilisation des services Cloud peut être cohérente avec les exigences CJIS. Ces domaines correspondent étroitement à NIST 800-53, qui sert également de base pour le [programme fédéral Risk and Authorization Management (FedRAMP)](offering-FedRAMP.md), un programme dans lequel Microsoft a été certifié pour ses offres Cloud gouvernementales.
 
 En outre, tous les sous-traitants privés qui traitent CJI doivent signer l’Addendum de sécurité CJIS, un accord uniforme approuvé par le juriste américain général qui contribue à garantir la sécurité et la confidentialité des CJI requis par la stratégie de sécurité. Il engage également le fournisseur à maintenir un programme de sécurité conforme à la législation, à la réglementation et aux normes fédérales et nationales, et limite l’utilisation de CJI aux fins pour lesquelles un organisme public l’a fourni.
 
@@ -47,9 +47,9 @@ Découvrez comment accélérer votre stratégie de sécurité CJIS à l’aide d
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft concernés
 
-- [Public Azure](https://aka.ms/AzureCompliance)
-- [Dynamics 365 gouvernement américain](https://aka.ms/d365-compliance-list)
-- [Office 365 gouvernement américain](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Public Azure](https://docs.microsoft.com/azure/azure-government/documentation-government-welcome)
+- [Dynamics 365 gouvernement américain](https://docs.microsoft.com/power-platform/admin/microsoft-dynamics-365-government#certifications-and-accreditations)
+- [Office 365 gouvernement américain](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc#us-government-community-compliance)
 - Service Cloud Power BI soit en service autonome, soit inclus dans un plan ou une suite Office 365
 
 ## <a name="audits-reports-and-certificates"></a>Audits, rapports et certificats
@@ -80,9 +80,9 @@ Microsoft signe un accord d’information avec un département CJIS Systems Agen
 
 La [stratégie de sécurité CJIS](https://aka.ms/cjis-security-policy) couvre les précautions que votre Agence doit prendre pour protéger CJI. En outre, votre responsable de compte Microsoft peut vous mettre en contact avec les personnes connaissant les exigences de votre juridiction.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de conformité Microsoft pour évaluer vos risques
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de Conformité Microsoft pour évaluer vos risques
 
-Le [Gestionnaire de conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) est une fonctionnalité du [Centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) qui vous permet de comprendre l’état de conformité de votre organisation et de prendre des mesures pour réduire les risques. Le Gestionnaire de conformité propose un modèle premium pour créer une évaluation pour ce règlement. Recherchez le modèle dans la page des **modèles d’évaluation** dans le Gestionnaire de conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Le Gestionnaire de Conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) est une fonctionnalité dans le [centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) pour vous aider à comprendre la position de la conformité de votre organisation et à prendre des mesures pour réduire les risques. Le Gestionnaire de Conformité offre un modèle Premium pour la création d’une évaluation de ce règlement. Recherchez le modèle sur la page **modèles d’évaluation** dans le Gestionnaire de Conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de Conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressources
 

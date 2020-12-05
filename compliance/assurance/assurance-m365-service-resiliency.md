@@ -1,13 +1,12 @@
 ---
 title: Résilience de service intégrée dans Microsoft 365
 description: Description de la résilience de service Microsoft 365
-author: chrfox
-ms.author: chrfox
+author: robmazz
+ms.author: robmazz
 manager: laurawi
 ms.reviewer: sosstah
 f1.keywords:
 - NOCSH
-ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -17,12 +16,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 3ef398ef41516d6598bdec9b6e537b37577ef864
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: ee9c7d898af13b9a1db95913a98be09eea8cd27f
+ms.sourcegitcommit: 693bc6b1b51a5a9c9ff1758fa7f7ca3a204f147e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506711"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49574756"
 ---
 # <a name="built-in-service-resiliency-in-microsoft-365"></a>Résilience de service intégrée dans Microsoft 365
 
@@ -36,17 +35,17 @@ Pour réduire les temps d'indisponibilité, qu’ils soient planifiés ou impré
 
 ## <a name="activeactive-design"></a>Conception active/active
 
-Dans Microsoft 365, nous visons à ce que tous les services soient conçus et exploités dans une conception active/active qui augmente la résilience. Cela signifie qu’il existe toujours plusieurs instances d’un service en cours d’exécution hébergées dans des centres de données dispersés géographiquement, capables de répondre aux demandes des utilisateurs. Tout le trafic utilisateur passe par le service Microsoft Front Door et est automatiquement acheminé vers l'instance du service la plus proche et autour de toute défaillance de service pour prévenir ou réduire son impact pour nos clients.
+Dans Microsoft 365, nous faisons en sorte que tous les services soient conçus et exploités dans une conception active/active qui augmente la résistance. Cela signifie qu’il existe toujours plusieurs instances d’un service en cours d’exécution hébergées dans des centres de données dispersés géographiquement, capables de répondre aux demandes des utilisateurs. Tout le trafic utilisateur passe par le service Microsoft Front Door et est automatiquement acheminé vers l'instance du service la plus proche et autour de toute défaillance de service pour prévenir ou réduire son impact pour nos clients.
 
 ## <a name="reduce-incident-scope"></a>Réduction de la portée des incidents
 
 L’étendue d’un incident de service est mesurée par sa gravité, sa durée et le nombre de clients touchés. Nous cherchons à limiter la portée de tous les incidents en procédant comme suit :
 
 - disposer de plusieurs instances de chaque service partitionnées les unes des autres
-- déployer des mises à jour de manière contrôlée et graduelle à l’aide d’anneaux de validation, afin de détecter les problèmes pouvant découler de la mise à jour et de les éliminer au début du processus de déploiement. Cette opération autorise la régression de la mise à jour si nécessaire et se produit d’abord dans un petit groupe au sein de Microsoft (anneau intérieur) avant d’être déployée vers des groupes plus importants comme tous les 140 000 employés de Microsoft (anneau 2), puis dans les anneaux d’utilisateurs précoces (anneau 3) et finalement auprès de tous les clients au niveau mondial (anneau 4).
-- améliorer la surveillance grâce à l’automatisation. Microsoft 365 est très étendu et le temps de disponibilité cible du contrat SLA est élevé. Au début d’un incident de service, si des humains devaient être impliqués dans la détection et l’intervention, nous ne pourrions pas réagir assez rapidement pour respecter les contrats SLA. L’automatisation permet de détecter et de répondre rapidement et efficacement aux incidents de service. Plus vite nous sommes au courant d’un incident, plus vite celui-ci pourra être réparé.
+- déployer des mises à jour de manière contrôlée et graduelle à l’aide d’anneaux de validation, afin de détecter les problèmes pouvant découler de la mise à jour et de les éliminer au début du processus de déploiement. Cela permet d’effectuer une régression de la mise à jour si nécessaire et d’abord se produire dans un petit groupe au sein de Microsoft (anneau intérieur) avant d’être déployé pour des groupes plus importants comme tous les employés de Microsoft 140 000 (Ring 2), puis pour les sonneries précoces (Ring 3) et finalement pour tous les clients globalement (Ring 4).
+- améliorer la surveillance grâce à l’automatisation. Microsoft 365 est un grand service et la durée de fonctionnement de la cible SLA est élevée. Au début d’un incident de service, si des humains devaient être impliqués dans la détection et l’intervention, nous ne pourrions pas réagir assez rapidement pour respecter les contrats SLA. L’automatisation permet de détecter et de répondre rapidement et efficacement aux incidents de service. Plus vite nous sommes au courant d’un incident, plus vite celui-ci pourra être réparé.
 
-Outre les fonctionnalités actives/actives intégrées à l’architecture du service Microsoft 365, ces efforts réduisent la gravité, la durée et le nombre de clients touchés au cours d’un incident de service.  
+Outre les capacités actives/actives intégrées à l’architecture de service de Microsoft 365, ces efforts réduisent la gravité, la durée et le nombre de clients affectés lors d’un incident de service.  
 
 ## <a name="fault-isolation"></a>Isolation des pannes
 

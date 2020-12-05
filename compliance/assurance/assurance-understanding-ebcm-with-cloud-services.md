@@ -1,11 +1,10 @@
 ---
 title: Compréhension de la gestion de la continuité d’activité d’entreprise avec les services Cloud
 description: Découvrez en quoi la planification et l’implémentation de la continuité d’activité sont différentes lorsque les services Cloud font partie de votre offre informatique.
-author: chrfox
-ms.author: chrfox
+author: robmazz
+ms.author: robmazz
 manager: laurawi
 ms.reviewer: sosstah
-ms.date: ''
 audience: ITPro
 ms.topic: article
 f1.keywords:
@@ -17,12 +16,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - remotework
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: f92a1d79c435059918113dbeacdc3536d10933d6
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 4d4b2f02eacb09f09aae4995f5ee2747fbfe59a6
+ms.sourcegitcommit: 693bc6b1b51a5a9c9ff1758fa7f7ca3a204f147e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506679"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49574806"
 ---
 # <a name="enterprise-business-continuity-management-ebcm-with-cloud-services"></a>Gestion de la continuité d’activité d’entreprise (EBCM) avec les services Cloud
 

@@ -6,7 +6,6 @@ author: BrendaCarter
 localization_priority: Priority
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.date: 09/14/2018
 f1.keywords:
 - NOCSH
 ms.author: bcarter
@@ -16,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d33b96755eb5afd59bad307a47079b511e0d1203
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: a74bbe03596d63cbd7f24bec7f23cbabf88390c1
+ms.sourcegitcommit: 693bc6b1b51a5a9c9ff1758fa7f7ca3a204f147e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506943"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "49574776"
 ---
 # <a name="microsoft-365-nist-800-53-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>Plan d’action NIST 800-53 de Microsoft 365 : principales priorités pour vos premiers 30 jours, 90 jours et au-delà
 
@@ -48,7 +47,7 @@ Ces tâches peuvent être accomplies rapidement et ont un faible impact sur les 
 |**Catégorie**|**Tâches**|
 |:-----|:-----|
 |Comprendre les exigences en matière de la norme NIST 800-53 et demander conseil à un partenaire Microsoft.|•  Travaillez avec votre partenaire Microsoft pour effectuer une analyse d’écart en matière de conformité NIST 800-53 pour votre organisation et développez une feuille de route qui détermine votre parcours vers la conformité. <br>•   Utilisez les instructions dans [Gestionnaire de Conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) pour définir et documenter des stratégies et des procédures dédiées au contrôle d’accès et au partage d’informations concernant l’objectif, l’étendue, les rôles, les responsabilités, la coordination entre les entités de l’organisation et la conformité.|
-|Découvrir et comprendre la stratégie de protection avancée intégrée dans Microsoft 365.|•   Évaluez et gérez vos risques de conformité à l’aide du [Gestionnaire de Conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) pour effectuer une évaluation NIST 800-53 dans votre organisation. Ajustez les contrôles de Sécurité Microsoft 365 afin de gérer et d’atténuer les risques en fonction des résultats de l’évaluation.<br>•   Utilisez le service [Niveau de sécurité Microsoft](/security/office-365-security/office-365-secure-score.md) pour effectuer le suivi de l’utilisation des fonctionnalités du portail Sécurité Microsoft 365 par l’organisation au fil du temps dans les bureaux Office 365 et Windows 10. <br>•  Renseignez-vous davantage sur les technologies et les stratégies de Microsoft utilisées pour assurer le [chiffrement des données Office 365](https://docs.microsoft.com/microsoft-365/compliance/encryption), ainsi que les stratégies pour assurer la [protection contre les attaques par déni de service](https://docs.microsoft.com/office365/enterprise/office-365-defending-against-denial-of-service-attacks-overview) dans Microsoft Cloud.|
+|Découvrir et comprendre la stratégie de protection avancée intégrée dans Microsoft 365.|•   Évaluez et gérez vos risques de conformité à l’aide du [Gestionnaire de Conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) pour effectuer une évaluation NIST 800-53 dans votre organisation. Ajustez les contrôles de Sécurité Microsoft 365 afin de gérer et d’atténuer les risques en fonction des résultats de l’évaluation.<br>•   Utilisez le service [Niveau de sécurité Microsoft](/microsoft-365/security/mtp/microsoft-secure-score) pour effectuer le suivi de l’utilisation des fonctionnalités du portail Sécurité Microsoft 365 par l’organisation au fil du temps dans les bureaux Office 365 et Windows 10. <br>•   Découvrez les technologies et les stratégies de Microsoft utilisées pour assurer le [chiffrement des données Office 365](https://docs.microsoft.com/microsoft-365/compliance/encryption), ainsi que les stratégies pour assurer la [protection contre les attaques par déni de service](https://docs.microsoft.com/office365/enterprise/office-365-defending-against-denial-of-service-attacks-overview) dans Microsoft Cloud.|
 |Protéger l’accès utilisateur et administrateur dans Office 365.|• Établissez une [gestion des informations d’identification forte](https://docs.microsoft.com/azure/security/azure-ad-secure-steps#step-1---strengthen-your-credentials) pour protéger les informations d’identification de compte utilisateur. <br> •  Renseignez-vous davantage sur les [stratégies recommandées pour les identités et l’accès aux appareils](https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-365-policies-configurations) pour les services Office 365.<br> •   Utilisez les [rôles d’administrateur Office 365](https://support.office.com/article/understanding-administrative-roles-52f29955-6a60-435f-aba9-eb69c898606a) pour implémenter l’accès en fonction du rôle aux fonctionnalités d’administration et activer la séparation des droits d’administration. Remarque : de nombreux rôles d’administrateur dans Office 365 ont un rôle équivalent dans Exchange Online, SharePoint Online et Skype Entreprise Online. Segmentez les autorisations pour vous assurer que les administrateurs n’ont pas accès à plus de contenu que nécessaire.|
 |Vérifier que tous les accès au système sont vérifiables conformément aux stratégies d’audit et de responsabilité de votre organisation.|Activez la [journalisation d’audit](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) et l’[audit de boîte aux lettres](https://docs.microsoft.com/microsoft-365/compliance/enable-mailbox-auditing) pour toutes les boîtes aux lettres Exchange afin de détecter les activités potentiellement malveillantes dans Office 365 et d’activer l’analyse d’investigation des violations de données.|
 |||

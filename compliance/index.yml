@@ -15,12 +15,12 @@ metadata:
   author: robmazz
   ms.author: robmazz
   ms.date: 11/30/2020
-  ms.openlocfilehash: 12de0e81e8a9d1ee908207dc4e3d2dc50a797f7e
-  ms.sourcegitcommit: 7651cdc4af88278aef02114b4331d8d379f10def
+  ms.openlocfilehash: b2ef6d975ee41def8b410a47afe824851c151e14
+  ms.sourcegitcommit: 1e6157933cd9aea32c36e0c796ee55a861da16c8
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 12/03/2020
-  ms.locfileid: "49568640"
+  ms.lasthandoff: 12/09/2020
+  ms.locfileid: "49612810"
 highlightedContent:
   items:
   - title: Tâches rapides pour démarrer avec la conformité Microsoft 365
@@ -202,7 +202,7 @@ additionalContent:
       url: https://docs.microsoft.com/microsoft-365/compliance/compliance-manager
     - title: Gérer les risques internes
       summary: Réduire les risques internes en détectant, en analysant et en agissant sur les activités malveillantes et involontaires dans votre organisation.
-      url: https://docs.microsoft.com/microsoft-365/compliance/insider-risk-management
+      url: https://docs.microsoft.com/microsoft-365/compliance/insider-risk-solution-overview
     - title: Gérer la protection des informations
       summary: Utilisez Microsoft information protection (MIP) pour vous aider à découvrir, classer et protéger des informations sensibles partout où elles se trouvent.
       url: https://docs.microsoft.com/microsoft-365/compliance/protect-information

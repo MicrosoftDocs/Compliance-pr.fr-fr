@@ -8,41 +8,42 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 f1.keywords:
 - NOCSH
-ms.author: daniha
-author: DaniHalfin
-manager: dansimp
+ms.author: robmazz
+author: robmaz
+manager: laurawi
+ms.reviewer: delinat
 audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
 - MS-Compliance
-ms.openlocfilehash: 196796cbbfe7755f2639ed5acc163cce130d98d8
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 895dbe3b4fb0c272da22302a8e455da681b0ea88
+ms.sourcegitcommit: b366fb7c148b4da40f8c5d8ff41adbff0bcb850e
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507053"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "49585369"
 ---
 # <a name="data-processor-service-for-windows-enterprise-data-subject-requests-for-the-gdpr-and-ccpa"></a>Service de processeur de données pour les demandes des personnes concernées Windows Entreprise pour le RGPD et le CCPA 
 
 >[!NOTE]
->Cette rubrique est destinée aux participants au programme de prévisualisation du service de traitement des données pour Windows et nécessite l'acceptation de conditions d'utilisation spécifiques. Pour en savoir plus sur le programme et accepter les conditions d’utilisation, voir [https://aka.ms/WindowsEnterprisePublicPreview](https://aka.ms/WindowsEnterprisePublicPreview).
+>Cette rubrique est destinée aux participants au programme de prévisualisation du service de traitement des données pour Windows Enterprise et nécessite l'acceptation de conditions d'utilisation spécifiques. Pour en savoir plus sur le programme et accepter les conditions d’utilisation, voir [https://aka.ms/WindowsEnterprisePublicPreview](https://aka.ms/WindowsEnterprisePublicPreview).
 
 ## <a name="introduction-to-data-subject-requests-dsrs"></a>Introduction aux demandes des personnes concernées (DSR) 
 
-Le Règlement général sur la protection des données (RGPD) de l’UE permet aux utilisateurs (désignés dans le règlement comme étant les _personnes concernées_) de gérer les données personnelles collectées par un employeur ou tout autre type d’agence ou organisation (le _contrôleur des données_ ou le _contrôleur_ uniquement). Les données personnelles sont définies de manière générale dans le cadre du RGPD comme correspondant aux données associées à une personne physique identifiée ou identifiable. Le RGPD octroie aux personnes concernées des droits spécifiques sur leurs données personnelles. Ces droits incluent l’obtention de copies des données personnelles, les demandes de corrections de ces dernières, la restriction de leur traitement, leur suppression ou leur réception dans un format électronique afin de les transférer à un autre contrôleur. Toute demande formelle effectuée par une personne concernée à un contrôleur au sujet de la prise de mesure sur ses données personnelles est appelée _demande de personne concernée_ ou DSR.  
+Le Règlement général sur la protection des données (RGPD) de l’Union européenne permet aux utilisateurs (désignés dans le règlement comme étant les _personnes concernées_) de gérer les données personnelles collectées par un employeur ou tout autre type d’agence ou organisation (le _contrôleur des données_ ou le _contrôleur_ uniquement). Les données personnelles sont définies de manière générale dans le cadre du RGPD comme correspondant aux données associées à une personne physique identifiée ou identifiable. Le RGPD octroie aux personnes concernées des droits spécifiques sur leurs données personnelles. Ces droits incluent l’obtention de copies des données personnelles, les demandes de corrections de ces dernières, la restriction de leur traitement, leur suppression ou leur réception dans un format électronique afin de les transférer à un autre contrôleur. Toute demande formelle effectuée par une personne concernée à un contrôleur au sujet de la prise de mesure sur ses données personnelles est appelée _demande de personne concernée_ ou DSR.  
 
-Similarly, the California Consumer Privacy Act (CCPA), provides privacy rights and obligations to California consumers, including rights similar to GDPR’s Data Subject Rights, such as the right to delete, access, and receive (portability) their personal information. The CCPA also provides for certain disclosures, protections against discrimination when electing exercise rights, and “opt-out/ opt-in” requirements for certain data transfers classified as “sales". Sales are broadly defined to include the sharing of data for a valuable consideration. For more information about the CCPA, see the [California Consumer Privacy Act](https://docs.microsoft.com/microsoft-365/compliance/offering-ccpa) and the [California Consumer Privacy Act FAQ](https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq).
+De même, le CCPA (California Consumer Privacy Act), prévoit des droits de confidentialité et des obligations pour les consommateurs de la Californie, y compris des droits similaires aux droits des personnes concernées du RGPD, tels que le droit de supprimer, d’accéder et de recevoir (portabilité) leurs informations personnelles. Le CCPA prévoit également des publications d’informations, des protections contre la discrimination des personnes faisant usage de leurs droits et la possibilité d’opter pour ou contre certains transferts de données classés en tant que « ventes ». Les ventes sont largement définies pour inclure le partage de données à des fins importantes. Pour plus d’informations sur le CCPA, voir le [California Consumer Privacy Act](https://docs.microsoft.com/microsoft-365/compliance/offering-ccpa) et le [Forum aux questions California Consumer Privacy Act](https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq).
 
-Le guide explique comment utiliser les produits, services et outils administratifs de Microsoft pour aider nos clients responsables du traitement à trouver et à traiter les données à caractère personnel afin de répondre aux RQV. Plus précisément, il explique comment trouver, accéder et agir sur les données personnelles qui résident dans le nuage Microsoft. Voici un bref aperçu des processus décrits dans ce guide : 
+Le guide explique comment utiliser les outils d’administration, les services et les produits Microsoft pour aider nos clients entités de contrôle à rechercher des données personnelles et à agir dessus pour répondre à des DPC. Plus précisément, il décrit comment rechercher, consulter et traiter des données personnelles stockées dans le cloud Microsoft. Voici un aperçu des processus décrits dans ce guide : 
 
 1. **Accéder** : récupérez des données personnelles qui résident dans le cloud Microsoft et, si nécessaire, effectuez-en une copie pour la personne concernée. 
-2. **Supprimer** : Supprimer définitivement les données personnelles qui résidaient dans le cloud Microsoft. 
-3. **Exportation** :Fournir à la personne concernée une copie électronique (dans un format lisible par machine) des données à caractère personnel. Aux termes de la CCPA, on entend par « renseignements personnels » toute information concernant une personne identifiée ou identifiable.
+2. **Supprimer** : supprimez définitivement des données personnelles qui résidaient dans le cloud Microsoft. 
+3. **Exporter** : fournissez une copie électronique (dans un format lisible par une machine) des données personnelles à la personne concernée. Les informations à caractère personnel sous CCPA englobent toutes les informations relatives à une personne identifiée ou identifiable.
 
-Les informations personnelles sous CCPA sont toutes les informations relatives à une personne identifiée ou identifiable. Il n’existe aucune distinction entre le rôle privé, public ou professionnel d’une personne. Le terme défini « informations personnelles » s’aligne approximativement sur « données personnelles » sous RGPD. Toutefois, le CCPA inclut également les données familiales et familiales. Pour plus d’informations sur le CCPA, voir le [California Consumer Privacy Act](https://docs.microsoft.com/microsoft-365/compliance/offering-ccpa) et le[Forum aux questions California Consumer Privacy Act](https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq).
+Les informations à caractère personnel sous CCPA englobent toutes les informations relatives à une personne identifiée ou identifiable. Il n’existe pas de distinction entre les rôles privé, public ou professionnel d’une personne. Le terme défini « informations personnelles » est à peu près aligné sur celui de « données personnelles » dans le RGPD. Toutefois, le CCPA inclut également les données relatives à la famille et au foyer. Pour plus d’informations sur le CCPA, voir le [California Consumer Privacy Act](https://docs.microsoft.com/microsoft-365/compliance/offering-ccpa) et le [Forum aux questions California Consumer Privacy Act](https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq).
 
-Chaque section de ce guide décrit les procédures techniques qu'une organisation de contrôle des données peut suivre pour répondre à un DSR concernant des données personnelles dans le nuage Microsoft. 
+Chaque section de ce guide décrit les procédures techniques qu’une organisation étant une entité de contrôle des données peut suivre pour répondre à une DPC pour des données personnelles dans le cloud Microsoft. 
 
 ## <a name="terminology"></a>Terminologie
 
@@ -54,9 +55,9 @@ Vous trouverez ci-dessous la liste des définitions de termes utilisés dans ce 
 
 * _Sous-traitant :_ une personne physique ou morale, une autorité publique, une agence ou un autre organisme qui traite les données à caractère personnel pour le compte du responsable du traitement. 
 
-* _Données sur les clients_ : Toutes les données, y compris tous les fichiers texte, son, vidéo ou image, et les logiciels, qui sont fournis à Microsoft par un client ou en son nom par l'utilisation du service aux entreprises. 
+* _Données client_ : toutes les données, y compris tous les fichiers texte, son, vidéo ou image et les logiciels qui ont été fournis à Microsoft par le client ou pour son compte dans le cadre du service d’entreprise. 
 
-* _Données de diagnostic Windows_ : Données techniques essentielles des appareils Windows concernant l'appareil et les performances de Windows et des logiciels associés. Elles sont utilisées pour maintenir Windows à jour, sécurisé, fiable, performant et améliorer Windows grâce à l'analyse globale de l'utilisation de Windows. Le type de matériel utilisé, les applications installées avec leur utilisation respective et les informations de fiabilité sur les pilotes de périphériques sont quelques exemples de données de diagnostic de Windows. Certains composants et applications Windows se connectent directement aux services Microsoft, mais les données qu'ils échangent ne sont pas des Données de diagnostic Windows. Par exemple, l'échange de la localisation d'un utilisateur pour la météo ou les nouvelles locales n'est pas un exemple de données de diagnostic Windows. 
+* _Les données de diagnostic Windows_ : donnés techniques vitales des appareils Windows, relatives aux appareils et aux performances de Windows et du logiciel associé. Il permet de maintenir Windows à jour, sécurisé, fiable, performant et amélioré dans Windows par le biais de l’analyse globale de l’utilisation de Windows. Voici quelques exemples de données de diagnostic Windows : type de matériel utilisé, applications installées avec leur utilisation respective et informations de fiabilité sur les pilotes d’appareils. Certains composants et applications Windows se connectent directement aux services Microsoft, mais les données échangées ne correspondent pas à des données de diagnostic Windows. Par exemple, l’échange d’un emplacement d’utilisateur pour la météo locale ou les actualités n’est pas un exemple de données de diagnostic de Windows. 
 
 ## <a name="how-to-use-this-guide"></a>Comment utiliser ce guide 
 
@@ -64,40 +65,40 @@ Lorsque vous utilisez le service de traitement des données pour les appareils i
 
 ## <a name="windows-diagnostic-data"></a>Données de diagnostic Windows 
 
-Microsoft vous offre la possibilité d'accéder, de supprimer et d'exporter les données de diagnostic Windows associées à l'utilisation par un utilisateur du service de traitement des données pour Windows Enterprise.
+Microsoft vous offre la possibilité d'accéder, de supprimer et d'exporter les données de diagnostic Windows associées à l'utilisation par un utilisateur du service de traitement des données pour Windows Entreprise.
 
 >[!IMPORTANT]
->La possibilité de rectifier les données de diagnostic de Windows n'est pas prise en charge. Les Données de diagnostic Windows constituent des actions factuelles menées au sein de Windows, et toute modification de ces données compromettrait l'historique des actions, augmentant les risques de sécurité et nuisant à la fiabilité. Toutes les données couvertes dans ce document sont considérées comme des Données de diagnostic Windows. 
+>La possibilité de rectifier les données de diagnostic Windows n’est pas prise en charge. Les données de diagnostic Windows constituent des actions factuelles effectuées au sein de Windows, et les modifications apportées à ces données compromettent l'historique des actions, ce qui augmente les risques de sécurité et nuit à la fiabilité. Toutes les données traitées dans ce document sont considérées comme des données de diagnostic Windows. 
 
-## <a name="executing-dsrs-against-windows-diagnostic-data"></a>Exécution des DSR à partir des données de diagnostic de Windows 
+## <a name="executing-dsrs-against-windows-diagnostic-data"></a>Exécution des DSR à partir des données de diagnostic Windows 
 
 Microsoft permet de supprimer et d’exporter certaines données de diagnostic Windows, et d’y accéder, via le portail Azure et directement aussi via des interfaces de programmation d’applications (API).
 
 ### <a name="step-1-access"></a>Étape 1 : Accéder 
 
-L'administrateur du locataire est la seule personne au sein de votre organisation qui peut accéder aux données de diagnostic Windows associées à l'utilisation par un utilisateur particulier d'un service de traitement de données pour le dispositif Windows Enterprise inscrit. Les données récupérées pour une demande d'accès seront fournies, via l'exportation, dans un format lisible par la machine et seront fournies dans des fichiers qui permettront à l'utilisateur de savoir à quels appareils et services les données sont associées. Comme indiqué précédemment, les données récupérées ne comprendront pas de données susceptibles de compromettre la sécurité ou la stabilité du dispositif Windows. 
+L’administrateur du locataire est la seule personne au sein de votre organisation qui peut accéder aux données de diagnostic Windows associées à l’utilisation par un utilisateur d’un service de traitement de données pour l’appareil inscrit à Windows Entreprise. Les données récupérées pour une demande d’accès seront fournies par le biais de l’exportation dans un format lisible par l’ordinateur et seront fournies dans des fichiers qui permettront à l’utilisateur de savoir à quels appareils et services les données sont associées. Comme indiqué précédemment, les données récupérées n’incluent pas de données susceptibles de compromettre la sécurité ou la stabilité de l’appareil Windows. 
 
-Microsoft offre une expérience de portail, en fournissant à l'administrateur des locataires de l'entreprise cliente la possibilité de gérer les demandes d'accès au RSD. [ Azure DSR, Part 2, Step 3 : Export](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure#step-3-export), décrit comment exécuter une demande d'accès au DSR, via l'exportation, par le portail Azure.
+Microsoft offre une expérience de portail permettant à l’administrateur client de l’entreprise cliente de gérer les demandes d’accès de personne concernée. [Azure DSR, partie 2, étape 3 : exporter](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure#step-3-export), décrit l’exécution d’une demande d’accès au DSR, via l’exportation, via le Portail Azure.
 
-### <a name="step-2-delete"></a>Étape 2 : Supprimer 
+### <a name="step-2-delete"></a>Étape 2 : Supprimer 
 
-Microsoft fournit un moyen d'exécuter des demandes de suppression DSR basées sur l'objet Active Directory Azure d'un utilisateur particulier.
+Microsoft permet d’exécuter des requêtes de suppression de DSR basées sur l’utilisateur en fonction de l’objet Azure Active Directory d’un utilisateur particulier.
 
-Pour les demandes de suppression basées sur l'utilisateur, Microsoft offre une expérience de portail, qui permet à l'administrateur locataire de l'entreprise cliente de gérer les demandes de suppression de DSR. [Azure DSR, Part 1, Step 5 : Supprimer](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure#step-5-delete), décrit comment exécuter une demande de suppression de DSR via le portail Azure. 
+Pour les demandes de suppression basée sur l’utilisateur, Microsoft offre une expérience de portail permettant à l’administrateur client de l’entreprise cliente de gérer les demandes de suppression de DSR. [Azure DSR, partie 1, étape 5 : supprimer](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure#step-5-delete), décrit l’exécution d’une demande de suppression de DSR via le Portail Azure. 
 
-Microsoft offre la possibilité de supprimer des utilisateurs, qui à leur tour supprimeront les données des clients, directement via une interface de programmation d'application (API) préexistante. Les détails sont décrits dans la [documentation de référence de l'API](https://docs.microsoft.com/graph/api/directory-deleteditems-delete). 
+Microsoft permet de supprimer des utilisateurs, ce qui permet de supprimer des données client directement via une interface de programmation d’application (API) préexistante. Les détails sont décrits dans la [documentation de référence de l’API ](https://docs.microsoft.com/graph/api/directory-deleteditems-delete). 
 
 >[!IMPORTANT]  
->La suppression des données collectées ne met pas fin à la collecte ultérieure. Pour désactiver la collecte de données, suivez la procédure décrite dans la [documentation de référence du service concerné](https://docs.microsoft.com/windows/privacy/configure-windows-diagnostic-data-in-your-organization#enterprise-management).
+>La suppression des données collectées ne bloque pas la collecte plus approfondie. Pour désactiver la collecte de données, suivez la procédure décrite dans la [documentation de référence de service correspondante](https://docs.microsoft.com/windows/privacy/configure-windows-diagnostic-data-in-your-organization#enterprise-management).
  
  En outre, les demandes de suppression basées sur l'utilisateur nécessitent la suppression du compte d'utilisateur lui-même. 
 
 ### <a name="step-3-export"></a>Étape 3 : Exporter 
 
-L'administrateur du locataire est la seule personne au sein de votre organisation qui peut accéder aux données de diagnostic Windows associées à l'utilisation par un utilisateur particulier d'un service de traitement de données pour le dispositif Windows Enterprise inscrit. Les données récupérées pour une demande d'exportation seront fournies dans un format lisible par la machine et seront fournies dans des fichiers qui permettront à l'utilisateur de savoir à quels appareils et services les données sont associées. Comme indiqué précédemment, les données récupérées ne comprendront pas de données susceptibles de compromettre la sécurité ou la stabilité du dispositif Windows. [Azure DSR, Part 2, Step 3 : Export](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure#step-3-export) , décrit comment exécuter une demande d'exportation DSR via le portail Azure. 
+L’administrateur du locataire est la seule personne au sein de votre organisation qui peut accéder aux données de diagnostic Windows associées à l’utilisation par un utilisateur d’un service de traitement de données pour l’appareil inscrit à Windows Entreprise. Les données récupérées pour une demande d’exportation seront fournies dans un format lisible par l’ordinateur et seront fournies dans des fichiers qui permettront à l’utilisateur de savoir à quels appareils et services les données sont associées. Comme indiqué précédemment, les données récupérées n’incluent pas de données susceptibles de compromettre la sécurité ou la stabilité de l’appareil Windows. [Azure DSR, partie 2, étape 3 : exporter](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-azure#step-3-export), décrit l’exécution d’une demande d’exportation de DSR via le Portail Azure. 
 
-Microsoft offre la possibilité d'exporter les données des clients directement via une interface de programmation d'application (API) préexistante. Les détails sont décrits dans la [documentation de référence de l'API](https://docs.microsoft.com/graph/api/user-exportpersonaldata).
+Microsoft permet d’exporter des données client directement via une interface de programmation d’application (API) préexistante. Les détails sont décrits dans la [documentation de référence de l’API ](https://docs.microsoft.com/graph/api/user-exportpersonaldata).
 
-## <a name="notify-about-exporting-or-deleting-issues"></a>Notification de l'exportation ou de la suppression de problèmes 
+## <a name="notify-about-exporting-or-deleting-issues"></a>Notification des problèmes d’exportation ou de suppression 
 
 Si vous rencontrez des problèmes lorsque vous exportez ou supprimez des données sur le portail Azure, accédez au panneau **Aide + Support** du portail Azure et envoyez un nouveau ticket sous **Gestion des abonnements > Autre demande de conformité et de sécurité > Confidentialité et demandes dans le cadre du RGPD**. 

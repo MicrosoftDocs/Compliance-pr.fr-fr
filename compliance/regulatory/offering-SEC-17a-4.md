@@ -1,7 +1,7 @@
 ---
 title: Règles de Securities and Exchange Commission (SEC) 17A -4 (f)
 description: Une entreprise d’évaluation indépendante a validé que Azure et Office 365 peuvent aider les entreprises financières à respecter la réglementation SEC 17A -4 (f) des enregistrements sur la rétention et le stockage non modifiable.
-keywords: Offres pour la conformité Microsoft 365
+keywords: Microsoft 365, conformité, offres
 localization_priority: None
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7f91fc3fdc60cf12680e48c924223d8b5213af60
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 8f47359d23aa9399f36053e1ea6b1df91e181d59
+ms.sourcegitcommit: fc1da22cf40dfd807c182d3f6df967eee192eacd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507546"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49669765"
 ---
 # <a name="securities-and-exchange-commission-sec-rule-17a-4f-united-states"></a>Règles de Securities and Exchange Commission (SEC) 17A -4 (f)
 
@@ -57,7 +57,7 @@ Pour évaluer la conformité Azure et Office 365 avec la règle SEC 17A -4 (f), 
 
 ### <a name="office-365--sec-rule-17"></a>Office 365 & SEC 17
 
-[Évaluation de la conformité SEC 17A -4 (f) : Centre de conformité & Microsoft Security avec Exchange Online](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9fa8349d-a0c9-47d9-93ad-472aa0fa44ec&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+[Évaluation de la conformité SEC 17A -4 (f) : Centre de conformité & Microsoft Security avec SharePoint, OneDrive, teams, Exchange et Skype entreprise](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9fa8349d-a0c9-47d9-93ad-472aa0fa44ec&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 
 ## <a name="how-to-implement"></a>Modalités de mise en œuvre
 
@@ -73,9 +73,9 @@ Créez un modèle de gouvernance pour l’évaluation des risques des services d
 
 Utilisez des présentations de cas, des didacticiels et d’autres ressources pour créer des solutions Azure pour les services financiers. [En savoir plus](https://docs.microsoft.com/azure/industry/financial/)
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de conformité Microsoft pour évaluer vos risques
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de Conformité Microsoft pour évaluer vos risques
 
-Le [Gestionnaire de conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) est une fonctionnalité du [Centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) qui vous permet de comprendre l’état de conformité de votre organisation et de prendre des mesures pour réduire les risques. Le Gestionnaire de conformité propose un modèle premium pour créer une évaluation pour ce règlement. Recherchez le modèle dans la page des **modèles d’évaluation** dans le Gestionnaire de conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Le Gestionnaire de Conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) est une fonctionnalité dans le [centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) pour vous aider à comprendre la position de la conformité de votre organisation et à prendre des mesures pour réduire les risques. Le Gestionnaire de Conformité offre un modèle Premium pour la création d’une évaluation de ce règlement. Recherchez le modèle sur la page **modèles d’évaluation** dans le Gestionnaire de Conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de Conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressources
 

@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 6763e363938c422ac419fe9e76f9170912627dd5
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 2cc3f35a9d109a1a84159de8d0518f58270e3fe9
+ms.sourcegitcommit: 1dc97ae3f0511cb1a41565da56e725bbe0cb013c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506680"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49671179"
 ---
 # <a name="resiliency-and-continuity-overview"></a>Vue d’ensemble de la résilience et de la continuité
 
@@ -69,7 +69,7 @@ Les services en ligne de Microsoft sont régulièrement vérifiés pour la confo
 ## <a name="resources"></a>Ressources
 
 - [Livre blanc sur le programme de gestion de la continuité d’entreprise Microsoft](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=64f922a6-d624-40dd-a8ae-6f996b5186f3&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f) 
-- [Microsoft Cloud EBCM et le rapport de validation du plan de récupération d’urgence : FY20 T4](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=5437a1d9-5883-468b-aee0-8c8a8e4ef56a&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_FAQ_and_White_Papers)
+- [Microsoft Cloud EBCM et le rapport de validation du plan de récupération d’urgence : FY21 Q1 et Q2](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=b4181ab3-b03d-4a62-b396-4bfd1c98ddb0&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_FAQ_and_White_Papers)
 
 ## <a name="legal-disclaimer"></a>Clause d’exclusion de responsabilité légale
 

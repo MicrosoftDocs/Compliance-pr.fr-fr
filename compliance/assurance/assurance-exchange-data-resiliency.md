@@ -19,14 +19,19 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 801bac11d7f9ee377aaa4082bdab8dde533ce177
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: f2e55701f5825a5edb42e69d23f0ce7553f7ba17
+ms.sourcegitcommit: fc1da22cf40dfd807c182d3f6df967eee192eacd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506735"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49669735"
 ---
 # <a name="exchange-online-data-resiliency-in-microsoft-365"></a>Résilience des données Exchange Online dans Microsoft 365
+
+> [!IMPORTANT]
+>  À mesure que nous continuons à investir de différentes manières pour conserver le contenu de la boîte aux lettres, nous annonçaons le retrait des conservations In-Place dans le centre d’administration Exchange dans Exchange Online. À partir du 1er juillet 2020, vous ne pourrez pas créer de nouvelles In-Place conservations. Toutefois, vous pourrez toujours gérer les In-Place conservations dans le centre d’administration Exchange ou à l’aide de la cmdlet **Set-MailboxSearch** dans Exchange Online PowerShell. Toutefois, à partir du 1er octobre 2020, vous ne pourrez pas gérer les conservations de In-Place. Vous ne pourrez les supprimer que dans le centre d’administration Exchange ou à l’aide de la cmdlet **Remove-MailboxSearch** . L’utilisation de In-Place conservations dans Exchange Server et des déploiements hybrides Exchange est toujours prise en charge. Pour plus d’informations sur le retrait de In-Place conservations dans Exchange Online, consultez la rubrique [déclassement des outils eDiscovery hérités](https://docs.microsoft.com/microsoft-365/compliance/legacy-ediscovery-retirement).
+
+Une conservation inaltérable conserve tout le contenu d’une boîte aux lettres, y compris les éléments supprimés et les versions originales des éléments modifiés. Tous ces éléments de boîte aux lettres sont renvoyés dans une recherche de [Découverte électronique locale](https://docs.microsoft.com/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery). Lorsque vous placez une In-Place conservation dans la boîte aux lettres d’un utilisateur, le contenu de la boîte aux lettres d’archivage correspondante (si elle est activée) est également placé en conservation et renvoyé dans une recherche de découverte électronique.
 
 Il existe deux types d’endommagement pouvant avoir une incidence sur une base de données Exchange : la corruption physique, généralement causée par du matériel (en particulier, des problèmes de matériel de stockage) et une altération logique, qui se produit en raison d’autres facteurs. En règle générale, il existe deux types de corruption logique pouvant se produire dans une base de données Exchange :
 

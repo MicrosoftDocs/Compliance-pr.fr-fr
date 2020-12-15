@@ -1,16 +1,16 @@
 ---
-ms.openlocfilehash: 2ce4a47728eb3d89101c77a6cec200d7ea2a3ac8
-ms.sourcegitcommit: 18c7e403d6ffbc9afa323fadc04c673dbb7bd391
+ms.openlocfilehash: 61aafc556b30f5de9dabe5e67a5176b02b19ab28
+ms.sourcegitcommit: fc1da22cf40dfd807c182d3f6df967eee192eacd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "49620769"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49669705"
 ---
 # <a name="overview"></a>Vue d’ensemble
 
 ## <a name="learn-how-to-contribute"></a>En savoir plus sur la collaboration
 
-Toute personne intéressée peut participer aux rubriques. Lorsque vous contribuez, votre travail passe directement dans le jeu de contenu après avoir été fusionné. Il s’affiche ensuite sur docs.microsoft.com et vous serez inscrit en tant que collaborateur à : <https://github.com/MicrosoftDocs/microsoft-365-docs/graphs/contributors> .
+Toute personne intéressée peut participer aux rubriques. Lorsque vous contribuez, votre travail passe directement dans le jeu de contenu après avoir été fusionné. Il s’affiche ensuite sur docs.microsoft.com et vous serez inscrit en tant que collaborateur à : <https://github.com/MicrosoftDocs/compliance/graphs/contributors> .
 
 ### <a name="quickly-update-an-article-using-githubcom"></a>Mettre à jour rapidement un article à l’aide de GitHub.com
 

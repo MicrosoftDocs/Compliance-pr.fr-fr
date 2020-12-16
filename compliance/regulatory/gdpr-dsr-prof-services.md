@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9655c915bb7478e585ba477cd878b0367261dcfb
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 7be8b0dce164dc14ff70ca3bc91b805e84eb0363
+ms.sourcegitcommit: fc1da22cf40dfd807c182d3f6df967eee192eacd
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507441"
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "49669745"
 ---
 # <a name="microsoft-support-and-professional-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>Demandes des personnes concernées du Support Microsoft et des services professionnels concernant le RGPD et le CCPA
 
@@ -63,7 +63,7 @@ Vous trouverez ci-dessous les définitions des termes du RGPD utiles pour ce gui
 
 #### <a name="additional-terms-and-definitions-that-may-be-helpful-in-understanding-this-guide"></a>Définitions et termes supplémentaires pouvant être utiles pour comprendre ce guide
 
-- **Données de support et de conseil** : toutes les données (y compris le texte, le son, la vidéo, les fichiers image ou le logiciel) qui sont fournies à Microsoft par le (ou pour le compte du) client (ou que ce client autorise Microsoft à obtenir d’un service en ligne) via un engagement avec Microsoft pour obtenir un support ou des services professionnels. Pour être plus précis, ceci n’inclut pas les données collectées où Microsoft est le contrôleur des données, y compris les données de contact du client.
+- **Données de support et de conseil** : toutes les données (y compris le texte, le son, la vidéo, les fichiers image ou le logiciel) qui sont fournies à Microsoft par le (ou pour le compte du) client (ou que ce client autorise Microsoft à obtenir d’un service en ligne) via un engagement avec Microsoft pour obtenir un support ou des services professionnels.  Pour être plus précis, ceci n’inclut pas les données collectées où Microsoft est le contrôleur des données, y compris les données de contact du client.
 - **Contact client:** données personnelles susceptibles de faire partie de votre relation professionnelle avec Microsoft, telles que les données personnelles contenues dans les informations de contact de votre client. Il peut s’agir de votre nom, de votre adresse de courrier ou du numéro de téléphone de votre CSM, de l’administrateur général ou de l’administrateur informatique d’un service en ligne ou de rôles similaires.
 - **Données pseudonymes:** lorsque vous utilisez le support Microsoft pour les produits et services professionnels de Microsoft, Microsoft génère des informations liées à un identificateur numérique Microsoft pour fournir le support. Cette information est souvent appelé «données pseudonymes», bien que ces données ne puissent pas être affectées à un sujet de données spécifique sans utiliser d’informations supplémentaires, certaines d’entre elles peuvent être considérées comme personnelles dans le cadre de la définition de RGPD pour les données personnelles. Dans les services professionnels, les demandes de remplir ou d’aider à satisfaire les DPCs incluent toujours automatiquement les données pseudonymes.
 
@@ -82,11 +82,15 @@ Ce guide décrit quatre scénarios qu’un client peut rencontrer s’il a utili
 
 Quand un client contacte Microsoft pour recevoir des services de support ou de conseil, le Support Microsoft collecte ou récupère automatiquement à partir des enregistrements du compte les données à caractère personnel du contact client (par exemple, CSM Premier, administrateur général, administrateur informatique). Ces données incluent probablement le nom, l’adresse e-mail et d’autres données à caractère personnel de la personne sollicitant des services de support ou de conseil.
 
-Les données personnelles du contact client font partie des relations professionnelles de Microsoft avec le client, et Microsoft est l’entité de contrôle des données. Microsoft répondra aux DPC du contact client quant à ses données personnelles, qu’il soit encore présent dans l’organisation ou non.
+Les données personnelles du contact client font partie des relations professionnelles de Microsoft avec le client, et Microsoft est responsable du traitement des données, sauf en cas de collecte de ces données dans le cadre du support technique. Microsoft répondra aux DPC du contact client au sujet de ses données personnelles, qu’il soit encore présent dans l’organisation ou non.
+
+En cas de collecte des données personnelles du contact client dans le cadre du support technique, Microsoft est le sous-traitant.
 
 Les clients doivent comprendre que la DPC ne couvre que les données personnelles du Contact Client et qu’aucune modification ni suppression n’est effectuée sur des données du client envoyées dans le cadre d’engagements (par exemple, transcriptions, descriptions de cas, fichiers, produit de travail), car Microsoft est le responsable du traitement des données.  En outre, pour conserver l’enregistrement de l’historique des engagements, aucune modification ne sera effectuée sur des engagements fermés (y compris l’enregistrement indiquant la personne ayant ouvert un engagement).
 
-Lors de la réception d’une requête provenant d’un contact client concernant une DPC, le personnel Microsoft enverra un contact client au [Centre de réponse de confidentialité](https://go.microsoft.com/fwlink/?LinkId=321116). Il s’agit du mécanisme d’entrée principal de Microsoft pour les requêtes et les réclamations en matière de confidentialité. Lors de la réception d’une requête, le Centre de réponse de confidentialité identifiera qu’elle fait partie d’un compte commercial ou organisationnel et y répondra en conséquence.
+Dès réception d’une demande de la part d’un contact client concernant une DPC où Microsoft est responsable du traitement des données, le personnel de Microsoft renverra ce contact client au [Centre de réponse aux problèmes de confidentialité](https://go.microsoft.com/fwlink/?LinkId=321116). Il s’agit du mécanisme d’entrée principal de Microsoft pour les demandes et les plaintes concernant la confidentialité. Dès réception d’une demande, le Centre de réponse aux problèmes de confidentialité détermine qu’il s’agit d’une partie de compte commercial ou organisationnel, puis répond en conséquence.
+
+Lorsque Microsoft est le sous-traitant de données, veuillez consulter la rubrique <b>DPC pour les données de clients fournies : support commercial</b> ci-dessous.
 
 Pour conserver la continuité des opérations du client, Microsoft ne traitera pas non plus de DPC associée à un engagement tant qu’un contact de remplacement n’aura pas été confirmé. Lors de la confirmation d’un nouveau contact, Microsoft remplacera l’ancien contact par le nouveau dans les engagements ouverts.
 
@@ -94,7 +98,7 @@ Les clients peuvent choisir d’apporter des modifications aux données qu’ils
 
 ***Exemple à des fins d’illustration uniquement** _
 
-Jean est administrateur informatique pour un client d’entreprise O365, avec un engagement de support ouvert et deux engagements fermés. Jean va quitter son entreprise et souhaite supprimer ses données. John contacte le Centre de réponse de confidentialité, qui l’identifie comme administrateur informatique. Jean est informé que son nom ne peut pas être supprimé des engagements (fermés) précédents ou des données des engagements ouverts. Toutefois, le Centre de réponse de confidentialité remplacera Jean en tant que contact sur le ticket ouvert actuel s’il identifie un contact de remplacement. Jean signale à Microsoft que Jane sera son contact de remplacement, et Microsoft effectue le changement dans tous les systèmes de support.
+Jean est chef de projet pour un client Office 365 entreprise, avec un engagement de conseil en cours et deux engagements clôturés. À présent, Jean quitte sa société et souhaite la suppression de ses données. Jean contacte le Centre de réponse aux problèmes de confidentialité, qui l’identifie comme responsable du projet. Jean apprend que le Centre de réponse aux problèmes de confidentialité ne peut pas supprimer son nom des engagements précédents (clôturés) ou de toute donnée incluse dans les engagements en cours. Toutefois, le Centre de réponse aux problèmes de confidentialité remplacera Jean comme contact sur l’engagement actuellement en cours s’il identifie un contact de remplacement. Jean informe Microsoft que Jeanne sera son contact de remplacement, puis Microsoft applique la modification sur tous les systèmes.
 
 ## <a name="dsr-for-an-end-user-engaging-microsoft"></a>DPC pour un utilisateur final contactant Microsoft
 
@@ -106,15 +110,15 @@ Si la personne concernée a également contacté Microsoft pour exercer ses droi
 
 ***Exemple à des fins d’illustration uniquement** _
 
-Jane est employée d’un client d’entreprise, Contoso, qui lui a attribué un compte Dynamics 365. Elle contacte Microsoft pour supprimer toutes ses données et est renvoyée au centre de réponse à la confidentialité. Jane remplit le formulaire de demande. Le centre de réponse à la confidentialité l’identifie comme utilisateur final de l’entreprise et lui indique qu’elle doit passer par Contoso pour la suppression de ses données d’entreprise. Ils l’identifient également comme un utilisateur de Microsoft X-Box et suppriment ses données de son compte consommateur Microsoft.
+Jane est employée d’un client d’entreprise, Contoso, qui lui a attribué un compte Dynamics 365. Elle contacte Microsoft pour supprimer toutes ses données et est renvoyée au centre de réponse à la confidentialité. Jane remplit le formulaire de demande. Le centre de réponse à la confidentialité l’identifie comme utilisateur final de l’entreprise et lui indique qu’elle doit passer par Contoso pour la suppression de ses données d’entreprise. Ils l’identifient également comme un utilisateur de Microsoft X-Box et suppriment ses données de son compte consommateur Microsoft.
 
 ## <a name="dsr-for-customer-provided-data-commercial-support"></a>DPC pour des données fournies par un client : support commercial
 
 _Découvrez comment recevoir une assistance de Microsoft lorsqu’un client a reçu une demande de son employé ou d’une autre personne concernée d’exercer ses droits, et que les données personnelles de cette personne concernée ont été collectées par le Support Microsoft pendant un engagement du support.*
 
-Lorsqu’un client interagit avec le Support Microsoft, Microsoft collecte les données de support du client afin de résoudre les problèmes nécessitant un engagement de support technique. Ces données de support incluent les interactions de Microsoft avec le client (par exemple, conversation, téléphone, courrier électronique, envoi Web), ainsi que les fichiers de contenu que le client envoie à Microsoft ou que Microsoft a extrait, avec l’autorisation du client, de l’environnement informatique du client ou du client de services en ligne pour résoudre le problème de support. Dans le cadre du support Premier, cela inclut également toutes les données collectées auprès de vous afin d’éviter de futurs problèmes de manière proactive. Toutefois, cela exclut les informations de contact client ou d’autres informations de relation professionnelle de Microsoft avec le client (par exemple, les enregistrements de facturation).
+Lorsqu’un client interagit avec le support Microsoft, Microsoft collecte les données de support du client afin de résoudre les problèmes nécessitant un engagement de support technique. Ces données de support incluent les interactions de Microsoft avec le client (par exemple, conversation, téléphone, courrier électronique, envoi Web), ainsi que les fichiers de contenu que le client envoie à Microsoft ou que Microsoft a extrait, avec l’autorisation du client, de l’environnement informatique du client ou du client de services en ligne pour résoudre le problème de support. Dans le cadre du support Premier, cela inclut également toutes les données collectées auprès de vous afin d’éviter de futurs problèmes de manière proactive. Toutefois, cela exclut les autres informations des relations professionnelles de Microsoft avec le client (par exemple, les enregistrements de facturation).
 
-Pour toutes les données de support, Microsoft est le responsable du traitement des données. De ce fait, Microsoft ne répondra pas aux demandes directes provenant de personnes concernées par le traitement des données lorsque ces demandes sont relatives aux données de support fournies lorsqu’elles étaient associées à un client commercial Microsoft. Microsoft collaborera avec le client par le biais de ses canaux de support habituels pour l’aider à répondre aux DPC.
+Microsoft est le processeur de toutes les données de support et de contact collectées dans le cadre du support technique. En tant que tel, Microsoft ne répondra pas aux demandes directes provenant des personnes concernées et relatives aux données de support fournies lorsqu’elles étaient associées à un client commercial Microsoft. Microsoft collaborera avec le client via ses canaux de support habituels pour l’aider à répondre aux DPC.
 
 ## <a name="step-1-discover"></a>Étape 1 : Découvrir
 
@@ -134,10 +138,10 @@ Lorsqu’il découvre les données pertinentes et obtient l’assistance de Micr
 
 Pour identifier des engagements spécifiques, les clients doivent effectuer des recherches dans leurs engagements. Pour les clients Premier, le gestionnaire du service de contrat (« CSM - Contract Service Manager ») d’un client a une visibilité sur toutes les demandes de support (SR - Support Request) qui sont créées dans le cadre de ce calendrier de contrat. Pour les clients non Premier, des portails d’engagement du support sont disponibles (par le biais des zones de support des services en ligne, par exemple).
 
-![Rechercher dans SMC](../media/Prof-Serv-DSR-Doc-Final_image3.png) Le CSM peut accéder au portail à l’adresse Support.Microsoft.Com ([https://support.microsoft.com/\<local language code\>/premier](https://support.microsoft.com/%3clocal%20language%20code%3e/premier)) (« SMC ») puis sélectionnez et examinez les Demandes de Support. (Remarque : dans l’URL, insérez votre code de langue local).
+Le CSM peut accéder au portail à l’adresse [Services Hub](https://serviceshub.microsoft.com/support/contactsupport), puis choisir de gérer toutes les demandes de support.
 
 >[!IMPORTANT]
->En plus de l’historique des cas dans SMC, les clients peuvent également avoir des données personnelles d’un utilisateur final dans des fichiers collectés par Microsoft (ou, avec l’autorisation du client, supprimés du service en ligne) au cours d’un contrat de support. Par exemple, il peut s’agir de copies de boîtes aux lettres Exchange client, d’Azure VMs ou de bases de données. Ces données personnelles peuvent ou non être mentionnées dans l’historique des cas (par exemple, ticket) pour un engagement particulier. Pour réviser ces données, le contact client doit être un contact de demande de prise en charge spécifique authentifié (via AAD ou MSA) qui a reçu une URL pour un espace de travail dans Microsoft support Microsoft Data Transfer and Management Tool (DTM). Un contact client a accès aux fichiers, mais aucun affichage global n’est disponible et SMC n’indique pas si des fichiers existent.
+>En plus de l’historique des cas dans Services Hub, les clients peuvent également détenir les données personnelles d’un utilisateur final dans des fichiers collectés par Microsoft (ou, avec l’autorisation du client, supprimés du service en ligne) au cours d’un contrat de support. Par exemple, il peut s’agir de copies de boîtes aux lettres Exchange client, d’Azure VMs ou de bases de données. Ces données personnelles peuvent ou non être mentionnées dans l’historique des cas (par exemple, ticket) pour un engagement particulier. Pour réviser ces données, le contact client doit être un contact de demande de prise en charge spécifique authentifié (via AAD ou MSA) qui a reçu une URL pour un espace de travail dans Microsoft support Microsoft Data Transfer and Management Tool (DTM). Un contact client a accès aux fichiers, mais aucun affichage global n’est disponible et Services Hub n’indique pas si des fichiers existent.
 
 Lorsque les clients ont identifié toutes les données pertinentes dans les tickets de support sélectionnés, les clients peuvent choisir de demander la suppression de tous les éléments liés à un ticket ou d’appliquer de façon sélective la DPC à des instances individuelles des données personnelles.
 
@@ -171,13 +175,13 @@ Voici quelques points importants à comprendre sur le fonctionnement de la suppr
 
 Chez Microsoft, toutes les données disposent d’une politique de rétention et de suppression qui leur est appliquée et qui varie selon les risques et d’autres facteurs.
 
-Les clients qui demandent la suppression des données personnelles d’une personne concernée par le traitement des données de façon universelle sur les systèmes du support peuvent le faire via votre TAM ou en remplissant une demande de support (SR : Support Request) dans SMC ou un système équivalent. Vous _devez* indiquer qu’il s’agit d’une demande d’assistance concernant une DPC en vertu du RGPD.
+Les clients qui demandent la suppression des données personnelles d’une personne concernée par le traitement des données de façon universelle sur les systèmes du support peuvent le faire via votre responsable technique de compte (TAM) ou en remplissant une demande de support (SR : Support Request) dans Services Hub ou un système équivalent. Vous devez indiquer qu’il s’agit d’une demande d’assistance concernant une DPC en vertu du RGPD.
 
 *Option A : DPC support technique chez Microsoft*. Pour un système transversal DPC, le client doit fournir les données personnelles dont Microsoft a besoin pour identifier les données requises (par exemple, adresse de messagerie, numéro de téléphone). Microsoft ne mettra pas en corrélation ou ne recherchera pas les enregistrements et effectuera uniquement des recherches directement sur les identificateurs fournis par le client. Lorsque des données sont trouvées, Microsoft supprime tous les engagements et toutes les données associées.
 
 > Remarque importante : cela peut entraîner la perte d’enregistrements historiques importants pour l’organisation du client.
 
-*Option B : engagements de client spécifiques*. Pour les engagements spécifiques que le client a identifiés et qu’il souhaite supprimer, ne supprimez pas les tickets de SMC. Ainsi, les données personnelles restent dans les journaux et les systèmes en aval, qui ne peuvent pas être supprimés dans le délai nécessaire. Au lieu de cela, identifiez le ticket ou les données personnelles dans le ticket qui doit être supprimé, et contactez le support Microsoft pour vous aider à supprimer ces données.
+*Option B : engagements de client spécifiques*. Pour les engagements spécifiques que le client a identifiés et qu’il souhaite supprimer, ne supprimez pas les tickets de Services Hub. Ainsi, les données personnelles restent dans les journaux et les systèmes en aval, qui ne peuvent pas être supprimés dans le délai nécessaire. Au lieu de cela, identifiez le ticket ou les données personnelles dans le ticket qui doit être supprimé, et contactez le support Microsoft pour vous aider à supprimer ces données.
 
 ### <a name="microsoft-support-data-transfer-and-management-tool-dtm-instructions"></a>Instructions relatives à l’outil de gestion et de transfert des données du support Microsoft (DTM)
 
@@ -196,9 +200,9 @@ Remarque : les données exportées peuvent ne pas inclure la propriété intell
 
 ***Exemple à des fins d’illustration uniquement** _
 
-Jean est un gestionnaire du service de contrat Premier pour un client d’entreprise, Contoso, qui utilise Office 365 pour sa messagerie d’employé et Azure pour héberger une base de données SQL Contoso. Contoso a plusieurs tickets ouverts et fermés. Récemment, le Support Microsoft, avec l’autorisation de Contoso, a déplacé une copie de la base de données SQL dans DTM pour le support et le dépannage.
+Jean est un gestionnaire du service de contrat Premier pour un client d’entreprise, Contoso, qui utilise Office 365 pour sa messagerie d’employé et Azure pour héberger une base de données SQL Contoso. Contoso a plusieurs tickets ouverts et fermés. Récemment, le support Microsoft, avec l’autorisation de Contoso, a déplacé une copie de la base de données SQL dans DTM pour le support et le dépannage.
 
-Jean reçoit une DPC de Marie lui demandant de supprimer toutes ses données. Jean accède à SMC et effectue des recherches dans les engagements pour identifier que Jane a eu des problèmes de comptes de messagerie qui ont été référencés dans deux tickets par nom et adresse e-mail. Il contacte son responsable technique de compte, lui donne le nom et l’adresse e-mail de Marie comme identificateur, et demande que ces deux tickets soient supprimés, ainsi que toutes les données en aval ayant pu être générées à partir de ces tickets.
+Jean reçoit une DPC de Jeanne demandant la suppression de toutes ses données. Jean accède à Services Hub, puis effectue des recherches dans tous les engagements pour constater que Jeanne a rencontré des problèmes de compte d’e-mail référencés dans deux tickets par nom et adresse e-mail. Il contacte son responsable technique de compte, lui donne le nom et l’adresse e-mail de Jeanne comme identificateur. Ensuite, il demande la suppression de ces deux tickets et de toutes les données en aval éventuellement générées depuis ces tickets.
 
 Il soupçonne également qu’il a été impliqué dans une conversation avec des membres du personnel du support où il mentionne Jane, donc il demande que le journal de la conversation soit supprimé.
 

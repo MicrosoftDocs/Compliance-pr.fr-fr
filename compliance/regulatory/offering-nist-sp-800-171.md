@@ -1,7 +1,7 @@
 ---
 title: NIST SP 800-171
 description: Les services de Cloud Computing Microsoft sont conformes aux directives NIST SP 800-171 pour protéger les informations non classées contrôlées (CUI) dans les systèmes d’information non fédéraux.
-keywords: Offres pour la conformité Microsoft 365
+keywords: Microsoft 365, conformité, offres
 localization_priority: None
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 071bbbb24110b9d74aa75580d9a23628041455a6
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 51a09772498da0ffc4c7d135e8b9ae103364a984
+ms.sourcegitcommit: 9d00734702fec0e76f6b001e31ff0a6eb60cae6f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506964"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "49712082"
 ---
 # <a name="nist-sp-800-171"></a>NIST SP 800-171
 
@@ -47,6 +47,7 @@ Toute entité qui traite ou stocke les CUI de gouvernement américain (instituti
 ## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft concernés
 
 - [Public Azure](https://aka.ms/AzureCompliance)
+- [Azure commercial](https://azure.microsoft.com/resources/microsoft-azure-compliance-offerings/)
 - [Dynamics 365 gouvernement américain](https://aka.ms/d365-compliance-list)
 - Intune
 - [Office 365 le Cloud communautaire pour le gouvernement américain (GCC), Office 365 GCC High et DoD](https://aka.ms/o365-compliance-framework)
@@ -65,9 +66,9 @@ Toute entité qui traite ou stocke les CUI de gouvernement américain (instituti
 
 Oui. Les clients Microsoft peuvent utiliser les contrôles audités décrits dans les rapports issus d’organisations d’évaluation tierces indépendantes (3PAO) sur les normes FedRAMP dans le cadre de leur propre analyse des risques FedRAMP et NIST. Ces rapports attestent l’efficacité des contrôles que Microsoft a mis en œuvre dans ses services Cloud intégrés. Les clients sont chargés de s’assurer que leurs charges de travail CUI sont conformes aux directives NIST SP 800-171.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de conformité Microsoft pour évaluer vos risques
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de Conformité Microsoft pour évaluer vos risques
 
-Le [Gestionnaire de conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) est une fonctionnalité du [Centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) qui vous permet de comprendre l’état de conformité de votre organisation et de prendre des mesures pour réduire les risques. Le Gestionnaire de conformité propose un modèle premium pour créer une évaluation pour ce règlement. Recherchez le modèle dans la page des **modèles d’évaluation** dans le Gestionnaire de conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Le Gestionnaire de Conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) est une fonctionnalité dans le [centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) pour vous aider à comprendre la position de la conformité de votre organisation et à prendre des mesures pour réduire les risques. Le Gestionnaire de Conformité offre un modèle Premium pour la création d’une évaluation de ce règlement. Recherchez le modèle sur la page **modèles d’évaluation** dans le Gestionnaire de Conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de Conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressources
 

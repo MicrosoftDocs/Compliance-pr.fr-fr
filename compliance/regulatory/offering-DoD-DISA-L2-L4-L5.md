@@ -1,7 +1,7 @@
 ---
 title: Autorisation provisoire du ministère américain de la défense (DoD)
 description: Microsoft a reçu des autorisations provisoires du ministère de la défense (DoD) aux niveaux d’impact 5, 4 et 2.
-keywords: Offres pour la conformité Microsoft 365
+keywords: Microsoft 365, conformité, offres
 localization_priority: None
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 33ce1796ffa8fbf2e77dee49f682fb68c90b8111
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 3bd95648e9ae36f5ccaab25bd504524e7d1e4afa
+ms.sourcegitcommit: 7864222909b7d8d0b1dbdbbdee66f5697dac7940
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507642"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49757819"
 ---
 # <a name="us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>Autorisation provisoire du ministère américain de la défense aux niveaux d’impact 2, 4 et 5
 
@@ -69,6 +69,7 @@ Le niveau d’impact 2 couvre les informations non classifiées non contrôlées
 ### <a name="covered-services-for-dod-impact-level-4"></a>Services couverts pour le niveau d’impact DoD 4
 
 - [Public Azure](https://aka.ms/AzureCompliance)
+- [Dynamics 365 gouvernement américain](https://aka.ms/d365-compliance-list)
 - [Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ### <a name="covered-services-for-dod-impact-level-2"></a>Services couverts pour le niveau d’impact DoD 2

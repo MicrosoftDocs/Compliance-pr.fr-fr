@@ -16,28 +16,28 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f58caebee758c9e4d4d1159ebd701c09df81e018
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 94ce3e8dbbb210c645fb2f64ed29e441eb9956bf
+ms.sourcegitcommit: 58741a8e28c354bd806418b7263f0db98bf83eac
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507293"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "49759689"
 ---
 # <a name="isoiec-270012013-information-security-management-standards"></a>Normes de gestion de la sécurité des informations ISO/IEC 27001:2013
 
 ## <a name="isoiec-27001-overview"></a>Présentation de la norme ISO/IEC 27001
 
-L’organisation internationale de normalisation (ISO) est une organisation non-gouvernementale indépendante et le plus grand développeur mondial de normes internationales volontaires. La Commission électrotechnique internationale (IEC) gère la préparation et la publication de normes internationales pour les technologies électriques, électroniques et connexes.
+L’Organisation internationale de normalisation ISO est une organisation non-gouvernementale indépendante et le plus grand développeur au monde de normes internationales volontaires. La Commission électrotechnique internationale IEC est la première organisation au monde de préparation et de publication de normes internationales pour les technologies électriques, électroniques et associées.
 
-Publiée sous l’égide du sous-comité conjoint ISO/IEC, la famille de normes ISO/IEC 27000 présente des centaines de contrôles et de mécanismes de contrôle pour permettre aux organisations de tout type et de toute taille de protéger des informations. Ces normes internationales fournissent un cadre pour des stratégies et des procédures qui incluent tous les contrôles juridiques, physiques et techniques impliqués dans les processus de gestion des risques liés aux informations d’une organisation.
+Publiée sous l’égide du sous-comité commun ISO/IEC, la famille de normes ISO/IEC 27000 souligne des centaines de contrôles et de mécanismes de contrôle pour aider les organisations de tous types et de toutes tailles à sécuriser des informations. Ces normes internationales fournissent un cadre pour des stratégies et des procédures qui incluent tous les contrôles juridiques, physiques et techniques impliqués dans les processus de gestion des risques liés aux informations d’une organisation.
 
-ISO/IEC 27001 est une norme de sécurité qui spécifie formellement un système de gestion de sécurité de l’information (ISMS) qui vise à apporter une sécurité des informations dans le cadre d’un contrôle de gestion explicite. En tant que spécification formelle , elle rend obligatoires des exigences qui définissent comment implémenter, surveiller, tenir à jour et améliorer l’ISMS de manière continue. Elle prévoit également un ensemble de pratiques idéales qui incluent des exigences de documentation, de partage de responsabilité, de disponibilité, de contrôle d’accès, de sécurité, d’audit ainsi que des mesures correctives et préventives. La certification ISO/IEC 27001 aide les organisations à se conformer aux diverses exigences légales et réglementaires relatives à la sécurité des informations.
+ISO/IEC 27001 est une norme de sécurité qui spécifie formellement un système de gestion de sécurité de l’information (ISMS) qui vise à apporter une sécurité des informations dans le cadre d’un contrôle de gestion explicite. En tant que spécification formelle , elle rend obligatoires des exigences qui définissent comment implémenter, surveiller, tenir à jour et améliorer en continu l’ISMS. Elle prévoit également un ensemble de pratiques idéales qui incluent des exigences de documentation, de partage de responsabilité, de disponibilité, de contrôle d’accès, de sécurité, d’audit ainsi que des mesures correctives et préventives. La certification ISO/IEC 27001 aide les organisations à se conformer à plusieurs exigences légales et réglementaires relatives à la sécurité des informations.
 
 ## <a name="microsoft-and-isoiec-27001"></a>Microsoft et la norme ISO/IEC 27001
 
-L’applicabilité et l’acceptation internationales de la norme ISO/IEC 27001 sont les raisons clés expliquant la raison pour laquelle une certification à cette norme est au cœur de l’approche de Microsoft sur la mise en œuvre et la gestion de la sécurité des informations. La certification réussie de Microsoft à la norme ISO/IEC 27001 met en avant son engagement pour concrétiser les promesses client du point de vue de la conformité en matière de sécurité et d’activité. Azure Public et Azure Allemagne sont actuellement audités une fois par an par un organisme agréé tiers de certification pour leur conformité à la norme ISO/IEC 27001, fournissant une validation indépendante indiquant que des contrôles de sécurité sont en place et fonctionnent efficacement.
+L’applicabilité et l’acceptation internationales d’ISO/IEC 27001 sont les raisons clés expliquant la raison pour laquelle une certification à cette norme est au cœur de l’approche de Microsoft sur la mise en œuvre et la gestion de la sécurité des informations. L’objectif de la certification par Microsoft à la norme ISO/IEC 27001 marque son engagement à respecter les promesses faites au client sur le plan de la conformité au niveau de l’activité et de la sécurité. Azure Public et Azure Allemagne sont actuellement audités une fois par an par un organisme agréé tiers de certification pour leur conformité à la norme ISO/IEC 27001, fournissant une validation indépendante indiquant que des contrôles de sécurité sont en place et fonctionnent efficacement.
 
-Découvrez les avantages de la norme ISO/IEC 27001 sur le cloud Microsoft : [Télécharger la fiche d'information de la norme ISO/IEC 27001:2013](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports)
+Découvrez les avantages de la norme ISO/IEC 27001 sur le cloud Microsoft : [télécharger la fiche d'information de la norme ISO/IEC 27001:2013](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft concernés
 
@@ -107,30 +107,30 @@ Cycle d’audit : les services cloud computing Microsoft sont audités au moins
 
 **Pourquoi la conformité de Microsoft avec ISO/IEC 27001 est-elle importante ?**
 
-La conformité à ces normes, confirmée par un auditeur agréé, démontre que Microsoft utilise les meilleures pratiques et processus reconnus internationalement pour gérer l’infrastructure et l’organisation qui prennent en charge et fournissent ses services. Le certificat confirme que Microsoft a mis en œuvre les directives et les principes généraux de lancement, d’implémentation, de maintien et d’amélioration de la gestion de la sécurité des informations.
+La conformité à ces normes, confirmée par un auditeur agréé, démontre que Microsoft utilise des meilleures pratiques et des processus reconnus internationalement pour gérer l’infrastructure et l’organisation qui soutient et fournit ses services. Le certificat confirme que Microsoft a mis en œuvre les directives et les principes généraux d’initiation, d’implémentation, de tenue à jour et d’amélioration de la gestion de la sécurité des informations.
 
 **Où puis-je obtenir les déclarations de champ d’application et les rapports d'audit ISO/IEC 27001 pour les services Microsoft ?**
 
-Le [Service Trust Portal](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal) fournit des rapports de conformité audités indépendants. Vous pouvez utiliser le portail pour effectuer des demandes de rapports afin que vos auditeurs puissent comparer les services cloud de Microsoft à vos propres exigences légales et réglementaires.
+Le [portail d’approbation de services](https://docs.microsoft.com/microsoft-365/compliance/get-started-with-service-trust-portal) fournit des rapports de conformité audités indépendamment. Vous pouvez utiliser le portail pour demander des rapports afin que vos auditeurs puissent comparer les services Cloud Microsoft à vos propres exigences légales et réglementaires.
 
 **Microsoft exécute-t-elle des tests annuels pour les défaillances d’infrastructure ?**
 
-Oui. Le processus annuel de certification ISO/IEC 27001 pour le groupe Microsoft Cloud Infrastructure and Operations inclut un audit de la résistance opérationnelle. Pour avoir un aperçu du dernier certificat, cliquez sur le lien ci-dessous.
+Oui. Le processus annuel de certification ISO/IEC 27001 pour le groupe Microsoft Cloud Infrastructure and Operations inclut un audit de la résistance opérationnelle. Pour afficher le plus récent certificat, cliquez sur le lien ci-dessous.
 
-- Microsoft Azure : [certificat ISO/CEI 27001:2013 pour l’infrastructure et les opérations Microsoft Cloud](https://www.bsigroup.com/Our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=company%3dMicrosoft&licencenumber=IS%20533913)
+- Microsoft Azure : [certificat ISO/CEI 27001:2013 pour l’infrastructure et les opérations Microsoft Cloud](https://www.bsigroup.com/en-US/our-services/Management-system-certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=licence%3d%26company%3dMicrosoft&licencenumber=IS%20552878)
 - Azure Allemagne
 
 **Où dois-je commencer concernant l’effort de conformité ISO/IEC 27001 de mon organisation ?**
 
-Adopter la norme ISO/IEC 27001 est un engagement stratégique. Pour commencer, consultez le [Répertoire ISO/IEC 27000](https://www.27000.org/index.htm).
+L’adoption d’ISO/IEC 27001 est un engagement stratégique. Commencez par consulter l'[Annuaire ISO/IEC 27000](https://www.27000.org/index.htm).
 
 **Puis-je tirer profit de la conformité ISO/IEC 27001 des services Microsoft dans la certification de mon organisation ?**
 
-Oui. Si votre entreprise requiert la certification ISO/IEC 27001 pour des implémentations déployées sur des services Microsoft, vous pouvez utiliser la certification applicable dans votre évaluation de la conformité. Il vous appartient d’engager un évaluateur pour apprécier les contrôles et processus au sein de votre propre organisation et votre implémentation de la conformité à la norme ISO/IEC 27001.
+Oui. Si votre activité nécessite la certification ISO/IEC 27001 pour des implémentations déployées dans des services Microsoft, vous pouvez utiliser la certification applicable dans votre évaluation de la conformité. Il vous incombe néanmoins de mobiliser un évaluateur pour mesurer la mise en œuvre de la conformité à l’ISO/IEC 27001 ainsi que les contrôles et les processus au sein de votre propre organisation.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de conformité Microsoft pour évaluer vos risques
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de Conformité Microsoft pour évaluer vos risques
 
-Le [Gestionnaire de conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) est une fonctionnalité du [Centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) qui vous permet de comprendre l'état de conformité de votre organisation et de prendre des mesures pour réduire les risques. Le Gestionnaire de conformité possède une analyse préconfigurée de cette réglementation pour les clients Entreprise E5. Vous pourrez trouver le modèle pour créer l’analyse sur la page des **modèles d’analyse** dans le Gestionnaire de conformité. Découvrez comment [créer des analyses dans le Gestionnaire de conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Le Gestionnaire de Conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) est une fonctionnalité dans le [centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) pour vous aider à comprendre la position de la conformité de votre organisation et à prendre des mesures pour réduire les risques. Le Gestionnaire de conformité offre une évaluation prédéfinie de cette réglementation pour les clients d’Entreprise E5. Recherchez le modèle de création de l’évaluation sur la page **des modèles d’évaluation** dans le Gestionnaire de Conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de Conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressources
 

@@ -16,19 +16,19 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 66441638d7e9cb881422ba4243d936152bcd9eed
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 317a5bf64a5d10099b3fcf73190bb6e20ffc2999
+ms.sourcegitcommit: 7864222909b7d8d0b1dbdbbdee66f5697dac7940
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507137"
+ms.lasthandoff: 01/05/2021
+ms.locfileid: "49757839"
 ---
 # <a name="breach-notification-under-the-gdpr"></a>Notification de violation dans le cadre du RGPD
 
 Conformément à son rôle de responsable du traitement des données, Office 365 veille à ce que nos clients puissent remplir leur rôle d’entité de contrôle des données en répondant aux obligations du RGPD concernant la notification des violations de données. À cet effet, nous nous engageons à effectuer les actions suivantes :
 
-- permettre aux clients de spécifier un contact dédié à la protection des données personnelles qui sera informé en cas de violation de données. Les clients pourront spécifier ce contact dans Azure Active Directory.
-- notifier les clients d’une violation de données personnelles dans les 72 heures qui suivent la violation. Cette notification sera envoyée par e-mail au contact spécifié par le client ;
+- Permettre aux clients la possibilité de spécifier un contact dédié à la protection des données personnelles qui sera informé en cas de violation de données.  Les clients peuvent spécifier ce contact à l’aide des paramètres de rôle de lecteur de Confidentialité pour le Centre de messages.
+- Notifier les clients d’une violation de données personnelles dans les 72 heures qui suivent la violation. Les notifications seront publiées dans le Centre de messages qui est accessible via le Centre d’administration Microsoft 365. Accessoirement, les notifications d’e-mail sont envoyées aux contacts spécifiés indiquant d’un nouveau billet a été publié dans le Centre de messages.
 - préciser, au minimum, dans la notification initiale la nature de la violation, une estimation de l’impact de cette violation sur les utilisateurs et les mesures d’atténuation des risques à prendre (le cas échéant). Si notre enquête n’est pas terminée au moment de la notification initiale, nous indiquerons dans cette notification quelles seront les prochaines étapes et quand nous vous recontacterons.
 
 Microsoft reconnaît que les entités de contrôle des données doivent réaliser des évaluations des risques et déterminer si l’autorité de régulation dont dépend le client doit être informée d’une violation de données. Par conséquent, les notifications que nous enverrons aux clients comporteront les informations nécessaires à la réalisation de ces évaluations. Microsoft notifiera donc les clients d’une violation de données personnelles, sauf dans les cas où il a été vérifié que les données personnelles sont illisibles (par exemple, dans le cas de données protégées par un chiffrement où l’intégrité des clés a été vérifiée).

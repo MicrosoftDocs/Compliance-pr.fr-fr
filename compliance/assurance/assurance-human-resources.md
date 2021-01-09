@@ -1,5 +1,5 @@
 ---
-title: Vue d’ensemble des ressources humaines
+title: Aperçu sur les ressources humaines
 description: En savoir plus sur les ressources humaines dans Microsoft 365
 ms.author: robmazz
 author: robmazz
@@ -19,56 +19,56 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 2a181a28da0fdd088b0eca3aa13719f4d629a842
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: aa5c7c01b39feba21b3efa2a99267743379d8cec
+ms.sourcegitcommit: 7a5b6bc58fc4613b38f3fda20aebee5cec6a5730
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506855"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "49787333"
 ---
-# <a name="human-resources-overview"></a>Vue d’ensemble des ressources humaines
+# <a name="human-resources-overview"></a>Aperçu sur les ressources humaines
 
-## <a name="how-does-microsoft-screen-prospective-employees"></a>Quels sont les employés potentiels de Microsoft Screen ?
+## <a name="how-does-microsoft-screen-prospective-employees"></a>Comment Microsoft affiche-t-il les employés potentiels ?
 
-Microsoft suit des exigences rigoureuses de filtrage du personnel pour tous les employés, les apprentis et le personnel éventuel. Tous les candidats sont préfiltrés avant le début de l’emploi chez Microsoft.
+Microsoft suit des exigences rigoureuses en matière de filtrage du personnel pour tous les employés, les internes et le personnel subordonné. Tous les candidats sont préalablement présentés à l’écran avant de commencer à travailler chez Microsoft.
 
-Les vérifications en arrière-plan sur les candidats à l’emploi incluent généralement la révision des composants suivants, dans la mesure permise par la Loi :
+Les vérifications des antécédents sur les candidats au contrat de travail incluent généralement la révision des composants suivants, dans la mesure où la loi l’autorise :
 
-- Vérification d’identité
+- Vérification de l’identité
 - Vérification de l’éducation
 - Vérification de l’emploi
-- Examen des enregistrements criminels
-- Révision du Registre du contrevenant sexuel
-- Examen de la liste des sanctions globales
+- Révision du dossier judiciaire
+- Révision du Registre de la liberté de l’état
+- Révision de la liste des sanctions globales
 
-## <a name="what-additional-checks-are-performed-for-those-who-manage-cloud-services"></a>Quels sont les contrôles supplémentaires à effectuer pour les personnes qui gèrent les services Cloud ?
+## <a name="what-additional-checks-are-performed-for-those-who-manage-cloud-services"></a>Quelles vérifications supplémentaires sont effectuées pour les personnes qui gèrent les services cloud ?
 
-Outre le filtrage avant l’emploi, les employés Microsoft qui fournissent des services liés à Microsoft 365 aux États-Unis doivent être soumis à une vérification en arrière-plan de Microsoft Cloud en tant que prérequis pour accéder aux systèmes Microsoft 365. Les exigences de vérification en arrière-plan varient en fonction des lois applicables et des modèles de fourniture de services. Les résultats de la vérification Cloud de Microsoft sont stockés dans la base de données des employés et doivent être renouvelés tous les deux ans au minimum. Si la vérification en arrière-plan de Microsoft Cloud expire et que l’employé ne la rerenouvelle pas, l’accès aux services Microsoft 365 est révoqué et n’est plus disponible tant que la vérification en arrière-plan de Microsoft Cloud n’est pas terminée. De même, lorsque la relation de travail avec Microsoft se termine, tout accès est immédiatement révoqué.
+Outre le filtrage préalable à l’emploi, les employés de Microsoft qui fournissent des services microsoft 365 aux États-Unis doivent faire l’objet d’une vérification des antécédents dans le Cloud Microsoft comme condition préalable à l’accès aux systèmes Microsoft 365. Les exigences de vérification des antécédents varient pour se conformer aux lois et aux modèles de prestation de services applicables. Les résultats de la vérification en arrière-plan de Microsoft Cloud sont stockés dans la base de données des employés et doivent être renouvelés tous les deux ans au minimum. Si la vérification en arrière-plan microsoft Cloud expire et que l’employé ne la renouvelle pas, l’accès aux services Microsoft 365 est révoqué et n’est plus disponible tant que la vérification d’arrière-plan microsoft Cloud n’est pas terminée. De même, lorsque la relation d’emploi avec Microsoft se termine, tout accès est immédiatement révoqué.
 
-## <a name="how-does-microsoft-ensure-employees-maintain-sufficient-skillset-and-knowledge-to-perform-their-responsibilities-and-follow-microsoft-policies"></a>Comment Microsoft garantit-il que les employés maintiennent des compétences et des connaissances suffisantes pour effectuer leurs responsabilités et suivre les stratégies de Microsoft ?
+## <a name="how-does-microsoft-ensure-employees-maintain-sufficient-skillset-and-knowledge-to-perform-their-responsibilities-and-follow-microsoft-policies"></a>Comment Microsoft s’assure-t-il que les employés conservent suffisamment de compétences et de connaissances pour assumer leurs responsabilités et suivre les stratégies de Microsoft ?
 
-Tous les employés de Microsoft sont tenus de suivre une formation simple sur la sensibilisation à la sécurité. Une formation initiale se produit lorsqu’un nouvel employé commence à travailler chez Microsoft, et une session annuelle de remise à niveau s’effectue tous les ans par la suite. La formation est conçue pour fournir à l’employé une bonne compréhension de l’approche fondamentale de Microsoft en matière de sécurité. La formation applicable à la sécurité basée sur les rôles est également requise avant d’accorder un accès spécifique pour les responsabilités professionnelles d’un individu. La formation sur la sécurité des employés Microsoft est actualisée annuellement, de même que les modifications apportées au système ou à la stratégie justifient une nouvelle formation.
+Tous les employés de Microsoft sont tenus d’effectuer une formation de sensibilisation de base à la sécurité. Une formation initiale se produit lorsqu’un nouvel employé commence à travailler chez Microsoft, et une session annuelle de remise à niveau s’effectue tous les ans par la suite. La formation est conçue pour fournir à l’employé une compréhension de l’approche fondamentale de Microsoft en matière de sécurité. Une formation sur la sécurité basée sur les rôles applicable est également requise avant d’accorder tout accès spécifique nécessaire aux responsabilités d’un individu. La formation sur la sécurité des employés de Microsoft est actualisée sur une base annuelle, ainsi que lorsque les modifications apportées au système ou aux stratégies justifient une nouvelle formation.
 
-En plus de la formation de sensibilisation à la sécurité, les employés de Microsoft doivent effectuer une formation sur les normes de l’entreprise. Cette formation inclut l’éthique de l’entreprise, la sécurité des employés, la confidentialité, la protection contre le harcèlement et la tolérance de zéro pour les comportements non éthiques. À la fin du cours, les employés doivent attester qu'ils respecteront le code de conduite professionnelle de Microsoft, qui est suivi au niveau de l'organisation. Les standards de formation sont actualisés annuellement.
+En plus de la formation de sensibilisation à la sécurité, les employés de Microsoft doivent effectuer une formation sur les normes de conduite professionnelle. Cette formation inclut l’engagement commercial, la sécurité des employés, la confidentialité, la protection contre le harcèlement et la tolérance zéro pour les comportements non éthiques. À la fin du cours, les employés doivent attester qu'ils respecteront le code de conduite professionnelle de Microsoft, qui est suivi au niveau de l'organisation. La formation sur les normes de conduite professionnelle est actualisée sur une base annuelle.
 
-## <a name="how-does-microsoft-revoke-access-for-employees-who-leave-microsoft"></a>Comment Microsoft révoque-t-il l’accès pour les employés qui quittent Microsoft ?
+## <a name="how-does-microsoft-revoke-access-for-employees-who-leave-microsoft"></a>Comment Microsoft révoque-t-il l’accès pour les employés qui quittent Microsoft ?
 
-Microsoft utilise des stratégies et des procédures clairement définies pour révoquer rapidement l’accès physique et logique aux systèmes et ressources Microsoft quand un employé quitte Microsoft ou est résilié. Le processus de résiliation de Microsoft garantit que les anciens employés de Microsoft ne peuvent pas accéder aux données ou aux systèmes une fois leur emploi terminé.
+Microsoft utilise des stratégies et procédures clairement définies pour révoquer rapidement l’accès physique et logique aux systèmes et ressources Microsoft lorsqu’un employé quitte Microsoft ou est licencié. Le processus de résiliation de Microsoft garantit que les anciens employés de Microsoft ne peuvent pas accéder aux données ou aux systèmes une fois leur emploi terminé.
 
-Lorsque l’emploi d’un utilisateur d’une équipe de service est marqué comme terminé, ces informations sont propagées à l’outil de gestion des comptes Microsoft, qui supprime automatiquement le compte de domaine de l’employé arrêté. Les badges d’accès ou autres authentificateurs physiques émis à l’employé terminé sont collectés au moment de l’entretien ou de la résiliation de sortie.
+Lorsque l’emploi d’un utilisateur d’équipe de service est marqué comme terminé, ces informations sont propagées à l’outil de gestion des comptes Microsoft, qui supprime automatiquement le compte de domaine de l’employé licencié. Tous les badges d’accès ou autres authentifiés physiques délivrés à l’employé licencié sont collectés au moment de l’entretien ou de l’arrêt.
 
-## <a name="how-does-microsoft-ensure-third-party-suppliers-meet-the-same-personnel-requirements-as-microsoft-employees"></a>Comment Microsoft s’assure que les fournisseurs tiers répondent aux mêmes exigences du personnel que les employés de Microsoft ?
+## <a name="how-does-microsoft-ensure-third-party-suppliers-meet-the-same-personnel-requirements-as-microsoft-employees"></a>Comment Microsoft s’assure-t-il que les fournisseurs tiers répondent aux mêmes exigences en matière de personnel que les employés de Microsoft ?
 
-Microsoft 365 nécessite que des fournisseurs tiers aient signé un contrat de services de l’éditeur principal (MSSA). Le présent contrat oblige le fournisseur à se conformer aux stratégies et procédures Microsoft, y compris aux stratégies et procédures de sécurité du personnel. Microsoft 365 surveille la conformité aux exigences de filtrage pour le personnel tiers en suivant les résultats du filtrage direct. Microsoft demande aux fournisseurs de soumettre des résultats de filtrage pour le personnel tiers directement à Microsoft.
+Microsoft 365 exige que les fournisseurs tiers ont signé un contrat MSSA (Master Supplier Services Agreement). Ce contrat exige que le fournisseur se conforme aux stratégies et procédures de Microsoft, notamment aux stratégies et procédures de sécurité du personnel. Microsoft 365 surveille la conformité aux exigences de filtrage pour le personnel tiers en suivant directement le résultat du filtrage. Microsoft exige que les fournisseurs soumettent les résultats du filtrage pour le personnel tiers directement à Microsoft.
 
-## <a name="related-external-regulations--certifications"></a>Certifications & des réglementations externes connexes
+## <a name="related-external-regulations--certifications"></a>Réglementations externes associées & certifications
 
-Les services en ligne de Microsoft sont régulièrement vérifiés pour la conformité aux réglementations et aux certifications externes. Consultez le tableau suivant pour valider les contrôles liés aux ressources humaines.
+Les services en ligne de Microsoft sont régulièrement audités pour assurer la conformité avec les réglementations et certifications externes. Reportez-vous au tableau suivant pour la validation des contrôles liés aux ressources humaines.
 
-| **Audits externes** | **Section** | **Date du dernier rapport** |
+| **Audits externes** | **Section** | **Date de rapport la plus récente** |
 |:--------------------|:------------|:-----------------------|  
-| [FedRAMP (Office 365)](https://compliance.microsoft.com/compliancemanager) | AU-2 : sensibilisation à la sécurité <br> AT-3 : formation sur la sécurité basée sur les rôles <br> À-4 : enregistrements de formation sur la sécurité <br> PS-3 : filtrage du personnel <br> PS-4 : résiliation du personnel <br> PS-5 : transfert du personnel <br> PS-7 : sécurité du personnel tiers | 24 septembre 2020 |
-| [ISO 27001/27002 (Office 365)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=d7864d4f-e053-4cc4-a964-fa526d07c3be&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [Déclaration de l’applicabilité](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=8ee1e46b-2ada-4e7b-bb7d-4c55a8cb6fcd&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) <br> [Certification](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A. 7 : sécurité des ressources humaines | 22 février 2020 |
-| [ISO 27017 (Office 365)](https://aka.ms/o365iso) <br><br> [Déclaration de l’applicabilité](https://aka.ms/o365isosoa) <br> [Certification](https://aka.ms/Office365ISO27017Cert) | A. 7 : sécurité des ressources humaines | 22 février 2020 |
-| [SOC 1 (Office 365)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=b07c0f7b-6bd5-4544-8255-7a5f14bf914a&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_/_SSAE_16_Reports) | CA-08 : vérifications en arrière-plan <br> CA-43 : révocation de compte | 30 septembre 2019 |
-| [SOC 2 (Office 365)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=fa062990-e758-4ddc-ace3-7fb21a301d09&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_/_SSAE_16_Rep-11e9-b9e1-290b1eb4cdeb_SOC_/_SSAE_16_Reports) | CA-07 : normes de conduite des affaires (SBC) <br> CA-08 : vérifications en arrière-plan <br> CA-43 : révocation de compte | 30 septembre 2019 |
+| [FedRAMP (Office 365)](https://compliance.microsoft.com/compliancemanager) | AT-2 : Sensibilisation à la sécurité <br> AT-3 : formation sur la sécurité basée sur les rôles <br> AT-4 : Enregistrements de formation sur la sécurité <br> PS-3 : filtrage du personnel <br> PS-4 : résiliation du personnel <br> PS-5 : transfert de personnel <br> PS-7 : sécurité du personnel tiers | 24 septembre 2020 |
+| [ISO 27001/27002 (Office 365)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=d7864d4f-e053-4cc4-a964-fa526d07c3be&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [Déclaration d’applicabilité](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=8ee1e46b-2ada-4e7b-bb7d-4c55a8cb6fcd&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) <br> [Certification](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.7 : Sécurité des ressources humaines | 22 février 2020 |
+| [ISO 27017 (Office 365)](https://aka.ms/o365iso) <br><br> [Déclaration d’applicabilité](https://aka.ms/o365isosoa) <br> [Certification](https://aka.ms/Office365ISO27017Cert) | A.7 : Sécurité des ressources humaines | 22 février 2020 |
+| [SOC 1 (Office 365)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=90df3f9c-3aaf-4dbf-99d0-ca9f2991721b&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-08 : Vérifications en arrière-plan <br> CA-43 : Révocation de compte | 24 décembre 2020 |
+| [SOC 2 (Office 365)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-07 : Normes de conduite professionnelle (SBC) <br> CA-08 : Vérifications des antécédents <br> CA-43 : Révocation de compte | 24 décembre 2020 |

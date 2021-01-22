@@ -16,15 +16,15 @@ metadata:
   ms.author: robmazz
   ms.date: 11/30/2020
   localization_priority: Normal
-  ms.openlocfilehash: 82d7c9b4c39d4916a81d08abb34c3d8bc6d65b31
-  ms.sourcegitcommit: db4bd64256f52087d450c2f7fd4632718aa2c33d
+  ms.openlocfilehash: 55a5d3691e7b27f5823eb07662dc7b44f09e2870
+  ms.sourcegitcommit: 81bd5a6603e899ddbb7c580cf4f55a4636959bbd
   ms.translationtype: MT
   ms.contentlocale: fr-FR
-  ms.lasthandoff: 12/08/2020
-  ms.locfileid: "49588698"
+  ms.lasthandoff: 01/22/2021
+  ms.locfileid: "49924847"
 conceptualContent:
   title: Offres de conformité pour Microsoft 365, Azure et d’autres services Microsoft
-  summary: Microsoft propose des offres de conformité pour aider votre organisation à se conformer aux exigences nationales, régionales et sectorielles régissant la collecte et l’utilisation des données.
+  summary: Microsoft propose des offres de conformité pour aider votre organisation à se conformer aux exigences nationales, régionales et propres au secteur qui régissent la collecte et l’utilisation des données.
   items:
   - title: Global
     links:
@@ -64,13 +64,13 @@ conceptualContent:
       text: DFARS
     - url: offering-dod-disa-l2-l4-l5.md
       itemType: reference
-      text: DoD DISA L2, L4, n5
+      text: DoD DISA L2, L4, L5
     - url: offering-doe-10-cfr-part-810.md
       itemType: reference
       text: DoE 10 CFR Part 810
     - url: offering-ear.md
       itemType: reference
-      text: EAR (USA Export ADM. Reg.)
+      text: EAR (US Export Adm. Reg.)
     - url: offering-fedramp.md
       itemType: reference
       text: FedRAMP
@@ -110,7 +110,7 @@ conceptualContent:
       text: AMF et ACPR (France)
     - url: offering-cftc-1-31-us.md
       itemType: reference
-      text: CFTC 1,31 (ÉTATS-UNIS)
+      text: CFTC 1.31 (États-Unis)
     - url: offering-eba-eu.md
       itemType: reference
       text: EBA (UE)
@@ -150,7 +150,7 @@ conceptualContent:
       text: HDS (France)
     - url: offering-hipaa-hitech.md
       itemType: reference
-      text: HIPAA/HI-TECH
+      text: HIPAA /HITECH
     - url: offering-hitrust.md
       itemType: reference
       text: HITRUST
@@ -193,10 +193,10 @@ conceptualContent:
       text: C5 (Allemagne)
     - url: offering-ccpa.md
       itemType: reference
-      text: CCPA (États-Unis)
-    - url: offering-ccsl-irap-australia.md
+      text: CCPA (États-Unis-Californie)
+    - url: offering-irap-australia.md
       itemType: reference
-      text: IRAP/CCSL (Australie)
+      text: IRAP (Australie)
     - url: offering-cs-mark-gold-japan.md
       itemType: reference
       text: CS Mark Gold (Japon)
@@ -216,7 +216,7 @@ conceptualContent:
       text: Clauses types de l’UE
     - url: offering-eu-us-privacy-shield.md
       itemType: reference
-      text: Protection contre la vie privée UE-É.U.
+      text: Bouclier de protection des données UE-ÉTATS-UNIS
     - url: https://www.trustcenter.cn/compliance/default.html#GB18030
       itemType: reference
       text: GB 18030 (Chine)
@@ -261,7 +261,7 @@ conceptualContent:
 additionalContent:
   sections:
   - title: Offres de conformité spécifiques à Azure
-    summary: Offres de conformité spécifiquement destinées à Azure pour aider votre organisation à se conformer aux exigences nationales, régionales et sectorielles régissant la collecte et l’utilisation des données.
+    summary: Offres de conformité spécifiques à Azure pour aider votre organisation à se conformer aux exigences nationales, régionales et spécifiques au secteur régissant la collecte et l’utilisation des données.
     items:
     - title: Globale
       links:
@@ -297,7 +297,7 @@ additionalContent:
         url: offering-nerc-cip.md
       - text: PCI DSS
         url: offering-pci-dss.md
-      - text: SEC réglementations SIC
+      - text: SEC Regulations SCI
         url: offering-sec-reg-sci.md
       - text: Évaluations partagées
         url: offering-shared-assessments.md
@@ -305,7 +305,7 @@ additionalContent:
         url: offering-tisax-germany.md
     - title: Régionaux
       links:
-      - text: OSPAR ABS (Singapour)
+      - text: ABS OSPAR (Singapour)
         url: offering-abs-ospar.md
       - text: Lois canadiennes sur la protection de la vie privée
         url: offering-canadian-privacy-laws.md

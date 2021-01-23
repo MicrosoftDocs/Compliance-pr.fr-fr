@@ -250,8 +250,8 @@
           items:
             - name: APRA (Australie)
               href: offering-APRA-Australia.md
-            - name: IRAP/CCSL (Australie)
-              href: offering-CCSL-IRAP-Australia.md
+            - name: IRAP (Australie)
+              href: offering-IRAP-Australia.md
             - name: NZ CC Framework (Nouvelle-Zélande)
               href: offering-nz-cc-framework-nz.md
         - name: Europe
@@ -310,7 +310,7 @@
           href: gdpr-arc.md
         - name: "Azure et Dynamics\_365"
           href: gdpr-arc-azure-dynamics.md
-        - name: Support et services professionnels Microsoft
+        - name: Aide et support Microsoft et services professionnels
           href: gdpr-arc-prof-services.md
         - name: "Office\_365"
           href: gdpr-arc-office365.md
@@ -356,7 +356,7 @@
           href: gdpr-dpia-azure.md
         - name: "Dynamics\_365"
           href: gdpr-dpia-dynamics.md
-        - name: Support et services professionnels Microsoft
+        - name: Aide et support Microsoft et services professionnels
           href: gdpr-dpia-prof-services.md
         - name: "Office\_365"
           href: gdpr-dpia-office365.md

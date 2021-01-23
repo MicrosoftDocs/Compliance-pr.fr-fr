@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d860cf04b91143a65a9b0fd4aad090968a7de7a1
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 6a952d33a440681acc3dd5057c8a7e175e57bfa9
+ms.sourcegitcommit: 8af471ad10420ee5fce98d2eb0d69a6d2b992f08
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507006"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49937019"
 ---
 # <a name="dutch-authority-for-the-financial-markets-and-the-central-bank-of-the-netherlands"></a>La Dutch Authority for the Financial Markets (Autorité néerlandaise pour les marchés financiers, AFM) et la Central Bank of the Netherlands (Banque centrale des Pays-Bas, DNB)
 
@@ -81,5 +81,4 @@ Oui. Les dispositions et les dispositifs à prendre en compte dans le cadre des 
 - [Programme de mise en conformité destiné au secteur des services financiers Microsoft](https://aka.ms/FSCP-Print)
 - [Services commerciaux cloud computing et services financiers Microsoft](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
 - [Conformité des services financiers dans Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Outil d’évaluation des risques dans le Cloud Azure Financial Services](https://aka.ms/FFIEC-CSDT)
 - [Conformité sur le site Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

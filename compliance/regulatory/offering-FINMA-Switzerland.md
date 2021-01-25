@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 054d6a9f86e1d696472ee2091bc5b98c4312f5b5
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 3dfd4993428de2884c1d7ea4d149da28f833508d
+ms.sourcegitcommit: 8af471ad10420ee5fce98d2eb0d69a6d2b992f08
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506775"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "49936948"
 ---
 # <a name="financial-market-supervisory-authority-finma-switzerland"></a>Autorité fédérale de surveillance des marchés financiers (FINMA) Suisse
 
@@ -69,5 +69,4 @@ Oui. Dans la partie 2 de la Liste de vérification de conformité, nous avons co
 - [Programme de mise en conformité destiné au secteur des services financiers Microsoft](https://aka.ms/FSCP-Print)
 - [Services commerciaux cloud computing et services financiers Microsoft](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
 - [Conformité des services financiers dans Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Outil d’évaluation des risques dans le Cloud Azure Financial Services](https://aka.ms/FFIEC-CSDT)
 - [Conformité sur le site Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

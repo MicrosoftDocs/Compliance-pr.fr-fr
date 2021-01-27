@@ -1,6 +1,6 @@
 ---
-title: Filtrage avant l’emploi de Microsoft
-description: Dans cet article, vous trouverez une vue d’ensemble des pratiques de filtrage préliminaire de Microsoft pour Microsoft 365.
+title: Filtrage avant l’embauche chez Microsoft Corporation
+description: Dans cet article, vous trouverez une vue d’ensemble des pratiques de filtrage préalable à l’emploi de Microsoft pour Microsoft 365.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -19,71 +19,71 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 03936deb44b950d289c2f1b3cad896352bf3715f
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 6b285f6b0370966cc66a4fed1309a88aec89e839
+ms.sourcegitcommit: b06fa9f1b230fd5e470817486ea51f460f28b691
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506836"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50012910"
 ---
-# <a name="microsoft-pre-employment-screening"></a>Filtrage avant l’emploi de Microsoft
+# <a name="microsoft-pre-employment-screening"></a>Filtrage avant l’embauche chez Microsoft Corporation
 
-Microsoft travaille en vue de maintenir un environnement sûr et sécurisé qui protège correctement les employés, les clients, les propriétés, les données personnelles et les informations propriétaires. Un programme complet de filtrage en arrière-plan est essentiel pour atteindre cet objectif. Tous les candidats pour l’emploi et Internship sont tenus de suivre correctement un filtrage en arrière-plan avant de commencer l’emploi chez Microsoft. Les employés actuels de rôles spécifiques peuvent également faire l’objet d’un réexamen périodique.
+Microsoft travaille à maintenir un environnement sûr et sécurisé qui protège correctement nos employés, clients, propriétés, données personnelles et informations propriétaires. Un programme complet de filtrage des antécédents est essentiel pour atteindre cet objectif. Tous les candidats à l’emploi et à l’emploi sont tenus d’effectuer de manière satisfaisante un filtrage des antécédents avant de commencer à travailler chez Microsoft. Les employés actuels dans des rôles spécifiques peuvent également faire l’objet d’un contrôle périodique.
 
 ## <a name="the-microsoft-personnel-screening-standard"></a>Norme de filtrage du personnel Microsoft
 
-La norme de filtrage du personnel Microsoft s’applique à tous les employés Microsoft, les apprentis et le personnel concerné impliqué dans le développement, l’exploitation ou la livraison de services en ligne à des clients du secteur public ou du secteur public.
+La norme de filtrage du personnel Microsoft s’applique à tous les employés, internes et membres du personnel subordonné de Microsoft impliqués dans le développement, l’exploitation ou la fourniture de services en ligne aux clients du cloud commercial ou du secteur privé.
 
-Les pratiques de filtrage du personnel pour Microsoft 365 s’alignent sur les contrôles des normes de l’entreprise et du NIST (Institut National Institute of Standards and Technology) de Microsoft pour le dépistage du personnel. Le personnel Microsoft qui a besoin d’accéder aux éléments suivants est soumis à la norme de filtrage du personnel Microsoft :
+Les pratiques de filtrage du personnel pour Microsoft 365 s’alignent sur les normes d’entreprise de Microsoft et les contrôles du National Institute of Standards and Technology (NIST) pour le filtrage du personnel. Les membres du personnel Microsoft qui ont besoin d’accéder aux informations suivantes sont soumis à la norme de filtrage du personnel Microsoft :
 
-- Accès physique aux centres de donnés, aux lieux de connexion, aux salles sécurisées, aux cages, aux racks de serveurs ou aux sites de périphérie qui fournissent l’infrastructure qui prend en charge les services en ligne pour les clients du secteur public ou du nuage.
-- Accès logique aux données client du Cloud ou du secteur commercial fourni par des environnements gérés spécifiques.
-- Accès de gestion réseau aux appareils et services qui transportent ou stockent des données client dans le cloud public ou commercial.
+- Accès physique aux centres de données, co-emplacements, salles sécurisées, magasins, racks de serveurs ou sites Edge qui fournissent l’infrastructure qui assure la prise en charge des services en ligne pour les clients du cloud commercial ou du secteur public.
+- Accès logique aux données client du cloud commercial ou gouvernementales fournies par le biais d’environnements gérés spécifiques.
+- Accès à la gestion du réseau aux appareils et services qui transportent ou stockent les données client du secteur public ou du cloud commercial.
 
-Dans les pays dont la législation en matière de confidentialité est fiable et qui restreignent l’accès aux informations personnelles, le personnel impliqué dans le développement, l’exploitation ou la remise de services en ligne à des clients du cloud public ou commercial peut être soumis à des contrôles supplémentaires. Les événements spécifiques au personnel qui déclenchent des exigences de filtrage sont les suivants :
+Dans les pays où des lois strictes en matière de confidentialité restreignent l’accès aux informations personnelles, les membres du personnel impliqués dans le développement, l’exploitation ou la fourniture de services en ligne aux clients du gouvernement ou du cloud commercial peuvent faire l’objet de contrôles supplémentaires. Les événements spécifiques liés au personnel qui déclenchent des exigences de filtrage sont les suivants :
 
-- Nouveau personnel Microsoft placé dans les rôles où le filtrage est une exigence définie.
-- Le personnel Microsoft interne a transféré ou déplacé vers un rôle existant qui inclut actuellement le filtrage en tant que Configuration requise.
-- Les rôles existants qui modifient l’étendue pour inclure le filtrage en tant que spécification définie.
+- Nouveau personnel Microsoft placé dans des rôles où le filtrage est une exigence définie.
+- Personnel Microsoft interne transféré ou déplacé vers un rôle existant qui inclut actuellement le filtrage comme exigence définie.
+- Rôles existants qui modifient l’étendue pour inclure le filtrage comme une exigence définie.
 
-## <a name="microsoft-pre-employment-screening"></a>Filtrage avant l’emploi de Microsoft
+## <a name="microsoft-pre-employment-screening"></a>Filtrage avant l’embauche chez Microsoft Corporation
 
-Le service de sécurité global de Microsoft est chargé de s’assurer que les candidats sont filtrés en arrière-plan avant de commencer à utiliser Microsoft.
-Dans la mesure autorisée par la loi locale, les vérifications sont les suivantes :
+Le service de sécurité global de Microsoft est chargé de s’assurer que les candidats sont en arrière-plan avant de commencer à travailler avec Microsoft.
+Dans la mesure du possible par la loi locale, les contrôles sont les suivants :
 
-- Numéro de sécurité sociale aux États-Unis ou confirmation de l’identité d’un document publié par le gouvernement en Europe, au Moyen-Orient et en Asie.
-- Historique pénal Vérifiez qu’il y a sept ans pour crimes et délits infractions aux niveaux État, comté et local, et au niveau fédéral, le cas échéant, aux États-Unis. Une vérification de l’historique pénal international (en fonction de la législation locale) est applicable aux régions situées en dehors des États-Unis.
+- Suivi SSN aux États-Unis ou confirmation de l’identité à partir d’un document émis par le gouvernement en Europe, au Moyen-Orient et en Asie.
+- Le passé judiciaire vérifie jusqu’à sept ans pour les infractions aux états, départements et locaux, et au niveau fédéral, le cas échéant aux États-Unis. Une vérification du passé judiciaire international (en fonction de la loi locale) s’applique à des zones extérieures aux États-Unis.
 - Confirmation du niveau de réussite scolaire le plus élevé
-- historique des emplois de 5 ans
-- Contrôle des sanctions globales et de l’exécution, y compris la liste de contrôle des biens étrangers (OFAC), de la liste des bureaux de l’industrie et de la sécurité (BRI), ainsi que des contrôles commerciaux de la défense DDTC.
+- Historique des emplois de cinq ans
+- Sanctions globales et contrôle d’application, y compris la liste OfAC (Office of Foreign Assets Control), la liste du Bureau de l’industrie et de la sécurité (BIS) et les contrôles de liste des personnes débarbées (DDTC) du Office of Defense Trade Controls.
 
 ## <a name="supplier-screening"></a>Filtrage des fournisseurs
 
-Microsoft exige que les fournisseurs (membres du personnel) effectuent des vérifications préalables de l’arrière-plan sur tous les membres du personnel qui effectueront des services ou des projets qui nécessitent un accès aux installations de Microsoft ou de baux ou un accès aux ressources Microsoft telles que le courrier électronique, l’accès réseau, Cardkey ou autres badges d’accès.
+Microsoft exige que les fournisseurs (personnel subordonné) effectuent des vérifications préalables à l’emplacement de tous les membres du personnel qui effectueront des services ou des projets nécessitant un accès à des installations en bail ou à des installations de Microsoft, telles que le courrier électronique, l’accès réseau, la clé de carte ou d’autres badges d’accès.
 
-Dans la mesure permise par les vérifications de dépistage du fournisseur de lois locales, citons les suivantes :
+Dans la mesure du possible par la loi locale, les vérifications du filtrage des fournisseurs incluent les éléments suivants :
 
-- Numéro de sécurité sociale aux États-Unis ou confirmation de l’identité d’un document publié par le gouvernement en Europe, au Moyen-Orient et en Asie.
-- Historique pénal Vérifiez qu’il y a sept ans pour crimes et délits infractions aux niveaux État, comté et local, et au niveau fédéral, le cas échéant, aux États-Unis. Une vérification de l’historique pénal international (en fonction de la législation locale) est applicable aux régions situées en dehors des États-Unis.
+- Suivi SSN aux États-Unis ou confirmation de l’identité à partir d’un document émis par le gouvernement en Europe, au Moyen-Orient et en Asie.
+- Le passé judiciaire vérifie jusqu’à sept ans pour les infractions aux états, départements et locaux, et au niveau fédéral, le cas échéant aux États-Unis. Une vérification du passé judiciaire international (en fonction de la loi locale) s’applique à des zones extérieures aux États-Unis.
 - Confirmation du niveau de réussite scolaire le plus élevé
 - Sanctions mondiales et contrôle de l’exécution
 
-Aux États-Unis avant chaque membre de l’équipe fournisseurs à exécuter pour Microsoft, dans la mesure autorisée par la loi locale, le fournisseur effectuera une pré-mise en place, et pour certains placements, un examen de fond périodique, à l’aide du fournisseur de services de vérification en arrière-plan préféré de Microsoft, qui confirmera à Microsoft que le filtrage répond à la norme Microsoft. 
+Aux États-Unis, avant chaque placement de chaque membre du personnel fournisseur à effectuer pour Microsoft, dans la mesure du possible par la loi locale, le fournisseur effectuera un pré-placement et pour certains placements, une vérification périodique des antécédents en utilisant le fournisseur de service de vérification des antécédents préféré de Microsoft qui confirmera à Microsoft que le filtrage répond à la norme Microsoft. 
 
-À l’échelle internationale, l’exigence ci-dessus sera mise en œuvre dans tous les pays pour le 1er septembre 2020 et, si elle n’est pas encore implémentée, le contrat avec le tiers spécifie les exigences de Microsoft en matière de filtrage qui doivent être menées et le fournisseur est responsable de l’attestation de Microsoft par écrit que la vérification de l’arrière-plan a réussi.
+À l’international, l’exigence en cours sera implémentée dans tous les pays d’ici septembre 2020 et, lorsque ce n’est pas le cas actuellement, le contrat avec le tiers spécifie les exigences de Microsoft en matière de filtrage qui doivent être effectuées et le fournisseur est chargé d’attester auprès de Microsoft par écrit que la vérification des antécédents a été effectuée avec succès.
 
-## <a name="microsoft-cloud-background-check"></a>Vérification en arrière-plan Microsoft Cloud
+## <a name="microsoft-cloud-background-check"></a>Vérification des antécédents de Microsoft Cloud
 
-Une vérification en arrière-plan de Microsoft Cloud est requise pour les candidats embauchés en tant qu’employés fournissant des services liés à Microsoft 365 aux États-Unis. Les employés Microsoft aux États-Unis ayant accès aux données client doivent respecter le processus de vérification en arrière-plan de Microsoft Cloud requis par tous les services Microsoft 365. En dehors des États-Unis, le processus varie. Par exemple, le Cloud Microsoft pour l’Allemagne utilise un modèle d’approbation de tiers de données, conçu pour garantir que le client de données approuvé (une société allemande), et non Microsoft, contrôle l’accès aux données client. Le Cloud Microsoft en Allemagne est fourni par des centres de données en Allemagne, et les centres d’opérations (OC) contenant le personnel technique du client tiers de données sont également en Allemagne. Les installations de centre de données et OC sont gérées, gérées et contrôlées par le tiers de confiance.
+Une vérification des antécédents microsoft cloud est requise pour les candidats embauchés en tant qu’employés fournissant des services microsoft 365 aux États-Unis. Les employés de Microsoft aux États-Unis ayant accès aux données client doivent suivre le processus de vérification des antécédents du cloud Microsoft requis par tous les services Microsoft 365. En dehors des États-Unis, le processus varie. Par exemple, Microsoft Cloud pour Allemagne utilise un modèle d’approbation de confiance de données, conçu pour s’assurer que le client de confiance de données (une société allemande), et non Microsoft, contrôle l’accès aux données client. Microsoft Cloud en Allemagne est livré à partir de centres de données en Allemagne, et les centres d’opérations (OC) contenant le personnel technique du conseiller en données sont également en Allemagne. Le centre de données et les installations OC sont gérés, gérés et contrôlés par le conseiller en gestion de données.
 
-Dans la mesure autorisée par la loi locale, les vérifications suivantes sont effectuées dans le cadre de la vérification en arrière-plan de Microsoft Cloud.
+Dans la mesure du possible par la loi locale, les vérifications suivantes sont effectuées dans le cadre de la vérification des antécédents de Microsoft Cloud.
 
-- États-Unis : suivi du numéro de sécurité sociale
-- Historique pénal Vérifiez qu’il y a sept ans pour crimes et délits infractions aux niveaux État, comté et local, et au niveau fédéral, le cas échéant, aux États-Unis. Une vérification de l’historique pénal international (en fonction de la législation locale) est applicable aux régions situées en dehors des États-Unis.
-- Contrôle des sanctions globales et de l’exécution, y compris la liste de contrôle des biens étrangers (OFAC), de la liste des bureaux de l’industrie et de la sécurité (BRI), ainsi que des contrôles commerciaux de la défense DDTC.
+- États-Unis : suivi des chiffres de sécurité sociale
+- Le passé judiciaire vérifie jusqu’à sept ans pour les infractions aux états, départements et locaux, et au niveau fédéral, le cas échéant aux États-Unis. Une vérification du passé judiciaire international (en fonction de la loi locale) s’applique à des zones extérieures aux États-Unis.
+- Sanctions globales et contrôle d’application, y compris la liste OfAC (Office of Foreign Assets Control), la liste du Bureau de l’industrie et de la sécurité (BIS) et les contrôles de liste des personnes débarbées (DDTC) du Office of Defense Trade Controls .
 
-Les résultats de la vérification en arrière-plan de Microsoft Cloud sont stockés dans notre base de données Employee et connectés à nos systèmes de contrôle d’accès centre de données. Si la vérification en arrière-plan de Microsoft Cloud expire et que l’employé ne la rerenouvelle pas, l’accès aux services Microsoft 365 est révoqué et n’est plus disponible tant que la vérification en arrière-plan de Microsoft Cloud n’est pas terminée. Lorsque la relation de travail avec Microsoft se termine, tout l’accès au centre de contenu est immédiatement révoqué.
+Les résultats de la vérification en arrière-plan de Microsoft Cloud sont stockés dans la base de données des employés et connectés à nos systèmes de contrôle d’accès au centre de données. Si la vérification en arrière-plan microsoft Cloud expire et que l’employé ne la renouvelle pas, l’accès aux services Microsoft 365 est révoqué et n’est plus disponible tant que la vérification en arrière-plan de Microsoft Cloud n’est pas terminée. Lorsque la relation d’emploi avec Microsoft se termine, l’accès au centre de données est immédiatement révoqué.
 
-La citoyenneté des États-Unis est vérifiée pour tous les employés disposant d’un accès physique ou logique aux services gouvernementaux des États-Unis Microsoft 365. Pour vérifier la citoyenneté, les employés et/ou les candidats aux nouveaux employés se joignent à un délégué de citoyenneté américain formé pour vérifier la documentation de la citoyenneté américaine. Les employés ou les candidats à d’autres embauches doivent apporter la documentation requise et signer un formulaire d’attestation lors d’une réunion avec le délégué de citoyenneté pour leur région. La réunion doit être réalisée en personne. Une fois que la personne a rempli le délégué de citoyenneté et fourni la documentation et les signatures nécessaires, le délégué de citoyenneté transfère une copie des documents aux opérations de personnel Microsoft qui soumettent la copie à enregistrer.
+La nationalité américaine est vérifiée pour tous les employés ayant un accès physique ou logique aux services microsoft 365 pour le gouvernement des États-Unis. Pour vérifier la nationalité, les employés et/ou les nouveaux employés rencontrent un délégué à la nationalité américaine qui est formé pour consulter la documentation vérifiant la nationalité américaine. Les employés ou les nouveaux employés doivent apporter la documentation requise et signer un formulaire d’attestation lors d’une réunion avec le délégué de la nationalité pour leur région. La réunion doit être effectuée en personne. Une fois que la personne a rencontré le délégué à la nationalité et fourni la documentation et les signatures nécessaires, elle envoie une copie des documents aux opérations de gestion du personnel Microsoft qui envoient la copie à la conservation des documents.
 
-Les membres du personnel disposant d’un accès logique au Cloud communautaire du gouvernement américain Microsoft 365 ou un accès logique ou physique aux offres du gouvernement américain des États-Unis sont tenus de se conformer aux exigences du gouvernement fédéral du FBI (CJIS), y compris le [dépistage du personnel](https://www.fbi.gov/services/cjis) . Le filtrage CJIS en prise en charge du service de gouvernement américain Microsoft 365 inclut un contrôle de fond pénal basé sur les empreintes digitales, déterminé par le candidat à l’Agence de système CJIS dans les [États qui ont été](https://blogs.office.com/2013/10/23/california-and-microsoft-sign-cjis-security-policy-agreement/) inclus dans le programme de support technique CJIS Microsoft Online Services.
+Les membres du personnel ayant un accès logique au cloud communautaire microsoft 365 pour le gouvernement des États-Unis, ou un accès [](https://www.fbi.gov/services/cjis) logique ou physique aux offres Azure U.S. government, sont tenus de se conformer aux exigences du gouvernement fédéral des services d’information sur la justice pénale (CJIS) du DROIT À la décision, y compris le filtrage du personnel. Le filtrage CJIS pour la prise en charge du service Microsoft 365 pour le gouvernement américain inclut une [](https://blogs.office.com/2013/10/23/california-and-microsoft-sign-cjis-security-policy-agreement/) vérification des antécédents judiciaires basée sur les empreintes digitales, dont les antécédents sont vérifiés par l’agence système CJIS désignée par l’agence dans les états qui ont été inscrits au programme de support CJIS Microsoft Online Services.

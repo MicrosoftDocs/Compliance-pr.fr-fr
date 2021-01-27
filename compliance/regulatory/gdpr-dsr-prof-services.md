@@ -17,20 +17,20 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7be8b0dce164dc14ff70ca3bc91b805e84eb0363
-ms.sourcegitcommit: fc1da22cf40dfd807c182d3f6df967eee192eacd
+ms.openlocfilehash: 6c1e6c0a3aa8362d2bdba68f9919e6edb9919277
+ms.sourcegitcommit: b06fa9f1b230fd5e470817486ea51f460f28b691
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49669745"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50012979"
 ---
 # <a name="microsoft-support-and-professional-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>Demandes des personnes concernées du Support Microsoft et des services professionnels concernant le RGPD et le CCPA
 
 ## <a name="introduction-to-microsoft-professional-services"></a>Présentation des services professionnels Microsoft
 
-Les services professionnels Microsoft sont constitués d’un groupe divers d’architectes techniques, d’ingénieurs, de consultants et de professionnels du support qui se consacrent à remplir la mission de Microsoft consistant à donner aux clients les moyens d’être plus productifs. Notre équipe des services professionnels comprend plus de 21 000 consultants, conseillers numériques, agents de support, ingénieurs et autres commerciaux, opérant dans 191 pays et 46 langues différentes, gérant plusieurs millions d’engagements par mois et interagissant avec les clients et partenaires à l’aide d’outils locaux automatisés basés sur le téléphone, le web et la communauté. L’organisation apporte une grande expertise dans le portefeuille Microsoft, tirant parti d’un important réseau de partenaires, de communautés techniques, d’outils, de diagnostics et de canaux qui nous connectent à nos clients professionnels.
+Les services professionnels Microsoft sont constitués d’un groupe divers d’architectes techniques, d’ingénieurs, de consultants et de professionnels du support qui se consacrent à remplir la mission de Microsoft permettant aux clients d’être plus productifs. Notre équipe des services professionnels comprend plus de 21 000 consultants, conseillers numériques, agents de support, ingénieurs et autres commerciaux, opérant dans 191 pays et 46 langues différentes, gérant plusieurs millions d’engagements par mois et interagissant avec les clients et partenaires à l’aide d’outils locaux automatisés basés sur le téléphone, le web et la communauté. L’organisation apporte une grande expertise dans le portefeuille Microsoft, utilisant un important réseau de partenaires, de communautés techniques, d’outils, de diagnostics et de canaux qui nous connectent à nos clients professionnels.
 
-Suivez ce lien pour en savoir plus sur les services professionnels Microsoft, ou accédez à la rubrique consacrée à ceux-ci dans la [page web de la documentation sur la sécurité des services professionnels de Microsoft](https://www.microsoft.com/fr-FR/professionalservices/overview). Le Support Microsoft et les Services professionnels Microsoft prennent au sérieux les obligations imposées par le Règlement général sur la protection des données (RGPD). Les informations contenues dans ce document sont conçues pour répondre aux questions des clients sur la prise en charge de Microsoft et les offres conseils qui répondront aux clients et les aideront en réponse aux obligations de données objet (DSR) sous RGPD.
+Suivez ce lien pour en savoir plus sur les services professionnels Microsoft, ou accédez à la rubrique consacrée à ceux-ci dans la [page web de la documentation sur la sécurité des services professionnels de Microsoft](https://www.microsoft.com/professionalservices/overview). Le Support Microsoft et les Services professionnels Microsoft prennent au sérieux les obligations imposées par le Règlement général sur la protection des données (RGPD). Les informations contenues dans ce document sont conçues pour répondre aux questions des clients sur la prise en charge de Microsoft et les offres conseils qui répondront aux clients et les aideront en réponse aux obligations de données objet (DSR) sous RGPD.
 
 ### <a name="introduction-to-dsrs"></a>Présentation des DPC 
 
@@ -96,25 +96,25 @@ Pour conserver la continuité des opérations du client, Microsoft ne traitera p
 
 Les clients peuvent choisir d’apporter des modifications aux données qu’ils ont collectées pendant les engagements de services professionnels via le support normal ou les canaux de conseil, séparément de cette DPC. Par exemple, Microsoft peut aider à supprimer des engagements de support, sur demande (reportez-vous à la section *Guide DPC pour des données fournies par le client*).
 
-***Exemple à des fins d’illustration uniquement** _
+*Exemple à des fins d’illustration uniquement*
 
 Jean est chef de projet pour un client Office 365 entreprise, avec un engagement de conseil en cours et deux engagements clôturés. À présent, Jean quitte sa société et souhaite la suppression de ses données. Jean contacte le Centre de réponse aux problèmes de confidentialité, qui l’identifie comme responsable du projet. Jean apprend que le Centre de réponse aux problèmes de confidentialité ne peut pas supprimer son nom des engagements précédents (clôturés) ou de toute donnée incluse dans les engagements en cours. Toutefois, le Centre de réponse aux problèmes de confidentialité remplacera Jean comme contact sur l’engagement actuellement en cours s’il identifie un contact de remplacement. Jean informe Microsoft que Jeanne sera son contact de remplacement, puis Microsoft applique la modification sur tous les systèmes.
 
 ## <a name="dsr-for-an-end-user-engaging-microsoft"></a>DPC pour un utilisateur final contactant Microsoft
 
-_Comment Microsoft répond aux demandes provenant des employés d’un client ou d’autres personnes concernées d’exercer leurs droits.*
+*Comment Microsoft répond aux demandes provenant des employés d’un client ou d’autres personnes concernées d’exercer leurs droits.*
 
 Si l’employé d’un client ou une autre personne concernée contacte Microsoft pour exercer ses droits sur les données que Microsoft a collectées en tant que processeur de données, la personne concernée est informée qu’elle doit contacter le client de Microsoft, en tant que contrôleur des données, afin d’exercer ces droits. Microsoft ne prendra aucune mesure supplémentaire.
 
 Si la personne concernée a également contacté Microsoft pour exercer ses droits sur des données collectées par Microsoft dans des situations où Microsoft est le responsable du traitement de données (par exemple, support client, contact de client commercial), Microsoft répond séparément à la demande de droit de la personne concernée pour ces données à caractère personnel.
 
-***Exemple à des fins d’illustration uniquement** _
+*Exemple à des fins d’illustration uniquement*
 
 Jane est employée d’un client d’entreprise, Contoso, qui lui a attribué un compte Dynamics 365. Elle contacte Microsoft pour supprimer toutes ses données et est renvoyée au centre de réponse à la confidentialité. Jane remplit le formulaire de demande. Le centre de réponse à la confidentialité l’identifie comme utilisateur final de l’entreprise et lui indique qu’elle doit passer par Contoso pour la suppression de ses données d’entreprise. Ils l’identifient également comme un utilisateur de Microsoft X-Box et suppriment ses données de son compte consommateur Microsoft.
 
 ## <a name="dsr-for-customer-provided-data-commercial-support"></a>DPC pour des données fournies par un client : support commercial
 
-_Découvrez comment recevoir une assistance de Microsoft lorsqu’un client a reçu une demande de son employé ou d’une autre personne concernée d’exercer ses droits, et que les données personnelles de cette personne concernée ont été collectées par le Support Microsoft pendant un engagement du support.*
+*Découvrez comment recevoir une assistance de Microsoft lorsqu’un client a reçu une demande de son employé ou d’une autre personne concernée d’exercer ses droits, et que les données personnelles de cette personne concernée ont été collectées par le support Microsoft pendant un engagement du support.*
 
 Lorsqu’un client interagit avec le support Microsoft, Microsoft collecte les données de support du client afin de résoudre les problèmes nécessitant un engagement de support technique. Ces données de support incluent les interactions de Microsoft avec le client (par exemple, conversation, téléphone, courrier électronique, envoi Web), ainsi que les fichiers de contenu que le client envoie à Microsoft ou que Microsoft a extrait, avec l’autorisation du client, de l’environnement informatique du client ou du client de services en ligne pour résoudre le problème de support. Dans le cadre du support Premier, cela inclut également toutes les données collectées auprès de vous afin d’éviter de futurs problèmes de manière proactive. Toutefois, cela exclut les autres informations des relations professionnelles de Microsoft avec le client (par exemple, les enregistrements de facturation).
 
@@ -134,7 +134,7 @@ Lorsqu’il découvre les données pertinentes et obtient l’assistance de Micr
 
 *Option B : engagements de client spécifiques.* Utilisez les systèmes en ligne pour passer en revue les tickets, puis identifiez les engagements spécifiques contenant les données personnelles pertinentes et signalez-les à Microsoft. Microsoft essaiera de fournir une assistance pour effectuer une recherche si le client n’a pas la possibilité d’effectuer une recherche dans les engagements (tickets).
 
-***Une fois que les engagements sont identifiés, demandez d’appliquer la DPC à une partie spécifique de l’enregistrement ou à tout ce qui est lié à cet engagement dans Microsoft.** _
+*Une fois que les engagements sont identifiés, demandez d’appliquer la DPC à une partie spécifique de l’enregistrement ou à tout ce qui est lié à cet engagement dans Microsoft.*
 
 Pour identifier des engagements spécifiques, les clients doivent effectuer des recherches dans leurs engagements. Pour les clients Premier, le gestionnaire du service de contrat (« CSM - Contract Service Manager ») d’un client a une visibilité sur toutes les demandes de support (SR - Support Request) qui sont créées dans le cadre de ce calendrier de contrat. Pour les clients non Premier, des portails d’engagement du support sont disponibles (par le biais des zones de support des services en ligne, par exemple).
 
@@ -175,7 +175,7 @@ Voici quelques points importants à comprendre sur le fonctionnement de la suppr
 
 Chez Microsoft, toutes les données disposent d’une politique de rétention et de suppression qui leur est appliquée et qui varie selon les risques et d’autres facteurs.
 
-Les clients qui demandent la suppression des données personnelles d’une personne concernée par le traitement des données de façon universelle sur les systèmes du support peuvent le faire via votre responsable technique de compte (TAM) ou en remplissant une demande de support (SR : Support Request) dans Services Hub ou un système équivalent. Vous devez indiquer qu’il s’agit d’une demande d’assistance concernant une DPC en vertu du RGPD.
+Les clients qui demandent la suppression des données personnelles d’une personne concernée par le traitement des données de façon universelle sur les systèmes du support peuvent le faire via votre responsable technique de compte (TAM) ou en remplissant une demande de support (SR : Support Request) dans Services Hub ou un système équivalent. Vous *devez* indiquer qu’il s’agit d’une demande d’assistance concernant une DPC en vertu du RGPD.
 
 *Option A : DPC support technique chez Microsoft*. Pour un système transversal DPC, le client doit fournir les données personnelles dont Microsoft a besoin pour identifier les données requises (par exemple, adresse de messagerie, numéro de téléphone). Microsoft ne mettra pas en corrélation ou ne recherchera pas les enregistrements et effectuera uniquement des recherches directement sur les identificateurs fournis par le client. Lorsque des données sont trouvées, Microsoft supprime tous les engagements et toutes les données associées.
 
@@ -198,7 +198,7 @@ Le « droit à la portabilité des données » permet à une personne concern�
 
 Remarque : les données exportées peuvent ne pas inclure la propriété intellectuelle de Microsoft ou les données qui peuvent compromettre la sécurité ou la stabilité du service.
 
-***Exemple à des fins d’illustration uniquement** _
+*Exemple à des fins d’illustration uniquement*
 
 Jean est un gestionnaire du service de contrat Premier pour un client d’entreprise, Contoso, qui utilise Office 365 pour sa messagerie d’employé et Azure pour héberger une base de données SQL Contoso. Contoso a plusieurs tickets ouverts et fermés. Récemment, le support Microsoft, avec l’autorisation de Contoso, a déplacé une copie de la base de données SQL dans DTM pour le support et le dépannage.
 
@@ -214,7 +214,7 @@ Le support Microsoft effectue toutes ces suppressions et, en fonction de la dema
 
 ## <a name="dsr-guide-for-customer-provided-data-in-consulting-services-including-migration-services"></a>DPC pour des données fournies par un client : services de conseil incluant les services de migration
 
-_Découvrez comment recevoir une assistance de Microsoft lorsqu’un client a reçu une demande de son employé ou d’une autre personne concernée d’exercer ses droits, et que les données personnelles de cette personne concernée ont été collectées par Microsoft pendant un engagement du conseil.*
+*Découvrez comment recevoir une assistance de Microsoft lorsqu’un client a reçu une demande de son employé ou d’une autre personne concernée d’exercer ses droits, et que les données personnelles de cette personne concernée ont été collectées par Microsoft pendant un engagement du conseil.*
 
 ## <a name="microsoft-consulting-services"></a>Microsoft Consulting Services
 
@@ -234,7 +234,7 @@ Pour les services de migration FastTrack, Microsoft est le responsable du traite
   
 Si vous devez traiter des demandes d’accès, de rectification ou d’exportation de DPC alors que les données d’un utilisateur sont traitées via les systèmes de migration FastTrack, il incombe au client de répondre à ce DPC via les systèmes sources existants dans lesquels les données utilisateur sont stockées. Lorsque la migration de l’utilisateur est terminée et que les données ont été déplacées vers le service Cloud Microsoft de destination, les conseils fournis par Microsoft sur la façon dont les clients peuvent utiliser les produits, services et outils d’administration de Microsoft pour rechercher et agir sur des données personnelles pour répondre à une demande d’objet de données s’appliqueront. Pour consulter ces recommandations, voir[demandes d’objet de données pour le RGPD](https://docs.microsoft.com/microsoft-365/compliance/gdpr-data-subject-requests). 
 
-Si vous devez supprimer un compte d’utilisateur en réponse à une demande de personne concernée tandis que votre organisation est engagée dans un projet de migration FastTrack en cours, vous devez savoir que les systèmes de migration peuvent conserver une copie des données de migration de l’utilisateur pendant une certaine période après la fin de la migration de cet utilisateur. La suppression du compte d’utilisateur ne supprime pas automatiquement ces données de migration d’utilisateur stockées dans des systèmes de migration FastTrack. Si vous souhaitez que l’équipe Microsoft FastTrack supprime des données de migration d’utilisateur, vous pouvez [envoyer une demande](https://go.microsoft.com/fwlink/?linkid=874544). Dans le cours normal de nos activités, Microsoft FastTrack supprime toutes les copies des données une fois que la migration de votre organisation est terminée.
+Si vous devez supprimer un compte d’utilisateur en réponse à une demande de personne concernée tandis que votre organisation est engagée dans un projet de migration FastTrack en cours, vous devez savoir que les systèmes de migration peuvent conserver une copie des données de migration de l’utilisateur pendant un certain temps après la fin de la migration de cet utilisateur. La suppression du compte d’utilisateur ne supprime pas automatiquement ces données de migration d’utilisateur stockées dans des systèmes de migration FastTrack. Si vous souhaitez que l’équipe Microsoft FastTrack supprime des données de migration d’utilisateur, vous pouvez [envoyer une demande](https://go.microsoft.com/fwlink/?linkid=874544). Dans le cours normal de nos activités, Microsoft FastTrack supprime toutes les copies des données une fois que la migration de votre organisation est terminée.
 
 ## <a name="other-consulting-services"></a>Autres services de conseil
 

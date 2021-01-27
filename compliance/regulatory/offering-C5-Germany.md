@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5d73dfe71ea0872e02e516e0c952d017ded22150
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 172b031f4193a24a36126d3aabfadb02f3f20247
+ms.sourcegitcommit: b06fa9f1b230fd5e470817486ea51f460f28b691
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507000"
+ms.lasthandoff: 01/27/2021
+ms.locfileid: "50013000"
 ---
 # <a name="cloud-computing-compliance-controls-catalog-c5"></a>Cloud Computing Compliance Controls Catalog (C5)
 
@@ -31,7 +31,7 @@ En 2016, l’Office fédéral allemand pour la sécurité des informations (Bund
 
 L’objectif du catalogue d’exigences C5 est de fournir un cadre de sécurité cohérent pour certifier les fournisseurs de services cloud et de donner à leurs clients l’assurance que leurs données seront gérées de manière sécurisée.
 
-Le C5 est basé sur les normes de sécurité informatique internationalement reconnues, telles que l’ISO/IEC 27001:2013, la Cloud Security Alliance Cloud Controls Matrix 3.0.1 et les catalogues IT-Grundschutz propriétaires du BSI. Ce catalogue se compose de 114 exigences couvrant 17 domaines, par exemple l’organisation de la sécurité des informations et de la sécurité physique, avec des exigences de sécurité de base pour tous les fournisseurs de services cloud, ainsi que des exigences supplémentaires pour le traitement des données hautement confidentielles et des situations nécessitant une haute disponibilité.
+Le C5 est basé sur les normes de sécurité informatique internationalement reconnues, telles que l’ISO/IEC 27001:2013, la Cloud Security Alliance Cloud Controls Matrix 3.0.1 et les catalogues IT-Grundschutz propriétaires du BSI. Le catalogue se compose de 114 exigences couvrant 17 domaines, par exemple l’organisation de la sécurité des informations et de la sécurité physique, avec des exigences de sécurité de base pour tous les fournisseurs de services cloud, ainsi que d’autres exigences pour le traitement des données hautement confidentielles et des situations nécessitant une haute disponibilité.
 
 Le BSI met également l’accent sur la transparence. Dans le cadre d’un audit, le fournisseur de cloud doit inclure une description détaillée du système et publier certains paramètres environnementaux, tels que la juridiction et le lieu de traitement des données, la prestation des services et les autres certifications délivrées aux services cloud, ainsi que des informations sur les obligations de divulgation des fournisseurs de cloud aux autorités publiques. Ceci permet aux clients potentiels du cloud de décider si les services cloud répondent à leurs exigences essentielles, par exemple en termes de conformité aux obligations légales comme la protection des données, les stratégies de l’entreprise ou la capacité de contrer les menaces liées à l’espionnage industriel.
 
@@ -62,9 +62,9 @@ IT-Grundschutz fournit la méthodologie spécifique aidant les entreprises à id
 
 Microsoft Cloud Allemagne est physiquement basé en Allemagne, conforme aux obligations de la loi allemande sur la vie privée, qui limite le transfert de données à caractère personnel vers d’autres pays et offre une protection contre l’accès par les autorités d’autres juridictions qui pourraient enfreindre les lois nationales. Azure Allemagne fournit des services Azure à partir de centres de données allemands avec une résidence des données en Allemagne, et offre des mesures strictes de contrôle et d’accès aux données fournies par le biais d’un modèle de données fiduciaire unique régi par le droit allemand.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de conformité Microsoft pour évaluer vos risques
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de Conformité Microsoft pour évaluer vos risques
 
-Le [Gestionnaire de conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) est une fonctionnalité du [Centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) qui vous permet de comprendre l’état de conformité de votre organisation et de prendre des mesures pour réduire les risques. Le Gestionnaire de conformité propose un modèle premium pour créer une évaluation pour ce règlement. Recherchez le modèle dans la page des **modèles d’évaluation** dans le Gestionnaire de conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Le Gestionnaire de Conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) est une fonctionnalité dans le [centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) pour vous aider à comprendre la position de la conformité de votre organisation et à prendre des mesures pour réduire les risques. Le Gestionnaire de Conformité offre un modèle Premium pour la création d’une évaluation de ce règlement. Recherchez le modèle sur la page **modèles d’évaluation** dans le Gestionnaire de Conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de Conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressources
 

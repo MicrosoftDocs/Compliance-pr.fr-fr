@@ -76,6 +76,16 @@
   items:
     - name: Aperçu sur la gestion des incidents
       href: assurance-incident-management.md
+    - name: "Gestion des incidents de sécurité de Microsoft\_365"
+      href: assurance-security-incident-management.md
+    - name: Préparation de la gestion des incidents de sécurité
+      href: assurance-sim-preparation.md
+    - name: 'Limitation, éradication et récupération de la gestion des incidents de sécurité'
+      href: assurance-sim-containment-eradication-recovery.md
+    - name: Détection et analyse de la gestion des incidents de sécurité
+      href: assurance-sim-detection-analysis.md
+    - name: Activité de gestion des incidents de sécurité après un incident
+      href: assurance-sim-post-incident-activity.md
 - name: Sécurité réseau
   items:
     - name: Aperçu sur la sécurité réseau

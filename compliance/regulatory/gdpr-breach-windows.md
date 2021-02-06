@@ -17,12 +17,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 - MS-Compliance
-ms.openlocfilehash: d1d0acae943bf0a0af4b6f81f948208e4bd58ef6
-ms.sourcegitcommit: b06fa9f1b230fd5e470817486ea51f460f28b691
+ms.openlocfilehash: 220084ee9cd808d896a475a324c4bd55e58414e1
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50012920"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121063"
 ---
 # <a name="data-processor-service-for-windows-enterprise-breach-notification-under-the-gdpr"></a>Service de traitement de données pour la notification de violation Windows Enterprise sous RGPD
 
@@ -35,11 +35,11 @@ La sécurité est intégrée dans le service de traitement des données de Micro
 
 |**Stade**|**Description**|
 |:------- |:------------- |
-| **_1 : Détecter_* _ | Première indication d’un incident potentiel. |
-| _*_2 : Évaluer_*_ | Un membre de l’équipe d’invervention en cas d’incidents évalue les conséquences et la gravité de l’événement. En fonction des données probantes, l’évaluation peut ou non aboutir à un signalement supplémentaire à l’équipe d’intervention en matière de sécurité. |
-| _*_3 : Diagnostiquer_*_ | Des spécialistes d’intervention en matière de sécurité effectuent une enquête technique ou scientifique, et identifient des stratégies de limitation, d’atténuation et de contournement. Si l’équipe de sécurité pense que les données client ont pu être exposées à un individu non autorisé ou ayant commis des actes illicites, l’exécution du processus de notification des incidents du client débute en parallèle. |
-| _*_4 : Stabiliser et récupérer_*_ | L’équipe d’intervention en cas d’incidents crée un plan de récupération pour atténuer le problème. Les étapes de limitation de crise telles que la mise en quarantaine des systèmes concernés peuvent avoir lieu immédiatement et parallèlement au diagnostic. Des enquêtes à plus long terme peuvent être planifiées et avoir lieu une fois que le risque immédiat est passé. |
-| _*_5 : Fermeture et post-mortem_*_ | L’équipe d’intervention en cas d’incidents crée un post-mortem qui décrit les détails de l’incident, avec l’intention de réviser les stratégies, procédures et processus afin d’éviter la récurrence de l’événement. |
+| ***1 : Détecter*** | Première indication d’un incident potentiel. |
+| ***2 : Évaluer*** | Un membre de l’équipe d’invervention en cas d’incidents évalue les conséquences et la gravité de l’événement. En fonction des données probantes, l’évaluation peut ou non aboutir à un signalement supplémentaire à l’équipe d’intervention en matière de sécurité. |
+| ***3 : Diagnostiquer*** | Des spécialistes d’intervention en matière de sécurité effectuent une enquête technique ou scientifique, et identifient des stratégies de limitation, d’atténuation et de contournement. Si l’équipe de sécurité pense que les données client ont pu être exposées à un individu non autorisé ou ayant commis des actes illicites, l’exécution du processus de notification des incidents du client débute en parallèle. |
+| ***4 : Stabiliser et récupérer*** | L’équipe d’intervention en cas d’incidents crée un plan de récupération pour atténuer le problème. Les étapes de limitation de crise telles que la mise en quarantaine des systèmes concernés peuvent avoir lieu immédiatement et parallèlement au diagnostic. Des enquêtes à plus long terme peuvent être planifiées et avoir lieu une fois que le risque immédiat est passé. |
+| ***5 : Fermeture et post-mortem*** | L’équipe d’intervention en cas d’incidents crée un post-mortem qui décrit les détails de l’incident, avec l’intention de réviser les stratégies, procédures et processus afin d’éviter la récurrence de l’événement. |
 
 Les processus de détection utilisés par le service de traitement de données Microsoft pour Windows Enterprise sont conçus pour découvrir les événements susceptibles de menacer la confidentialité, l’intégrité et la disponibilité du service de traitement de données pour Windows Enterprise. Plusieurs événements peuvent déclencher un examen :
 
@@ -54,16 +54,16 @@ Les processus de détection utilisés par le service de traitement de données M
 
  Microsoft affecte l’enquête à des niveaux de priorité et de gravité appropriés en déterminant l’impact fonctionnel, la récupérabilité et l’impact sur les informations de l’incident. La priorité et la gravité peuvent changer au cours des enquêtes, sur la base de nouveaux résultats et conclusions. Les événements de sécurité impliquant des risques imminents ou confirmés pour les données client sont traités comme présentant un niveau de gravité élevé et 24 heures sur 24 pour résoudre le problème. Le service de traitement des données de Microsoft pour Windows Enterprise classe l'impact des informations de l'incident dans les catégories de violation suivantes :
 
-| _ *Catégorie** | **Définition** |
+| **Catégorie** | **Définition** |
 |:------------ |:-------------- |
-| **_Aucune_* _ | Aucune information n’a été supprimée, modifiée, supprimée ni compromise d’une façon ou d’une autre. |
-| _*_Violation de la confidentialité_*_ | Des données personnelles sensibles des contribuables, employés, bénéficiaires, etc. ont été consultées ou supprimées. |
-| _*_Violation d’informations confidentielles_*_ | Des informations confidentielles non classifiées, telles que des informations sur les infrastructures critiques protégées (PCII), ont été consultées ou supprimées. |
-| _*_Perte d’intégrité_*_ | Des informations sensibles ou confidentielles ont été modifiées ou supprimées. |
+| ***Aucune*** | Aucune information n’a été supprimée, modifiée, supprimée ni compromise d’une façon ou d’une autre. |
+| ***Violation de la confidentialité*** | Des données personnelles sensibles des contribuables, employés, bénéficiaires, etc. ont été consultées ou supprimées. |
+| ***Violation d’informations confidentielles*** | Des informations confidentielles non classifiées, telles que des informations sur les infrastructures critiques protégées (PCII), ont été consultées ou supprimées. |
+| ***Perte d’intégrité*** | Des informations sensibles ou confidentielles ont été modifiées ou supprimées. |
 
 L’équipe de réponse de sécurité collabore avec le service de traitement des données de Microsoft pour les ingénieurs de sécurité Windows Enterprise et les PME pour classer l’événement en fonction des données factuelles des éléments de preuve. Un événement de sécurité peut être classifié comme suit :
 
-- _*Faux positif** : un événement qui répond aux critères de détection, mais qui est considéré comme faisant partie d’une pratique commerciale normale et peut nécessiter un filtrage. L’équipe de service identifie la cause première des faux positifs et les traite d’une manière systématique en utilisant des sources de détection et en les ajustant au besoin.
+- **Faux positif** : un événement qui répond aux critères de détection, mais qui est considéré comme faisant partie d’une pratique commerciale normale et peut nécessiter un filtrage. L’équipe de service identifie la cause première des faux positifs et les traite d’une manière systématique en utilisant des sources de détection et en les ajustant au besoin.
 - **Incident de sécurité** : un incident provoqué par un accès non autorisé à des données client ou à des données du support stockées sur un équipement de Microsoft ou dans des installations de Microsoft, ou tout accès non autorisé à ces équipement ou installations provoquant la perte, divulgation ou altération des données client ou des données de support.
 - **Incident de sécurité déclarable au client** : un accès illégal ou non autorisé ou une utilisation illégale ou non autorisée de systèmes, équipements ou installations Microsoft provoquant la divulgation, modification ou perte de données client.
 - **Violation de la confidentialité** : sous-type d’incident de sécurité impliquant des données personnelles. Les procédures de gestion sont les mêmes que celles concernant un incident de sécurité.
@@ -87,7 +87,7 @@ Suite à un CRSI déclaré, le processus de notification intervient dans les mei
 
  Le service de traitement des données de Microsoft pour Windows Enterprise fournit aux clients des informations détaillées leur permettant d’effectuer des enquêtes internes et de répondre aux engagements des utilisateurs finaux, sans retarder le processus de notification de façon excessive.
 
-La notification d’une divulgation de données personnelles sera envoyée au client par tout moyen que Microsoft sélectionne, y compris par courrier électronique. La notification d’une divulgation de données sera envoyée à la liste des contacts de sécurité fournis dans Azure Security Center, qui peut être configurée en suivant les [instructions d’implémentation](https://docs.microsoft.com/azure/security-center/security-center-provide-security-contact-details). Si les informations de contact ne sont pas fournies dans Azure Security Center (centre de sécurité Azure), la notification est envoyée à un ou plusieurs administrateurs dans un abonnement Azure. Pour vous assurer que les notifications peuvent être remises correctement, il incombe au client de s’assurer que les informations de contact des administrateurs sur les portails de services en ligne et les abonnements concernés sont correctes.
+La notification d’une divulgation de données personnelles sera envoyée au client par tout moyen que Microsoft sélectionne, y compris par courrier électronique. La notification d’une divulgation de données sera envoyée à la liste des contacts de sécurité fournis dans Azure Security Center, qui peut être configurée en suivant les [instructions d’implémentation](/azure/security-center/security-center-provide-security-contact-details). Si les informations de contact ne sont pas fournies dans Azure Security Center (centre de sécurité Azure), la notification est envoyée à un ou plusieurs administrateurs dans un abonnement Azure. Pour vous assurer que les notifications peuvent être remises correctement, il incombe au client de s’assurer que les informations de contact des administrateurs sur les portails de services en ligne et les abonnements concernés sont correctes.
 
 Le service de traitement des données de Microsoft pour l’équipe Windows Enterprise peut également choisir d’informer d’autres membres du personnel Microsoft (par exemple, le service client et le gestionnaire de compte du client ou le gestionnaire de compte technique). Ces personnes ont souvent des relations étroites avec le client et peuvent favoriser une correction plus rapide.
 

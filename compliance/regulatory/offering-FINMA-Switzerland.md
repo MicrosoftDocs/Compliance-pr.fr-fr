@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3dfd4993428de2884c1d7ea4d149da28f833508d
-ms.sourcegitcommit: 8af471ad10420ee5fce98d2eb0d69a6d2b992f08
+ms.openlocfilehash: 9aca1e5019967db6f73de245cd75ceba88e62e64
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49936948"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120873"
 ---
 # <a name="financial-market-supervisory-authority-finma-switzerland"></a>Autorité fédérale de surveillance des marchés financiers (FINMA) Suisse
 
@@ -52,7 +52,7 @@ La liste de contrôle Microsoft permet aux entreprises financières suisses d’
 
 - [Liste de contrôle de conformité : Suisse](https://aka.ms/FinServ-Guide-Switzerland) : les entreprises financières peuvent obtenir de l'aide pour évaluer les risques liés aux services cloud entreprise Microsoft.
 - [Guide d'évaluation des risques et de la conformité](https://aka.ms/RiskGovernanceGuide): créez un modèle de gouvernance pour l'évaluation des risques des services de cloud computing Microsoft et la notification aux autorités de régulation.
-- [Cas d'utilisation financière](https://docs.microsoft.com/azure/industry/financial/) : utilisez des aperçus de cas, des didacticiels et d'autres ressources pour créer des solutions Azure pour services financiers.
+- [Cas d'utilisation financière](/azure/industry/financial/) : utilisez des aperçus de cas, des didacticiels et d'autres ressources pour créer des solutions Azure pour services financiers.
 
 ## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 

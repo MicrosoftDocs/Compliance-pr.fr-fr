@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4c14d32a172dc5d6ea934abb20c7df956d43d3bb
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 75ab80c2b017e7fe4576f145db50465ea71e2d41
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507501"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50119913"
 ---
 # <a name="personal-data-protection-act-pdpa-argentina"></a>Loi argentine sur la protection des données à caractère personnel (PDCP)
 
@@ -41,7 +41,7 @@ Les mesures de sécurité techniques et organisationnelles mises en œuvre dans 
 
 L’accord de transfert de données Microsoft est un avenant (ID d’avenant M314) aux conditions de traitement des données dans nos conditions d’utilisation des services en ligne. Il ajoute des engagements importants, notamment que Microsoft informe le client de toute demande juridique de divulguer ses données personnelles, doit soumettre ses installations de traitement des données à l’audit de la demande du client, soit par le client, soit par une tierce partie indépendante, et aura l’autorisation écrite préalable pour l’utilisation de sous-traitants.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft concernés
+## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
 
 - [Azure et Azure DevOps](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Dynamics 365](https://download.microsoft.com/download/E/1/9/E1977163-7A86-4812-AC18-C03ADC958AAF/Microsoft_Dynamics_365_Cloud_Service_Compliance_Datasheet.pdf)
@@ -50,7 +50,7 @@ L’accord de transfert de données Microsoft est un avenant (ID d’avenant M31
 ## <a name="how-to-implement"></a>Modalités de mise en œuvre
 
 - [Confidentialité dans les services Cloud Microsoft](https://www.microsoft.com/download/details.aspx?id=55710) : Obtenez des informations sur les principes et normes de confidentialité de Microsoft et sur les lois sur la confidentialité spécifiques en Argentine.  
-- [Protection des données Azure](https://docs.microsoft.com/azure/security/azure-protection-of-customer-data) : Azure offre à ses clients une sécurité des données renforcée, par défaut et via des options.
+- [Protection des données Azure](/azure/security/azure-protection-of-customer-data) : Azure offre à ses clients une sécurité des données renforcée, par défaut et via des options.
 
 ## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
@@ -58,9 +58,9 @@ L’accord de transfert de données Microsoft est un avenant (ID d’avenant M31
 
 Fin 2018, l’Argentine n’a pas encore adopté les réglementations liées au RGPD, mais elle a élaboré une nouvelle loi de protection des données, déjà soumise au Congrès par le responsable exécutif et sous la révision du Cabinet des représentants, afin de mettre en place sa loi sur la protection des données en alignement avec le RGPD. Elle traite des différences comme la définition des sujets de données et les préoccupations relatives au transfert transfrontalier d’informations personnelles.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de conformité Microsoft pour évaluer vos risques
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de Conformité Microsoft pour évaluer vos risques
 
-Le [Gestionnaire de conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) est une fonctionnalité du [Centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) qui vous permet de comprendre l’état de conformité de votre organisation et de prendre des mesures pour réduire les risques. Le Gestionnaire de conformité propose un modèle premium pour créer une évaluation pour ce règlement. Recherchez le modèle dans la page des **modèles d’évaluation** dans le Gestionnaire de conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Le Gestionnaire de Conformité Microsoft](/microsoft-365/compliance/compliance-manager) est une fonctionnalité dans le [centre de conformité Microsoft 365](/microsoft-365/compliance/microsoft-365-compliance-center) pour vous aider à comprendre la position de la conformité de votre organisation et à prendre des mesures pour réduire les risques. Le Gestionnaire de Conformité offre un modèle Premium pour la création d’une évaluation de ce règlement. Recherchez le modèle sur la page **modèles d’évaluation** dans le Gestionnaire de Conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de Conformité](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressources
 

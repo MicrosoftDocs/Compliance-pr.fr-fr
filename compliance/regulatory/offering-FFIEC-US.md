@@ -1,7 +1,7 @@
 ---
 title: Conseil d’examen des institutions financières fédérales (FFIEC)
 description: Microsoft aide les clients des services financiers à se conformer aux exigences d’audit du Conseil d’examen des institutions financières fédérales (FFIEC).
-keywords: Microsoft 365, conformité, offres
+keywords: Offres pour la conformité Microsoft 365
 localization_priority: None
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2425d81ae5f539e1942203abc3afcd58319fb1dd
-ms.sourcegitcommit: 8af471ad10420ee5fce98d2eb0d69a6d2b992f08
+ms.openlocfilehash: 73a23d89876ee6c4c11a98a95d8f2bd491642b60
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49936939"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120883"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>Conseil d’examen des institutions financières fédérales (FFIEC)
 
@@ -39,7 +39,7 @@ Pour aider les clients des établissements financiers à répondre aux exigences
 
 Pour vous aider à vous conformer aux exigences FFIEC, les services cloud De Microsoft fournissent des rapports [d’attestation SOC](offering-SOC.md) produits par une société de CPA indépendante. Par exemple, l’attestation SOC 1 Type 2 est basée sur la norme AICPA SSAE 18 (voir la section AT-C 105) qui a remplacé SAS 70 et est appropriée pour les rapports sur certains contrôles de rapports financiers. Les rapports SOC incluent l’avis de l’auditeur sur l’efficacité des contrôles Microsoft pour atteindre les objectifs de contrôle associés pendant la période de surveillance spécifiée. Les institutions financières peuvent utiliser cet audit formel pour respecter les obligations de conformité spécifiques à FFIEC pour les biens déployés sur Azure, Power BI et Office 365.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft concernés
+## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Intune
@@ -58,14 +58,14 @@ Pour vous aider à respecter ces obligations, Microsoft fournit des informations
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de Conformité Microsoft pour évaluer vos risques
 
-[Le Gestionnaire de Conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) est une fonctionnalité dans le [centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) pour vous aider à comprendre la position de la conformité de votre organisation et à prendre des mesures pour réduire les risques. Le Gestionnaire de Conformité offre un modèle Premium pour la création d’une évaluation de ce règlement. Recherchez le modèle sur la page **modèles d’évaluation** dans le Gestionnaire de Conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de Conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Le Gestionnaire de Conformité Microsoft](/microsoft-365/compliance/compliance-manager) est une fonctionnalité dans le [centre de conformité Microsoft 365](/microsoft-365/compliance/microsoft-365-compliance-center) pour vous aider à comprendre la position de la conformité de votre organisation et à prendre des mesures pour réduire les risques. Le Gestionnaire de Conformité offre un modèle Premium pour la création d’une évaluation de ce règlement. Recherchez le modèle sur la page **modèles d’évaluation** dans le Gestionnaire de Conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de Conformité](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressources
 
 - [Conseil d’examen des institutions financières fédérales (FFIEC)](https://www.ffiec.gov/)
 - [Carte de conformité des principes de cloud computing et de réglementation aux États-Unis](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 - [Manuel d’examen d’audit FFIEC](https://ithandbook.ffiec.gov/it-booklets/audit.aspx)
-- [Manuel d’examen des services informatiques des services informatiques d’externalisation FFIEC](https://ithandbook.ffiec.gov/it-booklets/outsourcing-technology-services.aspx)
+- [Manuel d’examen informatique des services informatiques de externalisation FFIEC](https://ithandbook.ffiec.gov/it-booklets/outsourcing-technology-services.aspx)
 - [Azure Security and Compliance FFIEC Financial Services Blueprint](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint)
 
 ## <a name="other-microsoft-resources-for-financial-services"></a>Autres ressources Microsoft pour les services financiers

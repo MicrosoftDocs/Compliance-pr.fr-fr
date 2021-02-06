@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cc71af74f88592e13f5dacf78d92193cea8ea356
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 638096e88e5931a7468fee9b33200d8fc17702ec
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507180"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121003"
 ---
 # <a name="azure-data-subject-requests-for-the-gdpr-and-ccpa"></a>Demandes des personnes concernées en lien avec des données Azure dans le cadre du RGPD et du CCPA
 
@@ -301,7 +301,7 @@ Voici le processus de haut niveau permettant d’exporter des données à partir
 
 - **Utilisateur.** Tapez l’adresse e-mail de l’utilisateur Azure Active Directory qui a demandé l’exportation.
 - **Abonnement.** Sélectionnez le compte que vous utilisez pour générer le rapport sur l’utilisation des ressources et facturer les services. C’est également l’emplacement de votre compte de stockage Azure.
-- **Compte de stockage.** Sélectionnez l’emplacement de votre espace de stockage Azure (BLOB). Pour plus d’informations, voir l’article[présentation de Stockage Microsoft Azure, stockage BLOB](https://docs.microsoft.com/azure/storage/common/storage-introduction#blob-storage).
+- **Compte de stockage.** Sélectionnez l’emplacement de votre espace de stockage Azure (BLOB). Pour plus d’informations, voir l’article[présentation de Stockage Microsoft Azure, stockage BLOB](/azure/storage/common/storage-introduction#blob-storage).
 - **Conteneur.** Créez un conteneur (ou sélectionnez un conteneur existant) comme emplacement de stockage pour les données confidentielles exportées de l’utilisateur.
 
 4. Sélectionnez **Créer**.

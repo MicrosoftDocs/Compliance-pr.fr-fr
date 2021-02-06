@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3eb2343767911c7844bf9e9c27ef41a4c4e30952
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: eb73d95d25327220b9c2dc2769703101ba2c60e9
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507657"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121309"
 ---
 # <a name="cloud-security-alliance-csa-star-attestation"></a>Attestation CSA (Cloud Security Alliance) STAR
 
@@ -71,9 +71,9 @@ Vous pouvez télécharger l’[attestation CSA STAR](https://aka.ms/CSASTAR-Atte
 - **Niveau 2** : **Certification CSA STAR** : Azure, Microsoft Cloud App Security, Intune et Microsoft Power BI. La certification STAR est basée sur l'obtention de la certification ISO/IEC 27001 et la satisfaction des critères spécifiés dans la matrice CCM. Elle est attribuée après une évaluation tierce rigoureuse des contrôles et pratiques de sécurité d'un fournisseur de service cloud.
 - **Niveau 2** : **Attestation CSA STAR** : Azure et Intune. La CSA et l'AICPA ont collaboré pour fournir des directives à l'ACP à utiliser lors de missions SOC 2, à l'aide des critères de l'AICPA (principes d'approbation de services, AT 101) et de la CSA CCM. L’[attestation STAR](offering-CSA-STAR-Attestation.md) est basée sur ces directives et est attribuée après des évaluations indépendantes rigoureuses des fournisseurs de Cloud.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le gestionnaire de conformité de Microsoft pour évaluer votre risque
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de Conformité Microsoft pour évaluer vos risques
 
-Le [Gestionnaire de conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) est une fonctionnalité du [Centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) qui vous permet de comprendre l’état de conformité de votre organisation et de prendre des mesures pour réduire les risques. Le Gestionnaire de conformité propose un modèle premium pour créer une évaluation pour ce règlement. Recherchez le modèle dans la page des **modèles d’évaluation** dans le Gestionnaire de conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Le Gestionnaire de Conformité Microsoft](/microsoft-365/compliance/compliance-manager) est une fonctionnalité dans le [centre de conformité Microsoft 365](/microsoft-365/compliance/microsoft-365-compliance-center) pour vous aider à comprendre la position de la conformité de votre organisation et à prendre des mesures pour réduire les risques. Le Gestionnaire de Conformité offre un modèle Premium pour la création d’une évaluation de ce règlement. Recherchez le modèle sur la page **modèles d’évaluation** dans le Gestionnaire de Conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de Conformité](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressources
 

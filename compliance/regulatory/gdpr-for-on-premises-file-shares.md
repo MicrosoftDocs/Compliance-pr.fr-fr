@@ -13,12 +13,12 @@ localization_priority: Priority
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 ms.collection: MS-Compliance
-ms.openlocfilehash: b750fcc6bceec12a13b909e65dc6283b8938c6da
-ms.sourcegitcommit: fc1da22cf40dfd807c182d3f6df967eee192eacd
+ms.openlocfilehash: 6a6b1fdeac71bfcca68391cbc10ec75be0e18410
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "49669725"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121883"
 ---
 # <a name="gdpr-for-on-premises-windows-server-file-shares"></a>RGPD pour les partages de fichiers Windows Server en local
 
@@ -56,6 +56,6 @@ L’approche recommandée pour les partages de fichiers est la suivante :
 
     -   Pour rechercher des données personnelles dans le cadre de demandes de personnes concernées, utilisez le scanneur Azure Information Protection. Vous pouvez également configurer la recherche SharePoint Server pour analyser les partages de fichiers.
 
-Si vous souhaitez en savoir plus sur l’utilisation du scanneur Azure Information Protection pour la recherche et l’étiquetage de données personnelles, veuillez consulter la rubrique [Déployer le scanneur AIP](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner).
+Si vous souhaitez en savoir plus sur l’utilisation du scanneur Azure Information Protection pour la recherche et l’étiquetage de données personnelles, veuillez consulter la rubrique [Déployer le scanneur AIP](/azure/information-protection/deploy-aip-scanner).
 
-Pour plus d’informations sur la configuration du scanneur pour diverses conditions et sur l’utilisation des types d’informations sensibles Office 365 dans le cadre de la protection contre la perte de données, reportez-vous à l’article [Comment configurer des conditions pour la classification automatique et recommandée pour Azure Information Protection](https://docs.microsoft.com/information-protection/deploy-use/configure-policy-classification). Notez que les nouveaux types d’informations sensibles Office 365 ne pourront pas immédiatement être utilisés avec le scanneur et que les types d’informations sensibles personnalisés ne peuvent pas être utilisés avec le scanneur.
+Pour plus d’informations sur la configuration du scanneur pour diverses conditions et sur l’utilisation des types d’informations sensibles Office 365 dans le cadre de la protection contre la perte de données, reportez-vous à l’article [Comment configurer des conditions pour la classification automatique et recommandée pour Azure Information Protection](/information-protection/deploy-use/configure-policy-classification). Notez que les nouveaux types d’informations sensibles Office 365 ne pourront pas immédiatement être utilisés avec le scanneur et que les types d’informations sensibles personnalisés ne peuvent pas être utilisés avec le scanneur.

@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: d6b0a96cfa82f9e0d841703d2124c0e9dda7fe1f
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: fabaa7487da2dae72cc2aa8aa050b43713154fbe
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507168"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120933"
 ---
 # <a name="intune-data-subject-requests-for-the-gdpr-and-ccpa"></a>Demandes des données Intune des personnes concernées pour le RGPD et le CCPA
 
@@ -86,9 +86,9 @@ La première étape de la réponse à une DSR consiste à rechercher les donnée
 
 Une fois que vous avez trouvé les données, vous pouvez ensuite effectuer l’action spécifique pour satisfaire la demande de la personne associée aux données. Pour obtenir plus d’informations, consultez les ressources suivantes :
 
-- [Collecte de données](https://docs.microsoft.com/intune/privacy-data-collect)
-- [Traitement et stockage des données](https://docs.microsoft.com/intune/privacy-data-store-process)
-- [Afficher les données personnelles](https://docs.microsoft.com/intune/privacy-data-view-correct#view-personal-data)
+- [Collecte de données](/intune/privacy-data-collect)
+- [Traitement et stockage des données](/intune/privacy-data-store-process)
+- [Afficher les données personnelles](/intune/privacy-data-view-correct#view-personal-data)
 
 ### <a name="step-2-access"></a>Étape 2 : Accéder
 
@@ -114,15 +114,15 @@ En qualité de responsable du traitement des données, Microsoft ne permet pas d
 
 ### <a name="step-4-restrict"></a>Étape 4 : Restreindre
 
-Les personnes concernées peuvent vous demander de restreindre le traitement de leurs données à caractère personnel. Nous fournissons le portail Azure et les interfaces de programmation d’applications (API) ou interfaces utilisateur (UI) préexistantes. Ces expériences permettent à l’administrateur client de l’entreprise cliente de gérer ces DPC via une combinaison d’exportation et de suppression de données. Pour plus d’informations, voir [traitement de données personnelles](https://docs.microsoft.com/intune/privacy-data-store-process#processing-personal-data).
+Les personnes concernées peuvent vous demander de restreindre le traitement de leurs données à caractère personnel. Nous fournissons le portail Azure et les interfaces de programmation d’applications (API) ou interfaces utilisateur (UI) préexistantes. Ces expériences permettent à l’administrateur client de l’entreprise cliente de gérer ces DPC via une combinaison d’exportation et de suppression de données. Pour plus d’informations, voir [traitement de données personnelles](/intune/privacy-data-store-process#processing-personal-data).
 
 ### <a name="step-5-delete"></a>Étape 5 : Supprimer
 
-Le « droit à l’effacement » par la suppression des données personnelles des données client d’une organisation est une protection clé du RGPD. La suppression des données personnelles inclut l’élimination de l’ensemble des données personnelles et des journaux générés par le système à l’exception des informations du journal d’audit. Pour obtenir plus d’informations, consultez l’article [Supprimer les données personnelles de l’utilisateur final](https://docs.microsoft.com/intune/privacy-data-audit-export-delete#delete-end-user-personal-data).
+Le « droit à l’effacement » par la suppression des données personnelles des données client d’une organisation est une protection clé du RGPD. La suppression des données personnelles inclut l’élimination de l’ensemble des données personnelles et des journaux générés par le système à l’exception des informations du journal d’audit. Pour obtenir plus d’informations, consultez l’article [Supprimer les données personnelles de l’utilisateur final](/intune/privacy-data-audit-export-delete#delete-end-user-personal-data).
 
 ## <a name="part-2-system-generated-logs"></a>Partie 2 : Journaux générés par le système
 
-Les journaux d’audit fournissent aux administrateurs client un enregistrement d’activités entraînant une modification dans Microsoft Intune. Les journaux d’audit sont disponibles pour de nombreuses activités de gestion et généralement des actions comme la création, la mise à jour (modification), la suppression et l’affectation. Les tâches à distance qui permettent de générer des événements d’audit peuvent aussi être révisées. Ces journaux d’audit contiennent parfois des données personnelles d’utilisateurs dont les appareils sont enregistrés dans Intune. Les administrateurs ne peuvent pas supprimer les journaux d’audit. Pour obtenir plus d’informations, consultez l’article [Données personnelles d’audit](https://docs.microsoft.com/intune/privacy-data-audit-export-delete#audit-personal-data).
+Les journaux d’audit fournissent aux administrateurs client un enregistrement d’activités entraînant une modification dans Microsoft Intune. Les journaux d’audit sont disponibles pour de nombreuses activités de gestion et généralement des actions comme la création, la mise à jour (modification), la suppression et l’affectation. Les tâches à distance qui permettent de générer des événements d’audit peuvent aussi être révisées. Ces journaux d’audit contiennent parfois des données personnelles d’utilisateurs dont les appareils sont enregistrés dans Intune. Les administrateurs ne peuvent pas supprimer les journaux d’audit. Pour obtenir plus d’informations, consultez l’article [Données personnelles d’audit](/intune/privacy-data-audit-export-delete#audit-personal-data).
 
 ## <a name="notify-about-exporting-or-deleting-issues"></a>Notification des problèmes d’exportation ou de suppression
 

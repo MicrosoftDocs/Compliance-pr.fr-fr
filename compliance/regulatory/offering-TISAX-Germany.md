@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f8734dc5ebfd4c6d1c6c3404285dfc6ac22fc6d7
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 9f751777f527a13d4dc572ef58e82ffcbd6ce1b3
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507521"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121173"
 ---
 # <a name="trusted-information-security-assessment-exchange-tisax-germany"></a>Trusted Information Security Assessment Exchange (TISAX) Allemagne
 
@@ -67,17 +67,17 @@ Cette évaluation est valable pour trois ans.
 
 ### <a name="manufacturing-use-cases"></a>Cas d’utilisation pour la fabrication
 
-Utilisez des aperçus de cas, des guides de solutions, des didacticiels et d’autres ressources pour vous aider à créer [solutions Azure](https://docs.microsoft.com/azure/industry/manufacturing/).
+Utilisez des aperçus de cas, des guides de solutions, des didacticiels et d’autres ressources pour vous aider à créer [solutions Azure](/azure/industry/manufacturing/).
 
-## <a name="frequently-asked-questions"></a>Questions fréquemment posées
+## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
 **Pourquoi ne puis-je pas voir une copie de la certification Microsoft TISAX?**
 
 ENX fournit une confirmation de certification uniquement aux représentants du secteur enregistrés via le portail ENX. Pour plus d’informations sur la procédure à suivre, voir la section « audits, rapports et certificats » ci-dessus.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de conformité Microsoft pour évaluer vos risques
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de Conformité Microsoft pour évaluer vos risques
 
-Le [Gestionnaire de conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) est une fonctionnalité du [Centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) qui vous permet de comprendre l’état de conformité de votre organisation et de prendre des mesures pour réduire les risques. Le Gestionnaire de conformité propose un modèle premium pour créer une évaluation pour ce règlement. Recherchez le modèle dans la page des **modèles d’évaluation** dans le Gestionnaire de conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Le Gestionnaire de Conformité Microsoft](/microsoft-365/compliance/compliance-manager) est une fonctionnalité dans le [centre de conformité Microsoft 365](/microsoft-365/compliance/microsoft-365-compliance-center) pour vous aider à comprendre la position de la conformité de votre organisation et à prendre des mesures pour réduire les risques. Le Gestionnaire de Conformité offre un modèle Premium pour la création d’une évaluation de ce règlement. Recherchez le modèle sur la page **modèles d’évaluation** dans le Gestionnaire de Conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de Conformité](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressources
 

@@ -17,12 +17,12 @@ ms.collection:
 titleSuffix: Microsoft GDPR
 description: Découvrez comment effectuer des demandes de la personne concernée (DPC) dans le cadre des règlements généraux sur la protection des données (GPDR) et le California Consumer Privacy Act (CCPA) à l’aide de produits et services Microsoft.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ce2be94fec6b2e48a9e7052a1b01302966eb42a3
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 83ba52015eeb7aed73cd231ff01f824f75337360
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507227"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121033"
 ---
 # <a name="data-subject-requests-and-the-gdpr-and-ccpa"></a>Demandes des personnes concernées et le RGPD et CCPA
 
@@ -68,7 +68,7 @@ Plusieurs processus peuvent impliquer l’exécution d’une DPC, conformément 
 
 ### <a name="insights-generated-by-microsoft-products-or-services"></a>Analyses générées par les produits ou services Microsoft
 
-[Des analyses](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-2-responding-to-dsrs-with-respect-to-insights-generated-by-office-365) peuvent être générées par les services (MyAnalytics, etc.). Office 365 inclut des services en ligne qui fournissent une analyse aux utilisateurs et organisations qui les utilisent. Les données générées par ces services peuvent produire des données personnelles pertinentes pour une DSR. Suivez le lien dans la liste ci-dessous pour obtenir des informations sur les processus DSR spécifiques aux services.  
+[Des analyses](/microsoft-365/compliance/gdpr-dsr-office365#part-2-responding-to-dsrs-with-respect-to-insights-generated-by-office-365) peuvent être générées par les services (MyAnalytics, etc.). Office 365 inclut des services en ligne qui fournissent une analyse aux utilisateurs et organisations qui les utilisent. Les données générées par ces services peuvent produire des données personnelles pertinentes pour une DSR. Suivez le lien dans la liste ci-dessous pour obtenir des informations sur les processus DSR spécifiques aux services.  
 
 ### <a name="dsrs-for-system-generated-logs"></a>DSR pour des journaux générés par le système
 
@@ -82,8 +82,8 @@ Les journaux et données associées générés par Microsoft peuvent contenir de
 
 La suppression du compte d'un utilisateur ne supprime pas les journaux générés par le système pour Yammer et Kaizala. Pour supprimer les données contenues dans ces applications, consultez l'une des ressources suivantes :
 
-- [Gérer les demandes des personnes concernées RGPD dans Yammer Entreprise](https://docs.microsoft.com/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)
-- [Exporter ou supprimer les données organisationnelles d’un utilisateur dans Kaizala](https://docs.microsoft.com/office365/kaizala/export-or-delete-a-user-s-data)
+- [Gérer les demandes des personnes concernées RGPD dans Yammer Entreprise](/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)
+- [Exporter ou supprimer les données organisationnelles d’un utilisateur dans Kaizala](/office365/kaizala/export-or-delete-a-user-s-data)
 
 ### <a name="national-clouds"></a>Clouds nationaux
 

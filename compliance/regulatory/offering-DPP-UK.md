@@ -1,6 +1,6 @@
 ---
-title: Partenariat de production numérique (DPP) Royaume-Uni
-description: Microsoft Azure a reçu le DPP engagé à la marque de sécurité pour diffusion.
+title: Digital Production Partnership (DPP) Royaume-Uni
+description: Microsoft Azure a reçu le DPP committed to Security Mark for Broadcast.
 keywords: Offres pour la conformité Microsoft 365
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,45 +16,45 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 57f64e38947874385d514e1e2f8be296237d8f6c
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 5ff8d881602014821149ee1263ab7b88e796919a
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506800"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121673"
 ---
-# <a name="digital-production-partnership-dpp-united-kingdom"></a>Partenariat de production numérique (DPP) Royaume-Uni
+# <a name="digital-production-partnership-dpp-united-kingdom"></a>Digital Production Partnership (DPP) Royaume-Uni
 
 ## <a name="about-the-dpp"></a>À propos du DPP
 
-Les diffuseurs font face à de plus en plus fréquentes attaques informatiques contre leurs sites Web, leur infrastructure informatique et leurs systèmes. En réponse à ces menaces, le [partenariat de production numérique](https://www.thedpp.com/) (DPP) s’est associé à l' [**Association North American diffuseurs**](https://nabanet.com/) (NABA) pour développer les [diffuseurs d’associations de sécurité informatiques aux fournisseurs](https://nabanet.com/wp-content/uploads/2017/08/NABA_DPP_CyberSecurity_Requirements_3.pdf). Les responsables de la sécurité des informations des diffuseurs britanniques ont approuvé ces derniers en tant que Configuration minimale requise pour Cybersecurity.  
+Les visiteurs font face à des cyberattaques de plus en plus fréquentes contre leurs sites web, leur infrastructure informatique et leurs systèmes. En réponse à ces menaces, le partenariat de [production](https://www.thedpp.com/) numérique (DPP) s’est associé à la [**NABA (North American Cass Association)**](https://nabanet.com/) pour développer les exigences de cyber-sécurité pour les [fournisseurs.](https://nabanet.com/wp-content/uploads/2017/08/NABA_DPP_CyberSecurity_Requirements_3.pdf) Les responsables de la sécurité des informations du Royaume-Uni les ont faits des exigences minimales en matière de cybersécurité.  
   
-Le DPP a ensuite collaboré avec des experts en sécurité des fournisseurs et des diffuseurs pour créer un inventaire d’auto-évaluation, la liste de vérification de la [diffusion du programme de sécurité](https://dpp-assets.s3.amazonaws.com/wp-content/uploads/2017/10/CTS_BroadcastChecklist.xlsx), qui permet aux fournisseurs de démontrer aux diffuseurs les meilleures pratiques Cybersecurity. Cette tâche a permis d’établir un [DPP formel validé pour le programme de sécurité](https://www.thedpp.com/tech/security/committed-to-security/) lancé en octobre 2017, avec deux marques différentes : une pour la diffusion et une pour la production.
+Le DPP a ensuite travaillé avec des experts en matière de sécurité des fournisseurs pour créer un inventaire d’auto-évaluation, la liste de vérification de diffusion du programme s’engage à la [sécurité,](https://dpp-assets.s3.amazonaws.com/wp-content/uploads/2017/10/CTS_BroadcastChecklist.xlsx)qui permet aux fournisseurs de démontrer leur déploiement des meilleures pratiques en matière de cybersécurité. Ce travail a conduit à l’établissement d’un programme [DPP](https://www.thedpp.com/tech/security/committed-to-security/) formel engagé dans la sécurité lancé en octobre 2017, avec deux marques différentes : une pour la diffusion et une pour la production.
 
 ## <a name="microsoft-and-the-dpp"></a>Microsoft et le DPP
 
-Microsoft Azure a reçu la marque de sécurité DPP validée pour diffusion après avoir terminé le questionnaire d’auto-évaluation de partenariat de production numérique (DPP), la *validation de la diffusion du programme de sécurité*. Il a nécessité de documenter un ensemble de meilleures pratiques pour la documentation et les tests, l’authentification et les contrôles de sécurité. Les [tests numériques Eurofins](https://www.eurofins-digitaltesting.com/), un expert en assurance qualité et un membre DPP, ont examiné et approuvé la réponse de Microsoft et l’ont envoyées au DPP pour validation finale.  
+Microsoft Azure a reçu le DPP Committed to Security Mark for Broadcast après avoir répondu au questionnaire d’auto-évaluation DPP (Digital Production Partnership), la liste de vérification de diffusion du programme De sécurité . Elle nécessitait la documentation d’un ensemble de meilleures pratiques pour la documentation et les tests, l’authentification et les contrôles de sécurité. [Eurofins Digital Testing](https://www.eurofins-digitaltesting.com/), expert en assurance qualité et membre DPP, a examiné et validé la réponse Microsoft et l’a soumise au DPP pour validation finale.  
   
-Cette prise en charge signifie que les diffuseurs et autres clients multimédias utilisant Azure peuvent avoir la certitude que sa sécurité robuste et son service résistant peuvent répondre aux exigences uniques de l’industrie Broadcast, du développement de programme à la transmission.
+Cette prise en charge signifie que les clients multimédias et autres clients utilisant Azure peuvent être certains que son service robuste de sécurité et de résilience peut aider à répondre aux demandes uniques du secteur de la diffusion, du développement de programmes à la transmission.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft concernés
+## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
 
 - [Azure](https://aka.ms/AzureCompliance)
 
 ## <a name="audits-reports-and-certificates"></a>Audits, rapports et certificats
 
-La marque de diffusion Azure est valide pour un an et renouvelée annuellement.
+La marque de diffusion Azure est valide pour un an et renouvelé annuellement.
 
-- [Liste de vérification des exigences en matière de sécurité du diffuseur Azure NABA DPP](https://aka.ms/Azure-CTS-Broadcast-Checklist)
-- [DPP engagés pour les sociétés de sécurité ayant reçu les marques](https://aka.ms/Azure-Asset-Mgmt)
+- [Liste de vérification des exigences de sécurité requises par Azure NABA DPP](https://aka.ms/Azure-CTS-Broadcast-Checklist)
+- [DPP Committed to Security Companies Awarded the Marks](https://aka.ms/Azure-Asset-Mgmt)
 
 ## <a name="how-to-implement"></a>Modalités de mise en œuvre
 
-- [Guide](https://aka.ms/Azure-Asset-Mgmt)sur le renforcement de la gestion des biens : les meilleures pratiques dans Azure protègent les contenus précommercials contre la divulgation, la modification ou la suppression non autorisée.
-- [Azure Media Services](https://docs.microsoft.com/azure/media-services/): créez des solutions qui permettent le codage vidéo haute définition et la diffusion vidéo en continu de qualité broadcast.
+- [Guide de renforcement de](https://aka.ms/Azure-Asset-Mgmt)la gestion des biens : les meilleures pratiques dans Azure protègent le contenu en pré-publication contre toute divulgation, modification ou suppression non autorisée.
+- [Azure Media Services :](/azure/media-services/)créez des solutions qui permettent un encodage vidéo haute définition et une diffusion en continu de qualité vidéo.
 
 ## <a name="resources"></a>Ressources
 
-- [DPP s’est engagé dans le Guide de la liste de vérification de la diffusion du programme de sécurité](https://dpp-assets.s3.amazonaws.com/wp-content/uploads/2017/10/CTS_BroadcastChecklistUserGuide.pdf)
-- [NABA et DPP diffuseurs pour promouvoir les besoins en matière de sécurité informatique pour les fournisseurs](https://nabanet.com/wp-content/uploads/2017/08/NABAcaster-Issue_26.pdf)
+- [Guide de l’utilisateur de la liste de vérification de diffusion du programme de sécurité DPP engagé dans le cadre d’un programme de sécurité](https://dpp-assets.s3.amazonaws.com/wp-content/uploads/2017/10/CTS_BroadcastChecklistUserGuide.pdf)
+- [NABA et DPP s’associent pour promouvoir les exigences de cybersécurité pour les fournisseurs](https://nabanet.com/wp-content/uploads/2017/08/NABAcaster-Issue_26.pdf)
 - [Conformité sur le site Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

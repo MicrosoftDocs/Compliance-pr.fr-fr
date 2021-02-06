@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0d6997e39e89f8dca07e7aef05fff758b83c4e66
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 596abcfddd9ae8c3aa42a2f4189c168a54633077
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507566"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120103"
 ---
 # <a name="motion-picture-association-of-america-mpaa"></a>Motion Picture Association of America (MPAA)
 
@@ -62,9 +62,9 @@ Les conseils de la MPAA fournissent aux principaux partenaires et fournisseurs d
 
 Les sites de production, les sociétés d'effets spéciaux et autres partenaires de service devraient collaborer avec leurs directeurs et producteurs exécutifs pour comprendre les nouvelles exigences en matière de sécurité et si un audit formel de la MPAA est nécessaire. La conformité avec les conseils de la MPAA est sur la base du volontariat, mais Microsoft a choisi de procéder à une évaluation indépendante afin que les clients du secteur des médias puissent avoir confiance dans les fonctionnalités de protection et de sécurité du contenu d'Azure. Cependant, Azure ne gère pas les environnements Cloud individuels des clients, qui peuvent être soumis à une autre réglementation de la MPAA qui sera mieux gérée par votre propre audit de votre environnement.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le gestionnaire de conformité de Microsoft pour évaluer votre risque
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de Conformité Microsoft pour évaluer vos risque
 
-Le [Gestionnaire de conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) est une fonctionnalité du [Centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) qui vous permet de comprendre l’état de conformité de votre organisation et de prendre des mesures pour réduire les risques. Le Gestionnaire de conformité propose un modèle premium pour créer une évaluation pour ce règlement. Recherchez le modèle dans la page des **modèles d’évaluation** dans le Gestionnaire de conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Le Gestionnaire de Conformité Microsoft](/microsoft-365/compliance/compliance-manager) est une fonctionnalité dans le [centre de conformité Microsoft 365](/microsoft-365/compliance/microsoft-365-compliance-center) pour vous aider à comprendre la position de la conformité de votre organisation et à prendre des mesures pour réduire les risques. Le Gestionnaire de Conformité offre un modèle Premium pour la création d’une évaluation de ce règlement. Recherchez le modèle sur la page **modèles d’évaluation** dans le Gestionnaire de Conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de Conformité](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressources
 

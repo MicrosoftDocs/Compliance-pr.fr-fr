@@ -1,6 +1,6 @@
 ---
-title: Banque de réserve de l’Inde (RBI) et autorité réglementaire et de développement de l’assurance de l’Inde (IRDAi)
-description: Microsoft a publié des conseils pour aider les institutions financières en Inde à adopter le Cloud.
+title: Reserve Bank of India (RBI) and Insurance Regulatory and Development Authority of India (IRDAI)
+description: Microsoft a publié des conseils pour aider les institutions financières en Inde avec l’adoption du cloud.
 keywords: Offres pour la conformité Microsoft 365
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,37 +16,37 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 919961df3c19a414fe43af0a6d3ffc719b2efd09
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 6d94152e51345631b2fe1650f9324183d3fd300e
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506920"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50119983"
 ---
-# <a name="reserve-bank-of-india-rbi-and-insurance-regulatory-and-development-authority-of-india-irdai"></a>Banque de réserve de l’Inde (RBI) et autorité réglementaire et de développement de l’assurance de l’Inde (IRDAi)
+# <a name="reserve-bank-of-india-rbi-and-insurance-regulatory-and-development-authority-of-india-irdai"></a>Reserve Bank of India (RBI) and Insurance Regulatory and Development Authority of India (IRDAI)
 
-## <a name="about-rbi-and-irdai"></a>À propos de RBI et IRDAi
+## <a name="about-rbi-and-irdai"></a>À propos des RBI et IRDAI
 
-La [Banque de réserve de l’Inde](https://www.rbi.org.in/) (RBI), l’institution bancaire centrale de l’Inde, l' [autorité de réglementation et de développement de l’assurance de l’Inde](https://www.irdai.gov.in/Defaulthome.aspx?page=H1) (irdai), et le [ministère de la technologie de l’information](https://meity.gov.in/content/information-technology-act) (MeitY) comprennent trois des principaux régulateurs du secteur financier qui supervisent les banques, les organismes d’assurance et les établissements d’infrastructure commerciale. Leurs directives incluent les directives d’externalisation et de gestion des risques, ainsi que les exigences de conformité aux règles de confidentialité régissant les données sensibles.
+La [](https://www.rbi.org.in/) Banque de réserve d’Inde (RBI), l’institution bancaire centrale de l’Inde, l’Autorité de régulation et de développement des assurances de [l’Inde](https://www.irdai.gov.in/Defaulthome.aspx?page=H1) (IRDAI) et le ministère de l’électronique et des technologies de l’information [](https://meity.gov.in/content/information-technology-act) (MeitY) constituent trois des principaux organismes de réglementation du secteur financier qui supervisent les banques, les organisations d’assurance et les institutions d’infrastructure de marché. Leurs directives incluent les instructions relatives à l’externalisation et à la gestion des risques, ainsi que les exigences de conformité aux règles de confidentialité régissant les données sensibles.
 
-Les conseils sur la gestion des sous-traitants et des risques incluent :
+Les conseils en matière d’externalisation et de gestion des risques incluent :
 
-- Des [directives sur la gestion des risques et du code de conduite dans l’externalisation des services financiers par les banques](https://rbidocs.rbi.org.in/rdocs/notification/PDFs/73713.pdf) (RBI) permettent de résoudre les risques auxquels les banques réglementées seraient exposées lors de l’externalisation des services financiers et de garantir que l’externalisation n’entrave pas le rôle de surveillance de l’RBI. Le RBI ne nécessite pas d’approbation préalable pour les banques cherchant à externaliser les services financiers ; Toutefois, les fonctions bancaires de base, telles que les fonctions d’audit interne et de conformité, ne doivent pas être externalisées.
-- [Directives sur la sécurité des informations, la Banque électronique, la gestion des risques technologiques et les fraudes Cyber](https://rbidocs.rbi.org.in/rdocs/content/PDFs/GBS300411F.pdf) (RBI). Les établissements financiers doivent déclarer les arrangements d’externalisation lorsque l’ampleur et la nature des activités sont importantes ou nécessitent un partage de données extensif avec des fournisseurs de services en dehors de l’Inde. Ces conseils s’appliquent en particulier si les données opérationnelles sont stockées ou traitées en dehors de l’Inde.
-- [Externalisation des activités par le règlement des invérifiateurs Indiens](https://www.irdai.gov.in/ADMINCMS/cms/frmGeneral_Layout.aspx?page=PageNo3149&flag=1) (irdai). Chaque année, les organismes d’assurance sont tenus de signaler l’externalisation à IRDAi de certaines fonctions d’assistance des activités principales dans les 45 jours suivant la clôture de l’exercice financier. (La page 7 de la [liste de vérification](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) Microsoft décrit ce qui constitue la « fonction de support des activités de base ».
+- Les directives sur la gestion des risques et le code de conduite dans l’externalisation des [services](https://rbidocs.rbi.org.in/rdocs/notification/PDFs/73713.pdf) financiers par les banques (RBI) traitent les risques auxquels les banques réglementées seraient exposées tout en externalisant les services financiers et contribuent à garantir que l’externalisation n’empêche pas le rôle de surveillance de la RBI. La RBI ne nécessite pas d’approbation préalable pour les banques cherchant à externaliser des services financiers ; toutefois, les fonctions bancaires principales, telles que les fonctions internes d’audit et de conformité, ne doivent pas être externalisées.
+- [Recommandations en matière de sécurité des informations, de banque électronique, de gestion des](https://rbidocs.rbi.org.in/rdocs/content/PDFs/GBS300411F.pdf) risques technologiques et de cyber-fraudes (RBI). Les institutions financières doivent signaler les dispositions relatives à l’externalisation dans le cas où l’échelle et la nature des activités sont importantes ou nécessitent un partage important de données avec des fournisseurs de services en dehors de l’Inde. Ces instructions s’appliquent en particulier si les données opérationnelles sont stockées ou traitées en dehors de l’Inde.
+- [Externalisation des activités par le Règlement sur les indiens](https://www.irdai.gov.in/ADMINCMS/cms/frmGeneral_Layout.aspx?page=PageNo3149&flag=1) (IRDAI). Chaque année, les compagnies d’assurance sont tenues de signaler l’externalisation à l’IRDAI de certaines fonctions de support des activités principales dans les 45 jours suivant la fin de l’exercice. (La page 7 de la liste [de](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) contrôle Microsoft décrit ce qui constitue les « fonctions de prise en charge des activités principales ».
 
-Les établissements financiers utilisant les services Cloud doivent également respecter les règles de confidentialité, y compris les technologies de l' [information (pratiques et procédures de sécurité raisonnables et données ou informations personnelles sensibles), 2011](https://meity.gov.in/sites/upload_files/dit/files/GSR313E_10511\(1\).pdf) (MeitY). Ces règles régissent la protection et la gestion des données personnelles sensibles de l’Inde.
+Les entreprises financières qui utilisent des services cloud doivent également se conformer aux règles de confidentialité, y compris les règles relatives aux technologies de l’information (pratiques et procédures de sécurité raisonnables et données personnelles ou informations [sensibles), 2011](https://meity.gov.in/sites/upload_files/dit/files/GSR313E_10511\(1\).pdf) (MeitY). Développées pour renforcer les lois sur la protection des données en Inde, ces règles régissent la protection et la gestion des données personnelles sensibles.
 
-## <a name="microsoft-rbi-and-irdai"></a>Microsoft, RBI et IRDAi
+## <a name="microsoft-rbi-and-irdai"></a>Microsoft, RBI et IRDAI
 
-Pour aider les institutions financières en Inde à prendre en compte les fonctions professionnelles d’externalisation dans le Cloud, Microsoft a publié une liste de vérification de la conformité pour les institutions financières en Inde. En examinant et en remplissant la [liste de vérification](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides), les organisations financières peuvent adopter Microsoft Business cloud services avec la certitude qu’ils respectent les exigences réglementaires applicables.
+Pour guider les institutions financières en Inde qui envisagent d’externaliser des fonctions commerciales dans le cloud, Microsoft a publié une liste de contrôle de conformité pour les institutions financières en Inde. En réaxtant et en complétant la liste de [contrôle,](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)les organisations financières peuvent adopter les services de cloud computing Microsoft Business avec la certitude qu’elles se conforment aux exigences réglementaires applicables.
 
-Lorsque les établissements financiers Indiens ont externalisé des activités professionnelles dans le nuage, ils doivent suivre les directives du banc de réserve de l’Inde pour gérer les risques et résoudre les problèmes liés à l’utilisation des technologies de l’information. Elles doivent également respecter les exigences en matière de sécurité et de confidentialité des données établies par le ministère des technologies de l’information et de la technologie de l’information (MeitY). En outre, les organismes d’assurance doivent suivre les directives d’externalisation publiées par l’autorité réglementaire et de développement de l’assurance de l’Inde (IRDAi).
+Lorsque les institutions financières indiens externalisent des activités commerciales dans le cloud, elles doivent suivre les instructions de la Banque de réserve de l’Inde pour gérer les risques et résoudre les problèmes qui surviennent lors de l’utilisation des technologies de l’information. Ils doivent également respecter les exigences de sécurité et de confidentialité des données établies par le ministère de l’électronique et des technologies de l’information (MeitY). En outre, les organisations d’assurance doivent suivre les directives d’externalisation publiées par l’Autorité de réglementation et de développement des assurances de l’Inde (IRDAI).
 
-La liste de vérification Microsoft aide les sociétés financières en Inde à évaluer la diligence des services Cloud d’entreprise Microsoft et comprend les éléments suivants :
+La liste de contrôle Microsoft aide les entreprises financières en Inde qui effectuent des évaluations de la diligence raisonnable des services cloud de Microsoft Business et inclut :
 
-- Vue d’ensemble du paysage de la réglementation pour le contexte.
-- Liste de vérification qui décrit les problèmes à résoudre et les cartes Microsoft Azure, Microsoft Dynamics 365 et Microsoft Office 365 services par rapport à ces obligations réglementaires. La liste de contrôle peut être utilisée comme outil pour mesurer la conformité par rapport à un cadre réglementaire et fournir une structure interne pour documenter la conformité, et aider les clients à effectuer leurs propres évaluations des risques des services Cloud entreprise Microsoft.
+- Vue d’ensemble du paysage réglementaire dans le contexte.
+- Liste de vérification qui définit les problèmes à résoudre et met en conformité Microsoft Azure, Microsoft Dynamics 365 et les services Microsoft Office 365 avec ces obligations réglementaires. La liste de contrôle peut être utilisée comme outil pour mesurer la conformité par rapport à un cadre réglementaire et fournir une structure interne pour documenter la conformité, et aider les clients à effectuer leurs propres évaluations des risques des services Cloud entreprise Microsoft.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
 
@@ -56,19 +56,19 @@ La liste de vérification Microsoft aide les sociétés financières en Inde à 
 
 ## <a name="how-to-implement"></a>Modalités de mise en œuvre
 
-- [Liste de vérification de conformité pour l’Inde](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides): les cabinets financiers peuvent obtenir de l’aide pour effectuer des évaluations de risques de Microsoft Business cloud services.
+- [Liste de vérification de conformité pour l’Inde](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides): les entreprises financières peuvent obtenir de l’aide pour évaluer les risques des services cloud de Microsoft Business.
 - [Guide d'évaluation des risques et de la conformité](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers): créez un modèle de gouvernance pour l'évaluation des risques des services de cloud computing Microsoft et la notification aux autorités de régulation.
-- [Exemples d’utilisation financière pour Azure](https://docs.microsoft.com/azure/industry/financial/): présentations de cas d’utilisation, didacticiels et autres ressources pour créer des solutions Azure pour les services financiers.
+- [Cas d’utilisation financière pour Azure](/azure/industry/financial/): utilisez des présentations de cas, des didacticiels et d’autres ressources pour créer des solutions Azure pour les services financiers.
 
-## <a name="frequently-asked-questions"></a>Foire aux questions
+## <a name="frequently-asked-questions"></a>Questions fréquemment posées
 
-**Existe-t-il des conditions impératives devant être incluses dans le contrat avec le fournisseur de services Cloud ?**
+**Existe-t-il des conditions impératives devant être incluses dans le contrat avec le fournisseur de services cloud computing ?**
 
-Oui. Les recommandations mentionnées ci-dessus précisent certains points spécifiques que les établissements financiers doivent incorporer dans leurs contrats de services Cloud. La partie 2 de la [liste de contrôle](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) (page 70) les mappe par rapport aux sections des documents contractuels de Microsoft où elles sont adressées.
+Oui. Les instructions référencés ci-dessus stipulent certains points spécifiques que les institutions financières doivent incorporer dans leurs contrats de services cloud. La partie 2 de la liste de [contrôle](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) (page 70) les mase avec les sections des documents contractuels Microsoft où elles sont traitées.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de conformité Microsoft pour évaluer vos risques
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de Conformité Microsoft pour évaluer vos risques
 
-Le [Gestionnaire de conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) est une fonctionnalité du [Centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) qui vous permet de comprendre l’état de conformité de votre organisation et de prendre des mesures pour réduire les risques. Le Gestionnaire de conformité propose un modèle premium pour créer une évaluation pour ce règlement. Recherchez le modèle dans la page des **modèles d’évaluation** dans le Gestionnaire de conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Le Gestionnaire de Conformité Microsoft](/microsoft-365/compliance/compliance-manager) est une fonctionnalité dans le [centre de conformité Microsoft 365](/microsoft-365/compliance/microsoft-365-compliance-center) pour vous aider à comprendre la position de la conformité de votre organisation et à prendre des mesures pour réduire les risques. Le Gestionnaire de Conformité offre un modèle Premium pour la création d’une évaluation de ce règlement. Recherchez le modèle sur la page **modèles d’évaluation** dans le Gestionnaire de Conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de Conformité](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressources
 

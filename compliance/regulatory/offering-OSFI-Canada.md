@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: da6f212ca993a9e5887f32fe2c0fcc77e425f2e8
-ms.sourcegitcommit: 8af471ad10420ee5fce98d2eb0d69a6d2b992f08
+ms.openlocfilehash: 804d785cc8dfd3d693e34f17b48e2f8b0a94de17
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49937009"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120013"
 ---
 # <a name="office-of-the-superintendent-of-financial-institutions-osfi-canada"></a>Le Bureau du surintendant des institutions financières (BSIF) Canada
 
@@ -55,7 +55,7 @@ La liste de contrôle Microsoft permet aux entreprises financières canadiennes 
 - [Liste de contrôle de conformité : Canada](https://aka.ms/Azure-Canada-Compliance): les entreprises financières peuvent obtenir de l'aide pour évaluer les risques liés aux services cloud entreprise Microsoft.
 - [Confidentialité dans Cloud Microsoft](https://aka.ms/MCSPrivacy) : Obtenez des informations sur les principes et normes de confidentialité de Microsoft et sur les lois sur la confidentialité spécifiques au Canada.
 - [Guide d'évaluation des risques et de conformité](https://aka.ms/RiskGovernanceGuide): créez un modèle de gouvernance pour l'évaluation des risques des services de cloud computing Microsoft et la notification aux autorités de réglementation.
-- [Cas d’utilisation industrielle pour Azure](https://docs.microsoft.com/azure/industry/financial/) : utilisez des aperçus de cas, des didacticiels et d'autres ressources pour créer des solutions Azure pour les services financiers.
+- [Cas d’utilisation industrielle pour Azure](/azure/industry/financial/) : utilisez des aperçus de cas, des didacticiels et d'autres ressources pour créer des solutions Azure pour les services financiers.
 
 ## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
@@ -71,7 +71,7 @@ Oui, mais seulement si l'entente d'externalisation est une externalisation maté
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de Conformité Microsoft pour évaluer vos risques
 
-[Le Gestionnaire de Conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) est une fonctionnalité dans le [centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) pour vous aider à comprendre la position de la conformité de votre organisation et à prendre des mesures pour réduire les risques. Le Gestionnaire de Conformité offre un modèle Premium pour la création d’une évaluation de ce règlement. Recherchez le modèle sur la page **modèles d’évaluation** dans le Gestionnaire de Conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de Conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Le Gestionnaire de Conformité Microsoft](/microsoft-365/compliance/compliance-manager) est une fonctionnalité dans le [centre de conformité Microsoft 365](/microsoft-365/compliance/microsoft-365-compliance-center) pour vous aider à comprendre la position de la conformité de votre organisation et à prendre des mesures pour réduire les risques. Le Gestionnaire de Conformité offre un modèle Premium pour la création d’une évaluation de ce règlement. Recherchez le modèle sur la page **modèles d’évaluation** dans le Gestionnaire de Conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de Conformité](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressources
 

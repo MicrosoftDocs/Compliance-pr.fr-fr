@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1229dba8c5106c48e431c0bdf09e86e65bb402cc
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: cd26a6a8256d2efa85451e84f1caffc7e68c043b
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507335"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121403"
 ---
 # <a name="financial-authority-amf-and-prudential-authority-acpr-france"></a>Autorité financière (AMF) et autorité prudentielle (ACPR) France
 
@@ -59,7 +59,7 @@ La liste de contrôle Microsoft permet aux entreprises financières françaises 
 
 - [Liste de contrôle de conformité : France](https://aka.ms/FinServ-Guide-France) : les entreprises financières peuvent obtenir de l'aide pour évaluer les risques liés aux services cloud entreprise Microsoft.
 - [Guide d'évaluation des risques et de la conformité](https://aka.ms/RiskGovernanceGuide): créez un modèle de gouvernance pour l'évaluation des risques des services de cloud computing Microsoft et la notification aux autorités de régulation.
-- [Cas d'utilisation financière](https://docs.microsoft.com/azure/industry/financial/) : utilisez des aperçus de cas, des didacticiels et d'autres ressources pour créer des solutions Azure destinées au services financiers.
+- [Cas d'utilisation financière](/azure/industry/financial/) : utilisez des aperçus de cas, des didacticiels et d'autres ressources pour créer des solutions Azure destinées au services financiers.
 
 ## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 

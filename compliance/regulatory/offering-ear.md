@@ -1,6 +1,6 @@
 ---
-title: Réglementation de l’administration des exportations américaines (EAR)
-description: Les services de Cloud Computing Microsoft aident les clients soumis aux réglementations de l’administration des exportations américaines à respecter les exigences de conformité et à gérer le risque de contrôle d’exportation.
+title: Réglementations américaines en matière d’administration des exportations (EAR)
+description: Les services cloud de Microsoft aident les clients soumis aux réglementations américaines en matière d’administration des exportations (EAR) à respecter leurs exigences de conformité et à gérer les risques de contrôle d’exportation.
 keywords: Offres pour la conformité Microsoft 365
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,81 +16,81 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ec70c3cd09302445d3e7b4e2ac394837cdabe557
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: fbc8166770a3ad2539264bbf76319116a2c306a9
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506899"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120003"
 ---
-# <a name="us-export-administration-regulations-ear"></a>Réglementation de l’administration des exportations américaines (EAR)
+# <a name="us-export-administration-regulations-ear"></a>Réglementations américaines en matière d’administration des exportations (EAR)
 
-## <a name="about-the-ear"></a>À propos de l’oreille
+## <a name="about-the-ear"></a>À propos de l’écouteur
 
-Le ministère américain du commerce applique les réglementations de l’administration des exportations (EAR) par le [Bureau de l’industrie et la sécurité (bis)](https://www.bis.doc.gov/). L’oreille régit et impose des contrôles sur l’exportation et la réexportation de la plupart des biens commerciaux, logiciels et technologies, y compris les éléments « double utilisation » qui peuvent être utilisés à des fins commerciales et militaires et pour certains éléments de défense.
+Le département du Commerce des États-Unis applique les réglementations d’administration des exportations (EAR) via le [Bureau of Industry and Security (BIS).](https://www.bis.doc.gov/) L’EAR régit et impose des contrôles sur l’exportation et la ré-exportation de la plupart des biens commerciaux, logiciels et technologies, y compris les éléments à double usage qui peuvent être utilisés à des fins commerciales et civiles, ainsi que certains éléments de défense.
 
-Les directives BIS tiennent compte du fait que, lorsque des données ou des logiciels sont chargés dans le Cloud ou transférés entre des nœuds d’utilisateur, le client, et non le fournisseur de Cloud, est le « exportateur » qui est chargé de s’assurer que les transferts, le stockage et l’accès à ces données ou logiciels sont conformes aux EAR.
+Les conseils bis indiquent que, lorsque des données ou des logiciels sont téléchargés vers le cloud ou transférés entre des développeurs d’utilisateurs, le client, et non le fournisseur de cloud, est l'« exportateur » chargé de s’assurer que les transferts, le stockage et l’accès à ces données ou logiciels sont conformes à l’EAR.
 
-[Conformément à la BRI](https://www.bis.doc.gov/index.php/documents/regulation-docs/412-part-734-scope-of-the-export-administration-regulations/file), l' *exportation* désigne le transfert de technologies protégées ou de données techniques vers une destination étrangère ou sa publication vers une personne étrangère aux États-Unis (également appelé « *exportation présumée*»). L’oreille régit largement :
+[Conformément](https://www.bis.doc.gov/index.php/documents/regulation-docs/412-part-734-scope-of-the-export-administration-regulations/file)à la bis *,* l’exportation fait référence au transfert de technologies protégées ou de données techniques vers une destination étrangère ou sa publication à une personne étrangère aux États-Unis (également appelée exportation considérée *comme* étant une exportation). L’ear régit largement :
 
-- Exportations à partir des États-Unis.
-- Réexporte ou retransfère des éléments d’origine et certains éléments d’origine étrangère avec plus *d’une partie de la* teneur en US-Origin.
+- Exporte à partir des États-Unis.
+- Ré-exporte ou retransférer des éléments d’origine américaine et certains éléments d’origine étrangère avec plus d’une partie *de minimis* du contenu d’origine américaine.
 - Transferts ou divulgations à des personnes d’autres pays.
 
-Les éléments soumis à l’oreille se trouvent dans la liste contrôle de commerce (CCL), où chaque élément est affecté d’un [numéro de classification de contrôle d’exportation unique (ECCN)](https://www.bis.doc.gov/index.php/licensing/commerce-control-list-classification/export-control-classification-number-eccn). Les éléments qui ne sont pas répertoriés sur le CCL sont désignés comme EAR99 et la plupart des produits commerciaux EAR99 ne nécessitent pas l’exportation d’une licence. Toutefois, en fonction de l’utilisation de destination, de l’utilisateur final ou de l’utilisation finale de l’élément, même un élément EAR99 peut exiger une licence d’exportation BIS.
+Les éléments soumis à la fonction EAR se trouvent dans la liste de contrôle commercial (CCL) où chaque élément est affecté d’un numéro [eccn (Export Control Classification Number)](https://www.bis.doc.gov/index.php/licensing/commerce-control-list-classification/export-control-classification-number-eccn)unique. Les éléments qui ne sont pas répertoriés dans la liste de contrôle d’accès sont désignés comme EAR99 et la plupart des produits commerciaux EAR99 ne nécessitent pas de licence pour être exportés. Toutefois, selon la destination, l’utilisateur final ou l’utilisation finale de l’élément, même un élément EAR99 peut nécessiter une licence d’exportation BIS.
 
-La [règle finale](https://www.federalregister.gov/documents/2016/06/03/2016-12734/revisions-to-definitions-in-the-export-administration-regulations), publiée en juin 2016, a clarifié que les exigences en matière de licences Ear ne s’appliquaient pas non plus à la transmission et au stockage de données techniques et de logiciels non classés s’ils étaient chiffrés de bout en bout à l’aide de modules cryptographiques validés par FIPS 140-2 et n’étaient pas stockés intentionnellement dans un pays sous embargo militaire ou dans la Fédération russe
+La dernière [règle,](https://www.federalregister.gov/documents/2016/06/03/2016-12734/revisions-to-definitions-in-the-export-administration-regulations)publiée en juin 2016, a précisé que les exigences de licence EAR ne s’appliquent pas non plus à la transmission et au stockage de données techniques et de logiciels non classifiés s’ils étaient chiffrés de bout en bout à l’aide de modules de chiffrement validés par la FIPS 140-2 et qu’ils n’étaient pas stockés intentionnellement dans un pays étranger ou dans la Fédération russe.
 
-## <a name="microsoft-and-the-ear"></a>Microsoft et l’oreille
+## <a name="microsoft-and-the-ear"></a>Microsoft et la technologie EAR
 
-Les technologies, produits et services Microsoft sont soumis à la réglementation américaine sur l’administration des exportations (EAR). Bien qu’il n’existe pas de certification de conformité pour les EAR, Microsoft Azure, Microsoft Azure Government et Microsoft Office 365 Government (environnements GCCHigh et DoD), il offre des fonctionnalités et des outils importants pour aider les clients éligibles à l’oreille à gérer les risques de contrôle d’exportation et à respecter les exigences de conformité.
+Les technologies, produits et services Microsoft sont soumis aux réglementations américaines en matière d’exportation (EAR). Bien qu’il n’existe aucune certification de conformité pour les environnements EAR, Microsoft Azure, Microsoft Azure Government et Microsoft Office 365 Government (environnements GCCHigh et DoD) offrent des fonctionnalités et des outils importants pour aider les clients éligibles soumis à l’ear à gérer les risques de contrôle d’exportation et à répondre à leurs exigences de conformité.
 
-Le service de commerce américain, qui applique les EAR, a pris la position que les clients, pas les fournisseurs de service Cloud tels que Microsoft, sont considérés comme exportateurs de leurs propres données client. Alors que la plupart des données client ne sont pas considérées comme des « technologies » ou des « données techniques » soumises aux contrôles d’exportation EAR, les services Cloud de Microsoft à l’échelle de l’étendue sont structurés pour aider les clients à gérer et à atténuer de manière significative les risques de contrôle d’exportation potentiels auxquels ils sont confrontés. En règle générale, Microsoft recommande l’utilisation de ses services Cloud gouvernementaux pour les clients éligibles. Avec une planification appropriée, les clients peuvent utiliser les outils suivants et leurs procédures internes pour garantir une conformité complète avec les contrôles d’exportation US.
+Le département du Commerce des États-Unis, qui applique l’ear, a pris la position selon laquelle les clients, et non les fournisseurs de services cloud tels que Microsoft, sont considérés comme des exportateurs de leurs propres données client. Bien que la plupart des données client ne soient pas considérées comme des « technologies » ou des « données techniques » soumises aux contrôles d’exportation EAR, les services cloud microsoft dans l’étendue sont structurés pour aider les clients à gérer et atténuer considérablement les risques potentiels de contrôle d’exportation auxquels ils sont confrontés. Microsoft recommande généralement, mais pas exclusivement, l’utilisation de ses services cloud pour le gouvernement pour les clients éligibles. Avec une planification appropriée, les clients peuvent utiliser les outils suivants et leurs propres procédures internes pour garantir la conformité totale avec les contrôles d’exportation américains.
 
-- **Contrôles à l’emplacement des données**. Les clients ont une visibilité sur l’emplacement de stockage de leurs données et l’accès à des outils puissants pour limiter leur stockage. Ils peuvent donc s’assurer que leurs données sont stockées aux États-Unis et réduire le transfert de technologies contrôlées ou de données techniques en dehors des États-Unis. En outre, les données client ne sont pas stockées dans un emplacement non conforme, conformément aux interdictions de l’oreille sur les emplacements où les données sont « stockées intentionnellement » : aucun centre de données Azure n’est situé dans l’un des 25 groupes D :5 pays ou Fédération russe.
-- **Chiffrement de bout en bout**. En tirant parti de la sphère de sécurité de bout en bout pour les emplacements de stockage physique spécifiés dans l’oreille, les services Cloud de Microsoft à l’échelle de l’étendue offrent des fonctionnalités de chiffrement qui peuvent vous aider à vous protéger contre les risques liés au contrôle d’exportation. Ils offrent également aux clients un [large éventail d’options pour le chiffrement des données](https://aka.ms/Azure-Encryption-Overview) en transit et au repos, ainsi que la flexibilité nécessaire pour choisir les options de chiffrement.
-- **Les outils et les protocoles pour empêcher l’exportation non autorisée**. L’utilisation du chiffrement contribue également à assurer une protection contre une exportation potentielle (ou une réexportation réputée) sous l’oreille, car même si une personne non-américaine a accès aux données chiffrées, rien n’est révélé s’il ne peut pas lire ou comprendre les données pendant qu’il est chiffré ; par conséquent, il n’y a pas de « libération » de données contrôlées.
+- **Contrôles sur l’emplacement des données**. Les clients ont une visibilité sur l’endroit où leurs données sont stockées et ont accès à des outils robustes pour limiter leur stockage. Ils peuvent par conséquent s’assurer que leurs données sont stockées aux États-Unis et minimiser le transfert de technologies contrôlées ou de données techniques en dehors des États-Unis. En outre, les données client ne sont pas stockées dans un emplacement non conforme, conformément aux interdictions EAR sur l’endroit où les données sont « stockées intentionnellement » : aucun centre de données Azure n’est situé dans l’un des 25 pays du groupe D:5 ou dans la Fédération de Russie.
+- **Chiffrement de bout en bout.** En profitant de la sphère de sécurité de chiffrement de bout en bout pour les emplacements de stockage physiques spécifiés dans l’ear, les services cloud microsoft dans le périmètre offrent des fonctionnalités de chiffrement qui peuvent vous protéger contre les risques de contrôle d’exportation. Ils offrent également aux clients un large éventail [d’options](https://aka.ms/Azure-Encryption-Overview) pour le chiffrement des données en transit et au repos, et la flexibilité de choix parmi les options de chiffrement.
+- **Outils et protocoles permettant d’empêcher l’exportation considérée comme non autorisée.** L’utilisation du chiffrement permet également de se protéger contre une exportation considérée comme potentielle (ou considérée comme ré-exportée) sous l’ear, car même si une personne non américaine a accès à des données chiffrées, rien n’est révélé s’il ne peut pas lire ou comprendre les données pendant qu’elles sont chiffrées ; par conséquent, il n’existe aucune « publication » de données contrôlées.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft concernés
+## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
 
 - [Azure et Azure Government](https://aka.ms/AzureCompliance)
-- [Office 365 gouvernement (GCC-High et DoD)](https://aka.ms/Office-365-Export-Controls)
+- [Office 365 Pour le gouvernement (GCC-High et DoD)](https://aka.ms/Office-365-Export-Controls)
 - Intune
 
 ## <a name="how-to-implement"></a>Modalités de mise en œuvre
 
-Vue d’ensemble des États-Unis exporter des contrôles et des conseils pour les clients qui évaluent leurs obligations en vertu des EAR.
+Vue d’ensemble des contrôles d’exportation aux États-Unis et des conseils pour les clients qui évaluent leurs obligations dans le cadre de l’ear.
 
 - [Azure](https://aka.ms/Azure-Export-Controls)
 - [Office 365](https://aka.ms/Office-365-Export-Controls)
 
 ## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
-**Que dois-je faire pour se conformer aux contrôles d’exportation lors de l’utilisation des services de Cloud Computing Microsoft ?**
+**Que dois-je faire pour me conformer aux contrôles d’exportation lors de l’utilisation des services cloud de Microsoft ?**
 
-Sous la languette, lorsque les données sont téléchargées vers un serveur Cloud tel que le Cloud Microsoft, le client propriétaire des données, et non le fournisseur de services Cloud, est considéré comme exportateur. Pour cette raison, le propriétaire des données, c’est-à-dire le client Microsoft, doit évaluer avec soin comment leur utilisation du Cloud Microsoft peut mettre en cause les contrôles d’exportation US et déterminer si les données qu’ils souhaitent utiliser ou stocker peuvent être soumises à des contrôles de l’oreille et, si c’est le cas, les contrôles qui s’appliquent. En savoir plus sur la façon dont les services Cloud [Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=c24c11f2-2cd4-444a-9160-19762855ad3a&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers) et [Office 365](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE1s5kI) peuvent aider les clients à garantir leur conformité complète avec les contrôles d’exportation US.
+Dans le cadre de la technologie EAR, lorsque les données sont téléchargées vers un serveur cloud tel que le cloud Microsoft, le client propriétaire des données (et non le fournisseur de services cloud) est considéré comme l’exportateur. Pour cette raison, le propriétaire des données, c’est-à-dire le client Microsoft, doit évaluer attentivement la façon dont leur utilisation du cloud Microsoft peut insérable les contrôles d’exportation américains et déterminer si des données qu’ils souhaitent utiliser ou stocker y sont soumises à des contrôles EAR et, le cas chef, quels contrôles s’appliquent. En savoir plus sur la façon dont les services cloud [Azure](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=c24c11f2-2cd4-444a-9160-19762855ad3a&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers) et [Office 365](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE1s5kI) peuvent aider les clients à assurer leur conformité totale avec les contrôles d’exportation aux États-Unis.
 
-**Les technologies, produits et services Microsoft sont-ils soumis aux EAR ?**
+**Les technologies, produits et services Microsoft sont-ils soumis à l’ear ?**
 
-La plupart des technologies, produits et services Microsoft :
+La plupart des technologies, produits et services Microsoft :
 
-- Ne sont pas soumis aux EAR et ne sont donc pas dans la liste de contrôle de commerce et n’ont pas de ECCN ;
-- Ou il s’agit d’un marché de masse EAR99 ou 5D992, éligible pour l’auto-classification par Microsoft et pouvant être exporté vers des pays non embargoés sans licence obligatoire (NLR).
+- Ne sont pas soumis à l’EAR et ne sont donc pas sur la liste de contrôles commerciaux et n’ont pas de ecCN ;
+- Ou bien, ils sont éligibles au marché de masse EAR99 ou 5D992 pour une classification autonome par Microsoft et peuvent être exportés vers des pays non-abonnés sans licence sans licence requise (NLR).
 
-Cela étant dit, certains produits Microsoft ont reçu une ECCN qui peut nécessiter ou non une licence. Consultez la EAR ou le conseiller juridique pour déterminer le type de licence approprié et les pays éligibles à des fins d’exportation.
+Cela dit, certains produits Microsoft se sont vus attribuer un ECCN qui peut ou non nécessiter une licence. Consultez l’ear ou le conseiller juridique pour déterminer le type de licence approprié et les pays éligibles à des fins d’exportation.
 
-**Quelle est la différence entre les EAR et le trafic international des armes (ITAR) ?**
+**Quelle est la différence entre la réglementation EAR et la réglementation ITAR (International Traffic in Arms Regulations) ?**
 
-Les principaux contrôles des exportations américaines avec la plus grande application sont les EAR, administrés par le ministère américain du commerce. L’oreille s’applique aux éléments à double utilisation qui ont des applications commerciales et militaires, ainsi qu’aux éléments avec des applications purement commerciales.
+Les principaux contrôles d’exportation aux États-Unis avec l’application la plus large sont l’EAR, administré par le département du Commerce des États-Unis. L’ear s’applique aux éléments à double utilisation qui ont des applications commerciales et américaines, ainsi qu’aux éléments avec des applications purement commerciales.
 
-Les États-Unis ont également des réglementations de contrôle d’exportation distinctes et plus spécialisées, telles que le ITAR, qui régit les éléments et la technologie les plus sensibles. Géré par le ministère américain de l’État, il impose des contrôles sur l’exportation, l’importation temporaire, la ré-exportation et le transfert de nombreux éléments militaires, de défense et d’aide (également appelés « Articles de défense »), y compris les données techniques associées.
+Les États-Unis ont également des réglementations distinctes et plus spécialisées en matière de contrôle des exportations, telles que la loi ITAR, qui régissent les éléments et technologies les plus sensibles. Administrés par le département d’État des États-Unis, ils imposent des contrôles sur l’exportation, l’importation temporaire, la ré-exportation et le transfert de nombreux éléments de sécurité, de défense et d’intelligence (également appelés « articles de défense »), y compris les données techniques connexes.
 
 ## <a name="resources"></a>Ressources
 
-- [Exportation de produits Microsoft : vue d’ensemble](https://www.microsoft.com/exporting/overview.aspx)
-- [Exportation de produits Microsoft : FAQ](https://www.microsoft.com/exporting/faq.aspx)
-- [Exportation de produits Microsoft : recherche de produits](https://www.microsoft.com/exporting/exporting-information.aspx)
-- [Exporter des restrictions sur le chiffrement](https://docs.microsoft.com/windows/uwp/security/export-restrictions-on-cryptography)
+- [Exportation des produits Microsoft : vue d’ensemble](https://www.microsoft.com/exporting/overview.aspx)
+- [Exportation des produits Microsoft : FAQ](https://www.microsoft.com/exporting/faq.aspx)
+- [Exportation des produits Microsoft : recherche de produits](https://www.microsoft.com/exporting/exporting-information.aspx)
+- [Restrictions d’exportation sur le chiffrement](/windows/uwp/security/export-restrictions-on-cryptography)
 - [Microsoft et FIPS 140-2](offering-fips-140-2.md)
 - [Microsoft et ITAR](offering-itar.md)
 - [Conformité sur le site Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

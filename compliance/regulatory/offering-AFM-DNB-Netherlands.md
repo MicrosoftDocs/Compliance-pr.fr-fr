@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6a952d33a440681acc3dd5057c8a7e175e57bfa9
-ms.sourcegitcommit: 8af471ad10420ee5fce98d2eb0d69a6d2b992f08
+ms.openlocfilehash: a7f6f07a2dd58d4a99559488c3f9d3b92d4fe195
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "49937019"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121803"
 ---
 # <a name="dutch-authority-for-the-financial-markets-and-the-central-bank-of-the-netherlands"></a>La Dutch Authority for the Financial Markets (Autorité néerlandaise pour les marchés financiers, AFM) et la Central Bank of the Netherlands (Banque centrale des Pays-Bas, DNB)
 
@@ -64,7 +64,7 @@ La liste de contrôle Microsoft permet aux entreprises financières des Pays-Bas
 
 - [Liste de contrôle de conformité : Pays-Bas](https://aka.ms/FinServ-Guide-Netherlands) : les entreprises financières peuvent obtenir de l'aide pour évaluer les risques liés aux services cloud entreprise de Microsoft.
 - [Guide d'évaluation des risques et de conformité](https://aka.ms/RiskGovernanceGuide) : créer un modèle de gouvernance pour l'évaluation des risques des services de cloud computing de Microsoft et la notification réglementaire.
-- [Cas d'utilisation financière](https://docs.microsoft.com/azure/industry/financial/) : utiliser des présentation de cas, des didacticiels et d'autres ressources pour créer des solutions Azure pour services financiers.
+- [Cas d'utilisation financière](/azure/industry/financial/) : utiliser des présentation de cas, des didacticiels et d'autres ressources pour créer des solutions Azure pour services financiers.
 
 ## <a name="frequently-asked-questions"></a>Foire aux questions
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 pour les facteurs atténuants de la gestion de la continuité d’entreprise
+title: Atténuations de la gestion de la continuité d’activité de Microsoft 365 pour les entreprises
 description: Voici quelques exemples d’atténuation pour les scénarios d’incident de service Microsoft 365.
 author: robmazz
 ms.author: robmazz
@@ -16,12 +16,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: b31ee58d4e9a60232d7d5df4ff1bf4f16b6266cf
-ms.sourcegitcommit: 693bc6b1b51a5a9c9ff1758fa7f7ca3a204f147e
+ms.openlocfilehash: b77af73db3a6b9d9fbaf3ae776a6c5077c6972d1
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49574746"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120473"
 ---
 # <a name="service-incident-mitigation-strategies"></a>Stratégies d’atténuation des incidents de service
 
@@ -37,7 +37,7 @@ Voici quelques stratégies et scénarios qui présentent la façon atténuer l�
 |Les téléphones VoIP sont utilisés comme mode de communication secondaire.|Implémentez des téléphones non-VoIP capables d’effectuer des appels PSTN, notamment pour les centres d’opérations de réseau et de service pendant les incidents. Ajoutez les numéros de téléphone mobile des employés à l’annuaire de l’entreprise pour permettre au personnel en détresse d’être contacté via le réseau cellulaire.|
 |OneDrive Entreprise est utilisé pour le stockage de fichiers et la productivité des utilisateurs. [Les fichiers à la demande](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/OneDrive-Files-On-Demand-For-The-Enterprise/ba-p/117234) sont configurés pour libérer de l’espace sur les lecteurs d’utilisateurs locaux.|La synchronisation avec OneDrive fournit des stratégies de groupe qui permettent aux administrateurs de faire en sorte que le contenu spécifique soit synchronisé en local ou de libérer de l’espace lorsque c’est nécessaire. Pour réduire le risque d’inaccessibilité des documents, configurez cette stratégie de manière à synchroniser localement les documents importants. Formez les utilisateurs à appliquer manuellement le paramètre « Toujours conserver sur cet appareil » pour les documents importants.|
 |Exchange Online permet de communiquer les perturbations de productivité aux clients et aux fournisseurs.|Les réseaux sociaux tiers publics peuvent être utilisés comme autres moyens de communication de masse.
-|L’utilisation d’une architecture locale hybride, telle que l’ADFS ou l’authentification directe, provoque une perturbation de la possibilité pour l’utilisateur de s’authentifier auprès des services cloud.|Configurer la[synchronisation de hachage de mot de passe](https://docs.microsoft.com/azure/active-directory/authentication/concept-resilient-controls#deploy-password-hash-sync-even-if-you-are-federated-or-use-pass-through-authentication), conjointement avec vos services d’authentification hybrides, comme mécanisme secondaire d’authentification basée sur le cloud afin d’éviter toute perturbation de la connexion pendant la panne. Pour plus d’informations sur la création d’architectures d’authentification et de contrôle d’accès résilients, voir [Créer une stratégie de gestion de contrôle d’accès résiliente avec Azure Active Directory](https://docs.microsoft.com/azure/active-directory/authentication/concept-resilient-controls).|  
+|L’utilisation d’une architecture locale hybride, telle que l’ADFS ou l’authentification directe, provoque une perturbation de la possibilité pour l’utilisateur de s’authentifier auprès des services cloud.|Configurer la[synchronisation de hachage de mot de passe](/azure/active-directory/authentication/concept-resilient-controls#deploy-password-hash-sync-even-if-you-are-federated-or-use-pass-through-authentication), conjointement avec vos services d’authentification hybrides, comme mécanisme secondaire d’authentification basée sur le cloud afin d’éviter toute perturbation de la connexion pendant la panne. Pour plus d’informations sur la création d’architectures d’authentification et de contrôle d’accès résilients, voir [Créer une stratégie de gestion de contrôle d’accès résiliente avec Azure Active Directory](/azure/active-directory/authentication/concept-resilient-controls).|  
 
 ## <a name="leveraging-mobile-app-access"></a>Profiter de l'accès aux applications mobiles
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 692e33fde71c7a97185cc1a23ae6c9db8ac9efab
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 5a70626fb17e94d004dea550380c780653357a47
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507269"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121123"
 ---
 # <a name="azure-and-dynamics-365-breach-notification-under-the-gdpr"></a>Notification de violation Azure et Dynamics 365 dans le cadre du RGPD
 
@@ -41,11 +41,11 @@ Azure répond à une violation des données potentielle selon le processus de r�
 
 |**Stade**|**Description**|
 |:------- |------------- |
-| **_1 – Détecter_* _ | Première indication d’un incident potentiel. |
-| _*_2 – Évaluer_*_ | Un membre de l’équipe d’invervention en cas d’incidents évalue les conséquences et la gravité de l’événement. En fonction des données probantes, l’évaluation peut ou non aboutir à un signalement supplémentaire à l’équipe d’intervention en matière de sécurité. |
-| _*_3 – Diagnostiquer_*_ | Des spécialistes d’intervention en matière de sécurité effectuent une enquête technique ou scientifique, et identifient des stratégies de limitation, d’atténuation et de contournement. Si l’équipe de sécurité pense que les données client ont pu être exposées à un individu non autorisé ou ayant commis des actes illicites, l’exécution du processus de notification des incidents du client débute en parallèle. |
-| _*_4 – Stabiliser et récupérer_*_ | L’équipe d’intervention en cas d’incidents crée un plan de récupération pour atténuer le problème. Les étapes de limitation de crise telles que la mise en quarantaine des systèmes concernés peuvent avoir lieu immédiatement et parallèlement au diagnostic. Des enquêtes à plus long terme peuvent être planifiées et avoir lieu une fois que le risque immédiat est passé. |
-| _*_5 – Fermeture et post-mortem_*_ | L’équipe d’intervention en cas d’incidents crée un post-mortem décrivant les détails de l’incident, avec l’intention de réviser les stratégies, procédures et processus afin d’éviter que l’événement ne se reproduise. |
+| ***1 — Détecter*** | Première indication d’un incident potentiel. |
+| ***2 — Évaluer*** | Un membre de l’équipe de garde de réponse aux incidents de sécurité évalue les conséquences et la gravité de l’événement. En fonction des données probantes, l’évaluation peut ou non aboutir à un signalement supplémentaire à l’équipe de réponse aux incidents de sécurité. |
+| ***3 — Diagnostiquer*** | Des spécialistes de la réponse aux incidents de sécurité effectuent des examens techniques et mènent une enquête judiciaire, identifient des stratégies de limitation, d’atténuation et de contournement. Si l’équipe de sécurité pense que les données client ont peut-être été exposées à un individu non autorisé ou ayant commis des actes illicites, l’exécution du processus de notification des incidents du client débute en parallèle. |
+| ***4 — Stabiliser et récupérer*** | L’équipe de réponse aux incidents de sécurité crée un plan de récupération pour atténuer le problème. Les étapes de limitation de la crise telles que la mise en quarantaine des systèmes concernés peuvent avoir lieu immédiatement et parallèlement au diagnostic. Des enquêtes à plus long terme peuvent être planifiées et se produire une fois que le risque immédiat est passé. |
+| ***5 — Fermeture et post-mortem*** | L’équipe de réponse aux incidents de sécurité crée un post-mortem décrivant les détails de l’incident, avec l’intention de réviser les stratégies, procédures et processus afin d’éviter que l’événement se reproduise. |
 
 Le livre blanc intitulé [Microsoft Azure Security Response in the Cloud](https://gallery.technet.microsoft.com/Azure-Security-Response-in-dd18c678) donne des détails supplémentaires sur la façon dont Microsoft examine, gère et répond aux incidents de sécurité dans Azure.
 
@@ -64,16 +64,16 @@ Microsoft affecte l’enquête à des niveaux de priorité et de gravité approp
 
 Microsoft Azure classe l’impact des informations de l’incident dans les catégories de violation suivantes :
 
-| _ *Catégorie** | **Définition** |
+| **Catégorie** | **Définition** |
 |:------------ |:-------------- |
-| **_Aucune_* _ | Aucune information n’a été dévoilée, modifiée, supprimée ni compromise d’une façon ou d’une autre. |
-| _*_Violation de la confidentialité_*_ | Des données personnelles sensibles des contribuables, employés, bénéficiaires, etc. ont été consultées ou dévoilées. |
-| _*_Violation d’informations confidentielles_*_ | Des informations confidentielles non classifiées, telles que des informations sur les infrastructures critiques protégées (PCII), ont été consultées ou dévoilées. |
-| _*_Perte d’intégrité_*_ | Des informations sensibles ou confidentielles ont été modifiées ou supprimées. |
+| ***Aucune*** | Aucune information n’a été dévoilée, modifiée, supprimée ou compromise d’une façon ou d’une autre. |
+| ***Violation de la confidentialité*** | Des données personnelles sensibles des contribuables, employés, bénéficiaires, etc. ont été consultées ou dévoilées. |
+| ***Violation d’informations confidentielles*** | Des informations confidentielles non classifiées, telles que des informations sur les infrastructures critiques protégées (PCII), ont été consultées ou dévoilées. |
+| ***Perte d’intégrité*** | Des informations sensibles ou confidentielles ont été modifiées ou supprimées. |
 
-L’équipe d’intervention de sécurité collabore avec des ingénieurs de sécurité Microsoft Azure et des experts techniques pour classer l’événement en fonction des données factuelles des éléments de preuve. Un événement de sécurité peut-être classé de la façon suivante :
+L’équipe de réponse de sécurité collabore avec des ingénieurs de sécurité Microsoft Azure et des experts techniques pour classer l’événement en fonction des données factuelles des éléments de preuve. Un événement de sécurité peut-être classé de la façon suivante :
 
-- _*Faux positif** : un événement qui répond aux critères de détection, mais qui est considéré comme faisant partie d’une pratique commerciale normale et peut nécessiter un filtrage. L’équipe de service identifie la cause première des faux positifs et les traite d’une manière systématique en utilisant des sources de détection et en les ajustant au besoin.
+- **Faux positif** : un événement qui répond aux critères de détection, mais qui est considéré comme faisant partie d’une pratique commerciale normale et peut nécessiter un filtrage. L’équipe de service identifie la cause première des faux positifs et les traite d’une manière systématique en utilisant des sources de détection et en les ajustant au besoin.
 - **Incident de sécurité** : un incident provoqué par un accès non autorisé à des données client ou à des données du support stockées sur un équipement de Microsoft ou dans des installations de Microsoft, ou tout accès non autorisé à ces équipement ou installations provoquant la perte, divulgation ou altération des données client ou des données de support.
 - **Incident de sécurité/confidentialité déclarable au client (CRSPI)** : accès illégal ou non autorisé aux systèmes, équipements ou installations de Microsoft, ou utilisation illégale ou non autorisée de ceux-ci, provoquant la divulgation, la modification ou la perte de données client.
 - **Violation de la confidentialité** : sous-type d’incident de sécurité impliquant des données personnelles. Les procédures de gestion sont les mêmes que celles concernant un incident de sécurité.
@@ -98,7 +98,7 @@ Suite à un CRSPI déclaré, le processus de notification intervient dans les me
 
 Microsoft Azure fournit aux clients des informations détaillées leur permettant d’effectuer des enquêtes internes et de répondre aux engagements des utilisateurs finaux, sans retarder le processus de notification de façon excessive.
 
-La notification d’une divulgation de données personnelles sera envoyée au client par tout moyen que Microsoft sélectionne, y compris par courrier électronique. La notification d’une divulgation de données sera envoyée à la liste des contacts de sécurité fournis dans Azure Security Center, qui peut être configurée en suivant les [instructions d’implémentation](https://docs.microsoft.com/azure/security-center/security-center-provide-security-contact-details). Si les informations de contact ne sont pas fournies dans Azure Security Center (centre de sécurité Azure), la notification est envoyée à un ou plusieurs administrateurs dans un abonnement Azure. Pour vous assurer que les notifications peuvent être remises correctement, il incombe au client de s’assurer que les informations de contact des administrateurs sur les portails de services en ligne et les abonnements concernés sont correctes.
+La notification d’une divulgation de données personnelles sera envoyée au client par tout moyen que Microsoft sélectionne, y compris par courrier électronique. La notification d’une divulgation de données sera envoyée à la liste des contacts de sécurité fournis dans Azure Security Center, qui peut être configurée en suivant les [instructions d’implémentation](/azure/security-center/security-center-provide-security-contact-details). Si les informations de contact ne sont pas fournies dans Azure Security Center (centre de sécurité Azure), la notification est envoyée à un ou plusieurs administrateurs dans un abonnement Azure. Pour vous assurer que les notifications peuvent être remises correctement, il incombe au client de s’assurer que les informations de contact des administrateurs sur les portails de services en ligne et les abonnements concernés sont correctes.
 
 L’équipe Microsoft Azure ou Azure Government peut également choisir d’informer d’autres membres du personnel Microsoft (par exemple, le service client et le gestionnaire de compte du client ou le gestionnaire de compte technique). Ces personnes ont souvent des relations étroites avec le client et peuvent favoriser une correction plus rapide
 

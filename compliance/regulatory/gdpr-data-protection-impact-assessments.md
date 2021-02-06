@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 40946c3ea8d7c11a5cfddd8da737e037edd0526b
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: ce69444233c28683bf0e7d4056e98336445fc8b4
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507246"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121043"
 ---
 # <a name="data-protection-impact-assessment-for-the-gdpr"></a>Analyses d’impact sur la protection des données pour le RGPD
 
@@ -73,10 +73,10 @@ Une DPIA doit fournir des informations spécifiques sur le traitement prévu, qu
 
 Vous trouverez ci-dessous des détails spécifiques pouvant être utiles à votre implémentation Microsoft.
 
-- [Office 365](gdpr-dpia-office365.md) : ce document s’applique aux applications et services Office 365, y compris, mais sans s’y limiter, à Exchange Online, SharePoint Online, Yammer, Skype Entreprise et Power BI. Pour plus d'informations, reportez-vous aux tableaux [1](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-office365#part-1--determining-whether-a-dpia-is-needed) et [2](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-office365#part-2--contents-of-a-dpia).  
+- [Office 365](gdpr-dpia-office365.md) : ce document s’applique aux applications et services Office 365, y compris, mais sans s’y limiter, à Exchange Online, SharePoint Online, Yammer, Skype Entreprise et Power BI. Pour plus d'informations, reportez-vous aux tableaux [1](/microsoft-365/compliance/gdpr-dpia-office365#part-1--determining-whether-a-dpia-is-needed) et [2](/microsoft-365/compliance/gdpr-dpia-office365#part-2--contents-of-a-dpia).  
 - [Azure](gdpr-dpia-azure.md) : les clients sont encouragés à collaborer avec leurs responsables de la confidentialité et leur conseiller juridique pour déterminer la nécessité et le contenu de toute DPIA relative à l’utilisation de Microsoft Azure.  
-- [Dynamics 365](gdpr-dpia-dynamics.md) : le contenu d’une analyse d’impact sur la protection des données peut varier en fonction des outils Dynamics 365 que vous utilisez. Pour des détails spécifiques, reportez-vous à [Partie 2 : contenu d’une analyse d’impact sur la protection des données](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-dynamics#part-2--contents-of-a-dpia).
-- [Support Microsoft et services professionnels](gdpr-dpia-prof-services.md) : les services professionnels ne procèdent pas à un traitement de données de routine ou automatisées et ne sont pas destinés à traiter des catégories spéciales ou à effectuer des tâches qui facilitent ou nécessitent la surveillance de données accessibles au public. Pour plus d’informations, reportez-vous à [Partie 1 : déterminer si une analyse d’impact sur la protection des données est nécessaire](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-prof-services#part-1--determining-whether-a-dpia-is-needed). Les contrôleurs doivent prendre en considération les éléments de l’analyse d’impact sur la protection des données décrits ci-dessus, ainsi que d’autres facteurs pertinents, dans le contexte des implémentations spécifiques du contrôleur et des utilisations des services professionnels. Pour plus d’informations sur les services professionnels, reportez-vous à [Partie 2 : contenu d’une analyse d’impact sur la protection des données (DPIA)](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-prof-services#part-2--contents-of-a-dpia).
+- [Dynamics 365](gdpr-dpia-dynamics.md) : le contenu d’une analyse d’impact sur la protection des données peut varier en fonction des outils Dynamics 365 que vous utilisez. Pour des détails spécifiques, reportez-vous à [Partie 2 : contenu d’une analyse d’impact sur la protection des données](/microsoft-365/compliance/gdpr-dpia-dynamics#part-2--contents-of-a-dpia).
+- [Support Microsoft et services professionnels](gdpr-dpia-prof-services.md) : les services professionnels ne procèdent pas à un traitement de données de routine ou automatisées et ne sont pas destinés à traiter des catégories spéciales ou à effectuer des tâches qui facilitent ou nécessitent la surveillance de données accessibles au public. Pour plus d’informations, reportez-vous à [Partie 1 : déterminer si une analyse d’impact sur la protection des données est nécessaire](/microsoft-365/compliance/gdpr-dpia-prof-services#part-1--determining-whether-a-dpia-is-needed). Les contrôleurs doivent prendre en considération les éléments de l’analyse d’impact sur la protection des données décrits ci-dessus, ainsi que d’autres facteurs pertinents, dans le contexte des implémentations spécifiques du contrôleur et des utilisations des services professionnels. Pour plus d’informations sur les services professionnels, reportez-vous à [Partie 2 : contenu d’une analyse d’impact sur la protection des données (DPIA)](/microsoft-365/compliance/gdpr-dpia-prof-services#part-2--contents-of-a-dpia).
 
 ## <a name="learn-more"></a>En savoir plus
 

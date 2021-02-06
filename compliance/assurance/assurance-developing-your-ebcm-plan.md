@@ -16,16 +16,16 @@ ms.collection:
 - Strat_O365_Enterprise
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: b43b3d272196007f4fa5015ade36055187a2db33
-ms.sourcegitcommit: 693bc6b1b51a5a9c9ff1758fa7f7ca3a204f147e
+ms.openlocfilehash: 74bbca3ff8b179208288651e5a8b4f4a9eac09e8
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49574796"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120563"
 ---
-# <a name="developing-your-business-continuity-plan"></a>Développement de votre plan de continuité des activités
+# <a name="developing-your-business-continuity-plan"></a>Développement de votre plan de continuité d’activité
 
-Cette rubrique fournit des instructions sur le développement d’un plan de continuité des activités qui prend en compte les dépendances de Microsoft 365. Nous vous recommandons ici d’utiliser des méthodes pour analyser vos fonctions et identifier celles qui dépendent des services Microsoft 365. Vous effectuerez cette analyse en vous attendant à ce qu’il y ait des défaillances de service et à ce que vous deviez vous préparer à ces éventualités.
+Cette rubrique fournit des conseils sur le développement d’un plan de continuité d’activité qui prend en compte les dépendances de Microsoft 365. Nous vous recommandons ici d’utiliser des méthodes pour analyser vos fonctions et identifier celles qui dépendent des services Microsoft 365. Vous effectuerez cette analyse en vous attendant à ce qu’il y ait des défaillances de service et à ce que vous deviez vous préparer à ces éventualités.
 
 De manière générale, la planification de la continuité d’activité de l’entreprise comporte quatre aspects : l’évaluation, la planification, la validation des capacités, ainsi que la communication et la coordination.
 
@@ -50,7 +50,7 @@ Il s’agit d’un document BIA pour `name of the service, system, process, or f
 |La technologie dispose-t-elle d’un contrat SLA ou OLA interne établi ?|`please explain in as much detail as possible`|
 |La technologie dispose-t-elle d’un contrat SLA ou OLA **externe** établi ?|`please explain in as much detail as possible`|
 |La technologie dispose-t-elle d’un mandat connu responsable de l’adoption d’un contrat SLA spécifique ? Si oui, expliquez en détail.|`details here`|
-|La perte ou la compromission des données associées à ce service déclenche-t-elle un événement majeur ? Si oui, expliquez en détail.|`details here`|
+|La perte ou la compromission des données associées à ce service déclenchera-t-elle un événement majeur ? Si oui, expliquez en détail.|`details here`|
 |Le service dispose-t-il d’une solution de contournement ou d’une alternative pour certaines ou l’ensemble de ses fonctions et fonctionnalités clés ? Si oui, expliquez en détail.|`details here`|
 |Est-ce que le service traite, stocke ou transmet les données client, telles que les informations d’identification personnelle (PII) ? Si oui, expliquez en détail.|`details here`|
 |état BIA|`develop your own status classification, here are some examples: planned, started, in-progress, complete, on-hold, expired`|
@@ -64,9 +64,9 @@ Il s’agit d’un document BIA pour `name of the service, system, process, or f
 
 Ensuite, vous examinez les processus d’entreprise pour voir s’il existe des relations de dépendance en cascade. En fonction des résultats, vous définissez les priorités et élaborez les stratégies de résilience, ainsi que les procédures d’exploitation standard prenant en charge vos stratégies.
 
-Vous pouvez utiliser [Microsoft Service Map](https://docs.microsoft.com/azure/azure-monitor/insights/service-map) pour vous aider à effectuer ce mappage. Microsoft Service Map découvre automatiquement les composants d’application sur les systèmes Windows et Linux et mappe toutes les dépendances TCP, identifie les connexions et les systèmes tiers distants dont dépend l’application. Il mappe également les dépendances aux zones de votre réseau qui sont traditionnellement sombres comme Active Directory.
+Vous pouvez utiliser [Microsoft Service Map](/azure/azure-monitor/insights/service-map) pour vous aider à effectuer ce mappage. Microsoft Service Map découvre automatiquement les composants d’application sur les systèmes Windows et Linux et mappe toutes les dépendances TCP, identifie les connexions et les systèmes tiers distants dont dépend l’application. Il mappe également les dépendances aux zones de votre réseau qui sont traditionnellement sombres comme Active Directory.
 
-Voici un exemple d’analyse de dépendances (DA) à partir duquel vous pouvez commencer. Dans votre analyse de dépendances (DA), vous identifierez et examinerez les dépendances de processus. Assurez-vous d’inclure des personnes, des fournisseurs, des clients, des partenariats et des installations. Les données de cette analyse seront utilisées pour identifier les écarts entre les exigences de récupération d’un processus et les fonctionnalités de récupération des dépendances.
+Voici un exemple d’analyse de dépendances (DA) à partir duquel vous pouvez commencer. Dans votre analyse de dépendances (DA), vous identifierez et examinerez les dépendances de processus. Veillez à inclure des personnes, des fournisseurs, des clients, des partenariats et des installations. Les données de cette analyse seront utilisées pour identifier les écarts entre les exigences de récupération d’un processus et les fonctionnalités de récupération des dépendances.
 
 
 |champ|description|
@@ -88,18 +88,18 @@ N’oubliez pas que la formation régulière des employés sur les mesures d’i
 
 Au cours d’un incident de service, les canaux de communication normaux peuvent être affectés ou détériorés. Vous devez donc trouver d’autres solutions pour aider votre organisation à rester connectée pendant un incident. Il est essentiel que les canaux de communication soient établis, vérifiés pour assurer la sécurité et la conformité, et que les utilisateurs reçoivent une formation sur leur utilisation avant une interruption. Lors d’une défaillance, il est préférable de passer d’un état connu à un autre état connu plutôt que de trouver des solutions ad hoc et inconnues au milieu d’une crise.
 
-Chez Microsoft, chaque équipe de service a établi des canaux de communication alternatifs internes pour nous aider à coordonner la disponibilité de nos canaux de communication normaux. Celles-ci incluent des solutions de téléphonie et d’audioconférence de secours, des groupes Yammer, des groupes d’équipes, des tableaux de bord internes Intégrité des services et des logiciels internes de gestion des incidents.
+Chez Microsoft, chaque équipe de service a mis en place d’autres canaux de communication internes pour nous aider à coordonner les cas où nos canaux de communication normaux ne sont pas disponibles. Celles-ci incluent des solutions de téléphonie et d’audioconférence de secours, des groupes Yammer, des groupes d’équipes, des tableaux de bord internes Intégrité des services et des logiciels internes de gestion des incidents.
 
 Au cours de l’analyse de l’impact et de l’analyse de dépendances de votre entreprise, vous devez mapper les processus critiques et les technologies ou services dont ils dépendent. Portez une attention particulière à la communication pendant cette phase de planification et pensez à des alternatives. En voici quelques exemples.
 
-- Si la messagerie électronique constitue votre méthode principale pour informer vos utilisateurs et parties prenantes, et que votre service de messagerie est détérioré ou indisponible, vous pouvez utiliser un autre service tel que Microsoft Teams, Yammer ou un autre service tiers comme solution de secours. L’essentiel est de les établir à l’avance et de former vos utilisateurs pour qu’ils sachent comment procéder. Un thread Yammer ne sera pas utile s’il ne sait pas qu’il existe ou s’il n’y a pas de signet.  
-- Si vos processus de gestion des incidents internes s’appuient sur des communications vocales pour coordonner vos réponses, établissez une solution de téléphonie alternative à utiliser en cas d’urgence. Cette solution n’a pas besoin de la parité totale avec votre service principal, mais elle doit fournir le niveau de collaboration minimum pour coordonner vos équipes de continuité d’activité et de gestion des incidents. De plus, demander aux utilisateurs de publier leurs numéros de téléphone mobile dans votre liste d’adresses globale peut fournir une couche supplémentaire de communication de secours dans des cas extrêmes.
-- Vous souhaiterez peut-être créer un tableau de bord Intégrité des services personnalisé, ou un autre site, qui peut fournir des mises à jour d’état pendant un incident. En apprenant aux utilisateurs à savoir où chercher des informations à l’avance, vous réduirez le nombre d’appels inutiles au support technique et vous rassurerez vos utilisateurs sur le fait que la situation est traitée rapidement et efficacement. Utilisez l’API de communications de service Office 365 pour lier ces informations à Microsoft 365 pour un niveau de visibilité encore plus élevé.  
-- Il est essentiel que l’emplacement de vos plans de continuité d’activité et procédures d’exploitation standard soit bien connu. Nous vous recommandons de conserver des copies en ligne et hors connexion de la documentation critique, par exemple avec SharePoint Online ou OneDrive Entreprise configurés pour la synchronisation automatique avec les appareils locaux. Pour les centres d’opérations de réseau et de service, ainsi que d’autres équipes similaires qui seront critiques pour la récupération, vous souhaiterez peut-être également conserver les copies papier à utiliser en cas d’urgence.
+- Si la messagerie électronique constitue votre méthode principale pour informer vos utilisateurs et parties prenantes, et que votre service de messagerie est détérioré ou indisponible, vous pouvez utiliser un autre service tel que Microsoft Teams, Yammer ou un autre service tiers comme solution de secours. L’essentiel est de les établir à l’avance et de former vos utilisateurs pour qu’ils sachent comment procéder. Un Yammer thread n’est pas utile si personne ne sait qu’il existe ou si personne ne l’a mis en signet.  
+- Si vos processus de gestion des incidents internes s’appuient sur des communications vocales pour coordonner vos réponses, établissez une solution de téléphonie alternative à utiliser en cas d’urgence. Cette solution n’a pas besoin d’avoir une parité totale avec votre service principal, mais elle doit fournir le niveau minimal de collaboration pour coordonner vos équipes de continuité d’activité et de gestion des incidents. De plus, demander aux utilisateurs de publier leurs numéros de téléphone mobile dans votre liste d’adresses globale peut fournir une couche supplémentaire de communication de secours dans des cas extrêmes.
+- Vous souhaiterez peut-être créer un tableau de bord Intégrité des services personnalisé, ou un autre site, qui peut fournir des mises à jour d’état pendant un incident. En apprenant aux utilisateurs à savoir où chercher des informations à l’avance, vous réduirez le nombre d’appels inutiles au support technique et vous rassurerez vos utilisateurs sur le fait que la situation est traitée rapidement et efficacement. Utilisez l’API O365 Service Communications pour lier ces informations à Microsoft 365 pour un niveau de visibilité encore plus élevé.  
+- Il est essentiel que l’emplacement de vos plans de continuité d’activité et procédures d’exploitation standard soit bien connu. Nous vous recommandons de conserver des copies en ligne et hors connexion de la documentation critique, par exemple avec SharePoint Online ou OneDrive Entreprise configurés pour la synchronisation automatique avec les appareils locaux. Pour les centres d’opérations de service/réseau et d’autres équipes similaires qui seront essentielles pour la récupération, vous pouvez également conserver les copies papier disponibles pour être utilisées en cas d’urgence.
 
 ## <a name="know-your-external-points-of-integration"></a>Identifier vos points d’intégration externes
 
-Quel que soit le modèle d’entreprise, toutes les sociétés disposent de points d’intégration avec leurs clients, partenaires et fournisseurs. La chaîne d’approvisionnement de la valeur commerciale est basée sur l’intégration avec des entités externes. L’amélioration de la continuité des activités en cas de perturbation du service exige la prise en compte et la protection de chaque point d’intégration.  
+Quel que soit le modèle d’entreprise, chaque entreprise a des points d’intégration avec ses clients, ses partenaires et ses fournisseurs. La chaîne d’approvisionnement de la valeur commerciale est basée sur l’intégration avec des entités externes. L’amélioration de la continuité des opérations en cas de perturbation du service nécessite une prise en compte (et une protection) de chaque point d’intégration.  
 Au fur et à mesure que vous analysez votre chaîne d’approvisionnement, les communications externes doivent être considérées de la même manière que les communications internes sont analysées. Vos clients comptent-ils sur vos serveurs Exchange Online comme seul moyen de vous contacter ? Avez-vous sensibilisé vos fournisseurs et mis en place avec eux d’autres méthodes de communication en cas d’impact sur le temps de disponibilité ? Voici un exemple de tableau qui suggère comment organiser votre raisonnement.
 
 |nom de l’entité externe|scénario d’incident ayant une incidence|services Microsoft 365 intégrés|alternatives|

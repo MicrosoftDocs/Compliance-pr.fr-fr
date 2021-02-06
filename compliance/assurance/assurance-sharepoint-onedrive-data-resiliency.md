@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: c940b778681805a1e50a9e565117cd67deb52566
-ms.sourcegitcommit: 2973d25e9e0185b84d281f963553a332eac1c1a3
+ms.openlocfilehash: 26281e076ea2500a0a4071233b88c2a1f23fe9c5
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50040380"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120453"
 ---
 # <a name="sharepoint-and-onedrive-data-resiliency-in-microsoft-365"></a>Résilience des données SharePoint et OneDrive dans Microsoft 365
 
@@ -38,7 +38,7 @@ L’ensemble complet des contrôles pour garantir la résilience des données es
 
 ## <a name="blob-storage-resilience"></a>Résilience de stockage blob
 
-SharePoint dispose d’une solution personnalisée pour le stockage des données client dans le stockage Azure. Chaque fichier est écrit simultanément dans une région de centre de données principale et une région secondaire. Si les écritures dans l’une ou l’autre région Azure échouent, l’enregistrer échoue. Une fois que le contenu est écrit dans le stockage Azure, les sommes de contrôle sont stockées séparément avec des métadonnées et sont utilisées pour s’assurer que l’écriture enregistrée est identique au fichier d’origine envoyé à SharePoint lors de toutes les futures lectures. Cette même technique est utilisée dans tous les flux de travail pour empêcher la propagation de toute altération qui doit se produire. Dans chaque région, azure Locally Redundant Storage (LRS) fournit un niveau élevé de fiabilité. Pour plus [d’informations, voir](https://docs.microsoft.com/azure/storage/common/storage-redundancy-lrs) l’article sur la redondance du stockage Azure.
+SharePoint dispose d’une solution personnalisée pour le stockage des données client dans le stockage Azure. Chaque fichier est écrit simultanément dans une région de centre de données principale et une région secondaire. Si les écritures dans l’une ou l’autre région Azure échouent, l’enregistrer échoue. Une fois que le contenu est écrit dans le stockage Azure, les sommes de contrôle sont stockées séparément avec des métadonnées et sont utilisées pour s’assurer que l’écriture enregistrée est identique au fichier d’origine envoyé à SharePoint lors de toutes les futures lectures. Cette même technique est utilisée dans tous les flux de travail pour empêcher la propagation de toute altération qui doit se produire. Dans chaque région, azure Locally Redundant Storage (LRS) fournit un niveau élevé de fiabilité. Pour plus [d’informations, consultez](/azure/storage/common/storage-redundancy-lrs) l’article sur la redondance du stockage Azure.
 
 SharePoint utilise le stockage Append-Only de données. Ce processus garantit que les fichiers ne peuvent pas être modifiés ou endommagés après un premier sauvegarde, mais également à l’aide du traitement des versions dans le produit, toute version antérieure du contenu du fichier peut être récupérée.
 
@@ -46,23 +46,23 @@ Les environnements SharePoint dans l’un ou l’autre centre de données peuven
 
 ## <a name="metadata-resilience"></a>Résilience des métadonnées
 
-Les métadonnées SharePoint sont également essentielles pour accéder au contenu de l’utilisateur, car elles stockent l’emplacement et les clés d’accès au contenu stocké dans le stockage Azure. Ces bases de données sont stockées dans Azure SQL, qui dispose d’un plan de [continuité d’activité étendu.](https://docs.microsoft.com/azure/sql-database/sql-database-business-continuity)
+Les métadonnées SharePoint sont également essentielles pour accéder au contenu de l’utilisateur, car elles stockent l’emplacement et les clés d’accès au contenu stocké dans le stockage Azure. Ces bases de données sont stockées dans Azure SQL, qui dispose d’un plan de [continuité d’activité étendu.](/azure/sql-database/sql-database-business-continuity)
 
-SharePoint utilise le modèle de réplication fourni par Azure SQL et a créé une technologie d’automatisation propriétaire pour déterminer si un transfert est nécessaire et lancer l’opération si nécessaire. En tant que tel, il se situe dans la catégorie « Failover de base de données manuelle » du point de vue d SQL Azure. Les mesures les plus récentes pour la récupération SQL base de données Azure sont disponibles [ici.](https://docs.microsoft.com/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview#recover-a-database-to-the-existing-server)
+SharePoint utilise le modèle de réplication fourni par Azure SQL et a créé une technologie d’automatisation propriétaire pour déterminer si un transfert est nécessaire et lancer l’opération si nécessaire. En tant que tel, il se situe dans la catégorie « Failover de base de données manuelle » du point de vue d SQL Azure. Les mesures les plus récentes pour la récupération SQL base de données Azure sont disponibles [ici.](/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview#recover-a-database-to-the-existing-server)
 
 SharePoint utilise le système de sauvegarde d’Azure SQL pour activer les restaurations de point dans le temps (PITR) pendant 14 jours au plus. La section PITR est plus en savoir plus dans [une section ultérieure.](#deletion-backup-and-point-in-time-restore)
 
 ## <a name="automated-failover"></a>Failover automatisé
 
-SharePoint utilise un failover automatisé personnalisé pour minimiser l’impact sur l’expérience client lorsqu’un événement spécifique à un emplacement se produit. L’automatisation pilotée par la surveillance détectant une défaillance d’un ou de plusieurs composants au-delà de certains seuils entraîne une redirection automatisée de l’activité de tous les utilisateurs hors de l’environnement problématique et vers un secondaire. Un failover entraîne l’utilisation complète des métadonnées et du stockage de calcul à partir du nouveau centre de données. Comme le stockage d’objets blob s’exécute toujours entièrement actif/actif, aucune modification n’est requise pour un failover. Le niveau de calcul préférera le conteneur d’objets blob le plus proche, mais utilisera les emplacements de stockage d’objets blob locaux et distants à tout moment pour garantir la disponibilité.
+SharePoint utilise un failover automatisé personnalisé pour minimiser l’impact sur l’expérience client lorsqu’un événement spécifique à un emplacement se produit. L’automatisation pilotée par la surveillance détectant une défaillance à composants multiples ou unique au-delà de certains seuils entraîne une redirection automatisée de l’activité de tous les utilisateurs hors de l’environnement problématique et vers un secondaire. Un failover entraîne l’utilisation complète des métadonnées et du stockage de calcul à partir du nouveau centre de données. Comme le stockage d’objets blob s’exécute toujours entièrement actif/actif, aucune modification n’est requise pour un failover. Le niveau de calcul préférera le conteneur d’objets blob le plus proche, mais utilisera les emplacements de stockage d’objets blob locaux et distants à tout moment pour garantir la disponibilité.
 
 SharePoint utilise le service Azure Front Door pour fournir un routage interne au réseau Microsoft. Cette configuration autorise la redirection deover indépendamment du DNS et réduit l’effet de la mise en cache de l’ordinateur local. La plupart des opérations de failover sont transparentes pour les utilisateurs finaux. En cas de panne, les clients n’auront pas besoin d’apporter de modifications pour maintenir l’accès au service.
 
 ## <a name="versioning-and-files-restore"></a>Versioning and Files Restore
 
-Pour les bibliothèques de documents nouvellement créées, SharePoint est configuré par défaut sur 500 versions sur chaque fichier et peut être configuré pour conserver d’autres versions si vous le souhaitez. L’interface utilisateur ne permet pas de définir une valeur de moins de 100 versions, mais il est possible de définir le système pour stocker moins de versions à l’aide d’API publiques. Pour des raisons de fiabilité, toute valeur inférieure à 100 n’est pas recommandée et peut entraîner une activité de l’utilisateur entraînant une perte de données accidentelle.
+Pour les bibliothèques de documents nouvellement créées, SharePoint est configuré par défaut sur 500 versions sur chaque fichier et peut être configuré pour conserver d’autres versions si vous le souhaitez. L’interface utilisateur ne permet pas de définir une valeur de moins de 100 versions, mais il est possible de définir le système pour stocker moins de versions à l’aide d’API publiques. Pour des raisons de fiabilité, toute valeur inférieure à 100 n’est pas recommandée et peut entraîner une perte accidentelle de données par l’utilisateur.
 
-Pour plus d’informations sur le versionsing, voir [Versioning dans SharePoint](https://docs.microsoft.com/microsoft-365/community/versioning-basics-best-practices).
+Pour plus d’informations sur le versionsing, voir [Versioning dans SharePoint](/microsoft-365/community/versioning-basics-best-practices).
 
 La restauration de fichiers permet de revenir « dans le temps » sur n’importe quelle bibliothèque de documents dans SharePoint à une seconde de temps au cours des 30 derniers jours. Ce processus peut être utilisé pour récupérer des ransomware, suppressions de masse, corruption ou tout autre événement. Cette fonctionnalité utilise des versions de fichiers afin que la réduction des versions par défaut puisse réduire l’efficacité de cette restauration.
 
@@ -77,9 +77,9 @@ Les éléments supprimés sont conservés dans les corbeilles pendant une certai
 - [Restaurer des éléments dans la Corbeille](https://support.office.com/article/Restore-items-in-the-Recycle-Bin-of-a-SharePoint-site-6df466b6-55f2-4898-8d6e-c0dff851a0be)
 - [Restaurer les éléments supprimés de la Corbeille de la collection de sites.](https://support.office.com/article/Restore-deleted-items-from-the-site-collection-recycle-bin-5fa924ee-16d7-487b-9a0a-021b9062d14b)
 
-Ce processus est le flux de suppression par défaut et ne prend pas en compte les stratégies ou étiquettes de rétention. Pour plus d’informations, [voir En savoir plus sur la rétention pour SharePoint et OneDrive.](https://docs.microsoft.com/microsoft-365/compliance/retention-policies-sharepoint)
+Ce processus est le flux de suppression par défaut et ne prend pas en compte les stratégies ou étiquettes de rétention. Pour plus d’informations, [voir En savoir plus sur la rétention pour SharePoint et OneDrive.](/microsoft-365/compliance/retention-policies-sharepoint)
 
-Une fois le pipeline de recyclage de 93 jours terminé, la suppression a lieu indépendamment des métadonnées et du stockage blob. Les métadonnées seront supprimées immédiatement de la base de données, ce qui rend le contenu illisible, sauf si les métadonnées sont restaurées à partir de la sauvegarde. SharePoint conserve 14 jours de sauvegardes de métadonnées. Ces sauvegardes sont prises localement en temps quasi réel, puis sont poussées vers le stockage dans des conteneurs de stockage Azure redondants, conformément à la [documentation](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups) au moment de cette publication, avec un planning de 5 à 10 minutes.
+Une fois la pipeline de recyclage de 93 jours terminée, la suppression a lieu indépendamment des métadonnées et du stockage blob. Les métadonnées seront supprimées immédiatement de la base de données, ce qui rend le contenu illisible, sauf si les métadonnées sont restaurées à partir de la sauvegarde. SharePoint conserve 14 jours de sauvegardes de métadonnées. Ces sauvegardes sont prises localement en temps quasi réel, puis sont poussées vers le stockage dans des conteneurs de stockage Azure redondants, conformément à la [documentation](/azure/sql-database/sql-database-automated-backups) au moment de cette publication, avec un planning de 5 à 10 minutes.
 
 Lors de la suppression de contenu de stockage blob, SharePoint utilise la fonctionnalité de suppression temporaire pour le stockage d’objets blob Azure afin de se protéger contre les suppressions accidentelles ou malveillantes. Grâce à cette fonctionnalité, nous avons un total de 14 jours pour restaurer le contenu avant sa suppression définitive.
 
@@ -92,4 +92,4 @@ SharePoint utilise différentes méthodes pour garantir l’intégrité des blob
 
 - **Hachage de fichier** stocké dans les métadonnées : le hachage de l’intégralité du fichier est stocké avec les métadonnées de fichier pour garantir le maintien de l’intégrité des données au niveau du document pendant toutes les opérations
 - **Hachage d’objet blob** stocké dans les métadonnées : chaque élément blob stocke un hachage du contenu chiffré pour se protéger contre l’altération dans le stockage Azure sous-jacent.
-- **Travail d’intégrité** des données : tous les 14 jours, chaque site est analysé pour l’intégrité en répertoriant les éléments de la base de données et en les faisant correspondre avec les blobs répertoriés dans le stockage Azure. Le travail signale les références blob manquantes pour les blobs de stockage et peut les récupérer via la fonctionnalité de suppression possible du stockage [Azure](https://docs.microsoft.com/azure/storage/blobs/soft-delete-blob-overview) si nécessaire.
+- **Travail d’intégrité** des données : tous les 14 jours, chaque site est analysé pour l’intégrité en répertoriant les éléments de la base de données et en les faisant correspondre avec les blobs répertoriés dans le stockage Azure. Le travail signale les références blob manquantes pour les blobs de stockage et peut les récupérer via la fonctionnalité de suppression possible du stockage [Azure](/azure/storage/blobs/soft-delete-blob-overview) si nécessaire.

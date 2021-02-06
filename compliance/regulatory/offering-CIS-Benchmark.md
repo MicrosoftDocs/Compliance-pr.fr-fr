@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8bde27222806ea5909c67bac8556ff682453809b
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: f35e72bc81a93bcba3ecea5ca8a416553e6116a8
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507670"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121373"
 ---
 # <a name="center-for-internet-security-cis-benchmarks"></a>Critères du Centre pour la sécurité internet (CIS)
 
@@ -70,8 +70,8 @@ Obtenez une [liste complète des critères CIS](https://www.cisecurity.org/cis-b
 ## <a name="how-to-implement"></a>Modalités de mise en œuvre
 
 - [Critères CIS pour Azure](https://azure.microsoft.com/mediahandler/files/resourcefiles/cis-microsoft-azure-foundations-security-benchmark/CIS_Microsoft_Azure_Foundations_Benchmark_v1.0.0.pdf) : obtenir une aide normative pour établir une configuration de base sécurisée pour Azure.  
-- [Plan stratégique de sécurité Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap) : réduire le risque d’une violation de données ou de compte compromis en suivant ce plan.
-- [Lignes de base de la sécurité Windows](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines) : suivre ces instructions pour une utilisation efficace des lignes de base de sécurité au sein de votre organisation.
+- [Plan stratégique de sécurité Microsoft 365](/microsoft-365/security/office-365-security/security-roadmap) : réduire le risque d’une violation de données ou de compte compromis en suivant ce plan.
+- [Lignes de base de la sécurité Windows](/windows/security/threat-protection/windows-security-baselines) : suivre ces instructions pour une utilisation efficace des lignes de base de sécurité au sein de votre organisation.
 - [Guide du compagnon cloud CIS Controls](https://www.cisecurity.org/white-papers/cis-controls-cloud-companion-guide/) : obtenir des conseils sur l’application des meilleures pratiques en matière de sécurité dans CIS Controls version 7 vers les environnements Cloud.
 
 ## <a name="frequently-asked-questions"></a>Foire aux questions
@@ -88,13 +88,13 @@ La publication de critères CIS révisés change en fonction de la communauté d
 
 CIS note que ses « critères sont développés par le biais de nombreux efforts volontaires d’experts en la matière, de fournisseurs de technologie, de membres privés et publics de la communauté des critères CIS ainsi que de l’équipe de développement du critère CIS ». Vous trouverez par exemple une liste de contributeurs Azure sur [CIS Microsoft Azure Foundations benchmarking v RE1.0.0 désormais disponible](https://www.cisecurity.org/blog/cis-microsoft-azure-foundations-benchmark-v1-0-0-now-available/).
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le gestionnaire de conformité de Microsoft pour évaluer votre risque
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de Conformité Microsoft pour évaluer vos risques
 
-Le [Gestionnaire de conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) est une fonctionnalité du [Centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) qui vous permet de comprendre l’état de conformité de votre organisation et de prendre des mesures pour réduire les risques. Le Gestionnaire de conformité propose un modèle premium pour créer une évaluation pour ce règlement. Recherchez le modèle dans la page des **modèles d’évaluation** dans le Gestionnaire de conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Le Gestionnaire de Conformité Microsoft](/microsoft-365/compliance/compliance-manager) est une fonctionnalité dans le [centre de conformité Microsoft 365](/microsoft-365/compliance/microsoft-365-compliance-center) pour vous aider à comprendre la position de la conformité de votre organisation et à prendre des mesures pour réduire les risques. Le Gestionnaire de Conformité offre un modèle Premium pour la création d’une évaluation de ce règlement. Recherchez le modèle sur la page **modèles d’évaluation** dans le Gestionnaire de Conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de Conformité](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressources
 
 - [Meilleures méthodes CIS pour l’utilisation sécurisée de Microsoft 365](https://www.microsoft.com/security/blog/2019/01/10/best-practices-for-securely-using-microsoft-365-the-cis-microsoft-365-foundations-benchmark-now-available/)
-- [Paramètres des stratégies de sécurité Windows 10](https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/security-policy-settings)
-- [Sécurité Windows 10 Entreprise](https://docs.microsoft.com/windows/security/index)
+- [Paramètres des stratégies de sécurité Windows 10](/windows/security/threat-protection/security-policy-settings/security-policy-settings)
+- [Sécurité Windows 10 Entreprise](/windows/security/index)
 - [Conformité sur le site Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

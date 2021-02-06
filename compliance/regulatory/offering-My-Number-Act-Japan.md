@@ -16,34 +16,34 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b4a006fbbcd4a1af3a8ff118ea7cacaecb2ceadc
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: f9c3ebd4c4988366d429f7b6cfc377f4f9c8a611
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507557"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120073"
 ---
 # <a name="my-number-act-japan"></a>My Number Act (Japon)
 
 ## <a name="about-the-my-number-act"></a>À propos de My Number Act
 
-Le gouvernement japonais a promulgué la loi sur mon numéro[ (en japonais ](https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/viewContents?lawId=425AC0000000027_20180627_430AC0000000066)et [en anglais](https://www.ppc.go.jp/files/pdf/en3.pdf)), qui est entrée en vigueur en janvier 2016. Elle a attribué un numéro unique à 12 chiffres, appelé Mon numéro, ou le numéro de prestations sociales et fiscales ou numéro individuel, à chaque résident du Japon, qu'il soit japonais ou étranger. Le fait de donner à chaque personne un numéro unique à toutes fins (comme le numéro de sécurité sociale américain) a été conçu pour simplifier et rendre plus efficaces la fiscalité et la mise en œuvre des prestations sociales telles que la pension nationale, l'assurance médicale et le chômage.
+Le gouvernement japonais a promulgué la loi My Number (en [japonais](https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/viewContents?lawId=425AC0000000027_20180627_430AC0000000066) et [anglais](https://www.ppc.go.jp/files/pdf/en3.pdf)), qui est entrée en vigueur en janvier 2016. Elle a attribué un numéro unique à 12 chiffres, appelé Mon numéro, ou le numéro de prestations sociales et fiscales ou numéro individuel, à chaque résident du Japon, qu'il soit japonais ou étranger. La mise en place d’un nombre unique pour toutes les finalités (comme le numéro de sécurité sociale aux États-Unis) a été conçue pour simplifier et améliorer l’efficacité de la fiscalité et la mise en œuvre des avantages sociaux tels que la pension nationale, l’assurance maladie et le chômage.
 
 La Commission sur la protection des informations personnelles (PPC), qui agit comme autorité centralisée de protection des données, a été établie par la Loi sur la protection des informations personnelles ([japonais](https://www.ppc.go.jp/personal/preparation/) et [anglais](https://www.ppc.go.jp/en/legal/)). Dans le cadre du rôle PPC de supervision et de suivi de la conformité avec My Number Act, il a émis des [Instructions My Number](https://www.ppc.go.jp/legal/policy/faq/) (japonais) pour s’assurer que les organisations gèrent et protègent correctement les données personnelles, y compris les données numériques, comme l’exige la loi.
 
-## <a name="microsoft-and-the-my-number-act"></a>Microsoft et la loi My Number
+## <a name="microsoft-and-the-my-number-act"></a>Microsoft et My Number Act
 
 Pour aider nos clients japonais à protéger la confidentialité des données personnelles, Microsoft s'engage contractuellement, par le biais [des Conditions des services en ligne de Microsoft ](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)à ce que nos services en nuage pour les entreprises dans le champ d'application aient mis en œuvre les mesures de sécurité techniques et organisationnelles qui aident nos clients à se conformer à la loi sur les numéros. Cette assistance signifie que les clients au Japon peuvent déployer les services de cloud commercial de Microsoft avec la certitude qu'ils peuvent se conformer aux exigences législatives japonaises.
 
-Le [Q\&A](https://www.ppc.go.jp/legal/policy/faq/)(japonais) publié par la Commission de protection des informations personnelles (PPC) énonce des lignes directrices pour le traitement et la protection appropriés des informations personnelles. Elle prévoit qu'un tiers n'est pas considéré comme traitant des données à caractère personnel s'il stipule dans son accord (a) qu'il ne le fait pas, et (b) qu'il met en place un système de contrôle d'accès approprié. La loi « My Number » précise les obligations en cas de transfert de données à un tiers, mais la section [Q3-12](https://www.ppc.go.jp/legal/policy/faq/) (en japonais) du PPC Q\&A explique que ces exigences ne s'appliquent pas si le tiers ne « traite » pas, c'est-à-dire n'a pas un accès permanent aux données personnelles.
+Le [Q\&A](https://www.ppc.go.jp/legal/policy/faq/) (japonais) publié par la Commission sur la protection des informations personnelles (PPC) définit les orientations pour la manipulation et la protection appropriées des informations personnelles. Il prévoit qu’une tierce partie n’est pas considérée comme gérant des données personnelles si celle-ci prévoit dans son accord (a) qu’elle ne le fait pas, et (b) elle établit un système de contrôle d’accès approprié. La loi « My Number » précise les obligations en cas de transfert de données à un tiers, mais la section [Q3-12](https://www.ppc.go.jp/legal/policy/faq/) (en japonais) du PPC Q\&A explique que ces exigences ne s'appliquent pas si le tiers ne « traite » pas, c'est-à-dire n'a pas un accès permanent aux données personnelles.
 
-Les services de cloud computing de Microsoft répondent à ces exigences dans les conditions d'utilisation [ des services en ligne de Microsoft](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31), qui stipulent que la propriété et la responsabilité des données clients qui contiennent les données de mon numéro appartiennent à nos clients, et non à Microsoft. Par conséquent, le client doit avoir des contrôles appropriés en place pour protéger les données My Number contenues dans les données des clients.
+Les services de Cloud Microsoft Entreprise (Microsoft Business cloud services) répondent à ces exigences dans les [termes de Services Microsoft Online](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)qui stipulent que la propriété et la responsabilité des données client contenant les données My Number incombent à nos clients, et non à Microsoft. Par conséquent, le client doit avoir des contrôles appropriés en place pour protéger les données My Number contenues dans les données des clients.
 
-Microsoft ne disposant pas d’un accès permanent aux données My Number stockées dans ses services Cloud, un contrat d’« externalisation » pour le traitement des données My Number n’est pas obligatoire. Si un client veut que Microsoft ait accès aux données clients qui contiennent les données de Mon numéro, il doit créer un contrat d'externalisation supplémentaire avec Microsoft pour chaque cas avant de faire une telle demande.
+Microsoft ne disposant pas d’un accès permanent aux données My Number stockées dans ses services Cloud, un contrat d’« externalisation » pour le traitement des données My Number n’est pas obligatoire. Si un client souhaite que Microsoft ait accès aux données client contenant les données My Number, il doit créer un contrat d’externalisation supplémentaire avec Microsoft pour chaque cas, avant de formuler une telle demande.
 
 Les conditions stipulent également que Microsoft s'engage à utiliser les données des clients uniquement pour fournir des services au client— et non à des fins publicitaires ou commerciales similaires, et que Microsoft a mis en place des systèmes de contrôle d'accès robustes.
 
-En ce qui concerne les questions de sécurité, les services de cloud computing pour entreprises de Microsoft répondent à la norme [Cloud Security Mark (Gold),](offering-cs-mark-gold-japan.md) la première accréditation de sécurité japonaise pour les fournisseurs de services de cloud computing.
+En ce qui concerne les problèmes de sécurité, les services Cloud Microsoft Entreprise sont conformes au standard de [marque de sécurité de Cloud (Gold)](offering-cs-mark-gold-japan.md), la première accréditation de sécurité japonaise pour les fournisseurs de services Cloud.
 
 Par conséquent, les services de Cloud Microsoft Entreprise prennent en charge les exigences My Number Act et ne créent aucune obligation supplémentaire dans le cadre de la loi pour les clients, comme l’accord d’un propriétaire individuel de données personnelles.
 
@@ -60,11 +60,11 @@ Par conséquent, les services de Cloud Microsoft Entreprise prennent en charge l
 
 - [Confidentialité dans Office 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=a1b48a5b-bcb1-4c19-9277-952c0df87113&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers): comment Microsoft crée des protections de confidentialité fortes dans Office 365.
 
-- [Accès administrateur dans Office 365](https://docs.microsoft.com/office365/SecurityCompliance/office-365-administrative-access-controls-overview): comment Microsoft gère l’accès d’administration aux données client.
+- [Accès administrateur dans Office 365](/office365/SecurityCompliance/office-365-administrative-access-controls-overview): comment Microsoft gère l’accès d’administration aux données client.
 
-- [Audits & rapports dans Office 365](https://docs.microsoft.com/office365/SecurityCompliance/office-365-auditing-and-reporting-overview): explorer les fonctionnalités que les clients peuvent utiliser pour suivre les activités des utilisateurs et des administrateurs au sein de leur client.
+- [Audits & rapports dans Office 365](/office365/SecurityCompliance/office-365-auditing-and-reporting-overview): explorer les fonctionnalités que les clients peuvent utiliser pour suivre les activités des utilisateurs et des administrateurs au sein de leur client.
 
-- [Rétention des données dans Office 365](https://docs.microsoft.com/office365/SecurityCompliance/office-365-data-retention-deletion-and-destruction-overview): comprendre la stratégie de gestion des données pour la durée de conservation des données client après leur suppression.
+- [Rétention des données dans Office 365](/office365/SecurityCompliance/office-365-data-retention-deletion-and-destruction-overview): comprendre la stratégie de gestion des données pour la durée de conservation des données client après leur suppression.
 
 ## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 

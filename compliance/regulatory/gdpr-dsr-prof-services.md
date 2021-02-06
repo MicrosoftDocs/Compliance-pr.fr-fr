@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c1e6c0a3aa8362d2bdba68f9919e6edb9919277
-ms.sourcegitcommit: b06fa9f1b230fd5e470817486ea51f460f28b691
+ms.openlocfilehash: d7acc085c3e84772dfecd2c34ee9f4496c06de4d
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50012979"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121933"
 ---
 # <a name="microsoft-support-and-professional-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>Demandes des personnes concernées du Support Microsoft et des services professionnels concernant le RGPD et le CCPA
 
@@ -232,7 +232,7 @@ Microsoft est le contrôleur des données des contacts client travaillant avec l
 
 Pour les services de migration FastTrack, Microsoft est le responsable du traitement des données. Conformément à notre déclaration de confidentialité supplémentaire relative à FastTrack, toutes les données en cours de migration sont considérées comme des « données de migration ». Si vous devez exécuter des demandes de personnes concernées tandis que votre organisation est engagée dans un projet de migration FastTrack, une attention spéciale est nécessaire.
   
-Si vous devez traiter des demandes d’accès, de rectification ou d’exportation de DPC alors que les données d’un utilisateur sont traitées via les systèmes de migration FastTrack, il incombe au client de répondre à ce DPC via les systèmes sources existants dans lesquels les données utilisateur sont stockées. Lorsque la migration de l’utilisateur est terminée et que les données ont été déplacées vers le service Cloud Microsoft de destination, les conseils fournis par Microsoft sur la façon dont les clients peuvent utiliser les produits, services et outils d’administration de Microsoft pour rechercher et agir sur des données personnelles pour répondre à une demande d’objet de données s’appliqueront. Pour consulter ces recommandations, voir[demandes d’objet de données pour le RGPD](https://docs.microsoft.com/microsoft-365/compliance/gdpr-data-subject-requests). 
+Si vous devez traiter des demandes d’accès, de rectification ou d’exportation de DPC alors que les données d’un utilisateur sont traitées via les systèmes de migration FastTrack, il incombe au client de répondre à ce DPC via les systèmes sources existants dans lesquels les données utilisateur sont stockées. Lorsque la migration de l’utilisateur est terminée et que les données ont été déplacées vers le service Cloud Microsoft de destination, les conseils fournis par Microsoft sur la façon dont les clients peuvent utiliser les produits, services et outils d’administration de Microsoft pour rechercher et agir sur des données personnelles pour répondre à une demande d’objet de données s’appliqueront. Pour consulter ces recommandations, voir[demandes d’objet de données pour le RGPD](/microsoft-365/compliance/gdpr-data-subject-requests). 
 
 Si vous devez supprimer un compte d’utilisateur en réponse à une demande de personne concernée tandis que votre organisation est engagée dans un projet de migration FastTrack en cours, vous devez savoir que les systèmes de migration peuvent conserver une copie des données de migration de l’utilisateur pendant un certain temps après la fin de la migration de cet utilisateur. La suppression du compte d’utilisateur ne supprime pas automatiquement ces données de migration d’utilisateur stockées dans des systèmes de migration FastTrack. Si vous souhaitez que l’équipe Microsoft FastTrack supprime des données de migration d’utilisateur, vous pouvez [envoyer une demande](https://go.microsoft.com/fwlink/?linkid=874544). Dans le cours normal de nos activités, Microsoft FastTrack supprime toutes les copies des données une fois que la migration de votre organisation est terminée.
 

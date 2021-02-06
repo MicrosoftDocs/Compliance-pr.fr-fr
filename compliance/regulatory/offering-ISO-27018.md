@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8d760546ab9704968e413f328a5ad55c467cb83e
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 7c9a28ca0a89167a951eea1a47633c02bdb14faa
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507593"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120133"
 ---
 # <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>Code de pratique ISO/IEC 27018 pour la protection des données personnelles dans le cloud
 
@@ -62,7 +62,7 @@ En respectant les normes d’ISO/IEC 27001 et le code de pratique incorporé da
 - Power BI intégré
 - Power Virtual Agents
 - Spécialistes des menaces Microsoft
-- Microsoft Stream
+- Microsoft Stream
 - Windows Defender ATP : Détection et réponse des point de terminaison, Vérification automatique et correction, Degré de sécurisation
 
 ## <a name="audits-reports-and-certificates"></a>Audits, rapports et certificats
@@ -75,7 +75,7 @@ Les services cloud Microsoft et les services de support technique sont audités
 
 - [Azure, Dynamics 365 et services en ligne : certificat ISO27018](https://aka.ms/azureiso27018cert)
 - [Azure, Dynamics 365 et services en ligne : rapport d’évaluation ISO27018](https://aka.ms/azureiso27001report)
-- [Azure Allemagne : code de conduite ISO 27018 pour la protection des données personnelles dans le Certificat Cloud](https://servicetrust.microsoft.com/Documents/ComplianceReports?downloadDocument=1&documentId=6a0dab80-8382-4af6-980c-ed2ed9a341c6)
+- [Azure Allemagne : code de pratique ISO 27018 pour la protection des données personnelles dans le Certificat Cloud](https://servicetrust.microsoft.com/Documents/ComplianceReports?downloadDocument=1&documentId=6a0dab80-8382-4af6-980c-ed2ed9a341c6)
 
 ### <a name="office-365"></a>Office 365
 
@@ -90,9 +90,9 @@ Les services cloud Microsoft et les services de support technique sont audités
 
 **À qui ISO/IEC 27018 s'applique ?**
 
-Ce code de pratique s’applique aux CSP qui traitent des informations d’identification personnelle sous contrat pour d’autres organisations. Chez Microsoft, il s’applique aussi au support de ces CSP.
+Ce code de pratique s’applique aux fournisseurs de solutions Cloud qui traitent des informations d’identification personnelle sous contrat pour d’autres organisations. Chez Microsoft, il s’applique aussi au support de ces CSP.
 
-**Quelle est la différence entre les « responsables de traitement des informations personnelles » et les « processeurs d’informations personnelles » ?**
+**Quelle est la différence entre « contrôleurs de traitement d’information personnelle » et « processeurs d’informations personnelles » ?**
 
 Dans le contexte d’ISO/IEC 27018 :
 
@@ -111,9 +111,9 @@ Oui. Si vous devez obtenir la conformité avec ISO/IEC 27018 pour votre entrepr
 
 Il vous incombe néanmoins d’engager un évaluateur pour mesurer votre mise en œuvre de la conformité, ainsi que des contrôles et des processus au sein de votre propre organisation.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le gestionnaire de conformité de Microsoft pour évaluer votre risque
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de Conformité Microsoft pour évaluer vos risques
 
-Le [Gestionnaire de conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) est une fonctionnalité du [Centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) qui vous permet de comprendre l’état de conformité de votre organisation et de prendre des mesures pour réduire les risques. Le Gestionnaire de conformité propose un modèle premium pour créer une évaluation pour ce règlement. Recherchez le modèle dans la page des **modèles d’évaluation** dans le Gestionnaire de conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Le Gestionnaire de Conformité Microsoft](/microsoft-365/compliance/compliance-manager) est une fonctionnalité dans le [centre de conformité Microsoft 365](/microsoft-365/compliance/microsoft-365-compliance-center) pour vous aider à comprendre la position de la conformité de votre organisation et à prendre des mesures pour réduire les risques. Le Gestionnaire de Conformité offre un modèle Premium pour la création d’une évaluation de ce règlement. Recherchez le modèle sur la page **modèles d’évaluation** dans le Gestionnaire de Conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de Conformité](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressources
 

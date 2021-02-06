@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ff7d22396efc6dcac52c029b2929d77717289c9e
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: f56ceaf5b110c10dbd4f045fd8c094586b86fea7
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506982"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121133"
 ---
 # <a name="north-american-electric-reliability-corporation-nerc"></a>North American Electric Reliability Corporation (NERC)
 
@@ -83,9 +83,9 @@ Les [standards CIP](https://www.nerc.com/pa/Stand/Reliability%20Standards%20Comp
 
 L’entreprise NERC ERO [a publié](https://www.nerc.com/pa/comp/guidance/Pages/default.aspx) un Programme de Suivi et d’Application de la Conformité (CMEP),[guide pratique](https://www.nerc.com/pa/comp/guidance/CMEPPracticeGuidesDL/ERO%20Enterprise%20CMEP%20Practice%20Guide%20_%20BCSI%20-%20v0.2%20CLEAN.pdf) pour aider le personnel CMEP de l’Entreprise ERO dans le cadre de l’évaluation du processus d’une Personne Morale afin d’autoriser l’accès à des emplacements de stockage BSCI désignés, ainsi que les contrôles d’accès qui ont été implémentés par la Personne Morale. De plus, NERC a revu les détails de l’implémentation d’un contrôle Azure et les preuves d’audit FedRamp relatives aux standards NERC CIP-004-6 et CIP-011-2 applicables au BCSI. Sur la base du guide pratique publié par ERO et des contrôles FedRAMP revus pour s’assurer que les personnes morales chiffrent leurs données, aucune recommandation supplémentaire ou clarification n’est requise auprès des personnes morales pour déployer BCSI et les charges de travail associées dans le Cloud. Toutefois, les personnes morales sont responsables du respect des standards CIP de la NERC en fonction de leurs propres faits et circonstances.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de conformité Microsoft pour évaluer vos risques
+## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de Conformité Microsoft pour évaluer vos risques
 
-Le [Gestionnaire de conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) est une fonctionnalité du [Centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) qui vous permet de comprendre l’état de conformité de votre organisation et de prendre des mesures pour réduire les risques. Le Gestionnaire de conformité propose un modèle premium pour créer une évaluation pour ce règlement. Recherchez le modèle dans la page des **modèles d’évaluation** dans le Gestionnaire de conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de conformité](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments).
+[Le Gestionnaire de Conformité Microsoft](/microsoft-365/compliance/compliance-manager) est une fonctionnalité dans le [centre de conformité Microsoft 365](/microsoft-365/compliance/microsoft-365-compliance-center) pour vous aider à comprendre la position de la conformité de votre organisation et à prendre des mesures pour réduire les risques. Le Gestionnaire de Conformité offre un modèle Premium pour la création d’une évaluation de ce règlement. Recherchez le modèle sur la page **modèles d’évaluation** dans le Gestionnaire de Conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de Conformité](/microsoft-365/compliance/compliance-manager-assessments).
 
 ## <a name="resources"></a>Ressources
 

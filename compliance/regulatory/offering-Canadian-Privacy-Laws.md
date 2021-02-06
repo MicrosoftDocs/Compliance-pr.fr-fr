@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 44308d7184f6633ab58a4971fe4e9c70717f8591
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: b5921a0535b9fe3dd84f4faf57dca4d7d117498e
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507649"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50121303"
 ---
 # <a name="canadian-privacy-laws"></a>Lois canadiennes sur la protection de la vie privée
 
@@ -52,7 +52,7 @@ Pour aider les clients canadiens qui envisagent d'externaliser des fonctions pro
 
 - [La confidentialité chez Microsoft](https://www.microsoft.com/download/details.aspx?id=55710) : obtenez des informations sur les principes et normes de confidentialité de Microsoft et sur les lois sur la confidentialité spécifiques au Canada.
 - [Liste de contrôle de conformité pour le Canada](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=626fb641-9dca-45c0-abaf-0a7849c15f81&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) : en savoir plus sur les fonctionnalités Azure et Intune qui vous aideront à respecter les lois canadiennes sur la protection de la vie privée.
-- [Protection des données Azure](https://docs.microsoft.com/azure/security/fundamentals/protection-customer-data) : Azure offre à ses clients une sécurité des données renforcée, par défaut et via des options.
+- [Protection des données Azure](/azure/security/fundamentals/protection-customer-data) : Azure offre à ses clients une sécurité des données renforcée, par défaut et via des options.
 
 ## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
@@ -60,7 +60,7 @@ Pour aider les clients canadiens qui envisagent d'externaliser des fonctions pro
 
 Microsoft s’engage dans le cadre de ses [Termes des services en ligne](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31) à respecter les lois et réglementations qui s’appliquent à sa prestation de services en ligne. Toutefois, les organisations qui utilisent les services cloud de Microsoft Business restent responsables du respect de la législation canadienne sur la protection de la vie privée. Les lois sont claires sur le fait que les organisations sont responsables en dernier recours de s’assurer que les données sensibles qu’elles recueillent sont gérées honnêtement et correctement protégées.  
 
-Par conséquent, la confidentialité est une responsabilité partagée entre Microsoft en tant que fournisseur de services cloud et le client utilisant les services cloud. À un niveau élevé, cela signifie que les clients doivent s’assurer que leurs solutions mises en place dans les environnements Microsoft respectent les 10 principes codifiés dans la LPRPDE. Par exemple, en obtenant le consentement des individus pour collecter leurs données et en les protégeant avec des mesures de sécurité appropriées. Par exemple, obtenir le consentement de particuliers pour recueillir et protéger leurs données à l’aide de mesures de sécurité adéquates.
+Par conséquent, la confidentialité est une responsabilité partagée entre Microsoft en tant que fournisseur de services Cloud et le client utilisant les services Cloud. À un niveau élevé, cela signifie que les clients doivent s’assurer que leurs solutions mises en place dans les environnements Microsoft respectent les 10 principes codifiés dans la LPRPDE. Par exemple, en obtenant le consentement des individus pour collecter leurs données et en les protégeant avec des mesures de sécurité appropriées. Par exemple, obtenir le consentement de particuliers pour recueillir et protéger leurs données à l’aide de mesures de sécurité adéquates.
 
 **Quels audits tiers valident l’environnement de contrôle de sécurité d’Azure et Intune ?**
 

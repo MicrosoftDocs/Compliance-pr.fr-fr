@@ -19,12 +19,12 @@ hideEdit: true
 ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 1e2f06e0e9e72392cad99f41475baa2db92b3baf
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 231021c75031a290686027f55bca868f4d7ac317
+ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506819"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "50120943"
 ---
 # <a name="dynamics-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>Demandes des personnes concernées par le traitement des données pour Dynamics 365 concernant le RGPD et le CCPA
 
@@ -83,85 +83,85 @@ La première étape pour répondre à une demande de droits de la personne conce
 
 La classification appropriée des données client est à la base de la gestion des données personnelles dans les applications métier Dynamics 365 Customer Engagement. Dynamics 365 for Customer Engagement permet de créer une extension d’application autour de la classification des données avec une grande souplesse. La classification vous permet d’identifier les informations comme données personnelles, et ainsi de les localiser et les récupérer lorsque vous répondez aux demandes d’une personne concernée. Elle permet également d’assurer la conformité avec les exigences réglementaires et législatives pour la collecte et la gestion des données personnelles.
 
-Microsoft propose des fonctionnalités qui vous aident à répondre aux demandes de droits des personnes concernées et, par conséquent, à accéder aux données des clients. Toutefois, il est de votre responsabilité de veiller à ce que les données personnelles soient localisées et classées de manière appropriée.
+Microsoft offre des fonctionnalités qui vous aident à répondre aux demandes de droits de la personne concernée par le traitement des données, et par conséquent d’accéder aux données client. Toutefois, il est de votre responsabilité de vérifier que les données personnelles sont localisées et classées de façon appropriée.
 
-***Engagement de la clientèle** _ Dynamics 365 vous propose plusieurs méthodes pour rechercher des données personnelles dans des dossiers tels que Recherche avancée et recherche de dossiers. Toutes ces fonctions vous permettent d'identifier (trouver) des données personnelles.
+L’offre ***Dynamics 365 for Customer Engagement*** fournit plusieurs méthodes qui vous permettent de rechercher des données personnelles dans des enregistrements, telles que : la recherche avancée et la recherche d’enregistrements. Toutes ces fonctions vous permettent d’identifier (rechercher) des données personnelles.
 
-- [Recherche avancée](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search)
-- [Recherche d’enregistrements](https://docs.microsoft.com/dynamics365/customer-engagement/basics/search-records) dans plusieurs types d’enregistrements
+- [Recherche avancée](/dynamics365/customer-engagement/basics/save-advanced-find-search)
+- [Recherche d’enregistrements](/dynamics365/customer-engagement/basics/search-records) dans plusieurs types d’enregistrements
 
 Dans Dynamics 365 for Marketing, vous disposez des fonctionnalités supplémentaires suivantes :
 
-1. [Générer des rapports Power BI](https://docs.microsoft.com/power-bi/service-connect-to-microsoft-dynamics-crm) afin de filtrer et identifier des données client.
-2. Utiliser les aperçus sur les contacts et les objets de l'exécution du marketing pour identifier des points de données supplémentaires qui peuvent contenir des données sur les clients.
+1. [Générer des rapports Power BI](/power-bi/service-connect-to-microsoft-dynamics-crm) afin de filtrer et identifier des données client.
+2. Utilisez les affichages Insight sur les contacts et les objets de l’exécution marketing pour identifier des points de données supplémentaires pouvant contenir des données client.
 
-_*_Le service clientèle de Dynamics 365_*_ fournit une liste de ressources pour vous aider [ à trouver des données sur les clients](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/gdpr-discovery) afin de répondre aux demandes des clients de GDPR.
+***Dynamics 365 Customer Service Insights*** propose une liste de ressources destinée à vous aider à [trouver des données client](/dynamics365/ai/customer-service-insights/gdpr-discovery) afin de répondre aux demandes RGPD des clients.
 
-_*_Dans Dynamics 365 pour les finances et les opérations_*_, vous disposez de plusieurs moyens pour rechercher des données sur les clients. En tant qu'administrateur des locataires, vous pouvez effectuer les actions suivantes pour rechercher des données sur les clients :
+L’offre ***Dynamics 365 for Finance and Operations*** permet de rechercher des données client de plusieurs façons. En tant qu’administrateur client, vous pouvez rechercher des données client en effectuant les opérations suivantes :
 
-- Organisez vos données client de façon à découvrir rapidement des données personnelles ; à cette fin, apprenez à [classifier l’inventaire des données](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-guide#detailed-inventory).
-- Utilisez le [rapport de recherche de données personnelles](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-guide#the-person-search-report) pour rechercher et collecter des données personnelles.
-- [Étendez le rapport de recherche de données personnelles](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-extend-person-search-report) en créant une entité ou en étendant une entité existante.
+- Organisez vos données client de façon à découvrir rapidement des données personnelles ; à cette fin, apprenez à [classifier l’inventaire des données](/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-guide#detailed-inventory).
+- Utilisez le [rapport de recherche de données personnelles](/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-guide#the-person-search-report) pour rechercher et collecter des données personnelles.
+- [Étendez le rapport de recherche de données personnelles](/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-extend-person-search-report) en créant une entité ou en étendant une entité existante.
 - Utilisez les fonctionnalités de recherche et de filtre pour rechercher des données personnelles spécifiques et les exporter à l’aide de la fonctionnalité Exporter de Microsoft Office ou imprimez ces informations dans un fichier .pdf à l’aide d’extensions de navigateur.
 - Créez un formulaire personnalisé qui localise et exporte les données personnelles.
-- Auteur d'un portail ou d'un site web externe qui permet à un client authentifié de voir ses données personnelles.
+- Créez un portail externe ou un site web qui permet à un client authentifié d’afficher ses données personnelles.
 
-_*_Le centre d'affaires Dynamics 365_*_ vous offre plusieurs moyens de rechercher des données sur les clients. Pour plus de détails, voir[ Recherche, filtrage et tri des données](https://docs.microsoft.com/dynamics365/business-central/ui-enter-criteria-filters).
+***Dynamics 365 Business Central*** offre plusieurs façons de rechercher des données client. Pour plus d’informations, consultez [Recherche, filtrage et tri de données](/dynamics365/business-central/ui-enter-criteria-filters).
 
-_*_Dynamics 365 pour les talents_*_ offre des fonctions de recherche et de filtrage avancées pour trouver des données personnelles spécifiques et la fonctionnalité Microsoft Office Export pour exporter ou imprimer ces informations vers un fichier .pdf en utilisant les extensions du navigateur.
+Dynamics 365 for Talent fournit des fonctionnalités de recherche et de filtre avancées permettant de rechercher des données personnelles spécifiques ainsi que la fonctionnalité Exporter de Microsoft Office pour exporter ou imprimer ces informations dans un fichier .pdf à l’aide d’extensions de navigateur.
 
-- Utilisez le [rapport de recherche de personnes](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-guide#the-person-search-report) pour trouver et collecter des données sur les clients.
-- [Étendez le rapport de recherche de données personnelles](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-extend-person-search-report) en créant une entité ou en étendant une entité existante.
+- Utilisez le [rapport de recherche de données personnelles](/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-guide#the-person-search-report) pour rechercher et collecter des données client.
+- [Étendez le rapport de recherche de données personnelles](/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-extend-person-search-report) en créant une entité ou en étendant une entité existante.
 
-### <a name="providing-a-copy-of-customer-data"></a>Fournir une copie des données du client
+### <a name="providing-a-copy-of-customer-data"></a>Fourniture d’une copie des données client
 
-Les données des clients dans _*_Dynamics 365 for Customer Engagement_*_ peuvent être exportées en utilisant les capacités d'exportation d'entités complètes. Les données des clients peuvent être exportées vers un fichier Excel statique pour faciliter une demande de portabilité des données. En utilisant Excel, vous pouvez alors modifier les données personnelles à inclure dans la demande de portabilité et les enregistrer ensuite dans un format courant lisible par un ordinateur comme .csv ou .xml. Dynamics 365 for Customer Engagement peut également être exporté via [l’API Web Common Data Service](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview).
+Les données client contenues dans ***Dynamics 365 for Customer Engagement*** peuvent être exportées à l’aide des fonctionnalités d’exportation d’entités complètes. Les données client peuvent être exportées dans un fichier Excel statique pour faciliter une demande de portabilité des données. En utilisant Excel, vous pouvez alors modifier les données personnelles à inclure dans la demande de portabilité et les enregistrer ensuite dans un format courant lisible par un ordinateur comme .csv ou .xml. Dynamics 365 for Customer Engagement peut également être exporté via [l’API Web Common Data Service](/powerapps/developer/common-data-service/webapi/overview).
 
-De plus, pour Dynamics 365 for Marketing,[ une API dédiée](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/developer/retrieve-interactions-contact) est fournie qui permet au client de créer des extensions qui récupèrent des enregistrements supplémentaires des interactions clients capturées qui peuvent contenir des données personnelles. L'API charge toutes les informations pertinentes à partir du système back-end et les assemble en un seul document portable.
+En outre, pour Dynamics 365 for Marketing, une [API dédiée](/dynamics365/customer-engagement/marketing/developer/retrieve-interactions-contact) est fournie pour permettre au client de générer des extensions qui récupèrent des enregistrements supplémentaires des interactions client capturées pouvant contenir des données personnelles. L’API charge toutes les informations pertinentes à partir du système principal et les assemble dans un document unique portable.
 
-_*_Le service client de Dynamics 365_*_ vous permet de [ fournir une copie des données clients](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/gdpr-export) en utilisant l'exportation de données.
+***Dynamics 365 Customer Service Insights*** vous permet de [fournir une copie des données client](/dynamics365/ai/customer-service-insights/gdpr-export) via l’exportation de données.
 
-Les données des clients dans _*_Dynamics 365 pour les finances et les opérations_*_ peuvent être exportées en utilisant les capacités d'exportation complètes des entités. En utilisant [_les entités de gestion et d'intégration des données*](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-management-integration-data-entity), l'administration des locataires peut utiliser les entités fournies, créer de nouvelles entités ou étendre les entités existantes pour une exportation répétable de données personnelles vers Excel ou un certain nombre d'autres formats communs en utilisant [*les tâches d'importation et d'exportation de données*](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-import-export-job).  De nombreuses listes peuvent également être exportées vers un fichier Excel statique pour faciliter une demande de portabilité des données. Une fois que les données client sont exportées dans Excel, vous pouvez modifier les données personnelles à inclure dans la demande de portabilité et enregistrer ensuite le fichier dans un format courant lisible par un ordinateur comme .csv ou .xml. Vous pouvez également envisager d'utiliser le *rapport de recherche de personnes* pour fournir à la personne concernée des données que vous avez classées comme des données à caractère personnel.
+Les données des clients dans ***Dynamics 365 pour les finances et les opérations** _ peuvent être exportées en utilisant les capacités d'exportation complètes des entités. En utilisant [_les entités de gestion et d'intégration des données*](/dynamics365/unified-operations/dev-itpro/data-entities/data-management-integration-data-entity), l'administration des locataires peut utiliser les entités fournies, créer de nouvelles entités ou étendre les entités existantes pour une exportation répétable de données personnelles vers Excel ou un certain nombre d'autres formats communs en utilisant [*les tâches d'importation et d'exportation de données*](/dynamics365/unified-operations/dev-itpro/data-entities/data-import-export-job).  De nombreuses listes peuvent aussi être exportées dans un fichier Excel statique pour faciliter une demande de portabilité des données. Une fois que les données client sont exportées dans Excel, vous pouvez modifier les données personnelles à inclure dans la demande de portabilité et enregistrer ensuite le fichier dans un format courant lisible par un ordinateur comme .csv ou .xml. Vous pouvez aussi envisager d’utiliser le *Rapport de recherche de données personnelles* pour fournir à la personne concernée les données que vous avez classifiées en tant que données personnelles.
 
-Dans * **Dynamics 365 Business Central** _, vous pouvez utiliser deux fonctions pour fournir une copie des données du client à une personne concernée :
+Dans ***Dynamics 365 Business Central***, vous pouvez utiliser deux fonctionnalités pour fournir une copie des données client à une personne concernée :
 
-Vous pouvez exporter les données sur les clients dans un fichier Excel. Dans Excel, vous pouvez ensuite modifier les données client à inclure dans la demande de portabilité et les enregistrer dans un format courant lisible par un ordinateur comme .csv ou .xml. Pour plus de détails, voir[ Exportation des données de votre entreprise vers Excel.](https://docs.microsoft.com/dynamics365/business-central/about-export-data)
+Vous pouvez exporter les données client dans un fichier Excel. Dans Excel, vous pouvez ensuite modifier les données client à inclure dans la demande de portabilité et les enregistrer dans un format courant lisible par un ordinateur comme .csv ou .xml. Pour plus d’informations, consultez [Exportation de vos données métier dans Excel.](/dynamics365/business-central/about-export-data)
 
-Dans _*_Dynamics 365 pour les talents_*_, vous pouvez utiliser [le rapport de recherche](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-extend-person-search-report)Extension de la personne pour recueillir des informations à l'appui d'une demande de copie des données personnelles de la personne concernée.
+Dans ***Dynamics 365 for Talent***, vous pouvez utiliser [Étendre le rapport de recherche des données personnelles](/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-extend-person-search-report) pour collecter des informations et répondre à une demande de copie des données personnelles de la personne concernée.
 
-### <a name="rectifying-customer-data"></a>Rectifier les données des clients
+### <a name="rectifying-customer-data"></a>Rectification des données client
 
-_*_L'engagement client Dynamics 365 vous_*_ propose les méthodes suivantes pour corriger des données clients inexactes ou incomplètes, ou effacer des données clients :
+L’offre ***Dynamics 365 for Customer Engagement*** propose les méthodes suivantes pour corriger des données client inexactes ou incorrectes, ou effacer des données client :
 
-- Recherchez des données sur les clients en utilisant les capacités mentionnées dans « Trouver des données sur les clients » et modifiez directement les données dans les formulaires d'engagement des clients. Les modifications peuvent être effectuées au niveau d’une ligne unique ou plusieurs lignes peuvent être modifiées directement.
+- Recherchez des données client à l’aide des fonctionnalités mentionnées dans « Consultation des données client » et modifiez directement les données dans les formulaires Customer Engagement. Les modifications peuvent être effectuées au niveau d’une ligne unique ou plusieurs lignes peuvent être modifiées directement.
 - Grâce à la modification en bloc de plusieurs enregistrements Customer Engagement, vous pouvez utiliser le complément Microsoft Office pour exporter des données vers Microsoft Excel, apporter vos changements puis importer ces données modifiées dans Dynamics 365 for Customer Engagement.
 
 En outre, pour Dynamics 365 for Marketing, vous pouvez aussi :
 
 - Mettre à jour la page d’accueil de vos données en modifiant une ou plusieurs lignes directement
-- Préparez [une page de centres](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/set-up-subscription-center) d'abonnement qui comporte autant de champs de contact modifiables que possible. Cette page permet à l'utilisateur final de mettre à jour ses propres informations autant que possible.
+- Préparez une page de [centres d’abonnement](/dynamics365/customer-engagement/marketing/set-up-subscription-center) comportant autant de champs de contact modifiables que possible. Cette page permet à un utilisateur final de mettre à jour ses informations autant que possible.
 
-_*_Le service client de Dynamics 365_*_ fournit également des fonctionnalités qui permettent aux organisations de [ rectifier ou d'apporter des modifications aux données des clients](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/gdpr-summary).
+***Dynamics 365 Customer Service Insights*** offre également des fonctionnalités qui permettent aux organisations de [rectifier ou d’apporter des modifications aux données client](/dynamics365/ai/customer-service-insights/gdpr-summary).
 
-Dans _*_Dynamics 365 pour les finances et les opérations_*_, vous pouvez également utiliser des[ _outils de personnalisation*](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/dev-tools/developer-home-page), mais la décision et la mise en œuvre sont de votre responsabilité.
+Dans ***Dynamics 365 pour les finances et les opérations** _, vous pouvez également utiliser des [_outils de personnalisation*](/dynamics365/unified-operations/dev-itpro/dev-tools/developer-home-page), mais la décision et la mise en œuvre sont de votre responsabilité.
 
-***Le centre d'affaires Dynamics 365** _ offre deux moyens de corriger des données clients inexactes ou incomplètes.
+L’offre ***Dynamics 365 Business Central*** propose deux façons de corriger des données client inexactes ou incomplètes.
 
-Pour éditer rapidement plusieurs enregistrements de Business Central, vous pouvez exporter des listes vers Excel en utilisant[ le complément Excel de Business Central](https://docs.microsoft.com/dynamics365/business-central/finance-analyze-excel#the--excel-add-in) pour corriger plusieurs enregistrements, puis publier les données modifiées à partir d'Excel dans Business Central. Pour plus de détails, voir[ Exportation de vos données commerciales vers Excel](https://docs.microsoft.com/dynamics365/business-central/about-export-data).
+Pour modifier en bloc plusieurs enregistrements Business Central, vous pouvez exporter des listes vers Excel à l’aide du [complément Excel de Business Central](/dynamics365/business-central/finance-analyze-excel#the--excel-add-in) afin de corriger plusieurs enregistrements, puis publier les données modifiées dans Excel dans Business Central. Pour plus d’informations, consultez la section [Exportation de vos données métiers dans Excel](/dynamics365/business-central/about-export-data).
 
-Vous pouvez modifier les données client stockées dans un champ (par exemple, les informations sur un client dans sa fiche) en modifiant manuellement l’élément de données contenant les données personnelles cibles. Pour plus d’informations, consultez [Entrée de données](https://docs.microsoft.com/dynamics365/business-central/ui-enter-data).
+Vous pouvez modifier les données client stockées dans un champ (par exemple, les informations sur un client dans sa fiche) en modifiant manuellement l’élément de données contenant les données personnelles cibles. Pour plus d’informations, consultez [Entrée de données](/dynamics365/business-central/ui-enter-data).
 
 #### <a name="brief-note-about-modifying-entries-in-business-transactions"></a>Remarque sur la modification des entrées dans les transactions commerciales
 
 Les enregistrements de transaction tels que les entrées de comptabilité grand livre, client et générale sont essentiels pour l’intégrité du système de planification des ressources d’une entreprise. Les données personnelles faisant partie d’une transaction financière ou autre sont conservées « telles quelles » à des fins de conformité avec les lois financières (législation fiscale, par exemple), prévention contre les fraudes (piste d’audit de sécurité) ou conformité avec les certifications de l’industrie. Par conséquent, Dynamics 365 for Finance and Operations et Dynamics 365 Business Central limitent la modification des données dans les enregistrements de ce type.
 
-Si vous stockez des données personnelles dans des enregistrements de transaction commerciale, la seule façon de corriger, supprimer ou limiter le traitement des données personnelles pour honorer la demande d’une personne concernée est d’utiliser les [fonctionnalités de personnalisation](https://docs.microsoft.com/dynamics365/business-central/dev-itpro/index) de Dynamics 365 Business Central. [La décision d’honorer la demande de modification](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-guide#reasons-why-certain-personal-data-may-not-be-modified-or-deleted) et d’implémentation d’une personne concernée relève de votre responsabilité.
+Si vous stockez des données personnelles dans des enregistrements de transaction commerciale, la seule façon de corriger, supprimer ou limiter le traitement des données personnelles pour honorer la demande d’une personne concernée est d’utiliser les [fonctionnalités de personnalisation](/dynamics365/business-central/dev-itpro/index) de Dynamics 365 Business Central. [La décision d’honorer la demande de modification](/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-guide#reasons-why-certain-personal-data-may-not-be-modified-or-deleted) et d’implémentation d’une personne concernée relève de votre responsabilité.
 
 ### <a name="restricting-the-processing-of-customer-data"></a>Restriction du traitement des données client
 
-Lorsque vous recevez une demande d'une personne concernée visant à limiter le traitement des données clients, vous pouvez facilement extraire les données clients concernées du service en ligne et les stocker dans un conteneur séparé (c'est-à-dire un stockage sur site ou un service web séparé avec des capacités d'isolation des données) isolé des fonctions de traitement offertes par toute application Cloud.
+Quand vous recevez une demande d’une personne concernée pour limiter le traitement de données client, vous pouvez facilement extraire les données client en question du service en ligne et les stocker dans un conteneur distinct (stockage local ou service web distinct doté de fonctionnalités d’isolation des données) isolé des fonctions de traitement offertes par les applications cloud.
 
-Un mécanisme alternatif tel que le blocage du traitement des données est proposé par _*_Dynamics 365 Business Central_*_, où les utilisateurs ont la possibilité de bloquer l'enregistrement d'une personne donnée. Pour plus de détails, voir[ Limiter le traitement des données pour une personne concernée](https://docs.microsoft.com/dynamics365/business-central/admin-responding-to-requests-about-personal-data#restrict-data-processing-for-a-data-subject). Quand un enregistrement est marqué comme étant bloqué, Dynamics 365 Business Central interrompt le traitement des données de la personne concernée. Vous ne pouvez pas créer des transactions qui utilisent un enregistrement bloqué ; par exemple, vous ne pouvez pas créer une facture pour un client, du moment que ledit client ou le commercial est bloqué.
+Un mécanisme de substitution comme le blocage du traitement des données est proposé par ***Dynamics 365 Business Central***, qui permet aux utilisateurs de bloquer l’enregistrement d’une personne concernée par le traitement des données. Pour plus d’informations, consultez [Restreindre le traitement des données pour un sujet données](/dynamics365/business-central/admin-responding-to-requests-about-personal-data#restrict-data-processing-for-a-data-subject). Quand un enregistrement est marqué comme étant bloqué, Dynamics 365 Business Central interrompt le traitement des données de la personne concernée. Vous ne pouvez pas créer des transactions qui utilisent un enregistrement bloqué ; par exemple, vous ne pouvez pas créer une facture pour un client, du moment que ledit client ou le commercial est bloqué.
 
 ### <a name="deleting-customer-data"></a>Suppression des données client
 
@@ -170,37 +170,37 @@ Quand une personne concernée vous demande de supprimer ses données client, vou
 - Grâce à la modification en bloc de plusieurs enregistrements Dynamics 365, vous pouvez utiliser le complément Microsoft Office pour exporter des données vers Microsoft Excel, apporter vos changements puis importer ces données modifiées d’Excel dans le service en ligne.
 - Vous pouvez supprimer des données client stockées dans un champ en localisant les données à supprimer puis en supprimant manuellement l’élément de données contenant les données client cibles (par exemple, en supprimant définitivement l’enregistrement de contact représentant la personne concernée et d’autres enregistrements contenant des données personnelles).
 
-Par ailleurs, dans le cas de Dynamics 365 Marketing, la suppression d’un contact s’accompagne de la suppression des données d’interaction avec les informations personnelles. Pour les entités ou les champs personnalisés, vous devez personnaliser votre système pour faire en sorte qu’il supprime toutes les données client des enregistrements connexes et/ou les dissocie de l’enregistrement de contact afin que toutes les informations personnelles soient supprimées. Plus d'informations : [Guide du développeur (marketing)](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/developer/marketing-developer-guide).
+Par ailleurs, dans le cas de Dynamics 365 Marketing, la suppression d’un contact s’accompagne de la suppression des données d’interaction avec les informations personnelles. Pour les entités ou les champs personnalisés, vous devez personnaliser votre système pour faire en sorte qu’il supprime toutes les données client des enregistrements connexes et/ou les dissocie de l’enregistrement de contact afin que toutes les informations personnelles soient supprimées. Pour plus d’informations, consultez le [Guide du développeur (Marketing)](/dynamics365/customer-engagement/marketing/developer/marketing-developer-guide).
 
-_*_Le service client de Dynamics 365_*_ fournit également aux organisations la possibilité de [ supprimer les données des clients](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/gdpr-delete).
+***Dynamics 365 Customer Service Insights*** dote également les organisations de fonctionnalités permettant de [supprimer les données client](/dynamics365/ai/customer-service-insights/gdpr-delete).
 
-Alternativement, dans _*_Dynamics 365 pour les finances et les opérations_*_, vous pouvez utiliser des[ _outils de personnalisation*](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/dev-tools/developer-home-page)pour effacer/modifier les données des clients.
+Alternativement, dans ***Dynamics 365 pour les finances et les opérations** _, vous pouvez utiliser des [_outils de personnalisation*](/dynamics365/unified-operations/dev-itpro/dev-tools/developer-home-page)pour effacer/modifier les données des clients.
 
-Dans ***Dynamics 365 Business Central** _, lorsqu'une personne concernée vous demande de supprimer ses données personnelles qui se trouvent être incluses dans vos données clients, il existe plusieurs façons de répondre à cette demande :
+Dans ***Dynamics 365 Business Central***, quand une personne concernée vous demande de supprimer ses données personnelles qui se trouvent dans vos données client, vous pouvez satisfaire cette demande de différentes façons :
 
-- Pour modifier rapidement plusieurs enregistrements de Business Central, vous pouvez exporter des données vers Excel en utilisant le [complément Excel de Business Central](https://docs.microsoft.com/dynamics365/business-central/finance-analyze-excel#the--excel-add-in)pour supprimer plusieurs enregistrements, puis publier ces modifications à partir d'Excel dans Business Central. Pour plus de détails, voir[ Exportation de vos données commerciales vers Excel](https://docs.microsoft.com/dynamics365/business-central/about-export-data).
-- Vous pouvez supprimer les données client stockées dans un champ en supprimant manuellement l’élément de données contenant les données client cibles. Pour plus d’informations, consultez [Entrée de données](https://docs.microsoft.com/dynamics365/business-central/ui-enter-data).
+- Pour modifier en bloc plusieurs enregistrements Business Central, vous pouvez exporter des données vers Excel à l’aide du [complément Excel de Business Central](/dynamics365/business-central/finance-analyze-excel#the--excel-add-in) afin de supprimer plusieurs enregistrements, puis publier ces changements d’Excel dans Business Central. Pour plus d’informations, consultez la section [Exportation de vos données métiers dans Excel](/dynamics365/business-central/about-export-data).
+- Vous pouvez supprimer les données client stockées dans un champ en supprimant manuellement l’élément de données contenant les données client cibles. Pour plus d’informations, consultez [Entrée de données](/dynamics365/business-central/ui-enter-data).
 - Vous pouvez supprimer des données client directement, par exemple en supprimant un contact et en exécutant ensuite le traitement par lot Supprimer les écritures journal d’interaction annulées pour supprimer les interactions pour ce contact.
-- Vous pouvez [supprimer les documents](https://docs.microsoft.com/dynamics365/business-central/admin-manage-documents) contenant des données sur les clients— par exemple, les mémos et les factures de vente et d'achat enregistrées.
+- Vous pouvez [supprimer des documents](/dynamics365/business-central/admin-manage-documents) contenant des données client (par exemple, des mémos, des ventes enregistrées et des factures d’achat).
 
-Outre la suppression en masse ou individuelle d'enregistrements discrets, veuillez noter que seuls les travailleurs licenciés peuvent être entièrement supprimés de _*_Dynamics 365 pour Talent_*_ . [Suivez les étapes suivantes pour supprimer les travailleurs licenciés](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/gdpr/respond-dsr-request-talent#additional-notes-that-apply-to-requests-for-personal-data).
+Outre la suppression en bloc ou individuelle d’enregistrements distincts, veuillez noter que seuls les travailleurs licenciés peuvent être totalement supprimés de ***Dynamics 365 for Talent***. [Suivez ces étapes pour supprimer des travailleurs licenciés](/dynamics365/unified-operations/dev-itpro/gdpr/respond-dsr-request-talent#additional-notes-that-apply-to-requests-for-personal-data).
 
-### <a name="exporting-customer-data"></a>Exportation des données des clients
+### <a name="exporting-customer-data"></a>Exportation des données client
 
-Pour répondre à une demande de portabilité des données, les données des clients dans _*_Dynamics 365 pour le client_*_ peuvent être exportées en utilisant les capacités d'exportation d'entités complètes. Les données des clients peuvent être exportées vers un fichier Excel statique pour faciliter une demande de portabilité des données. En utilisant Excel, vous pouvez alors modifier les données personnelles à inclure dans la demande de portabilité et les enregistrer ensuite dans un format courant lisible par un ordinateur comme .csv ou .xml.
+Pour répondre à une demande de portabilité des données, les données client contenues dans ***Dynamics 365 for Customer Engagement*** peuvent être exportées à l’aide des fonctionnalités d’exportation d’entités complètes. Les données client peuvent être exportées dans un fichier Excel statique pour faciliter une demande de portabilité des données. En utilisant Excel, vous pouvez alors modifier les données personnelles à inclure dans la demande de portabilité et les enregistrer ensuite dans un format courant lisible par un ordinateur comme .csv ou .xml.
 
-De plus, pour Dynamics 365 for Marketing,[ une API dédiée](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/developer/retrieve-interactions-contact) est fournie qui permet au client de créer des extensions qui récupèrent des enregistrements supplémentaires des interactions clients capturées qui peuvent contenir des données personnelles. L'API charge toutes les informations pertinentes à partir du système back-end et les assemble en un seul document portable.
+En outre, pour Dynamics 365 for Marketing, une [API dédiée](/dynamics365/customer-engagement/marketing/developer/retrieve-interactions-contact) est fournie pour permettre au client de générer des extensions qui récupèrent des enregistrements supplémentaires des interactions client capturées pouvant contenir des données personnelles. L’API charge toutes les informations pertinentes à partir du système principal et les assemble dans un document unique portable.
 
-Pour _*_le service clientèle de Dynamics 365_*_, vous [ exportez les données des clients](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/gdpr-export) via le portail de gestion Azure.
+Pour ***Dynamics 365 Customer Service Insights***, vous devez [exporter les données clients](/dynamics365/ai/customer-service-insights/gdpr-export) via le portail de gestion Azure.
 
-_*_Les offres de Dynamics 365 pour les finances et les opérations_*_[Entités de gestion et d'intégration des données qui permettent aux entités fournies, aux entités nouvellement créées ou aux entités étendues d'exporter des données personnelles répétables vers Excel ou un certain nombre d'autres formats communs en utilisant [des travaux d'importation et d'exportation de données](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-import-export-job).  De nombreuses listes peuvent également être exportées vers un fichier Excel statique pour faciliter une demande de portabilité des données. Lorsque les données des clients sont exportées vers Excel de cette manière, vous pouvez alors modifier les données personnelles à inclure dans la demande de portabilité, puis enregistrer le fichier dans un format couramment utilisé et lisible par machine, tel que .csv ou .xml.
+***Dynamics 365 pour la finance et les opérations*** offre [Entités de gestion des données et d’intégration qui permet aux entités fournies, aux entités nouvellement créées ou aux entités étendues d’une exportation de données personnelles répétitives vers Excel ou divers autres formats courants utilisant les [tâches d’importation et d’exportation de données](/dynamics365/unified-operations/dev-itpro/data-entities/data-import-export-job).  De nombreuses listes peuvent aussi être exportées dans un fichier Excel statique pour faciliter une demande de portabilité des données. Quand les données client sont exportées dans Excel de cette façon, vous pouvez modifier les données personnelles à inclure dans la demande de portabilité et enregistrer ensuite le fichier dans un format courant lisible par un ordinateur comme .csv ou .xml.
 
-Dynamics 365 pour les finances et les opérations et _*_Dynamics 365 pour les talents_*_ offrent tous deux un rapport de recherche de personnes pour fournir à la personne concernée des données que vous avez classées comme des données personnelles.
+Dynamics 365 for Finance and Operations et ***Dynamics 365 for Talent*** fournissent un rapport de recherche des données personnelles pour fournir les données que vous avez classées comme données personnelles à la personne concernée par le traitement des données.
 
-_*_Le centre d'affaires Dynamics 365_*_ offre les fonctionnalités suivantes :
+L’offre ***Dynamics 365 Business Central*** propose les fonctionnalités suivantes :
 
-- Vous pouvez exporter les données sur les clients dans un fichier Excel. Dans Excel, vous pouvez ensuite modifier les données client à inclure dans la demande de portabilité et les enregistrer dans un format courant lisible par un ordinateur comme .csv ou .xml. Pour plus d’informations, consultez [Exportation de vos données métier dans Excel](https://docs.microsoft.com/dynamics365/business-central/about-export-data).
-- Vous pouvez exporter les données client dans un fichier Excel. Dans Excel, vous pouvez ensuite modifier les données client à inclure dans la demande de portabilité et les enregistrer dans un format courant lisible par un ordinateur comme .csv ou .xml. Pour plus d’informations, consultez [Exportation de vos données métier dans Excel](https://docs.microsoft.com/dynamics365/business-central/about-export-data).
+- Vous pouvez exporter les données client dans un fichier Excel. Dans Excel, vous pouvez ensuite modifier les données client à inclure dans la demande de portabilité et les enregistrer dans un format courant lisible par un ordinateur comme .csv ou .xml. Pour plus d’informations, consultez [Exportation de vos données métier dans Excel](/dynamics365/business-central/about-export-data).
+- Vous pouvez exporter les données client dans un fichier Excel. Dans Excel, vous pouvez ensuite modifier les données client à inclure dans la demande de portabilité et les enregistrer dans un format courant lisible par un ordinateur comme .csv ou .xml. Pour plus d’informations, consultez [Exportation de vos données métier dans Excel](/dynamics365/business-central/about-export-data).
 
 
 ## <a name="part-2-responding-to-dsrs-for-system-generated-logs"></a>Partie 2 : Répondre à des DSR pour les journaux générés par le système
@@ -217,28 +217,28 @@ La possible de limiter ni de rectifier les données contenues dans des journaux 
 
 Les administrateurs peuvent accéder aux journaux générés par le système associés à une utilisation particulière d’un utilisateur des applications et des services Dynamics 365. Pour accéder aux journaux générés par le système et les exporter, procédez comme suit :
 
-1. Rendez-vous [sur le portail Microsoft Service Trust Portal et](https://servicetrust.microsoft.com/) connectez-vous en utilisant les informations d'identification d'un administrateur mondial de Dynamics 365.
-2. Dans la liste *déroulante* _ Vie privée * en haut de la page, cliquez **sur Demande de la personne concernée**.
-3. Sur la **page de demande** de la personne concernée, sous **« Journaux générés par le système** », cliquez sur **« Exportation des journaux de données** ».
+1. Accédez au [portail d’approbation de service Microsoft](https://servicetrust.microsoft.com/) et connectez-vous en utilisant les identifiants d’un administrateur général Dynamics 365.
+2. Dans la liste déroulante **Confidentialité** en haut de la page, cliquez sur **Demande des personnes concernées**.
+3. Dans la page **Demande des personnes concernées**, sous **Journaux générés par le système**, cliquez sur **Exportation des journaux de données**.
     > [!NOTE]
     > L’**Exportation des journaux de données** s’affiche. Notez que la liste des demandes de données d’exportation transmises par votre organisation s’affiche.
 4. Pour créer une demande pour un utilisateur, cliquez sur **Créer une demande de données d’exportation**.
 
 Une fois la demande créée, elle apparaît sur la page **Exportation des journaux de données** où vous pouvez suivre son statut. Lorsqu’une demande est terminée, vous pouvez cliquer sur un lien pour accéder aux journaux générés par le système qui sont exportés vers l’emplacement de stockage Azure de votre organisation dans les 30 jours suivant la création de la demande. Les données sont enregistrées dans un format de fichier courant lisible par une machine tel que JSON ou XML. Si vous n’avez pas de compte Azure ni d’emplacement de stockage Azure, vous devez créer un compte Azure ou un emplacement de stockage Azure pour votre organisation de sorte que l’outil Exportation des journaux de données puisse exporter les journaux générés par le système. 
 
-Azure prend en charge cette demande en permettant à votre organisation d’exporter les données au format JSON natif vers votre conteneur de stockage Azure spécifié[. Article de présentation du Stockage Microsoft Azure – Stockage Blob](https://docs.microsoft.com/azure/storage/common/storage-introduction#blob-storage). Les données récupérées n’incluent pas de données susceptibles de compromettre la sécurité et la stabilité du service.
+Azure prend en charge cette demande en permettant à votre organisation d’exporter les données au format JSON natif vers votre conteneur de stockage Azure spécifié[. Article de présentation du Stockage Microsoft Azure – Stockage Blob](/azure/storage/common/storage-introduction#blob-storage). Les données récupérées n’incluent pas de données susceptibles de compromettre la sécurité et la stabilité du service.
 
 > [!IMPORTANT]
 > Pour exporter des données utilisateur à partir du client, vous devez être un administrateur client.
 
-Le tableau suivant résume l'accès et l'exportation des journaux générés par le système :
+Le tableau suivant récapitule la consultation et l’exportation des journaux générés par le système :
 
 | **Question** | **Réponse** |
 |:----|:---|
-|**Combien de temps l'outil Data Log Export de Microsoft prend-il pour traiter une demande ?**| Cela peut dépendre de plusieurs facteurs. Dans la plupart des cas, il nécessite un ou deux jours, mais cela peut prendre jusqu’à 30 jours. |
+|**Combien de temps faut-il à l’outil Exportation des journaux de données de Microsoft pour exécuter une demande ?**| Cela peut dépendre de plusieurs facteurs. Dans la plupart des cas, il nécessite un ou deux jours, mais cela peut prendre jusqu’à 30 jours. |
 |**Quel est le format de sortie ?**| La sortie sera structurée sous forme de fichiers lisibles par une machine, comme XML, CSV ou JSON. |
-|**Quelles données l’outil d’exportation des journaux de données renvoie-t-il ?**| L’outil Exportation des journaux de données renvoie les journaux générés par le système que Microsoft stocke. Les données exportées couvriront divers services Microsoft, notamment Office 365, Azure et Dynamics. |
-|**_Qui a accès à l'outil Data Log Export pour soumettre des demandes d'accès aux journaux générés par le système ?_*  | Les administrateurs globaux de Dynamics 365 auront accès à l'utilitaire du gestionnaire de journaux GDPR. |
+|**Quelles données l’outil d’exportation des journaux de données renvoie-t-il ?**| L’outil Exportation des journaux de données renvoie les journaux générés par le système que Microsoft stocke. Les données exportées englobent différents services Microsoft, dont Office 365, Azure et Dynamics. |
+|***Qui a accès à l’outil Exportation des journaux de données pour demander l’accès à des journaux générés par le système ?**| Les administrateurs généraux Dynamics 365 auront accès à l’utilitaire du gestionnaire des journaux du RGPD. |
 |**Comment les données sont-elles renvoyées à l’utilisateur ?**| Les données sont exportées vers l’emplacement de stockage Azure de votre organisation. Les administrateurs de votre organisation doivent ensuite déterminer comment ils souhaitent afficher/renvoyer ces données aux utilisateurs. |
 |**À quoi ressemblent les données dans les journaux générés par le système ?**| Exemple d’enregistrement de journal généré par le système au format JSON : <br><br> "DateTime": "2017-04-28T12:09:29-07:00", <br> "AppName": "SharePoint", <br> "Action": "OpenFile", <br> "IP": "154.192.13.131", <br> "DevicePlatform": "Windows 1.0.1607" |
 

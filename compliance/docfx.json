@@ -49,7 +49,16 @@
       "bilingual_type": "hover over",
       "feedback_github_repo": "MicrosoftDocs/Compliance",
       "feedback_product_url": "https://github.com/MicrosoftDocs/Compliance",
-      "searchScope": ["Compliance"]
+      "searchScope": ["Compliance"],
+      "contributors_to_exclude": [
+        "rjagiewich",
+        "traya1",
+        "rmca14",
+        "claydetels19",
+        "jborsecnik",
+        "tiburd",
+        "garycentric"
+      ]
     },
     "fileMetadata": {},
     "template": [],

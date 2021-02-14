@@ -18,12 +18,12 @@ ms.collection:
 hideEdit: true
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69e30dba5611614c864390a328e913fe233533b2
-ms.sourcegitcommit: b16b4a28b4f477ca6c6768266402bc234c306757
+ms.openlocfilehash: 6bd3d6007e68479f73988c68769541c45480b61a
+ms.sourcegitcommit: f37d6ac660910f1cc2204f5ceebd390f7abbdfbf
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "50169921"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "50175446"
 ---
 # <a name="azure-and-dynamics-365-accountability-readiness-checklist-for-the-gdpr"></a>Azure et Dynamics 365 : liste de contrôle de l'état de préparation à la responsabilité pour le GDPR
 

@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: be76b2cfc3408f50c239fb9c1fc140e36e7697f7
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: ffe05b9857d7b04004838c17d19073eb208a99f5
+ms.sourcegitcommit: efe49fd31eb8166e3e72ad1cc65b332c6f3b1327
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120283"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "50260366"
 ---
 # <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Infrastructure de sécurité commune (CSF) HITRUST (Health Information Trust Alliance)
 
@@ -29,7 +29,7 @@ ms.locfileid: "50120283"
 
 La Health Information Trust Alliance (HITRUST) est une organisation régie par des représentants du secteur de la santé. HITRUST a créé et maintient l’infrastructure de sécurité commune (CSF), une infrastructure certifiée pour aider les organismes de santé et leurs fournisseurs à démontrer leur sécurité et leur conformité de manière cohérente et rationalisée.
 
-Le CSF s’appuie sur la loi HIPAA et la loi HITECH, qui sont des lois américaines sur la santé qui ont établi des exigences pour l’utilisation, la divulgation et la protection des informations de santé identifiables individuellement, et qui appliquent la non-conformité. HITRUST fournit un critère (infrastructure de conformité standardisée, évaluation et processus de certification) sur lequel les fournisseurs de services cloud et les entités d’état couvertes peuvent mesurer la conformité. Le CSF intègre également la sécurité, la confidentialité et d’autres exigences réglementaires propres aux soins de santé à partir de cadres existants tels que la norme[PCI-DSS](https://www.microsoft.com/trustcenter/compliance/pci)(Payment Card Industry Data Security Standard), iso/IEC 27001 et les normes de gestion de la sécurité des informations [ISO/IEC 27001,](https://www.microsoft.com/trustcenter/compliance/iso-iec-27001) et[mars-E ( Mars-E](https://www.microsoft.com/trustcenter/compliance/mars-e)).
+Le CSF s’appuie sur la loi HIPAA et la loi HITECH, qui sont des lois américaines sur la santé qui ont établi des exigences pour l’utilisation, la divulgation et la protection d’informations médicales identifiables individuellement, et qui appliquent la non-conformité. HITRUST fournit un critère (infrastructure de conformité standardisée, évaluation et processus de certification) sur lequel les fournisseurs de services cloud et les entités d’état couvertes peuvent mesurer la conformité. Le CSF intègre également la sécurité, la confidentialité et d’autres exigences réglementaires propres aux soins de santé à partir de cadres existants tels que la norme[PCI-DSS](https://www.microsoft.com/trustcenter/compliance/pci)(Payment Card Industry Data Security Standard), les normes de gestion de la sécurité des informations [ISO/IEC 27001](https://www.microsoft.com/trustcenter/compliance/iso-iec-27001) et les normes de sécurité minimale acceptables pour les échanges ([MARS-E](https://www.microsoft.com/trustcenter/compliance/mars-e)).
 
 Le CSF est divisé en 19 domaines différents, y compris la protection des points de terminaison, la sécurité des appareils mobiles et le contrôle d’accès. HITRUST certifie les offres it par rapport à ces contrôles. HITRUST adapte également les exigences de certification aux risques d’une organisation en fonction des facteurs organisationnels, système et réglementaires.
 
@@ -45,6 +45,7 @@ Découvrez comment accélérer votre déploiement HITRUST avec notre plan de sé
 
 - [Azure et Azure Government](https://aka.ms/AzureCompliance)
 - Intune
+- Bureau géré Microsoft
 - [Office 365 et Office 365 U.S. Governement](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ## <a name="audits-reports-and-certificates"></a>Audits, rapports et certificats
@@ -87,7 +88,7 @@ Vous pouvez télécharger une copie de la lettre de certification [pour Azure](h
 Les services dans le cadre de la certification CSF HITRUST sont Archivage Exchange Online, Exchange Online Protection, Exchange Online, Skype Entreprise, Centre d’administration, SharePoint Online, Project Online, OneDrive Entreprise, Office Online, MyAnalytics, Microsoft Teams, Microsoft 365 Apps for enterprise dans le cloud office 365 multi-clients et Office 365 GCC.
 
 > [!NOTE]
-> Microsoft 365 Apps pour entreprise permet d’accéder à différents services cloud, tels que les paramètres d’itinérance, les licences et le stockage cloud grand public OneDrive, et peut permettre l’accès à d’autres services cloud à l’avenir. Les paramètres d’itinérance et les licences sont des normes pour HITRUST. Le stockage cloud oneDrive grand public n’est pas disponible, et les autres services cloud qui sont accessibles via Microsoft 365 Apps for enterprise et que Microsoft peut proposer à l’avenir peuvent également ne pas prendre en charge ces normes.*
+> Microsoft 365 Apps for enterprise permet d’accéder à différents services cloud, tels que les paramètres d’itinérance, les licences et le stockage cloud grand public OneDrive, et peut permettre l’accès à d’autres services cloud à l’avenir. Les paramètres d’itinérance et les licences sont des normes pour HITRUST. Le stockage cloud oneDrive grand public n’est pas disponible, et les autres services cloud qui sont accessibles via Microsoft 365 Apps for enterprise et que Microsoft peut proposer à l’avenir peuvent également ne pas prendre en charge ces normes.*
 
 **Pourquoi certains services Office 365 ne sont-ils pas dans le cadre de cette certification ?**
 

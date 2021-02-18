@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4de465bbb17f5609af376920052d6abd366e5429
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 0a8cc37a24d3a51d79fb1ac34c92d96fc7e76fdd
+ms.sourcegitcommit: 66a26facea6ec9a95e5e61f1b5b69402f03db481
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121723"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50279841"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>Stratégie de sécurité des services d’information sur la justice pénale (CJIS)
 
@@ -37,13 +37,11 @@ En outre, tous les sous-traitants privés qui assurent le traitement du CJI doiv
 
 ## <a name="microsoft-and-cjis-security-policy"></a>Microsoft et la stratégie de sécurité CJIS
 
-Microsoft signe le addendum de sécurité CJIS dans les états avec les accords d’informations CJIS. Ces informations indiquent aux autorités de mise en œuvre de la loi de l’État responsables de la conformité avec la stratégie de sécurité CJIS comment les contrôles de sécurité cloud de Microsoft contribuent à protéger le cycle de vie complet des données et à garantir un filtrage d’arrière-plan approprié du personnel d’exploitation ayant accès au CJI. Microsoft continue de travailler avec les gouvernements des États pour conclure des accords d’information CJIS.
+Microsoft signe le addendum de sécurité CJIS dans les états avec les accords d’informations CJIS. Ceux-ci indiquent aux autorités de mise en œuvre de la loi de l’État responsables de la conformité avec la stratégie de sécurité CJIS comment les contrôles de sécurité cloud de Microsoft contribuent à protéger le cycle de vie complet des données et à garantir un filtrage d’arrière-plan approprié du personnel d’exploitation ayant accès au CJI. Microsoft continue de travailler avec les gouvernements des États pour conclure des accords d’information CJIS.
 
 Microsoft a évalué les stratégies et procédures opérationnelles de Microsoft Azure Government, Microsoft Office 365 U.S. Government et Microsoft Dynamics 365 U.S. Government, et atteste de leur capacité dans les contrats de services applicables à répondre aux exigences DE LASV pour l’utilisation des services dans l’étendue.
 
 En savoir plus sur les avantages de la stratégie de sécurité CJIS sur le cloud Microsoft : découvrez comment [Genetec a effacé les enquêtes pénales](https://customers.microsoft.com/story/genetec)
-
-Découvrez comment accélérer votre stratégie de sécurité CJIS avec notre plan de sécurité et de conformité Azure : téléchargez les instructions d’implémentation [CJIS](https://gallery.technet.microsoft.com/CJIS-Implementation-62af7c27) pour les services cloud de Microsoft Government
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
 
@@ -60,21 +58,21 @@ Le PROGRAMME DNS ne permet pas de certification de la conformité de Microsoft a
 
 ## <a name="cjis-status-in-the-united-states-current-as-of-1152020"></a>État CJIS aux États-Unis (actuel depuis le 05/11/2020)
 
-44 États et le district de Colombie avec des contrats de gestion, mis en surbrillant sur la carte en vert incluent :
+44 États et le district de Colombie avec des contrats de gestion, mis en évidence sur la carte en vert sont les suivants :
 
 Oregona, Oregon, États-Unis, États-Unis, États-Unis, Washington, Oregon, États-Unis, New Jersey, New York, North Jersey, North Premier, Oregon, Oregon, Île-du-Sud, Île-du-Sud, États-Unis, États-Unis, États-Unis, États-Unis et District d’Allemagne.
 
 L’engagement de Microsoft à respecter les contrôles réglementaires CJIS applicables permet aux organisations de justice pénale d’implémenter des solutions basées sur le cloud et d’être conformes à la politique de sécurité CJIS V5.8.
 
-## <a name="frequently-asked-questions"></a>Questions fréquemment posées
+## <a name="frequently-asked-questions"></a>Foire aux questions
 
 **Où puis-je demander des informations de conformité ?**
 
 Contactez votre représentant de compte Microsoft pour obtenir des informations sur la juridiction qui vous intéresse. Contactez <cjis@microsoft.com> pour obtenir des informations sur les services actuellement disponibles dans quels états.
 
-**Comment Microsoft démontre-t-il que ses services cloud permettent de respecter les exigences de mon état ?**
+**Comment Microsoft démontre-t-il que ses services cloud permettent de se conformer aux exigences de mon état ?**
 
-Microsoft signe un contrat d’information avec une agence de systèmes CJIS (CSA) d’état ; vous pouvez demander une copie auprès de la CSA de votre état. En outre, Microsoft fournit aux clients des informations détaillées sur la sécurité, la confidentialité et la conformité. Les clients peuvent également examiner les rapports de sécurité et de conformité préparés par des auditeurs indépendants afin de vérifier que Microsoft a implémenté des contrôles de sécurité (tels que la norme ISO 27001) appropriés à l’étendue d’audit appropriée.
+Microsoft signe un contrat d’information avec une agence des systèmes CJIS (CSA) d’état ; vous pouvez demander une copie auprès de la CSA de votre état. En outre, Microsoft fournit aux clients des informations détaillées sur la sécurité, la confidentialité et la conformité. Les clients peuvent également examiner les rapports de sécurité et de conformité préparés par des auditeurs indépendants afin de vérifier que Microsoft a implémenté des contrôles de sécurité (tels que la norme ISO 27001) appropriés à l’étendue d’audit appropriée.
 
 **Par où commencer avec l’effort de conformité de mon agence ?**
 

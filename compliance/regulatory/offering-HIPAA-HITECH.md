@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6f1af4cbedc681a36c50eb3f75cbeb13ed671057
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: f2574ff4c660d8aee1229856cf776c397c80561e
+ms.sourcegitcommit: 4f70b1fe53943f9d919e7e1f449093b90b30f046
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120293"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50276192"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>Health Insurance Portability and Accountability (HIPAA) & HITECH Acts
 
@@ -36,7 +36,7 @@ La loi régule l’utilisation et la diffusion de l’PHI dans quatre domaines g
 - Identificateurs, qui sont les types d’informations qui ne peuvent pas être publiés s’ils sont collectés à des fins de recherche.
 - Codes de transmission électronique des données dans les transactions liées aux soins de santé, y compris les déclarations d’éligibilité et d’assurance ainsi que les paiements.
 
-L’étendue de la loi HIPAA a été étendue avec l’adoption de la loi HITECH (Health Information Technology for Economic and Hip Health). Ensemble, les règles HIPAA et HITECH Act sont les suivantes :
+L’étendue de la loi HIPAA a été étendue avec l’adoption de la loi HITECH (Health Information Technology for Economic and Hip Health). Ensemble, les règles HIPAA et HITECH Act incluent :
 
 - La règle de confidentialité HIPAA, qui se concentre sur le droit des individus à contrôler l’utilisation de leurs informations personnelles, et couvre la confidentialité de l’PHI, en limitant son utilisation et sa divulgation.
 - La règle de sécurité HIPAA, qui définit les normes de protection administrative, technique et physique pour protéger l’PHI électronique contre l’accès, l’utilisation et la divulgation non autorisés. Il inclut également des exigences organisationnelles telles que les contrats de partenariat commercial (AAS).
@@ -49,9 +49,9 @@ Les réglementations HIPAA exigent que les entités couvertes et leurs associés
 
 Il n’existe actuellement aucune certification officielle pour la conformité HIPAA ou HITECH Act. Toutefois, les services Microsoft couverts par le BAA ont fait l’objet d’audits effectués par des auditeurs indépendants agréés pour la certification Microsoft ISO/IEC 27001.
 
-Les services cloud d’entreprise Microsoft sont également couverts par les évaluations FedRAMP. Microsoft Azure et Microsoft Azure Government ont reçu une autorité provisoire pour fonctionner à partir du comité d’autorisation commun FedRAMP ; Microsoft Dynamics 365 U.S. Government a reçu une autorité de l’agence pour fonctionner du département américain de l’hébergement et du développement à l’état américain, tout comme Microsoft Office 365 U.S. Government du département de la Santé et des services humains des États-Unis.
+Les services cloud d’entreprise Microsoft sont également couverts par les évaluations FedRAMP. Microsoft Azure et Microsoft Azure Government ont reçu une autorité provisoire pour fonctionner à partir du comité d’autorisation commun FedRAMP . Microsoft Dynamics 365 U.S. Government a reçu une autorité de l’agence pour fonctionner du département américain du hébergement et du développement à l’état américain, tout comme Microsoft Office 365 U.S. Government du département de la Santé et des services humains des États-Unis.
 
-Pour découvrir comment Microsoft Cloud aide les clients à prendre en charge hipAA et les exigences HITECH, consultez La base de données [Customer Stories de Microsoft.](https://customers.microsoft.com)
+Pour découvrir comment Microsoft Cloud aide les clients à prendre en charge la loi HIPAA et les exigences HITECH, consultez La base de données [Customer Stories de Microsoft.](https://customers.microsoft.com)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
 
@@ -59,8 +59,8 @@ Pour découvrir comment Microsoft Cloud aide les clients à prendre en charge hi
 - Microsoft Cloud App Security
 - [Microsoft Cloud pour la santé](https://aka.ms/MicrosoftCloudforHealthcareCompliance)
 - Microsoft Healthcare Bot Service
-- Bureau géré Microsoft
-- Microsoft Stream
+- [Bureau géré Microsoft](/microsoft-365/managed-desktop/intro/compliance)
+- Microsoft Stream
 - Services professionnels Microsoft : Premier et sur site pour Azure, Dynamics 365, Intune et pour les clients des entreprises moyennes et grandes de Microsoft 365 Entreprise
 - [Dynamics 365 et Dynamics 365 Service Public](https://aka.ms/d365-compliance-list)
 - Service Cloud Power Automate (anciennement Microsoft Flow), soit en service autonome, soit inclus dans un plan ou une suite Office 365 ou Dynamics 365
@@ -74,11 +74,11 @@ Pour découvrir comment Microsoft Cloud aide les clients à prendre en charge hi
 
 Profitez des avantages du cloud pour les solutions de données d’état avec le Plan de sécurité et conformité Azure : [HIPAA/HITRUST Health Data and AI](/azure/governance/blueprints/samples/hipaa-hitrust-9-2). Ce plan fournit des outils et des conseils pour vous aider à commencer à créer des solutions HIPAA/HITRUST dès aujourd’hui.
 
-## <a name="frequently-asked-questions"></a>Questions fréquemment posées
+## <a name="frequently-asked-questions"></a>Foire aux questions
 
 **Mon organisation peut-elle entrer un BAA avec Microsoft ?**
 
-Microsoft propose aux sociétés qualifiées ou à leurs fournisseurs un baa qui couvre les services Microsoft dans l’étendue.
+Microsoft offre aux sociétés qualifiées ou à leurs fournisseurs un baa qui couvre les services Microsoft dans l’étendue.
 
 Pour les services cloud De Microsoft : le contrat de partenariat commercial [HIPAA](https://aka.ms/BAA) est disponible par défaut via les conditions d’accès aux services en ligne pour tous les clients qui sont des entités couvertes ou des associés commerciaux dans le cadre de la loi HIPAA. Voir « Services cloud microsoft dans l’étendue » sur cette page web pour obtenir la liste des services cloud couverts par ce BAA.
 
@@ -86,7 +86,7 @@ Pour les services professionnels de Microsoft : l’ad modification de l’assoc
 
 **Le fait d’avoir un BAA avec Microsoft garantit-il la conformité de mon organisation avec la loi HIPAA et la loi HITECH ?**
 
-Non. En proposant un BAA, Microsoft vous aide à assurer votre conformité HIPAA, mais l’utilisation des services Microsoft ne permet pas d’y parvenir en elle-même. Votre organisation est chargée de s’assurer que vous avez un programme de conformité et des processus internes appropriés en place, et que votre utilisation particulière des services Microsoft s’aligne sur la loi HIPAA et HITECH.
+Non. En proposant un BAA, Microsoft vous aide à assurer votre conformité HIPAA, mais l’utilisation des services Microsoft ne permet pas d’y parvenir en elle-même. Votre organisation est chargée de s’assurer que vous avez un programme de conformité approprié et des processus internes en place, et que votre utilisation particulière des services Microsoft s’aligne sur la loi HIPAA et HITECH.
 
 **Microsoft peut-il modifier le baa de mon organisation ?**
 
@@ -110,7 +110,7 @@ Pour aider les clients à accomplir cette tâche, Microsoft a publié les guides
 
 ## <a name="resources"></a>Ressources
 
-- [HIPAA - Règle DeNtres](https://aka.ms/HIPAA-omnibus) (dernières réglementations modifiant les règles HIPAA)
+- [HipAA Circulation Rule](https://aka.ms/HIPAA-omnibus) (dernières réglementations modifiant les règles HIPAA)
 - [Infrastructure de conformité Microsoft Common Controls Hub](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Conditions de Microsoft Online Services](https://aka.ms/Online-Services-Terms)
 - [Cloud Microsoft Service publique](https://go.microsoft.com/fwlink/p/?linkid=2087246)

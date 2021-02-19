@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: eb73d95d25327220b9c2dc2769703101ba2c60e9
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: a2ca0cf98216e2caf6e8d7057f6dea5241f2842a
+ms.sourcegitcommit: 4f70b1fe53943f9d919e7e1f449093b90b30f046
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121309"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50276202"
 ---
 # <a name="cloud-security-alliance-csa-star-attestation"></a>Attestation CSA (Cloud Security Alliance) STAR
 
@@ -46,7 +46,7 @@ Microsoft Azure et Microsoft Intune ont obtenu l’attestation CSA STAR. L’att
 - Microsoft Cloud App Security
 - Microsoft Graph
 - Intune
-- Bureau géré Microsoft
+- [Bureau géré Microsoft](/microsoft-365/managed-desktop/intro/compliance)
 - Service Cloud Power Automate (anciennement Microsoft Flow), soit en service autonome, soit inclus dans un plan ou une suite Office 365 ou Dynamics 365
 - Service Cloud PowerApps, soit en service autonome, soit inclus dans un plan ou une suite Office 365 ou Dynamics 365 
 - Power BI

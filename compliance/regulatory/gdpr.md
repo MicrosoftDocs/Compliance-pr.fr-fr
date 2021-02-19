@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 44df81658719397271020f38088d3287e67774a1
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 16135ae18d0b0a2a91a61652fed3d1b34d5db124
+ms.sourcegitcommit: 38741d8dc272bc2199d9f27db0335973e6be9735
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121433"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "50290930"
 ---
 # <a name="general-data-protection-regulation-summary"></a>Sythèse du règlement général sur la protection des données
 
@@ -141,7 +141,6 @@ Microsoft pratique la confidentialité dès la conception et la confidentialité
 
 Ces vérifications de la confidentialité tendent à être granulaires : un même service peut en recevoir des dizaines, voire des centaines. Microsoft répète ces vérifications granulaires de la confidentialité dans les analyses d’impact sur la protection des données (DPIA) couvrant les principaux groupements de traitement, que le délégué à la protection des données de Microsoft UE vérifie. Le délégué à la protection des données évalue les risques liés au traitement des données pour s’assurer que la quantité d’atténuations mises en place est suffisante. S’il repère des risques non atténués, es modifications sont recommandées à nouveau au groupe Ingénierie. Si les risques liés à la protection des données changent, les analyses d’impact sur la protection des données sont vérifiées et mises à jour.
 
-
 En tant que responsable du traitement des données, Microsoft est tenu d’aider les contrôleurs à assurer la conformité aux exigences de DPIA définies dans le RGPD. Dans le souci d’accompagner nos clients, des résumés des différentes sections des DPIA de Microsoft seront prochainement disponibles dans cette section. Ils serviront de base aux contrôleurs qui utilisent les services Microsoft pour la création de leurs propres DPIA.
 
 ## <a name="breach-notification"></a>Notification de violation
@@ -166,7 +165,7 @@ Si une violation de données personnelles susceptible d’entraîner un risque �
 
 Une fois informés d’une violation de données personnelles, nous sommes tenus par le RGPD de vous en informer dans les meilleurs délais. Lorsque Microsoft est un responsable du traitement, nos obligations reflètent les exigences du RGPD et nos dispositions contractuelles internationales standard. Nous estimons que toutes les violations de données personnelles confirmées sont concernées. Il n’existe aucun seuil de risque. Nous informons nos clients lorsque la violation de données a été subie directement par Microsoft ou par l’un de nos sous-traitants. Nous avons mis en place des processus permettant d’identifier et de contacter rapidement le personnel chargé de la sécurité en cas d’incident que vous avez identifié dans votre organisation. Par ailleurs, tous les sous-traitants sont contractuellement tenus de signaler leurs propres violations à Microsoft et d’offrir des garanties à cet effet.
 
-**Comment MIcrosoft détecte une violation de données ?**
+**Comment Microsoft détecte une violation de données ?**
 
 Tous nos services et employés suivent les procédures de gestion des incidents internes pour s’assurer que nous prenons les précautions appropriées afin d’éviter les violations de données. De plus, Online Services dispose de contrôles de sécurité spécifiques sur nos plateformes pour détecter les rares cas de violations de données.
 
@@ -210,7 +209,7 @@ Les conditions RGPD de Microsoft reflètent les engagements requis des responsab
 
 **Sous quelle base Microsoft facilite-t-il le transfert de données personnelles en dehors de l’UE ?**
 
-Microsoft utilise depuis longtemps les clauses contractuelles standard (également appelées clauses de modèle) comme base de transfert de données pour ses services en ligne d'entreprise. Les clauses contractuelles standard sont des termes standard fournis par la Commission européenne, qui peuvent être utilisés pour transférer des données en dehors de l’espace économique européen de façon conforme. Microsoft a incorporé les clauses contractuelles standard dans tous nos contrats de licence en volume via les [Conditions d’utilisation des services en ligne](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46). L’article 29 a détecté que la mise en place des clauses contractuelles standard par Microsoft est conforme. Lorsque le bouclier de protection des données UE-US est devenu disponible, Microsoft a été la première entreprise à certifier. Pour plus d’informations, consultez [Certification Microsoft du bouclier de protection des données](https://www.privacyshield.gov/participant?id=a2zt0000000KzNaAAK&status=Active)et lisez les [Conditions d’utilisation des services en ligne](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46). Le bouclier de protection des données EU-US permet aux clients qui souhaitent transférer leurs données vers les États-Unis de façon cohérente avec leurs obligations en matière de protection des données.
+Microsoft utilise depuis longtemps les clauses contractuelles standard (également appelées clauses de modèle) comme base de transfert de données pour ses services en ligne d'entreprise. Les clauses contractuelles standard sont des termes standard fournis par la Commission européenne, qui peuvent être utilisés pour transférer des données en dehors de l’espace économique européen de façon conforme. Microsoft a incorporé les clauses contractuelles standard dans tous nos contrats de licence en volume via les [Conditions d’utilisation des services en ligne](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46). Pour les données personnelles de l’Espace économique européen, de la Suisse et du Royaume-Uni, Microsoft veillera à ce que les transferts de données personnelles vers un pays tiers ou une organisation internationale soient soumis à des garanties appropriées, comme décrit dans l’article 46 de la RGPD. Outre les engagement de Microsoft sous les Clauses contractuelles standard pour les processeurs et d’autres contrats types, Microsoft continue de se conformer aux termes du [bouclier de protection des données](https://www.privacyshield.gov/), mais n’y aura plus recours en tant que base pour le transfert de données personnelles de l’UE/EEA vers les États-Unis.
 
 **Quelles sont les autres offres de conformité Microsoft ?**
 
@@ -269,7 +268,7 @@ Se conformer au GDPR coûtera du temps et de l'argent à la plupart des organisa
 
 Le RGPD régule la collecte, l’espace de stockage, l’utilisation et le partage des « données personnelles ». Dans le RGPD, les données personnelles sont définies de façon générale comme toute donnée relative à une personne physique identifiée ou identifiable.
 
-Les données personnelles peuvent inclure, sans s’y limiter, les identifiants en ligne (par exemple, les adresses IP), les informations des employés, les bases de données des ventes, les données des services clients, les formulaires de commentaires des clients, les données de localisation, les données biométriques, le métrage CCTV, les enregistrements de la fidélité, l’état d’intégrité et les informations financières, et bien plus encore. Elles peuvent même inclure des informations qui ne semblent pas être personnelles (par exemple, photo d’un paysage sans personne) où ces informations sont liées à l’aide d’un numéro de compte ou d’un code unique à un individu identifiable. Et même les données personnelles qui ont été pseudonymisées peuvent être des données personnelles si le pseudonyme peut être lié à un individu particulier. 
+Les données personnelles peuvent inclure, sans s’y limiter, les identifiants en ligne (par exemple, les adresses IP), les informations des employés, les bases de données des ventes, les données des services clients, les formulaires de commentaires des clients, les données de localisation, les données biométriques, le métrage CCTV, les enregistrements de la fidélité, l’état d’intégrité et les informations financières, et bien plus encore. Elles peuvent même inclure des informations qui ne semblent pas être personnelles (par exemple, photo d’un paysage sans personne) où ces informations sont liées à l’aide d’un numéro de compte ou d’un code unique à un individu identifiable. Et même les données personnelles qui ont été pseudonymisées peuvent être des données personnelles si le pseudonyme peut être lié à un individu particulier.
 
 Le traitement de certaines catégories « spéciales » de données personnelles, telles que les données personnelles révélant l’origine raciale ou ethnique de la personne, ou le problème de santé ou de son orientation sexuelle, est soumis à des règles plus strictes que le traitement des données personnelles « ordinaires ». Cette évaluation des données personnelles est fortement précise. Nous vous recommandons donc de faire appel à un expert pour évaluer vos propres circonstances.
 
@@ -325,6 +324,5 @@ Les produits et services Microsoft (par exemple, Azure, Dynamics 365, Enterpris
 
 - [Répondez à vos besoins en matière de RGPD avec l’un de nos partenaires mondiaux proposant des solutions basées sur Microsoft](https://aka.ms/findgdprpartner)
 - [Découvrez comment Microsoft gère vos données, leur emplacement, les utilisateurs qui peuvent y accéder et les conditions d’utilisation, et bien plus encore.](https://www.microsoft.com/trust-center/privacy)
-- [Découvrez comment Microsoft respecte les principes de l’UE-US. cadre de bouclier de protection des données](https://blogs.microsoft.com/eupolicy/2016/07/11/eu-u-s-privacy-shield-progress-for-privacy-rights/)
 - [Comment Microsoft détecte et répond à une violation de données personnelles, puis vous en informe dans le cadre du RGPD](https://www.microsoft.com/trust-center/privacy/gdpr-data-breach)
 - [Évaluez votre état de préparation au RGPD aujourd’hui](https://discover.microsoft.com/gdpr-readiness-assessment/)

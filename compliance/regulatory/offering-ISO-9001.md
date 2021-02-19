@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2ecf4d029b1c69e4ce7da1244d71d47433eb3873
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: f0ad19fdeb794d281342367ad9313ac159b9acf0
+ms.sourcegitcommit: 4f70b1fe53943f9d919e7e1f449093b90b30f046
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120143"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50276032"
 ---
 # <a name="iso-90012015-quality-management-systems-standards"></a>Normes des systèmes de gestion de la qualité ISO 9001:2015
 
@@ -42,7 +42,7 @@ Une société d’audit tierce et indépendante a réalisé un examen rigoureux 
 - Intune
 - Microsoft Defender – Protection avancée contre les menaces
 - Microsoft Healthcare Bot
-- Bureau géré Microsoft
+- [Microsoft Managed Desktop](/microsoft-365/managed-desktop/intro/compliance)
 - Service Cloud Power Automate (anciennement Microsoft Flow), soit en service autonome, soit inclus dans un plan ou une suite Office 365 ou Dynamics 365
 - Service Cloud PowerApps, soit en service autonome, soit inclus dans un plan ou une suite Office 365 ou Dynamics 365
 - Service Cloud Power BI soit en service autonome, soit inclus dans un plan ou une suite Office 365

@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 656e8431d6f5cd7b41b6515b15c6c14ac0889e6e
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 244ccb820f8d0715e7e063c1918747598f609efc
+ms.sourcegitcommit: 4f70b1fe53943f9d919e7e1f449093b90b30f046
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50119993"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50276072"
 ---
 # <a name="isoiec-27701-privacy-information-management-system-pims"></a>ISO/CEI 27701 Système de gestion de l'information sur la protection de la vie privée (SGIP)
 
@@ -78,7 +78,7 @@ Quelle que soit la taille de votre organisation, qu’il s’agisse d’un contr
 - Microsoft Graph
 - Microsoft Healthcare Bot
 - Intune
-- Bureau géré Microsoft
+- [Bureau géré Microsoft](/microsoft-365/managed-desktop/intro/compliance)
 - Power Automate (anciennement Microsoft Flow)
 - PowerApps
 - Power BI

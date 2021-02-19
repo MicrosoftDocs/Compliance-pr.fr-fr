@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e4907cabfc1dededfafd83ea4c2924c97651246f
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 652665db2fffecd6826695619b89e0b833637279
+ms.sourcegitcommit: 4f70b1fe53943f9d919e7e1f449093b90b30f046
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120213"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "50276102"
 ---
 # <a name="iso-223012012-business-continuity-management-standard"></a>Norme de gestion de la continuité des activités ISO/IEC 22301:2012
 
@@ -44,7 +44,7 @@ Microsoft est le premier fournisseur de services Cloud à grande échelle à obt
 - Microsoft Graph
 - Microsoft Healthcare Bot
 - Intune
-- Bureau géré Microsoft
+- [Bureau géré Microsoft](/microsoft-365/managed-desktop/intro/compliance)
 - Service Cloud Power Automate (anciennement Microsoft Flow), soit en service autonome, soit inclus dans un plan ou une suite Office 365 ou Dynamics 365
 - [Office 365 commercial, secteur public et éducation](https://go.microsoft.com/fwlink/p/?linkid=2077751)
 - Service Cloud Power Apps, soit en service autonome, soit inclus dans un plan ou une suite Office 365 ou Dynamics 365

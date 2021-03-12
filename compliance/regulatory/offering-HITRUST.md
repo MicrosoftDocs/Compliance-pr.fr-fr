@@ -1,7 +1,7 @@
 ---
 title: Infrastructure de sécurité commune (CSF) HITRUST (Health Information Trust Alliance)
 description: Azure et Office 365 sont certifiés pour l’infrastructure de sécurité commune (CSF) HITRUST (Health Information Trust Alliance).
-keywords: Offres pour la conformité Microsoft 365
+keywords: Microsoft 365, conformité, offres
 localization_priority: None
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8a92f4e29656293b4732d64840cd3e082be89cf2
-ms.sourcegitcommit: 4f70b1fe53943f9d919e7e1f449093b90b30f046
+ms.openlocfilehash: f2686156a1cc51aefd28865642f5bc637a463062
+ms.sourcegitcommit: 68d927bc03a6e03aecdeac25aba9ae0265d7baf4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50276062"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "50715046"
 ---
 # <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Infrastructure de sécurité commune (CSF) HITRUST (Health Information Trust Alliance)
 
@@ -41,11 +41,11 @@ Découvrez comment accélérer votre déploiement HITRUST avec notre plan de sé
 
 [Télécharger le plan Microsoft Azure HITRUST Customer Responsibility Matrix (CRM) v9.0d](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=3ccde498-4761-4be0-be8b-cd8d379a3a4f&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_Healthcare_Blueprint)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
+## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft concernés
 
 - [Azure et Azure Government](https://aka.ms/AzureCompliance)
 - Intune
-- [Bureau géré Microsoft](/microsoft-365/managed-desktop/intro/compliance)
+- [Bureau géré Microsoft](https://docs.microsoft.com/microsoft-365/managed-desktop/intro/compliance)
 - [Office 365 et Office 365 U.S. Governement](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ## <a name="audits-reports-and-certificates"></a>Audits, rapports et certificats
@@ -59,13 +59,13 @@ La certification CSF HITRUST d’Azure et d’Office 365 est valide pendant deux
 
 Profitez des avantages du cloud pour les solutions de données d’état à l’aide du Plan de sécurité et de conformité Azure ( HIPAA/HITRUST Health Data and AI). Ce plan fournit des outils et des conseils pour vous aider à commencer à créer des solutions HIPAA/HITRUST dès aujourd’hui.
 
-[Commencer à utiliser le plan Azure HIPAA/HITRUST](/azure/governance/blueprints/samples/hipaa-hitrust/)
+[Exemple de plan HIPAA HITRUST 9.2](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust-9-2)
 
 ## <a name="accelerate-your-hipaahitrust-compliance-when-using-office-365"></a>Accélérer votre conformité HIPAA/HITRUST lors de l’utilisation d’Office 365
 
-Utilisez Office 365 pour gérer les informations d’état de santé de manière sécurisée et conforme au Score de conformité, ce qui vous permet d’évaluer les risques par rapport aux réglementations en matière de santé telles que hipaa et les cadres de contrôle de sécurité tels que le NIST CSF et le NIST 800-53. Vous pouvez suivre des instructions pas à pas pour savoir comment implémenter et gérer des contrôles de protection des données qui vous aident à respecter les obligations de conformité des soins de santé.
+Utilisez Office 365 pour gérer les informations d’état de santé de manière sécurisée et conforme au Score de conformité, ce qui vous permet d’évaluer les risques par rapport aux réglementations en matière de santé telles que hipaa et les cadres de contrôle de sécurité tels que le NIST CSF et le NIST 800-53. Vous pouvez suivre des instructions pas à pas pour savoir comment implémenter et gérer des contrôles de protection des données qui vous aident à respecter les obligations de conformité aux soins de santé.
 
-[Commencer à utiliser le Score de conformité](/microsoft-365/compliance/compliance-manager)
+[Gestionnaire de conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)
 
 ## <a name="collaborate-with-microsoft-in-the-hitrust-shared-responsibility-program"></a>Collaborer avec Microsoft dans le programme de responsabilité partagée HITRUST
 
@@ -100,7 +100,7 @@ Lorsque vous stockez vos données dans un SaaS tel qu’Office 365, il s’agit 
 
 **Microsoft fournit-il des conseils à mon organisation pour implémenter les contrôles appropriés lors de l’utilisation d’Office 365 ?**
 
-Oui, vous trouverez les actions client recommandées dans le Score de conformité, solutions cloud entre Microsoft qui aident votre organisation à respecter des obligations de conformité complexes lors de l’utilisation des services cloud. Plus précisément, pour hitRUST CSF, nous vous recommandons d’effectuer des évaluations des risques à l’aide des évaluations NIST 800-53 et NIST CSF dans le Score de conformité. Dans les évaluations, nous vous fournissons des instructions pas à pas et les solutions Microsoft que vous pouvez utiliser pour implémenter vos contrôles de protection des données. Vous pouvez en savoir plus sur le Score de conformité [dans le Score de conformité Microsoft.](/microsoft-365/compliance/compliance-manager)
+Oui, vous trouverez les actions client recommandées dans le Score de conformité, solutions cloud entre Microsoft qui aident votre organisation à respecter des obligations de conformité complexes lors de l’utilisation des services cloud. Plus précisément, pour hitRUST CSF, nous vous recommandons d’effectuer des évaluations des risques à l’aide des évaluations NIST 800-53 et NIST CSF dans le Score de conformité. Dans les évaluations, nous vous fournissons des instructions pas à pas et les solutions Microsoft que vous pouvez utiliser pour implémenter vos contrôles de protection des données. Vous pouvez en savoir plus sur le Score de conformité [dans le Gestionnaire de conformité Microsoft.](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager)
 
 **Comment interagir avec Microsoft ?**
 
@@ -108,7 +108,7 @@ Connectez-vous à l’outil HITRUST MyCSF® et pré-remplir votre évaluation de
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de Conformité Microsoft pour évaluer vos risques
 
-[Le Gestionnaire de Conformité Microsoft](/microsoft-365/compliance/compliance-manager) est une fonctionnalité dans le [centre de conformité Microsoft 365](/microsoft-365/compliance/microsoft-365-compliance-center) pour vous aider à comprendre la position de la conformité de votre organisation et à prendre des mesures pour réduire les risques. Le Gestionnaire de Conformité offre un modèle Premium pour la création d’une évaluation de ce règlement. Recherchez le modèle sur la page **modèles d’évaluation** dans le Gestionnaire de Conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de Conformité](/microsoft-365/compliance/compliance-manager-assessments).
+[Le Gestionnaire de Conformité Microsoft](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager) est une fonctionnalité dans le [centre de conformité Microsoft 365](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) pour vous aider à comprendre la position de la conformité de votre organisation et à prendre des mesures pour réduire les risques. Le Gestionnaire de Conformité offre un modèle Premium pour la création d’une évaluation de ce règlement. Recherchez le modèle sur la page **modèles d’évaluation** dans le Gestionnaire de Conformité. Découvrez comment créer [et gérer des évaluations dans le Gestionnaire de conformité.](https://docs.microsoft.com/microsoft-365/compliance/compliance-manager-assessments)
 
 ## <a name="resources"></a>Ressources
 

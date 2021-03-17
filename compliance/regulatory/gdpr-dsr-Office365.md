@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fb982899fb5159abecc07b90700134b6247b6fee
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 3ffda250e017bd97cbfd9d1cf60c8251699e9740
+ms.sourcegitcommit: 3761eaf22bb2c7ed09ed24b9a526404ac7283ab8
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121943"
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "50822517"
 ---
 # <a name="office-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>Demandes des personnes concernées pour Office 365 concernant le RGPD et le CCPA
 
@@ -646,7 +646,7 @@ Applications dont les fonctionnalités intégrées permettent de trouver des Don
 - Stream
 - Yammer
 
-### <a name="access"></a>Accès
+### <a name="access"></a>Access
 
 Les sections suivantes expliquent comment utiliser les fonctionnalités intégrées à l’application Microsoft Access pour rechercher, consulter, exporter et supprimer des données personnelles.
 
@@ -727,7 +727,7 @@ Bookings recueille et stocke les types de données suivants :
 
 ##### <a name="export"></a>Exporter
 
-Pour exporter des données correspondant au chef d’entreprise, aux employés et aux clients, utilisez le portail de confidentialité du Business center. Consultez l’article relatif à l’[exportation ou à la suppression des données utilisateur à l’aide du portail de confidentialité du Business center](https://support.office.com/article/export-or-delete-user-data-using-business-center-privacy-portal-eb48e2c1-4c91-4421-988d-5de497d1e8d8).
+Pour exporter des données correspondant au chef d’entreprise, aux employés et aux clients, vous pouvez utiliser le [Portail de confidentialité du business center](https://businessaccount.microsoft.com/).
 
 ##### <a name="delete"></a>Supprimer
 
@@ -738,7 +738,7 @@ Vous pouvez supprimer les types de données Bookings suivants en réponse à une
 - **Événements de réservation** : vous pouvez supprimer des événements de réservation du calendrier Bookings, ce qui entraîne la suppression des informations du client.
 - **Demandes de réunion, confirmations/annulations/mises à jour et rappels par e-mail** : vous pouvez supprimer ces informations du calendrier Bookings, ce qui entraîne la suppression des informations du client.
 
-Les chefs d’entreprise et les administrateurs peuvent également supprimer les données de leurs clients via le portail de confidentialité du Business center. Consultez l’article relatif à l’[exportation ou à la suppression des données utilisateur à l’aide du portail de confidentialité du Business center](https://support.office.com/article/export-or-delete-user-data-using-business-center-privacy-portal-eb48e2c1-4c91-4421-988d-5de497d1e8d8).
+Pour exporter des données correspondant au chef d’entreprise, aux employés et aux clients, vous pouvez utiliser le [Portail de confidentialité du business center](https://businessaccount.microsoft.com/).
 
 De plus, pour supprimer les données des chefs d’entreprise et des employés, supprimez le compte d’utilisateur correspondant. Consultez la rubrique [Suppression d’un utilisateur](#deleting-a-user).
 
@@ -760,7 +760,7 @@ Le propriétaire de Référencements peut se connecter au tableau de bord Réfé
 
 ##### <a name="export"></a>Exporter
 
-Pour exporter les données du chef d’entreprise, des employés et des clients, utilisez le portail de confidentialité du Business center. Consultez l’article relatif à l’[exportation ou à la suppression des données utilisateur à l’aide du portail de confidentialité du Business center](https://support.office.com/article/export-or-delete-user-data-using-business-center-privacy-portal-eb48e2c1-4c91-4421-988d-5de497d1e8d8).
+Pour exporter des données correspondant au chef d’entreprise, aux employés et aux clients, vous pouvez utiliser le [Portail de confidentialité du business center](https://businessaccount.microsoft.com/).
 
 ##### <a name="delete"></a>Supprimer
 
@@ -784,7 +784,7 @@ Un propriétaire de Connexions peut se connecter au tableau de bord Connexions e
 
 ##### <a name="export"></a>Exporter
 
-Pour exporter les données du chef d’entreprise, des employés et des clients, utilisez le portail de confidentialité du Business center. Consultez l’article relatif à l’[exportation ou à la suppression des données utilisateur à l’aide du portail de confidentialité du Business center](https://support.office.com/article/export-or-delete-user-data-using-business-center-privacy-portal-eb48e2c1-4c91-4421-988d-5de497d1e8d8).
+Pour exporter des données correspondant au chef d’entreprise, aux employés et aux clients, vous pouvez utiliser le [Portail de confidentialité du business center](https://businessaccount.microsoft.com/).
 
 ##### <a name="delete"></a>Supprimer
 

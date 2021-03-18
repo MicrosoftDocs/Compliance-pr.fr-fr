@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 39e5d666519bac120169f79824173cd0ee63f437
-ms.sourcegitcommit: f37d6ac660910f1cc2204f5ceebd390f7abbdfbf
+ms.openlocfilehash: 1ed40e2a6cd960c4538439f5f34897037e0881cd
+ms.sourcegitcommit: 55a156a6b74ed8c438ae51cdae0654db2806e008
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "50175429"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "50831069"
 ---
 # <a name="azure-and-dynamics-365-breach-notification-under-the-gdpr"></a>Notification de violation Azure et Dynamics 365 dans le cadre du RGPD
 
@@ -47,7 +47,7 @@ Azure répond à une violation des données potentielle selon le processus de r�
 | ***4 : Stabiliser et récupérer*** | L’équipe de réponse aux incidents de sécurité crée un plan de récupération pour atténuer le problème. Les étapes de limitation de la crise telles que la mise en quarantaine des systèmes concernés peuvent avoir lieu immédiatement et parallèlement au diagnostic. Des enquêtes à plus long terme peuvent être planifiées et se produire une fois que le risque immédiat est passé. |
 | ***5 : Fermeture et post-mortem*** | L’équipe de réponse aux incidents de sécurité crée un post-mortem décrivant les détails de l’incident, avec l’intention de réviser les stratégies, procédures et processus afin d’éviter que l’événement se reproduise. |
 
-Le livre blanc intitulé [Microsoft Azure Security Response in the Cloud](https://gallery.technet.microsoft.com/Azure-Security-Response-in-dd18c678) donne des détails supplémentaires sur la façon dont Microsoft examine, gère et répond aux incidents de sécurité dans Azure.
+La rubrique [Azure pour sécuriser l’adoption du cloud par le secteur public dans le monde](/azure/azure-government/documentation-government-overview-wwps#breach-notification-process) détaille la manière dont Microsoft gère et répond aux incidents de sécurité au sein d’Azure.
 
 Les processus de détection utilisés par Microsoft Azure sont conçus pour découvrir les événements mettant en danger la confidentialité, l’intégrité et la disponibilité des services Azure. Plusieurs événements peuvent déclencher une enquête :
 

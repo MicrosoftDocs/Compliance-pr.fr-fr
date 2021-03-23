@@ -1,5 +1,5 @@
 ---
-title: 'Contrôles technologiques dans Microsoft 365 '
+title: Contrôles technologiques dans Microsoft 365
 description: Cet article fournit une vue d’ensemble des outils et technologies utilisés par Microsoft pour le contrôle des technologies dans Microsoft 365.
 ms.author: robmazz
 author: robmazz
@@ -19,18 +19,18 @@ f1.keywords:
 ms.custom:
 - seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 2c02e1739f6d3b5981e4327139477a12f987ed68
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: c3b443505c78832af47719e6840c8b7011f9dfe1
+ms.sourcegitcommit: 2b347c9b778ac9b6450daf20fdf8eb74ed14cbbd
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120733"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "51002164"
 ---
 # <a name="technology-controls-in-microsoft-365"></a>Contrôles technologiques dans Microsoft 365 
 
 Microsoft utilise plusieurs outils et technologies pour contrôler, gérer et auditer l’accès aux données client dans ses services en ligne. Ceux-ci s’appliquent à Exchange Online, SharePoint Online, Lockbox et Customer Lockbox, l’authentification multifacteur, etc. Yammer utilise des contrôles similaires décrits dans [Yammer contrôles d’accès d’entreprise.](assurance-yammer-enterprise-access-controls.md)
 
-Les ingénieurs Microsoft 365 n’ont aucun accès permanent aux données client Microsoft 365. Les ingénieurs doivent passer par un processus d’approbation Microsoft avant d’accéder aux données client pour les opérations de service. Si le client licence la fonctionnalité Customer Lockbox pour Exchange Online et SharePoint Online, l’accès aux données client nécessite l’approbation du client. Une fois approuvés, les comptes d’administration spécifiques au service sont provisionés pour l’accès juste-à-temps pour les tâches requises par la demande de service.
+Les ingénieurs Microsoft 365 n’ont aucun accès permanent aux données client microsoft 365. Les ingénieurs doivent passer par un processus d’approbation Microsoft avant d’accéder aux données client pour les opérations de service. Si le client licence la fonctionnalité Customer Lockbox pour Exchange Online et SharePoint Online, l’accès aux données client nécessite l’approbation du client. Une fois approuvés, les comptes d’administration spécifiques au service sont provisionés pour l’accès juste-à-temps pour les tâches requises par la demande de service.
 
 ## <a name="lockbox-and-customer-lockbox"></a>Lockbox et Customer Lockbox
 
@@ -54,7 +54,7 @@ Les actions entreprises par l’ingénieur du support technique sont enregistré
 
 Microsoft utilise le principe d’accès juste-à-temps (JIT) pour Microsoft 365 pour atténuer les risques de falsification des informations d’identification et les attaques latérales. JIT supprime l’accès administratif persistant aux services et remplace les droits par la possibilité d’accéder à ces rôles à la demande. La suppression des droits d’accès persistants des administrateurs garantit que les informations d’identification sont disponibles uniquement lorsqu’elles sont nécessaires et réduit les risques de vol d’informations d’identification.
 
-Le modèle d’accès JIT exige que les ingénieurs demandent des privilèges élevés pendant une période limitée pour effectuer des tâches administratives. En outre, les ingénieurs utilisent des comptes temporaires créés avec des mots de passe complexes générés par l’ordinateur et n’ont accordé que les rôles qui leur permettent d’effectuer les tâches nécessaires. Par exemple, l’accès administratif accordé par Lockbox est limité dans le temps et le temps accordé dépend du rôle demandé. Un ingénieur spécifie la durée d’accès en temps nécessaire dans la demande au système Lockbox. Le système Lockbox rejette les demandes lorsque le temps demandé dépasse la durée maximale autorisée pour l’élévation. Après expiration, l’accès administratif est supprimé et le compte temporaire expire.
+Le modèle d’accès JIT exige que les ingénieurs demandent des privilèges élevés pendant une période limitée pour effectuer des tâches administratives. En outre, les ingénieurs utilisent des comptes temporaires créés avec des mots de passe complexes générés par l’ordinateur et n’ont accordé que les rôles qui leur permettent d’effectuer les tâches nécessaires. Par exemple, l’accès administratif accordé par Lockbox est limité dans le temps et le temps accordé dépend du rôle demandé. Un ingénieur spécifie la durée d’accès au temps nécessaire dans la demande au système Lockbox. Le système Lockbox rejette les demandes lorsque le temps demandé dépasse la durée maximale autorisée pour l’élévation. Après expiration, l’accès administratif est supprimé et le compte temporaire expire.
 
 Lorsqu’ils sont autorisés et approuvés pour l’accès, les ingénieurs reçoivent un mot de passe administratif d’utilisation unique généré par le système d’autorisation. De nouveaux mots de passe sont générés chaque fois qu’une demande d’accès élevé est approuvée. Le mot de passe est copié dans un mot de passe sécurisé, est distinct des informations d’identification de l’ingénieur pour l’environnement d’entreprise Microsoft et s’utilise uniquement pour la session d’accès élevé approuvée.
 
@@ -70,8 +70,8 @@ Les restrictions d’utilisation et les exigences de connexion et de configurati
 - Les sessions TSG se déconnectent après 30 minutes d’inactivité.
 - Les sessions TSG se déconnectent automatiquement après 24 heures.
 
-Les connexions aux TSG requièrent également l’utilisation d’une carte à puce physique distincte et d’un compte distinct des informations d’identification de l’entreprise Microsoft de l’ingénieur. Différentes cartes à puce sont émises pour les différentes plateformes et plateformes de gestion des secrets, ce qui garantit un stockage sécurisé des informations d’identification. Les groupes de sécurité sociale utilisent des stratégies de groupe Active Directory pour contrôler qui peut se connecter aux serveurs distants, le nombre de sessions autorisées et les paramètres de délai d’inactivité. Des stratégies supplémentaires limitent l’accès aux applications autorisées et limitent l’accès à Internet.
+Les connexions aux TSG nécessitent également l’utilisation d’une carte à puce physique distincte et d’un compte distinct des informations d’identification de l’entreprise Microsoft de l’ingénieur. Différentes cartes à puce sont émises pour les différentes plateformes et plateformes de gestion des secrets, ce qui garantit un stockage sécurisé des informations d’identification. Les groupes de sécurité sociale utilisent des stratégies de groupe Active Directory pour contrôler qui peut se connecter aux serveurs distants, le nombre de sessions autorisées et les paramètres de délai d’inactivité. Des stratégies supplémentaires limitent l’accès aux applications autorisées et limitent l’accès à Internet.
 
 En plus de l’accès à distance à l’aide de groupes de sécurité TSG spécialement configurés, Exchange Online permet aux utilisateurs ayant le rôle Service Engineer Operations d’accéder à certaines fonctionnalités d’administration sur les serveurs de production à l’aide de Remote PowerShell. Pour ce faire, l’utilisateur doit être autorisé à accéder en lecture seule (débogage) à l’environnement de production Microsoft 365. L’escalade de privilège est activée de la même manière que pour les TSG à l’aide du processus Lockbox.
 
-Pour l’accès à distance, chaque centre de données dispose d’une adresse IP virtuelle à charge équilibrée qui sert de point d’accès unique. Les cmdlets Remote PowerShell disponibles sont basées sur le niveau de privilège identifié dans la revendication d’accès obtenue lors de l’authentification. Ces cmdlets fournissent les seules fonctionnalités d’administration accessibles par les utilisateurs qui se connectent à l’aide de cette méthode. PowerShell à distance limite l’étendue des commandes disponibles pour l’ingénieur et est basé sur le niveau d’accès accordé via le processus Lockbox. Par exemple, dans Exchange Online, Get-Mailbox est peut-être disponible, mais Set-Mailbox ne le ferait pas.
+Pour l’accès à distance, chaque centre de données dispose d’une adresse IP virtuelle à charge équilibrée qui sert de point d’accès unique. Les cmdlets Remote PowerShell disponibles sont basées sur le niveau de privilège identifié dans la revendication d’accès obtenue lors de l’authentification. Ces cmdlets offrent la seule fonctionnalité d’administration accessible par les utilisateurs qui se connectent à l’aide de cette méthode. PowerShell à distance limite l’étendue des commandes disponibles pour l’ingénieur et est basé sur le niveau d’accès accordé via le processus Lockbox. Par exemple, dans Exchange Online, Get-Mailbox peut être disponible, mais Set-Mailbox ne le ferait pas.

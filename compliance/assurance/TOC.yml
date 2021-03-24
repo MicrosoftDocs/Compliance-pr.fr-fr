@@ -3,11 +3,11 @@
     - name: Vue d’ensemble de l’architecture
       href: assurance-architecture.md
     - name: "Contrôles de l’isolation dans Microsoft\_365"
-      href: 'https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-isolation-controls?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json'
+      href: /microsoft-365/enterprise/microsoft-365-isolation-controls?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
     - name: "Isolation du client dans Microsoft\_365"
-      href: 'https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-tenant-isolation-overview?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json'
+      href: /microsoft-365/enterprise/microsoft-365-tenant-isolation-overview?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
     - name: Isolation et contrôle d’accès dans AAD
-      href: 'https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-isolation-in-azure-active-directory?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json'
+      href: /microsoft-365/enterprise/microsoft-365-isolation-in-azure-active-directory?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
 - name: Journalisation d'audit
   items:
     - name: Aperçu sur la journalisation d’audit
@@ -24,34 +24,36 @@
   items:
     - name: Aperçu sur la sécurité des centres de données
       href: assurance-datacenter-security.md
+    - name: 'Évaluation des menaces, de la vulnérabilité, et des risques liés au centre des données'
+      href: assurance-threat-vulnerability-risk-assessment.md
 - name: Chiffrement et gestion des clés
   items:
     - name: Aperçu sur le chiffrement et la gestion des clés
       href: assurance-encryption.md
     - name: "Chiffrement dans Microsoft\_Cloud"
-      href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-in-the-microsoft-cloud-overview?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json'
+      href: /microsoft-365/compliance/office-365-encryption-in-the-microsoft-cloud-overview?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
     - name: Chiffrement des données en transit
       href: assurance-encryption-in-transit.md
     - name: "Chiffrement des services Microsoft\_365"
       href: assurance-encryption-for-microsoft-365-services.md
     - name: "Qu’en est-il du chiffrement des données stockées\_?"
-      href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-service-encryption?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json'
+      href: /microsoft-365/compliance/office-365-service-encryption?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
     - name: "Chiffrement des e-mails dans Microsoft\_365"
-      href: 'https://docs.microsoft.com/microsoft-365/compliance/email-encryption?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json'
+      href: /microsoft-365/compliance/email-encryption?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
     - name: "Procédure de sécurisation des informations confidentielles dans votre courrier électronique dans Exchange\_Online"
-      href: 'https://docs.microsoft.com/microsoft-365/compliance/exchange-online-secures-email-secrets?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json'
+      href: /microsoft-365/compliance/exchange-online-secures-email-secrets?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
     - name: Mode d’utilisation de TLS par Exchange Online pour sécuriser les connexions de messagerie
-      href: 'https://docs.microsoft.com/microsoft-365/compliance/exchange-online-uses-tls-to-secure-email-connections?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json'
+      href: /microsoft-365/compliance/exchange-online-uses-tls-to-secure-email-connections?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
     - name: BitLocker et Distributed Key Manager (DKM) pour le chiffrement
-      href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-bitlocker-and-distributed-key-manager-for-encryption?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json'
+      href: /microsoft-365/compliance/office-365-bitlocker-and-distributed-key-manager-for-encryption?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
     - name: Détails techniques de référence sur le chiffrement
-      href: 'https://docs.microsoft.com/microsoft-365/compliance/technical-reference-details-about-encryption?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json'
+      href: /microsoft-365/compliance/technical-reference-details-about-encryption?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
 - name: Gouvernance
   items:
     - name: Aperçu sur la gouvernance
       href: assurance-governance.md
     - name: Certification de service dans le Centre de sécurité et conformité
-      href: 'https://docs.microsoft.com/microsoft-365/compliance/service-assurance?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json'
+      href: /microsoft-365/compliance/service-assurance?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
 - name: Ressources humaines
   items:
     - name: Aperçu sur les ressources humaines
@@ -69,7 +71,7 @@
     - name: Contrôles de technologie
       href: assurance-technology-controls.md
     - name: Référentiel sécurisé client
-      href: 'https://docs.microsoft.com/microsoft-365/compliance/customer-lockbox-requests?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json'
+      href: /microsoft-365/compliance/customer-lockbox-requests?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
     - name: Contrôles d’accès Yammer Entreprise
       href: assurance-yammer-enterprise-access-controls.md
 - name: Gestion des incidents
@@ -97,13 +99,13 @@
     - name: Principes fondamentaux de refus d’attaque de service
       href: assurance-core-principles-of-defense-against-dos-attacks.md
     - name: Détection de virus dans les services Microsoft 365
-      href: 'https://docs.microsoft.com/microsoft-365/security/office-365-security/virus-detection-in-spo?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json'
+      href: /microsoft-365/security/office-365-security/virus-detection-in-spo?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
 - name: Confidentialité
   items:
     - name: Aperçu sur la confidentialité
       href: assurance-privacy.md
     - name: Emplacement de stockage des données client de Microsoft 365
-      href: 'https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json'
+      href: /microsoft-365/enterprise/o365-data-locations?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
     - name: 'Conservation, suppression et destruction de données'
       href: assurance-data-retention-deletion-and-destruction-overview.md
     - name: Destruction de données Microsoft 365
@@ -121,7 +123,7 @@
     - name: Résilience des services Cloud
       href: assurance-m365-service-resiliency.md
     - name: État des services et continuité
-      href: 'https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json'
+      href: /office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
     - name: Limitation des ressources des services
       href: assurance-resource-limits.md
     - name: Résilience des données
@@ -171,4 +173,4 @@
 - name: Principes de base de la sécurité Azure
   items:
     - name: Principes de base de la sécurité Azure
-      href: 'https://docs.microsoft.com/azure/security/fundamentals?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json'
+      href: /azure/security/fundamentals?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json

@@ -5,6 +5,16 @@
       "source_path": "compliance/regulatory/offering-CCSL-IRAP-Australia.md",
       "redirect_url": "https://docs.microsoft.com/compliance/regulatory/offering-IRAP-Australia",
       "redirect_document_id": true
+    },
+    {
+      "source_path": "compliance/assurance/assurance-defending-cloud-services-against-dos-attacks.md",
+      "redirect_url": "https://docs.microsoft.com/compliance/assurance/assurance-microsoft-dos-defense-strategy",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "compliance/assurance/assurance-core-principles-of-defense-against-dos-attacks.md",
+      "redirect_url": "https://docs.microsoft.com/compliance/assurance/assurance-microsoft-dos-defense-strategy",
+      "redirect_document_id": false
     }
   ]
 }

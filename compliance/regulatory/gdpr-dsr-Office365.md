@@ -17,12 +17,13 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3ffda250e017bd97cbfd9d1cf60c8251699e9740
-ms.sourcegitcommit: 3761eaf22bb2c7ed09ed24b9a526404ac7283ab8
+hideEdit: true
+ms.openlocfilehash: 9b8c329909a301abee9b10d8b202c81b3b148037
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "50822517"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496244"
 ---
 # <a name="office-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>Demandes des personnes concernées pour Office 365 concernant le RGPD et le CCPA
 

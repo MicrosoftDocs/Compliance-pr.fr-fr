@@ -19,12 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: ca13c5dfb229acd46ef0dd027b537afc2ac20b5a
-ms.sourcegitcommit: 7a5b6bc58fc4613b38f3fda20aebee5cec6a5730
+hideEdit: true
+ms.openlocfilehash: 48fe5dd495dceb53b60cb83710566b63d09b80bf
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49787343"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497226"
 ---
 # <a name="encryption-and-key-management-overview"></a>Aperçu sur le chiffrement et la gestion des clés
 
@@ -36,7 +37,7 @@ Le chiffrement ne remplace pas les contrôles d’accès forts. La stratégie de
 
 ## <a name="how-does-microsoft-365-encrypt-data-at-rest"></a>Comment Microsoft 365 chiffre-t-il les données au repos ?
 
-Tout le contenu client dans Microsoft 365 est protégé par une ou plusieurs formes de chiffrement. Les serveurs Microsoft utilisent BitLocker pour chiffrer les lecteurs de disque contenant le contenu client au niveau du volume. Le chiffrement fourni par BitLocker protège le contenu client en cas de défaillances dans d’autres processus ou contrôles (par exemple, le contrôle d’accès ou le recyclage du matériel) qui pourraient entraîner un accès physique non autorisé aux disques contenant du contenu client.
+Tout le contenu client dans Microsoft 365 est protégé par une ou plusieurs formes de chiffrement. Les serveurs Microsoft utilisent BitLocker pour chiffrer les lecteurs de disque contenant du contenu client au niveau du volume. Le chiffrement fourni par BitLocker protège le contenu client en cas de défaillances dans d’autres processus ou contrôles (par exemple, le contrôle d’accès ou le recyclage du matériel) qui pourraient entraîner un accès physique non autorisé aux disques contenant du contenu client.
 
 Exchange Online, Microsoft Teams, SharePoint Online et OneDrive Entreprise utilisent également le chiffrement de service au niveau de la couche d’application pour chiffrer le contenu client. Le chiffrement de service fournit des fonctionnalités de protection et de gestion des droits en plus d’une protection de chiffrement forte. Il permet également la séparation entre les systèmes d’exploitation Windows et les données client stockées ou traitées par ces systèmes d’exploitation.
 
@@ -52,7 +53,7 @@ Le chiffrement fort est aussi sécurisé que les clés utilisées pour chiffrer 
 
 Le chiffrement de service fournit une couche supplémentaire de chiffrement pour les données client au repos dans Exchange Online, Microsoft Teams, SharePoint Online et OneDrive Entreprise. Le chiffrement de service offre aux clients deux options de gestion des clés de chiffrement : les clés gérées par Microsoft ou la clé client. Lorsque vous utilisez des clés gérées par Microsoft, les services Microsoft 365 génèrent et stockent automatiquement en toute sécurité les clés racine utilisées pour le chiffrement de service.
 
-Les clients ayant besoin de contrôler leurs propres clés de chiffrement racine peuvent tirer parti du chiffrement de service avec la clé client. À l’aide de la clé client, les clients peuvent générer leurs propres clés de chiffrement à l’aide d’un module de service matériel (HSM) local ou d’Azure Key Vault (AKV). Les clés racine du client sont stockées dans AKV, où elles peuvent être utilisées comme racine de l’un des chaînes de clés qui chiffre les données ou les fichiers de boîte aux lettres du client. Les clés racine client ne sont accessibles qu’indirectement par le code de service Microsoft 365 pour le chiffrement des données et ne sont pas accessibles directement par les employés de Microsoft.
+Les clients ayant besoin de contrôler leurs propres clés de chiffrement racine peuvent tirer parti du chiffrement de service avec la clé client. À l’aide de la clé client, les clients peuvent générer leurs propres clés de chiffrement à l’aide d’un module de service matériel (HSM) local ou d’Azure Key Vault (AKV). Les clés racine du client sont stockées dans AKV, où elles peuvent être utilisées comme racine de l’un des chaînes de clés qui chiffre les données ou fichiers de boîte aux lettres du client. Les clés racine client ne sont accessibles qu’indirectement par le code de service Microsoft 365 pour le chiffrement des données et ne sont pas accessibles directement par les employés de Microsoft.
 
 ## <a name="related-external-regulations--certifications"></a>Réglementations externes associées & certifications
 

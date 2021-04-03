@@ -13,12 +13,13 @@ localization_priority: Priority
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 ms.collection: MS-Compliance
-ms.openlocfilehash: 5f753b5d522649575f92178e6f9c932d5ae4725f
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+hideEdit: true
+ms.openlocfilehash: ddbf22523caf1869d0253599216fff07ee14f751
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507394"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51495956"
 ---
 # <a name="gdpr-for-project-server"></a>RGPD pour Project Server
 

@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 953bf5587f621bb46c086ff8138b5519edd8d9fe
-ms.sourcegitcommit: 4f70b1fe53943f9d919e7e1f449093b90b30f046
+ms.openlocfilehash: a04e5b7b0a292cfe419118085d387051e0c56e48
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50276052"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497772"
 ---
 # <a name="isoiec-20000-12011-information-technology-service-management"></a>Gestion des services informatiques ISO/IEC 20000-1:2011
 
@@ -37,11 +37,11 @@ L’obtention de la certification ISO 20000-1:2011 est une étape logique pour 
   
 Une société d’audit tierce et indépendante a réalisé un examen rigoureux de la solution Microsoft Azure et de plusieurs services en ligne Microsoft pour vérifier leur conformité aux exigences établies par la norme ISO 20000-1:2011. La certification ISO 20000-1 disponible démontre qu’Azure et les services en ligne Microsoft couverts ont mis en place les bonnes procédures de gestion des services informatiques afin de proposer des services IT efficaces et fiables qui font l’objet de surveillances, révisions et améliorations régulières.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
+## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft concernés
 
 - [Azure, Azure Gouvernement et Azure Allemagne](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App Security
-- Microsoft Defender – Protection avancée contre les menaces
+- Microsoft Defender pour point de terminaison
 - Microsoft Graph
 - Microsoft Healthcare Bot
 - Intune

@@ -18,12 +18,13 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: b67a327d8451dca212cd265aae7619924d419f5a
-ms.sourcegitcommit: 7a5b6bc58fc4613b38f3fda20aebee5cec6a5730
+hideEdit: true
+ms.openlocfilehash: 8f36cc657bcb2de7df6fcc8c072b4a5ed4a7a5ac
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49787363"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496836"
 ---
 # <a name="risk-management-overview"></a>Aperçu sur la gestion des risques
 
@@ -43,9 +44,9 @@ Dans le cadre des activités d’évaluation des risques, le programme de gestio
 
 ## <a name="how-does-microsoft-365-manage-and-assess-risk-in-its-online-services"></a>Comment Microsoft 365 gère-t-il et évalue-t-il les risques dans ses services en ligne ?
 
-Dans le cadre des activités d’évaluation des risques en cours, le programme de gestion des risques De Microsoft 365 effectue des entretiens avec les équipes de service qui conçoivent, créent et exploitent les services Microsoft 365 pour identifier les risques et domaines de préoccupation actuels. Ces activités, ainsi que l’analyse des données de surveillance continue, des audits et d’autres sources, sont utilisées pour développer des rapports d’évaluation des risques qui identifient les risques actuels et futurs potentiels pour les objectifs professionnels à long terme. Les rapports d’évaluation des risques fournissent une vue d’ensemble de la posture des risques de Microsoft 365 en fonction de nos résultats et commentaires des équipes de service Microsoft 365. Ainsi que des rapports similaires provenant d’autres divisions, les rapports d’évaluation des risques de Microsoft 365 contribuent aux évaluations des risques de programmes d’ERM et les communiquent.
+Dans le cadre des activités d’évaluation des risques en cours, le programme de gestion des risques De Microsoft 365 effectue des entretiens avec les équipes de service qui conçoivent, créent et exploitent les services Microsoft 365 pour identifier les risques actuels et les domaines de préoccupation. Ces activités, ainsi que l’analyse des données de surveillance continue, des audits et d’autres sources, sont utilisées pour développer des rapports d’évaluation des risques qui identifient les risques actuels et futurs possibles pour les objectifs professionnels à long terme. Les rapports d’évaluation des risques fournissent une vue d’ensemble de la posture des risques de Microsoft 365 en fonction de nos résultats et commentaires des équipes de service Microsoft 365. Ainsi que des rapports similaires provenant d’autres divisions, les rapports d’évaluation des risques de Microsoft 365 contribuent aux évaluations des risques de programmes d’ERM et les communiquent.
 
-Microsoft 365 Trust est un groupe responsable de la prise en charge des opérations d’assurance relatives à la conformité des stratégies, aux exigences de sécurité et à la gestion des risques. Microsoft 365 Trust s’emploie à identifier les nouveaux risques dès leur apparition et contrôler les risques connus ainsi qu’y répondre. Les commentaires des équipes de service Microsoft 365 et les données de surveillance continue des environnements Microsoft 365 informent ce processus. La réussite et l’échec des réponses aux risques sont suivies pour développer et informer l’analyse des probabilités et des effets des risques. Les réunions de révision régulière des risques avec les propriétaires de risques permettent à Microsoft 365 Trust de mettre à jour et de gérer les réponses aux risques.
+Microsoft 365 Trust est un groupe responsable de la prise en charge des opérations d’assurance relatives à la conformité des stratégies, aux exigences de sécurité et à la gestion des risques. Microsoft 365 Trust s’emploie à identifier les nouveaux risques dès leur apparition et contrôler les risques connus ainsi qu’y répondre. Les commentaires des équipes de service Microsoft 365 et les données de surveillance continue des environnements Microsoft 365 informent ce processus. La réussite et l’échec des réponses aux risques sont suivies pour développer et informer l’analyse des probabilités et des effets des risques. Les réunions régulières de révision des risques avec les propriétaires de risques permettent à Microsoft 365 Trust de mettre à jour et de gérer les réponses aux risques.
 
 ## <a name="related-external-regulations--certifications"></a>Réglementations externes associées & certifications
 

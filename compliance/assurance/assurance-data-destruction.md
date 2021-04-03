@@ -18,12 +18,13 @@ ms.collection:
 f1.keywords:
 - NOCSH
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: d97c5f1be6bf09a772244aac14086171643af89e
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: 1b9d410422e22fe67cb27617ba16e2ddbbaec0fd
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120673"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497641"
 ---
 # <a name="data-destruction-in-microsoft-365"></a>Destruction des données dans Microsoft 365
 
@@ -41,4 +42,4 @@ Microsoft utilise des unités d’effacement de données à partir [de solutions
 
 ## <a name="virtual-data-destruction"></a>Destruction de données virtuelles
 
-Microsoft dispose de stratégies et de procédures de gestion des données qui traitent la destruction virtuelle effective des données afin de se protéger contre le risque de partage inapproprié de données entre les locataires de service ou d’être accessibles après une suppression physique du service. Les données supprimées du service dans un client ne sont pas accessibles à un autre client de service, même si l’un des stockages physiques sous-jacents est réassigné. Il s’agit d’un résultat des effets composés de plusieurs technologies de virtualisation et de fragmentation utilisées pour mettre à l’échelle les environnements virtuels, des comportements de suppression actifs des applications au sein de chaque client de service (tels que la mise à zéro des [pages)](/office365/securitycompliance/office-365-exchange-online-data-deletion#page-zeroing)et des processus de chiffrement de contenu multimédia et d’application requis.
+Microsoft dispose de stratégies et de procédures de gestion des données qui traitent de la destruction virtuelle effective des données afin de se protéger contre le risque de partage inapproprié de données entre les locataires de service ou d’être accessibles après une suppression physique dans le service. Les données supprimées du service dans un client ne sont pas accessibles à un autre client de service, même si l’un des stockages physiques sous-jacents est réassigné. Il s’agit d’un résultat des effets composés de plusieurs technologies de virtualisation et de fragmentation utilisées pour mettre à l’échelle les environnements virtuels, des comportements de suppression actifs des applications au sein de chaque client de service (tels que la mise à zéro des [pages)](/office365/securitycompliance/office-365-exchange-online-data-deletion#page-zeroing)et des processus de chiffrement de contenu multimédia et d’application requis.

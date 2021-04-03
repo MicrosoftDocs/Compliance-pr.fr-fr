@@ -18,12 +18,13 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 4da4775332989c4a40738777dfae7318e27086f0
-ms.sourcegitcommit: 7a5b6bc58fc4613b38f3fda20aebee5cec6a5730
+hideEdit: true
+ms.openlocfilehash: 73ec8ca99f880a3c6277bd917dab99b9aff49999
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49787373"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496700"
 ---
 # <a name="supplier-management-overview"></a>Aperçu sur la gestion des fournisseurs
 
@@ -33,7 +34,7 @@ Microsoft s’associe à des sociétés tierces pour répondre aux besoins de no
 
 ## <a name="how-does-microsofts-supplier-security-and-privacy-assurance-sspa-program-protect-customer-data"></a>Comment le programme DSPA (Supplier Security and Privacy Assurance) de Microsoft protège-t-il les données client ?
 
-La SSPA est un partenariat entre Microsoft Achat, Affaires juridiques et externes de l’entreprise et Sécurité d’entreprise pour s’assurer que les fournisseurs respectent les principes de confidentialité et de sécurité de Microsoft. L’étendue de la SSPA couvre tous les fournisseurs qui traitent des données personnelles ou des données confidentielles Microsoft. L’inscription au programme SSPA inclut le respect des exigences de Protection des données (DPR) de Microsoft. Le DPR se compose de contrôles de sécurité et de confidentialité que les fournisseurs doivent implémenter avant de commencer à travailler avec Microsoft. Tous les fournisseurs inscrits s’certifient eux-mêmes de la conformité avec le DPR annuellement.
+La SSPA est un partenariat entre les achats Microsoft, les affaires juridiques et externes de l’entreprise et la sécurité d’entreprise pour s’assurer que les fournisseurs respectent les principes de confidentialité et de sécurité de Microsoft. L’étendue de la SSPA couvre tous les fournisseurs qui traitent des données personnelles ou des données confidentielles Microsoft. L’inscription au programme SSPA inclut le respect des exigences de Protection des données (DPR) de Microsoft. Le DPR se compose de contrôles de sécurité et de confidentialité que les fournisseurs doivent implémenter avant de commencer à travailler avec Microsoft. Tous les fournisseurs inscrits s’certifient eux-mêmes de la conformité avec le DPR annuellement.
 
 Les exigences de DPR sont limitées en fonction de six catégories de traitement de données distinctes pour qui un fournisseur peut être approuvé dans le cadre de son inscription à la SSPA. Ces catégories sont utilisées pour identifier le risque associé aux services qu’un fournisseur fournit à Microsoft. Le profil de traitement des données du fournisseur détermine quels contrôles de DPR sont considérés comme étant dans l’étendue pour fournir une protection appropriée des données. Les fournisseurs qui traitées des données considérées comme à risque plus élevé doivent se conformer à toutes les exigences de DPR et peuvent également avoir besoin de fournir une vérification indépendante de la conformité. Les outils d’achat Microsoft valident l’état de la SSPA de tous les fournisseurs, y compris la conformité avec les parties applicables du DPR, avant d’autoriser l’approvisionnement de ce fournisseur.
 
@@ -42,13 +43,13 @@ Les exigences de DPR sont limitées en fonction de six catégories de traitement
 Un « sous-traitant » est un tiers que Microsoft engage, dont les tâches incluent le traitement des données personnelles Microsoft pour lesquelles Microsoft est un sous-traitant. Les sous-traitants de Microsoft se distinguent par trois catégories distinctes. Chacun d’eux doit démontrer la conformité avec la SSPA avant de pouvoir traiter les données client au nom de Microsoft.
 
 - **Les technologies** sous-processus fournissent des technologies utilisées pour fournir des services en ligne Microsoft spécifiques. Si un client déploie l’un de ces services, les sous-traitants identifiés pour ce service peuvent traiter, stocker ou accéder à des données client ou à des données personnelles tout en aidant à fournir ce service.
-- **Les sous-traitants auxiliaires** fournissent des services qui assurent la prise en charge, l’exploitation et la maintenance des services en ligne. Si un client déploie l’un de ces services, les sous-traitants identifiés peuvent traiter, stocker ou accéder à des données client limitées ou à des données personnelles tout en fournissant leurs services auxiliaires.
+- **Les sous-traitants auxiliaires** fournissent des services qui assurent la prise en charge, l’exploitation et la maintenance des services en ligne. Si un client déploie l’un de ces services, les sous-traitants identifiés peuvent traiter, stocker ou accéder à des données client limitées ou des données personnelles tout en fournissant leurs services auxiliaires.
 - **Les** sous-processus d’augmentation du personnel prennent deux formes différentes : dans les deux scénarios, les données personnelles résident uniquement dans les installations de Microsoft, sur les systèmes Microsoft et sont soumises aux stratégies et à la supervision de Microsoft.
 
     - La première forme de l’augmentation du personnel fournit une équipe qui prend en charge, opère et gère les services Microsoft Online. Lorsque vous comblez leurs responsabilités, ces sous-processus peuvent être exposés à des données client ou à des données personnelles. Par exemple, un sous-processus peut effectuer un dépannage à distance sur un serveur Microsoft, tandis que cela peut être exposé aux extraits de données client dans un journal de vidage de blocage de serveur.
     - La deuxième forme d’augmentation du personnel implique des sous-traitants qui travaillent côte à côte avec les employés à plein temps de Microsoft pour prendre en charge, exploiter et gérer les services en ligne Microsoft. Ces sous-traites peuvent être exposés à des données par pseudonyme dans le cadre de leur travail parallèle aux employés à temps plein de Microsoft.
 
-La technologie et les sous-processus auxiliaires sont requis pour implémenter des contrôles d’accès conformes aux exigences de Protection des données (DPR) de Microsoft. Ces exigences respectent ou dépassent les engagements contractuels que Microsoft prend à l’égard de ses clients dans les conditions d’ost (Online Service Terms). Les fournisseurs qui effectuent des opérations d’augmentation du personnel sont soumis aux mêmes contrôles d’accès en place pour les employés à plein temps de Microsoft.
+La technologie et les sous-processus auxiliaires sont requis pour implémenter des contrôles d’accès conformes aux exigences de Protection des données (DPR) de Microsoft. Ces exigences respectent ou dépassent les engagements contractuels que Microsoft prend à l’égard de ses clients dans les conditions d’accès au service en ligne (OST). Les fournisseurs qui effectuent des opérations d’augmentation du personnel sont soumis aux mêmes contrôles d’accès en place pour les employés à plein temps de Microsoft.
 
 ## <a name="how-does-microsoft-onboard-suppliers"></a>Comment Microsoft intégrera-t-il les fournisseurs ?
 

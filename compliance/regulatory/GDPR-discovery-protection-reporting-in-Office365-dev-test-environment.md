@@ -20,12 +20,13 @@ search.appverid:
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 92c98d710c34f1304ddc0a2e8acfe09c4570e97c
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: a12e8e735df05004e63080f22c3c9b4de5749506
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121633"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496649"
 ---
 # <a name="gdpr-discovery-protection-and-reporting-in-the-devtest-environment"></a>Découverte, protection et création de rapports en vertu du RGPD dans l’environnement de développement/test
 

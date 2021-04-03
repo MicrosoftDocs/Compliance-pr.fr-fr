@@ -19,12 +19,13 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 89281b32dbc577f935224396fd358ed753348ea1
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: e89a261e44ef4eb4a1399027b70be88fffb82036
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120743"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497412"
 ---
 # <a name="sharepoint-online-data-deletion-in-microsoft-365"></a>Suppression de données SharePoint Online dans Microsoft 365
 

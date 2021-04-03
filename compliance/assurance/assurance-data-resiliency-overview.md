@@ -19,12 +19,13 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 361400bf6330fb82d34f384d17e4d4ee438ccf08
-ms.sourcegitcommit: b06fa9f1b230fd5e470817486ea51f460f28b691
+hideEdit: true
+ms.openlocfilehash: 6e990facde47b07d50f594afb55353a5ef81dd78
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/27/2021
-ms.locfileid: "50012900"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497625"
 ---
 # <a name="data-resiliency-in-microsoft-365"></a>Résilience des données dans Microsoft 365
 
@@ -36,7 +37,7 @@ La création d’une résilience et d’une récupération commence par l’hypo
 
 - Tout d’abord, les protections matérielles et d’infrastructure étaient importantes. Cette structure nécessitait que des centres de données avec une fiabilité de 99,99 % nécessitaient une puissance et une redondance réseau importantes, et que les serveurs étaient implémentés avec le clustering matériel, les deux alimentations, les interfaces réseau doubles, etc.
 - Ensuite, le processus a été essentiel. Les équipes opérationnelles ont maintenu des procédures rigoureuses, des fenêtres de modification ont été employées et il y a souvent eu une surcharge de gestion de projet importante.
-- Troisièmement, le déploiement a eu lieu à un rythme très important. Le déploiement de code sans propriétaire de la source implique l’attente de versions de correctifs, et les versions majeures impliquent un remplacement matériel et une dépense importante en capital. En outre, la seule façon de corriger un problème était d’y remédier. Par conséquent, la plupart des organisations de l’it doivent déployer uniquement les principales publications afin d’éviter que le travail ne soit à jour.
+- Troisièmement, le déploiement s’est déroulée à un rythme très élevé. Le déploiement de code sans propriétaire de la source implique l’attente de versions de correctifs, et les versions majeures impliquent un remplacement matériel et une dépense importante en capital. En outre, la seule façon de corriger un problème était de revenir en arrière. Par conséquent, la plupart des organisations de l’it doivent déployer uniquement les principales publications afin d’éviter que le travail ne soit à jour.
 - Enfin, l’échelle des systèmes déployés et le niveau de leur interconnectivité étaient historiquement beaucoup plus petits qu’aujourd’hui.
 
 Aujourd’hui, les clients s’attendent à une innovation continue de Microsoft sans compromettre la qualité, et c’est l’une des raisons pour lesquelles les services et logiciels de Microsoft sont conçus avec résilience et récupérabilité à l’esprit.

@@ -12,12 +12,13 @@ ms.service: O365-seccomp
 localization_priority: Priority
 titleSuffix: Microsoft GDPR
 ms.collection: MS-Compliance
-ms.openlocfilehash: 15d59569102a5e39ac8641df6003b2999362e0bd
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: f0c59e0b4fb6fd80fd13521a3ed4996e787474bc
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121473"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496010"
 ---
 # <a name="gdpr-for-skype-for-business-server-and-lync-server"></a>RGPD pour Skype Entreprise Server et Lync Server
 

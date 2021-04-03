@@ -18,12 +18,13 @@ ms.collection:
 f1.keywords:
 - NOCSH
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 025e2c422c05dbffdf5a510f93809beaed3fe09d
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: f7026d0b9fe27e3818b7b31ed7b4d1e07b62471e
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120653"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497611"
 ---
 # <a name="data-retention-deletion-and-destruction-in-microsoft-365"></a>Rétention, suppression et destruction des données dans Microsoft 365
 
@@ -38,9 +39,9 @@ Pour chacun de ces scénarios de suppression, le tableau suivant indique la pér
 
 | Catégorie de données | Classification des données | Description | Exemples | Période de rétention |
 |-----------------|-----------------|-----------------|----------------------------------|-------------------------------|
-| Données client | Contenu client| Contenu directement fourni/créé par les administrateurs et les utilisateurs <br><br> Inclut tous les textes, sons, vidéos, fichiers image et logiciels créés et stockés dans les centres de données Microsoft lors de l’utilisation des services dans Microsoft 365 | Word, Excel, PowerPoint, Outlook et OneNote sont des exemples d’applications Microsoft 365 les plus couramment utilisées qui permettent aux utilisateurs de faire des données <br><br> Le contenu client inclut également des clés secrètes fournies par le client (mots de passe, certificats, clés de chiffrement, clés de stockage) | **Scénario de suppression active :** au maximum 30 jours <br><br> **Scénario de suppression passive :** au maximum 180 jours |
+| Données client | Contenu client| Contenu directement fourni/créé par les administrateurs et les utilisateurs <br><br> Inclut tous les textes, sons, vidéos, fichiers image et logiciels créés et stockés dans les centres de données Microsoft lors de l’utilisation des services dans Microsoft 365 | Word, Excel, PowerPoint, Outlook et OneNote sont des exemples d’applications Microsoft 365 les plus couramment utilisées qui permettent aux utilisateurs de faire des données <br><br> Le contenu client inclut également les clés secrètes que le client possède/fournit (mots de passe, certificats, clés de chiffrement, clés de stockage) | **Scénario de suppression active :** au maximum 30 jours <br><br> **Scénario de suppression passive :** au maximum 180 jours |
 | Données client | Informations d’identification personnelle de l’utilisateur final (EUII) | Données qui identifient ou peuvent être utilisées pour identifier l’utilisateur d’un service Microsoft. L’EUII ne contient pas de contenu client | Nom d’utilisateur ou nom complet (DOMAIN\UserName) <br><br> Nom d’utilisateur principal (name@domain) <br><br>  Adresses IP spécifiques à l’utilisateur | **Scénario de suppression active :** au maximum 180 jours (seule une action de l’administrateur client) <br><br> **Scénario de suppression passive :** au maximum 180 jours |
-| Données personnelles <br> (données non incluses dans les données client) | Identificateurs pseudonymes d’utilisateur final (EUPI) | Identificateur créé par Microsoft lié à l’utilisateur d’un service Microsoft. Lorsqu’il est combiné avec d’autres informations, telles qu’une table de mappage, l’EUPI identifie l’utilisateur final <br><br> L’EUPI ne contient pas d’informations téléchargées ou créées par le client | GUID utilisateur, PUID ou SID <br><br> ID de session | **Scénario de suppression active :** au maximum 30 jours <br><br> **Scénario de suppression passive :** au maximum 180 jours |
+| Données personnelles <br> (données non incluses dans les données client) | Identificateurs pseudonymes d’utilisateur final (EUPI) | Identificateur créé par Microsoft lié à l’utilisateur d’un service Microsoft. Lorsqu’il est combiné avec d’autres informations, telles qu’une table de mappage, l’EUPI identifie l’utilisateur final <br><br> L’EUPI ne contient pas d’informations téléchargées ou créées par le client | GUID utilisateur, PUID ou SIDs <br><br> ID de session | **Scénario de suppression active :** au maximum 30 jours <br><br> **Scénario de suppression passive :** au maximum 180 jours |
 
 ## <a name="subscription-retention"></a>Rétention d’abonnement
 
@@ -52,7 +53,7 @@ Pour une version d’essai gratuite, votre compte passe à l’état de grâce p
 
 Pour les abonnements, l’abonné peut contacter le support Microsoft et demander une rapide mise hors service de l’abonnement. Dans le cadre de ce processus, toutes les données utilisateur sont supprimées trois jours après la saisie par l’administrateur du code de verrouillage fourni par Microsoft. Cela inclut les données présentes dans SharePoint Online et Exchange Online mises en attente ou stockées dans des boîtes aux lettres inactives.
 
-Pour plus d’informations sur la désapprovisionnement accélérée, voir [Annuler votre abonnement.](/microsoft-365/commerce/subscriptions/cancel-your-subscription)
+Pour plus d’informations sur la désapprovisionnement accéléré, voir [Annuler votre abonnement.](/microsoft-365/commerce/subscriptions/cancel-your-subscription)
 
 ## <a name="related-links"></a>Liens connexes
 

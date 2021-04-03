@@ -1,6 +1,6 @@
 ---
 title: 'Gestion des incidents de sécurité Microsoft 365 : containment, éradication et récupération'
-description: Cet article fournit une vue d’ensemble du processus de gestion des incidents de sécurité, d’éradication et de récupération dans Microsoft 365.
+description: Cet article fournit une vue d’ensemble du processus de gestion, d’éradication et de récupération des incidents de sécurité dans Microsoft 365.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -18,16 +18,17 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 702735ed2ba35a4f3b0a02123f0c58b5fb4d397e
-ms.sourcegitcommit: d67e4d4fdc664f1da450c8ef2f6732e19bdd403a
+hideEdit: true
+ms.openlocfilehash: 7fff9c1909f0acd076945e3d569b143fe2324c0f
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50037608"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496710"
 ---
 # <a name="microsoft-365-security-incident-management-containment-eradication-and-recovery"></a>Gestion des incidents de sécurité Microsoft 365 : containment, éradication et récupération
 
-En fonction de l’analyse effectuée par l’équipe de réponse à la sécurité Microsoft 365, l’équipe de service et d’autres personnes, un plan de contrôle et de récupération approprié est développé pour minimiser l’effet de l’incident de sécurité. Les équipes de service appropriées appliquent ensuite ce plan en production avec le support de l’équipe de réponse de sécurité Microsoft 365.
+En fonction de l’analyse effectuée par l’équipe de réponse à la sécurité Microsoft 365, l’équipe de service et d’autres personnes, un plan de contrôle et de récupération approprié est développé pour minimiser l’effet de l’incident de sécurité. Les équipes de service appropriées appliquent ensuite ce plan en production avec le support de l’équipe microsoft 365 Security Response.
 
 ## <a name="containment"></a>Confinement
 
@@ -44,7 +45,7 @@ En fonction de la nature de l’incident, de l’étendue de l’incident de sé
 
 ## <a name="recovery"></a>Récupération
 
-À mesure que l’équipe de réponse gagne un niveau raisonnable de confiance que l’adversaire a été supprimé de l’environnement et que tous les chemins d’accès vulnérables connus ont été éliminés, les équipes de service individuelles lancent des étapes de restauration pour mettre le service à une configuration connue et appropriée. Ces étapes de restauration seront en consultation avec l’équipe de réponse de sécurité Microsoft 365. Cette activité inclut l’identification du dernier bon état connu du service, la restauration à partir des sauvegardes vers cet état, l’inspection des chemins d’attaque vulnérables dans l’état restauré, etc. L’équipe microsoft 365 Security Response, en consultation avec les équipes de service, déterminera le meilleur plan de récupération possible pour l’environnement.
+À mesure que l’équipe de réponse gagnera un niveau raisonnable de confiance que l’adversaire a été supprimé de l’environnement et que tous les chemins d’accès vulnérables connus ont été supprimés, les équipes de service individuelles lanceront des étapes de restauration pour mettre le service dans une configuration connue et appropriée. Ces étapes de restauration seront en consultation avec l’équipe de réponse de sécurité Microsoft 365. Cette activité inclut l’identification du dernier bon état connu du service, la restauration à partir des sauvegardes vers cet état, l’inspection des chemins d’attaque vulnérables dans l’état restauré, etc. L’équipe microsoft 365 Security Response, en consultation avec les équipes de service, déterminera le meilleur plan de récupération possible pour l’environnement.
 
 L’un des aspects clés de la récupération consiste à mettre en place des contrôles et des contrôles améliorés pour vérifier que le plan de récupération a été correctement exécuté et qu’il n’existe aucun signe de violation dans l’environnement.
 
@@ -52,7 +53,7 @@ L’un des aspects clés de la récupération consiste à mettre en place des co
 
 Si Microsoft détermine qu’un incident de sécurité s’est produit, nous vous en informerons avec retard indu, et dans le cadre des exigences contractuelles et de conformité que nous avons convenues. Après avoir identifié tous les clients concernés, l’équipe de communications de Microsoft 365 Customer Experience (CxP) travaille à identifier les réglementations pertinentes qui peuvent s’appliquer aux clients concernés. L’équipe Microsoft 365 CxP Communications utilise le canal de communication approprié défini dans les réglementations applicables pour avertir le contact client approprié.
 
-La notification inclut des informations détaillées sur l’incident, telles qu’une description de l’incident, l’impact sur les données client, le cas contraire, les actions prises par Microsoft et/ou les actions suggérées pour que les clients prennent des mesures pour résoudre le problème et empêcher la récurrence. La notification est remis à l’administrateur désigné du client Microsoft 365. Pour vous assurer que les notifications sont reçues, vous devez vous assurer que vos administrateurs fournissent et conservent des informations de contact précises dans leurs profils clients. En outre, en fonction de la nature de l’incident, les clients peuvent[](http://status.yammer.com/) également être avertis via le tableau de bord d’état du service Microsoft 365.
+La notification inclut des informations détaillées sur l’incident, telles qu’une description de l’incident, l’impact sur les données client, le cas contraire, les actions prises par Microsoft et/ou les actions suggérées pour que les clients prennent des mesures pour résoudre le problème et empêcher la récurrence. La notification est remis aux administrateurs désignés du client Microsoft 365. Pour vous assurer que les notifications sont reçues, vous devez vous assurer que vos administrateurs fournissent et conservent des informations de contact précises dans leurs profils clients. En outre, en fonction de la nature de l’incident, les clients peuvent[](http://status.yammer.com/) également être avertis via le tableau de bord d’état du service Microsoft 365.
 
 ## <a name="related-articles"></a>Articles connexes
 

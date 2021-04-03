@@ -20,12 +20,13 @@ ms.collection:
 - SPO_Content
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 9317b112d1fa759b1f90e072203e7b8093a432fd
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: 3907a9a3f085af3d778daa2a385209f4dc9699a4
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120543"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497551"
 ---
 # <a name="encryption-for-skype-for-business-onedrive-for-business-sharepoint-online-microsoft-teams-and-exchange-online"></a>Chiffrement pour Skype Entreprise, OneDrive Entreprise, SharePoint Online, Microsoft Teams et Exchange Online
 
@@ -49,7 +50,7 @@ Plusieurs charges de travail dans Microsoft 365 stockent des données dans Share
     - Les clés utilisées pour chiffrer les blobs sont stockées dans la base de données de contenu SharePoint Online.
     - La base de données de contenu est protégée par les contrôles d’accès à la base de données et le chiffrement au repos. Le chiffrement est effectué à l’aide du chiffrement [transparent](/sql/relational-databases/security/encryption/transparent-data-encryption-tde) des données (TDE) dans [azure SQL base de données.](/azure/sql-database/sql-database-technical-overview) (Azure SQL Database est un service de base de données relationnelle à usage général dans Microsoft Azure qui prend en charge des structures telles que les données relationnelles, JSON, spatial et XML.) Ces secrets sont au niveau du service pour SharePoint Online, et non au niveau du client. Ces clés secrètes (parfois appelées clés principales) sont stockées dans un référentiel sécurisé distinct appelé magasin de clés. TDE assure la sécurité au repos pour la base de données active, les sauvegardes de base de données et les journaux de transactions.
     - Lorsque les clients fournissent la clé facultative, la clé client est stockée dans Azure Key Vault et le service utilise la clé pour chiffrer une clé de client, qui est utilisée pour chiffrer une clé de site, qui est ensuite utilisée pour chiffrer les clés de niveau fichier. En fait, une nouvelle hiérarchie de clés est introduite lorsque le client fournit une clé.
-- La carte utilisée pour ré assembler le fichier est stockée dans la base de données de contenu avec les clés chiffrées, séparément de la clé principale nécessaire pour les déchiffrer.
+- La carte utilisée pour assembler à nouveau le fichier est stockée dans la base de données de contenu avec les clés chiffrées, séparément de la clé principale nécessaire pour les déchiffrer.
 - Chaque compte de stockage Azure possède ses propres informations d’identification uniques par type d’accès (lecture, écriture, éumérer et supprimer). Chaque jeu d’informations d’identification est conservé dans le magasin de clés sécurisé et est régulièrement actualisé. Comme décrit ci-dessus, il existe trois types différents de magasins, chacun avec une fonction distincte :
     - Les données client sont stockées en tant qu’objets blob chiffrés dans le stockage Azure. La clé de chaque bloc de données client est chiffrée et stockée séparément dans la base de données de contenu. Les données client elles-mêmes ne sont pas des indices quant à la façon dont elles peuvent être déchiffrées.
     - La base de données de contenu est une base de données SQL Server. Il contient la carte requise pour localiser et réassembler les blobs de données client détenus dans le stockage Azure, ainsi que les clés nécessaires pour chiffrer ces objets blob. Toutefois, l’ensemble de clés est lui-même chiffré (comme expliqué ci-dessus) et conservé dans un magasin de clés distinct.
@@ -91,7 +92,7 @@ En plus du chiffrement de service, Microsoft 365 prend en charge la clé client,
 L’étendue du chiffrement du service Exchange Online est celle des données client stockées au repos dans Exchange Online. (Skype Entreprise stocke presque tout le contenu généré par l’utilisateur dans la boîte aux lettres Exchange Online de l’utilisateur et hérite donc de la fonctionnalité de chiffrement de service d’Exchange Online.)
 
 
-## <a name="microsoft-teams"></a>Microsoft Teams
+## <a name="microsoft-teams"></a>Microsoft Teams
 
 Teams utilise TLS et MTLS pour chiffrer les messages instantanés. Tout le trafic de serveur à serveur nécessite MTLS, que le trafic soit limité au réseau interne ou qu’il traverse le périmètre du réseau interne.
 
@@ -113,4 +114,4 @@ Teams utilise un jeton basé sur les informations d’identification pour un acc
 
 #### <a name="fips"></a>FIPS
 
-Teams utilise des algorithmes conformes FIPS (Federal Information Processing Standard) pour les échanges de clés de chiffrement. Pour plus d’informations sur l’implémentation de FIPS, consultez la publication [FIPS (Federal Information Processing Standard) 140-2.](/microsoft-365/compliance/offering-fips-140-2)
+Teams utilise des algorithmes conformes FIPS (Federal Information Processing Standard) pour les échanges de clés de chiffrement. Pour plus d’informations sur l’implémentation de FIPS, consultez la publication [fiPS (Federal Information Processing Standard) 140-2.](/microsoft-365/compliance/offering-fips-140-2)

@@ -1,5 +1,5 @@
 ---
-title: Résilience des données SharePoint et OneDrive dans Microsoft 365
+title: Résilience des données SharePoint et OneDrive dans Microsoft 365
 description: Cet article fournit une vue d’ensemble de la résilience des données SharePoint et OneDrive dans Microsoft 365.
 ms.author: robmazz
 author: robmazz
@@ -18,14 +18,15 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 26281e076ea2500a0a4071233b88c2a1f23fe9c5
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: c267551f26b4dd96e3762b0edc2942a3cb22eb5c
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120453"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496767"
 ---
-# <a name="sharepoint-and-onedrive-data-resiliency-in-microsoft-365"></a>Résilience des données SharePoint et OneDrive dans Microsoft 365
+# <a name="sharepoint-and-onedrive-data-resiliency-in-microsoft-365"></a>Résilience des données SharePoint et OneDrive dans Microsoft 365
 
 Dans Microsoft 365, OneDrive repose sur la plateforme de fichiers SharePoint. Dans cet article, seul SharePoint sera utilisé pour faire référence aux deux produits. Le contenu de cet article est pertinent pour Microsoft 365 et ne s’applique pas aux services grand public.
 
@@ -38,17 +39,21 @@ L’ensemble complet des contrôles pour garantir la résilience des données es
 
 ## <a name="blob-storage-resilience"></a>Résilience de stockage blob
 
-SharePoint dispose d’une solution personnalisée pour le stockage des données client dans le stockage Azure. Chaque fichier est écrit simultanément dans une région de centre de données principale et une région secondaire. Si les écritures dans l’une ou l’autre région Azure échouent, l’enregistrer échoue. Une fois que le contenu est écrit dans le stockage Azure, les sommes de contrôle sont stockées séparément avec des métadonnées et sont utilisées pour s’assurer que l’écriture enregistrée est identique au fichier d’origine envoyé à SharePoint lors de toutes les futures lectures. Cette même technique est utilisée dans tous les flux de travail pour empêcher la propagation de toute altération qui doit se produire. Dans chaque région, azure Locally Redundant Storage (LRS) fournit un niveau élevé de fiabilité. Pour plus [d’informations, consultez](/azure/storage/common/storage-redundancy-lrs) l’article sur la redondance du stockage Azure.
+SharePoint dispose d’une solution personnalisée pour le stockage des données client dans le stockage Azure. Chaque fichier est écrit simultanément dans une région de centre de données principale et une région secondaire. Si les écritures dans l’une ou l’autre région Azure échouent, l’enregistrer échoue. Une fois que le contenu est écrit dans le stockage Azure, les sommes de contrôle sont stockées séparément avec des métadonnées et sont utilisées pour s’assurer que l’écriture enregistrée est identique au fichier d’origine envoyé à SharePoint lors de toutes les futures lectures. Cette même technique est utilisée dans tous les flux de travail pour empêcher la propagation de toute altération qui doit se produire. Dans chaque région, azure Locally Redundant Storage (LRS) fournit un niveau élevé de fiabilité. Pour plus [d’informations, voir](/azure/storage/common/storage-redundancy-lrs) l’article sur la redondance du stockage Azure.
 
 SharePoint utilise le stockage Append-Only de données. Ce processus garantit que les fichiers ne peuvent pas être modifiés ou endommagés après un premier sauvegarde, mais également à l’aide du traitement des versions dans le produit, toute version antérieure du contenu du fichier peut être récupérée.
+
+![Résilience de stockage blob](../media/assurance-blob-storage-resiliency-diagram.png)
 
 Les environnements SharePoint dans l’un ou l’autre centre de données peuvent accéder aux conteneurs de stockage dans les deux régions Azure. Pour des raisons de performances, le conteneur de stockage dans le même centre de données local est toujours préféré, toutefois, les demandes de lecture qui ne voient pas les résultats dans un seuil souhaité auront le même contenu demandé à partir du centre de données distant pour s’assurer que les données sont toujours disponibles.
 
 ## <a name="metadata-resilience"></a>Résilience des métadonnées
 
-Les métadonnées SharePoint sont également essentielles pour accéder au contenu de l’utilisateur, car elles stockent l’emplacement et les clés d’accès au contenu stocké dans le stockage Azure. Ces bases de données sont stockées dans Azure SQL, qui dispose d’un plan de [continuité d’activité étendu.](/azure/sql-database/sql-database-business-continuity)
+Les métadonnées SharePoint sont également essentielles pour accéder au contenu utilisateur, car elles stockent l’emplacement des clés d’accès au contenu stocké dans le stockage Azure et y accèdent. Ces bases de données sont stockées dans Azure SQL, qui dispose d’un plan de [continuité d’activité étendu.](/azure/sql-database/sql-database-business-continuity)
 
 SharePoint utilise le modèle de réplication fourni par Azure SQL et a créé une technologie d’automatisation propriétaire pour déterminer si un transfert est nécessaire et lancer l’opération si nécessaire. En tant que tel, il se situe dans la catégorie « Failover de base de données manuelle » du point de vue d SQL Azure. Les mesures les plus récentes pour la récupération SQL base de données Azure sont disponibles [ici.](/azure/azure-sql/database/business-continuity-high-availability-disaster-recover-hadr-overview#recover-a-database-to-the-existing-server)
+
+![Résilience des métadonnées](../media/assurance-metadata-resiliency-diagram.png)
 
 SharePoint utilise le système de sauvegarde d’Azure SQL pour activer les restaurations de point dans le temps (PITR) pendant 14 jours au plus. La section PITR est plus en savoir plus dans [une section ultérieure.](#deletion-backup-and-point-in-time-restore)
 
@@ -90,6 +95,6 @@ Lors de la suppression de contenu de stockage blob, SharePoint utilise la foncti
 
 SharePoint utilise différentes méthodes pour garantir l’intégrité des blobs et des métadonnées à toutes les étapes du cycle de vie des données :
 
-- **Hachage de fichier** stocké dans les métadonnées : le hachage de l’intégralité du fichier est stocké avec les métadonnées de fichier pour garantir le maintien de l’intégrité des données au niveau du document pendant toutes les opérations
+- **Hachage de fichier** stocké dans les métadonnées : le hachage de l’intégralité du fichier est stocké avec les métadonnées de fichier pour garantir que l’intégrité des données au niveau du document est conservée pendant toutes les opérations
 - **Hachage d’objet blob** stocké dans les métadonnées : chaque élément blob stocke un hachage du contenu chiffré pour se protéger contre l’altération dans le stockage Azure sous-jacent.
 - **Travail d’intégrité** des données : tous les 14 jours, chaque site est analysé pour l’intégrité en répertoriant les éléments de la base de données et en les faisant correspondre avec les blobs répertoriés dans le stockage Azure. Le travail signale les références blob manquantes pour les blobs de stockage et peut les récupérer via la fonctionnalité de suppression possible du stockage [Azure](/azure/storage/blobs/soft-delete-blob-overview) si nécessaire.

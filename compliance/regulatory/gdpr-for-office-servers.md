@@ -13,12 +13,13 @@ localization_priority: Priority
 titleSuffix: Microsoft GDPR
 ms.collection: MS-Compliance
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 111dbdf4fce093955485cedae2b23fce7ec2770e
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+hideEdit: true
+ms.openlocfilehash: 58f3d9108fe36175c2ce879054a35c2cc94d93c8
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507402"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496078"
 ---
 # <a name="gdpr-for-office-on-premises-servers"></a>RGPD pour les serveurs Office locaux
 

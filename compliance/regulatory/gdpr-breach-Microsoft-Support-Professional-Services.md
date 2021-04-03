@@ -16,12 +16,13 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 1006a30e803adbb21aa27fc6002612a7ef96b487
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+hideEdit: true
+ms.openlocfilehash: 0d30809ffe06156ba1a76dd2622efc2130fc24f5
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507143"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496459"
 ---
 # <a name="microsoft-support-and-professional-services-and-breach-notification-under-the-gdpr"></a>Support Microsoft, services professionnels et notification des violations dans le cadre du RGPD
 

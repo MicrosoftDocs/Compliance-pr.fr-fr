@@ -18,12 +18,13 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 916303ff2a65777785c89c6ccae70bea9a0bfda9
-ms.sourcegitcommit: 7a5b6bc58fc4613b38f3fda20aebee5cec6a5730
+hideEdit: true
+ms.openlocfilehash: b63c73b54cb16389d071945a8fcf849f8b1d58a9
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49787303"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497455"
 ---
 # <a name="security-development-and-operations-overview"></a>Vue d’ensemble du développement et des opérations de sécurité
 
@@ -35,7 +36,7 @@ Le cycle de vie du développement de la sécurité (SDL) de Microsoft est un pro
 
 Le processus SDL chez Microsoft peut être conçu en cinq phases de développement : exigences, conception, implémentation, vérification et publication. Il commence par définir les exigences logicielles en gardant à l’esprit la sécurité. Pour ce faire, vous posez des questions relatives à la sécurité sur ce que l’application doit effectuer. L’application doit-elle collecter des données sensibles ? L’application peut-elle effectuer des tâches sensibles ou importantes ? L’application doit-elle accepter les entrées provenant de sources non fiables ?
 
-Une fois les impératifs de sécurité pertinents identifiés, nous concevons nos logiciels de façon à intégrer des fonctionnalités de sécurité répondant à ces exigences. Nos développeurs implémentent les exigences de SDL et de conception dans le code, que nous vérifions via la révision manuelle du code, l’automatisation automatisée des outils de sécurité et le test de pénétration. Enfin, avant la publication du code, les nouvelles fonctionnalités et modifications matérielles font l’objet d’une révision finale de la sécurité et de la confidentialité afin de s’assurer que toutes les conditions sont remplies.
+Une fois les impératifs de sécurité pertinents identifiés, nous concevons nos logiciels de façon à intégrer des fonctionnalités de sécurité répondant à ces exigences. Nos développeurs implémentent les exigences de SDL et de conception dans le code, que nous vérifions via la révision manuelle du code, l’automatisation automatisée des outils de sécurité et le test de pénétration. Enfin, avant la publication du code, les nouvelles fonctionnalités et modifications matérielles font l’objet d’un examen final de la sécurité et de la confidentialité pour s’assurer que toutes les conditions sont remplies.
 
 ## <a name="how-does-microsoft-test-source-code-for-common-vulnerabilities"></a>Comment Microsoft teste-t-il le code source pour les vulnérabilités courantes ?
 

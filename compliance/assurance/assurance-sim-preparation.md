@@ -18,12 +18,13 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: b14a9fa236cd71cff7dd02baf04a30c249bc4346
-ms.sourcegitcommit: 2973d25e9e0185b84d281f963553a332eac1c1a3
+hideEdit: true
+ms.openlocfilehash: b3f16620564d525245c21c375bbc9a3f5b0923b7
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50040337"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497387"
 ---
 # <a name="microsoft-365-security-incident-management-preparation"></a>Gestion des incidents de sécurité Microsoft 365 : préparation
 
@@ -36,7 +37,7 @@ Chaque employé travaillant sur Microsoft 365 est fourni avec une formation sur 
 - Comment faire pour faire escalader un incident de sécurité potentiel à l’équipe de réponse de sécurité Microsoft 365
 - Réponse de l’équipe de réponse aux incidents de sécurité Microsoft 365 aux incidents de sécurité
 - Problèmes particuliers concernant la confidentialité, en particulier la confidentialité des clients
-- Où trouver des informations supplémentaires sur la sécurité et la confidentialité et les contacts d’escalade
+- Où trouver des informations supplémentaires sur la sécurité et la confidentialité, et les contacts d’escalade
 - Tout autre domaine de sécurité pertinent (selon les besoins)
 
 Les employés appropriés reçoivent une formation d’actualisation sur la sécurité annuellement. La formation annuelle sur l’actualisation se concentre sur :
@@ -46,9 +47,9 @@ Les employés appropriés reçoivent une formation d’actualisation sur la séc
 - Où trouver des informations supplémentaires sur la sécurité et la confidentialité et les contacts d’escalade
 - Tous les autres domaines de sécurité qui peuvent être pertinents chaque année
 
-Chaque employé travaillant sur Microsoft 365 passe également par une vérification des antécédents appropriée et approfondie qui inclut l’éducation, l’emploi, le antécédents judiciaires du candidat et d’autres informations spécifiques selon les réglementations américaines telles que la loi HIPAA (Health Insurance Portability and Accountability Act), la réglementation itar (International Traffic in Arms Regulations), le programme fedrAMP (Federal Risk and Authorization Management Program) et d’autres.
+Chaque employé travaillant sur Microsoft 365 passe également par une vérification des antécédents appropriée et approfondie qui inclut l’éducation, l’emploi, le antécédents judiciaires du candidat et d’autres informations spécifiques selon les réglementations américaines telles que la loi HIPAA (Health Insurance Portability and Accountability Act), la réglementation itar (International Traffic in Arms Regulations), le programme fedramp (Federal Risk and Authorization Management Program) et d’autres.
 
-Les vérifications des antécédents sont obligatoires pour tous les employés travaillant au sein de l’ingénierie Microsoft 365. Certains environnements et rôles d’opérateur Microsoft 365 peuvent également nécessiter une empreinte digitale complète, des exigences de nationalité, des exigences d’habilitation gouvernementale et d’autres contrôles plus stricts. En outre, certaines équipes de service et certains rôles peuvent faire l’aide d’une formation spécialisée en matière de sécurité si nécessaire. Enfin, les membres de l’équipe de sécurité eux-mêmes obtiennent une formation spécialisée et une participation aux conférences directement liées à la sécurité. Cette formation varie selon les besoins de l’équipe et des employés, mais inclut des choses telles que des conférences du secteur, des conférences internes sur la sécurité Microsoft et des cours de formation externes par le biais de fournisseurs de formation en matière de sécurité connus dans le secteur. Nous avons également des articles de formation dédiés à la sécurité publiés tout au long de l’année pour la communauté de la sécurité au sein de Microsoft et spécialisés régulièrement dans Microsoft 365.
+Les vérifications des antécédents sont obligatoires pour tous les employés travaillant au sein de l’ingénierie Microsoft 365. Certains environnements et rôles d’opérateur Microsoft 365 peuvent également nécessiter une empreinte digitale complète, des exigences de nationalité, des exigences d’habilitation gouvernementale et d’autres contrôles plus stricts. En outre, certaines équipes de service et certains rôles peuvent faire l’aide d’une formation spécialisée en matière de sécurité si nécessaire. Enfin, les membres de l’équipe de sécurité eux-mêmes obtiennent une formation spécialisée et une participation à des conférences directement liées à la sécurité. Cette formation varie selon les besoins de l’équipe et des employés, mais inclut des choses telles que des conférences du secteur, des conférences internes sur la sécurité Microsoft et des cours de formation externes par le biais de fournisseurs de formation en matière de sécurité connus dans le secteur. Nous avons également des articles de formation dédiés à la sécurité publiés tout au long de l’année pour la communauté de la sécurité au sein de Microsoft et spécialisés régulièrement dans Microsoft 365.
 
 ## <a name="penetration-testing--assessment"></a>Test de pénétration &'évaluation
 
@@ -57,8 +58,8 @@ Microsoft collabore avec différents organismes du secteur et experts en sécuri
 Les tests effectués pour le renforcement du service dans Microsoft 365 peuvent être regroupés en quatre catégories générales :
 
 1. **Tests de sécurité automatisés :** Le personnel interne et externe analyse régulièrement l’environnement Microsoft 365 en fonction des pratiques de Microsoft SDL, des 10 principaux risques du projet OWASP (Open Web Application Security Project) et des menaces émergentes signalées par différents organismes du secteur.
-2. **Évaluations des vulnérabilités :** Les engagements formels avec des testeurs tiers indépendants valident régulièrement si les contrôles logiques clés fonctionnent efficacement pour respecter les obligations de service de divers organismes de réglementation. Les évaluations sont effectuées par le personnel certifié CREST (Registered Ethical Security Testers) par le Conseil des 10 principaux risques OWASP et d’autres menaces applicables au service. Toutes les menaces trouvées sont suivis jusqu’à la fermeture.
-3. **Tests continus de vulnérabilité du système :** Microsoft effectue des tests réguliers dans lesquels les équipes tentent d’enfreindr le système à l’aide de menaces émergentes, de menaces fusion et/ou de menaces persistantes avancées, tandis que d’autres équipes tentent de bloquer ces tentatives de violation.
+2. **Évaluations des vulnérabilités :** Les engagements formels avec des testeurs tiers indépendants valident régulièrement si les contrôles logiques clés fonctionnent efficacement pour respecter les obligations de service de divers organismes de réglementation. Les évaluations sont effectuées par le personnel certifié CREST (Registered Ethical Security Testers) par le Conseil et sont basées sur les 10 principaux risques OWASP et d’autres menaces applicables au service. Toutes les menaces trouvées sont suivis jusqu’à la fermeture.
+3. **Test continu des vulnérabilités du système :** Microsoft effectue des tests réguliers dans lesquels les équipes tentent d’enfreindr le système à l’aide de menaces émergentes, de menaces fusion et/ou de menaces persistantes avancées, tandis que d’autres équipes tentent de bloquer ces tentatives de violation.
 4. **Microsoft Online Services programme de bogues**: ce programme permet d’autoriser des évaluations limitées de vulnérabilité d’origine client sur Microsoft 365. Pour plus d’informations, [Microsoft Online Services termes de bogue.](https://www.microsoft.com/msrc/bounty-terms)
 
 L’équipe d’ingénierie Microsoft 365 publie régulièrement différents documents de conformité. Plusieurs de ces documents sont disponibles dans le cadre d’un accord de non-divulgation à partir du portail d’confiance des services cloud [microsoft](https://aka.ms/STP) ou de la zone d’assurance service du Centre de conformité [Microsoft 365.](https://compliance.office.com)
@@ -68,13 +69,13 @@ L’équipe d’ingénierie Microsoft 365 publie régulièrement différents doc
 
 ## <a name="attack-simulation"></a>Simulation d’attaque
 
-Microsoft s’engage dans des exercices de simulation d’attaque en cours et des tests de pénétration de site réel de nos plans de sécurité et de réponse dans le but d’améliorer la détection et la fonctionnalité de réponse. Microsoft simule régulièrement des violations réelles, effectue une surveillance continue de la sécurité et pratique la réponse aux incidents de sécurité pour valider et améliorer la sécurité de Microsoft 365 et Azure.
+Microsoft s’engage dans des exercices de simulation d’attaque en cours et des tests de pénétration de site en direct de nos plans de sécurité et de réponse dans le but d’améliorer la fonctionnalité de détection et de réponse. Microsoft simule régulièrement des violations réelles, effectue une surveillance continue de la sécurité et pratique la réponse aux incidents de sécurité pour valider et améliorer la sécurité de Microsoft 365 et Azure.
 
 Microsoft exécute une stratégie de sécurité de violation par hypothèse à l’aide de deux équipes principales :
 
 ### <a name="red-teams"></a>Équipes rouges
 
-L’équipe rouge de sécurité Microsoft 365 est un groupe d’employés à plein temps au sein de Microsoft qui se concentre sur la violation de l’infrastructure, de la plateforme et des propres clients et applications de Microsoft. Ils sont l’adversaire dédié (un groupe de pirates informatiques éthiques) qui effectuent des attaques ciblées et persistantes contre les services en ligne (mais pas les applications clientes ou les données). Ils assurent une validation continue du « spectre complet » (par exemple, contrôles techniques, stratégie papier, réponse humaine, etc.) des fonctionnalités de réponse aux incidents de service.
+L’équipe rouge de sécurité Microsoft 365 est un groupe d’employés à plein temps au sein de Microsoft qui se concentre sur la violation de l’infrastructure, de la plateforme et des propres clients et applications de Microsoft. Ils sont l’adversaire dédié (un groupe de pirates informatiques éthiques) qui effectuent des attaques ciblées et persistantes contre les services en ligne (mais pas les applications clientes ou les données). Ils assurent une validation continue de la « gamme complète » (par exemple, contrôles techniques, stratégie papier, réponse humaine, etc.) des fonctionnalités de réponse aux incidents de service.
 
 ### <a name="blue-teams"></a>Équipes bleues
 

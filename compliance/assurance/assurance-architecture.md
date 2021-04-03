@@ -19,20 +19,21 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: e1b4e9701e76c1e758f683750c8ebfeda2bc1f1f
-ms.sourcegitcommit: 7a5b6bc58fc4613b38f3fda20aebee5cec6a5730
+hideEdit: true
+ms.openlocfilehash: 423e90164b3c13c53d45ca98c2e1a981968f23a8
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49787485"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497694"
 ---
 # <a name="architecture-overview"></a>Vue d’ensemble de l’architecture
 
 ## <a name="what-is-microsoft-365"></a>Qu’est-ce que Microsoft 365 ?
 
-Microsoft 365 est la version basée sur le cloud basée sur un abonnement d’Office, Windows 10, Enterprise Mobility + Security et conformité. Les clients Microsoft 365 obtiennent des clients tels qu’Outlook et Windows, et ils bénéficient également des services que Microsoft héberge en leur nom, tels qu’Exchange Online, Microsoft Teams et SharePoint Online. Tous les composants du service sont régulièrement mis à jour dans le cadre du modèle d’abonnement, afin que nos clients utilisent un produit « persistant ». Microsoft gère l’infrastructure de service pour le compte des clients, ce qui signifie que Microsoft est responsable de la sécurisation de l’infrastructure qui stocke les données client.
+Microsoft 365 est la version basée sur le cloud basée sur un abonnement d’Office, Windows 10, Enterprise Mobility + Security et compliance. Les clients Microsoft 365 obtiennent des clients tels qu’Outlook et Windows, et ils bénéficient également des services que Microsoft héberge en leur nom, tels qu’Exchange Online, Microsoft Teams et SharePoint Online. Tous les composants du service sont régulièrement mis à jour dans le cadre du modèle d’abonnement, de sorte que nos clients ont un produit « persistant ». Microsoft gère l’infrastructure de service pour le compte des clients, ce qui signifie que Microsoft est responsable de la sécurisation de l’infrastructure qui stocke les données client.
 
-En termes d’échelle, nous utilisons actuellement près d’un million d’ordinateurs pour alimenter les services Microsoft 365. L’infrastructure qui permet d’alimenter ces services varie considérablement selon le matériel propre au service et les environnements virtualisés dans Azure, Windows et Linux, ainsi que les plateformes multi-clients et dédiées. Microsoft 365 est une entreprise internationale et notre infrastructure est distribuée dans des centres de données dans le monde entier, ce qui permet à nos clients de répondre aux exigences de résidence et de souveraineté.
+En termes d’échelle, nous utilisons actuellement près d’un million d’ordinateurs pour alimenter les services Microsoft 365. L’infrastructure qui permet d’alimenter ces services varie considérablement selon le matériel spécifique au service et les environnements virtualisés dans Azure, Windows et Linux, ainsi que sur les plateformes multi-clients et dédiées. Microsoft 365 est une entreprise internationale et notre infrastructure est distribuée dans des centres de données dans le monde entier, ce qui permet à nos clients de répondre aux exigences de résidence et de souveraineté.
 
 En bref, le service est complexe, s’exécute à grande échelle et nécessite des milliers d’ingénieurs Microsoft pour créer et maintenir. Nous avons pour priorité de préserver la sécurité de toute cette infrastructure.
 
@@ -54,7 +55,7 @@ La résilience des données complète la résilience du service en protégeant l
 
 Les équipes de service Microsoft 365 identifient les composants système critiques et leurs dépendances dans le cadre de la gestion de la continuité d’activité. En outre, Microsoft 365 documente et suit toutes les connexions du système externe pour s’assurer que seules les connexions autorisées sont autorisées dans les configurations de pare-feu réseau. Les systèmes, dépendances et connexions externes Microsoft 365 sont documentés dans l’architecture de sécurité des informations de Microsoft 365. L’architecture de sécurité des informations et les diagrammes de flux de données correspondants sont examinés et mis à jour chaque année au minimum, ainsi que chaque fois que des modifications importantes sont apportées au système.
 
-L’architecture Microsoft 365 est validée régulièrement et automatiquement à l’aide des outils basés sur le cloud pour vérifier l’alignement avec nos principes de sécurité et pour tester en permanence les fonctionnalités d’isolation et de résilience. La validation architecturale permet d’identifier automatiquement les instances où l’état actuel du service a dérivé de l’état souhaité, en signalant les écarts à réviser et à atténuer. L’objectif de la validation de l’architecture est de s’assurer que les fonctionnalités de sécurité de notre infrastructure de service continuent de fonctionner comme prévu.
+L’architecture Microsoft 365 est validée régulièrement et automatiquement à l’aide d’outils basés sur le cloud pour vérifier l’alignement avec nos principes de sécurité et pour tester en permanence les fonctionnalités d’isolation et de résilience. La validation architecturale permet d’identifier automatiquement les instances où l’état actuel du service a dérivé de l’état souhaité, en signalant les écarts à réviser et à atténuer. L’objectif de la validation de l’architecture est de s’assurer que les fonctionnalités de sécurité de notre infrastructure de service continuent de fonctionner comme prévu.
 
 ## <a name="related-external-regulations--certifications"></a>Réglementations externes associées & certifications
 

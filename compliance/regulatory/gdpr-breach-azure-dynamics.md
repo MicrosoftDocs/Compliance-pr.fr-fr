@@ -16,12 +16,13 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 1ed40e2a6cd960c4538439f5f34897037e0881cd
-ms.sourcegitcommit: 55a156a6b74ed8c438ae51cdae0654db2806e008
+hideEdit: true
+ms.openlocfilehash: d969144880735224136db47282f620cfa985f939
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "50831069"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496439"
 ---
 # <a name="azure-and-dynamics-365-breach-notification-under-the-gdpr"></a>Notification de violation Azure et Dynamics 365 dans le cadre du RGPD
 

@@ -18,12 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 632a0b78c5c5ba02a59f8863c2e751f009cc968e
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: 54ea001e542cdd1ab078546cf96bd011e27ab1dc
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120753"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497499"
 ---
 # <a name="service-resource-limits"></a>Limitation des ressources des services
 

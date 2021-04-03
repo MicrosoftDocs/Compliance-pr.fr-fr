@@ -16,12 +16,13 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: ce69444233c28683bf0e7d4056e98336445fc8b4
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: eb609f081f3f2aeb182bfe7a24327ebc89513a9c
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121043"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496313"
 ---
 # <a name="data-protection-impact-assessment-for-the-gdpr"></a>Analyses d’impact sur la protection des données pour le RGPD
 

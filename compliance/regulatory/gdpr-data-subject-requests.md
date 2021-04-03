@@ -17,12 +17,13 @@ ms.collection:
 titleSuffix: Microsoft GDPR
 description: Découvrez comment effectuer des demandes de la personne concernée (DPC) dans le cadre des règlements généraux sur la protection des données (GPDR) et le California Consumer Privacy Act (CCPA) à l’aide de produits et services Microsoft.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 83ba52015eeb7aed73cd231ff01f824f75337360
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: 8e6b862de3e52b171d886613af8529c082bad56d
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121033"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496263"
 ---
 # <a name="data-subject-requests-and-the-gdpr-and-ccpa"></a>Demandes des personnes concernées et le RGPD et CCPA
 

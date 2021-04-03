@@ -14,12 +14,13 @@ ms.collection: MS-Compliance
 ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 978ed8a58a2ea4f50a85358ec979702c28c53beb
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+hideEdit: true
+ms.openlocfilehash: b047b4ccf7fa9745a7237de79bbaa198e079865e
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507678"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496017"
 ---
 # <a name="gdpr-for-office-web-apps-server-and-office-online-server"></a>RGPD pour Office Web Apps Server et Office Online Server
 

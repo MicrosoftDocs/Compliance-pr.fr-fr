@@ -19,12 +19,13 @@ f1.keywords:
 ms.custom:
 - seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: c3b443505c78832af47719e6840c8b7011f9dfe1
-ms.sourcegitcommit: 2b347c9b778ac9b6450daf20fdf8eb74ed14cbbd
+hideEdit: true
+ms.openlocfilehash: fd23a1fdf949518ce3447d9db1bff7b6848d557c
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51002164"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497376"
 ---
 # <a name="technology-controls-in-microsoft-365"></a>Contrôles technologiques dans Microsoft 365 
 
@@ -34,7 +35,7 @@ Les ingénieurs Microsoft 365 n’ont aucun accès permanent aux données client
 
 ## <a name="lockbox-and-customer-lockbox"></a>Lockbox et Customer Lockbox
 
-Bien que cela soit rare, un client peut demander de l’aide de Microsoft qui expose du contenu client à un ingénieur Microsoft. Pour contrôler l’accès à Exchange Online, Microsoft utilise un système de contrôle d’accès appelé Lockbox. Avant qu’un ingénieur Microsoft accède à des systèmes ou données Exchange Online ou SharePoint Online, il doit envoyer une demande d’accès à l’aide de Lockbox. Toutes les demandes de service pour Exchange Online et SharePoint Online sont gérées par le système Lockbox. Avec Lockbox et Customer Lockbox, tous les accès approuvés sont accessibles à un utilisateur unique, ce qui rend les ingénieurs responsables de leur gestion des données client.
+Bien que cela soit rare, un client peut demander de l’aide à Microsoft qui expose du contenu client à un ingénieur Microsoft. Pour contrôler l’accès à Exchange Online, Microsoft utilise un système de contrôle d’accès appelé Lockbox. Avant qu’un ingénieur Microsoft accède à des systèmes ou données Exchange Online ou SharePoint Online, il doit envoyer une demande d’accès à l’aide de Lockbox. Toutes les demandes de service pour Exchange Online et SharePoint Online sont gérées par le système Lockbox. Avec Lockbox et Customer Lockbox, tous les accès approuvés sont accessibles à un utilisateur unique, ce qui rend les ingénieurs responsables de leur gestion des données client.
 
 > [!NOTE]
 > Exchange Online inclut toutes les données Skype Entreprise stockées dans les boîtes aux lettres des utilisateurs. La couverture Skype Entreprise n’inclut pas les enregistrements de diffusion de réunion Skype ou le contenu téléchargé vers les réunions par les utilisateurs. SharePoint Online inclut OneDrive Entreprise.
@@ -54,7 +55,7 @@ Les actions entreprises par l’ingénieur du support technique sont enregistré
 
 Microsoft utilise le principe d’accès juste-à-temps (JIT) pour Microsoft 365 pour atténuer les risques de falsification des informations d’identification et les attaques latérales. JIT supprime l’accès administratif persistant aux services et remplace les droits par la possibilité d’accéder à ces rôles à la demande. La suppression des droits d’accès persistants des administrateurs garantit que les informations d’identification sont disponibles uniquement lorsqu’elles sont nécessaires et réduit les risques de vol d’informations d’identification.
 
-Le modèle d’accès JIT exige que les ingénieurs demandent des privilèges élevés pendant une période limitée pour effectuer des tâches administratives. En outre, les ingénieurs utilisent des comptes temporaires créés avec des mots de passe complexes générés par l’ordinateur et n’ont accordé que les rôles qui leur permettent d’effectuer les tâches nécessaires. Par exemple, l’accès administratif accordé par Lockbox est limité dans le temps et le temps accordé dépend du rôle demandé. Un ingénieur spécifie la durée d’accès au temps nécessaire dans la demande au système Lockbox. Le système Lockbox rejette les demandes lorsque le temps demandé dépasse la durée maximale autorisée pour l’élévation. Après expiration, l’accès administratif est supprimé et le compte temporaire expire.
+Le modèle d’accès JIT exige que les ingénieurs demandent des privilèges élevés pendant une période limitée pour effectuer des tâches administratives. En outre, les ingénieurs utilisent des comptes temporaires créés avec des mots de passe complexes générés par l’ordinateur et n’ont accordé que les rôles qui leur permettent d’effectuer les tâches nécessaires. Par exemple, l’accès administratif accordé par Lockbox est limité dans le temps et le temps accordé dépend du rôle demandé. Un ingénieur spécifie la durée d’accès en temps nécessaire dans la demande au système Lockbox. Le système Lockbox rejette les demandes lorsque le temps demandé dépasse la durée maximale autorisée pour l’élévation. Après expiration, l’accès administratif est supprimé et le compte temporaire expire.
 
 Lorsqu’ils sont autorisés et approuvés pour l’accès, les ingénieurs reçoivent un mot de passe administratif d’utilisation unique généré par le système d’autorisation. De nouveaux mots de passe sont générés chaque fois qu’une demande d’accès élevé est approuvée. Le mot de passe est copié dans un mot de passe sécurisé, est distinct des informations d’identification de l’ingénieur pour l’environnement d’entreprise Microsoft et s’utilise uniquement pour la session d’accès élevé approuvée.
 
@@ -62,7 +63,7 @@ Lorsqu’ils sont autorisés et approuvés pour l’accès, les ingénieurs reç
 
 Les ingénieurs utilisent deux interfaces de gestion pour effectuer des tâches administratives : Bureau à distance via des passerelles de service Terminal Service sécurisées (TSG) et Remote PowerShell. Dans ces interfaces de gestion, les stratégies logicielles et les contrôles d’accès imposent des restrictions importantes quant aux applications exécutées et aux commandes et cmdlets disponibles.
 
-Les serveurs Microsoft 365 limitent les sessions simultanées à une seule session par administrateur d’équipe de service, par serveur. Les TSG n’autorisent qu’une seule session simultanée pour les utilisateurs et n’autorisent pas plusieurs sessions. À l’aide d’une seule session par serveur, les TSG permettent aux administrateurs d’équipes de service Microsoft 365 de se connecter simultanément à plusieurs serveurs afin que les administrateurs peuvent effectuer efficacement leurs tâches. Les administrateurs d’équipe de service n’ont pas d’autorisations sur les TSG eux-mêmes. Le TSG est utilisé uniquement pour appliquer l’authentification multifacteur (MFA) et les exigences de chiffrement. Une fois que l’administrateur de l’équipe de service se connecte à un serveur spécifique via un TSG, le serveur spécifique applique une limite de session d’un par administrateur.
+Les serveurs Microsoft 365 limitent les sessions simultanées à une seule session par administrateur d’équipe de service, par serveur. Les TSG n’autorisent qu’une seule session simultanée pour les utilisateurs et n’autorisent pas plusieurs sessions. À l’aide d’une seule session par serveur, les TSG permettent aux administrateurs d’équipes de service Microsoft 365 de se connecter simultanément à plusieurs serveurs afin que les administrateurs peuvent effectuer efficacement leurs tâches. Les administrateurs d’équipe de service n’ont pas d’autorisations sur les TSG eux-mêmes. Le TSG est utilisé uniquement pour appliquer l’authentification multifacteur (MFA) et les exigences de chiffrement. Une fois que l’administrateur de l’équipe de service se connecte à un serveur spécifique via un groupe de sécurité TSG, le serveur spécifique applique une limite de session d’un par administrateur.
 
 Les restrictions d’utilisation et les exigences de connexion et de configuration pour le personnel Microsoft 365 sont établies par les stratégies de groupe Active Directory. Ces stratégies incluent les caractéristiques suivantes :
 
@@ -74,4 +75,4 @@ Les connexions aux TSG nécessitent également l’utilisation d’une carte à 
 
 En plus de l’accès à distance à l’aide de groupes de sécurité TSG spécialement configurés, Exchange Online permet aux utilisateurs ayant le rôle Service Engineer Operations d’accéder à certaines fonctionnalités d’administration sur les serveurs de production à l’aide de Remote PowerShell. Pour ce faire, l’utilisateur doit être autorisé à accéder en lecture seule (débogage) à l’environnement de production Microsoft 365. L’escalade de privilège est activée de la même manière que pour les TSG à l’aide du processus Lockbox.
 
-Pour l’accès à distance, chaque centre de données dispose d’une adresse IP virtuelle à charge équilibrée qui sert de point d’accès unique. Les cmdlets Remote PowerShell disponibles sont basées sur le niveau de privilège identifié dans la revendication d’accès obtenue lors de l’authentification. Ces cmdlets offrent la seule fonctionnalité d’administration accessible par les utilisateurs qui se connectent à l’aide de cette méthode. PowerShell à distance limite l’étendue des commandes disponibles pour l’ingénieur et est basé sur le niveau d’accès accordé via le processus Lockbox. Par exemple, dans Exchange Online, Get-Mailbox peut être disponible, mais Set-Mailbox ne le ferait pas.
+Pour l’accès à distance, chaque centre de données dispose d’une adresse IP virtuelle à charge équilibrée qui sert de point d’accès unique. Les cmdlets PowerShell à distance disponibles sont basées sur le niveau de privilège identifié dans la revendication d’accès obtenue lors de l’authentification. Ces cmdlets fournissent les seules fonctionnalités d’administration accessibles par les utilisateurs qui se connectent à l’aide de cette méthode. PowerShell distant limite l’étendue des commandes disponibles pour l’ingénieur et est basé sur le niveau d’accès accordé via le processus Lockbox. Par exemple, dans Exchange Online, Get-Mailbox est peut-être disponible, mais Set-Mailbox ne le ferait pas.

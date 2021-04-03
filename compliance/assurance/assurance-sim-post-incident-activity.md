@@ -18,12 +18,13 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 66c25503ac574de512f5201981112a0e54714968
-ms.sourcegitcommit: 2973d25e9e0185b84d281f963553a332eac1c1a3
+hideEdit: true
+ms.openlocfilehash: 4ebd31c16f8abb3eddd6ed924a045d88597aba40
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50040347"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496709"
 ---
 # <a name="microsoft-365-security-incident-management-post-incident-activity"></a>Gestion des incidents de sécurité Microsoft 365 : activité post-incident
 
@@ -43,7 +44,7 @@ Toutes les principales conclusions techniques du processus post-mortem sont capt
 
 ## <a name="process-improvement"></a>Amélioration des processus
 
-La réponse à un incident de sécurité dans Microsoft 365 implique la coordination avec plusieurs groupes répartis dans différentes organisations au sein de Microsoft, et potentiellement même des organisations externes appropriées telles que les forces de l’ordre. Nous savons qu’il est essentiel d’évaluer nos réponses après chaque incident de sécurité pour des raisons de niveau d’efficacité et d’intégralité. Pour toutes les améliorations ou modifications identifiées, l’équipe de réponse de sécurité Microsoft 365 évalue les suggestions en consultation avec les équipes et les parties prenantes appropriées, et, le cas échéant, les intègre dans les procédures de fonctionnement standard. Toutes les modifications, bogues ou améliorations de service requises identifiés lors de la réponse aux incidents de sécurité ou de l’activité post-mortem sont consignés et suivis dans une base de données d’ingénierie Microsoft 365 interne. Tous les bogues ou fonctionnalités potentiels sont affectés au propriétaire approprié. L’équipe de réponse de sécurité Microsoft 365 examine toutes les entrées jusqu’à ce que le problème soit résolu.
+La réponse à un incident de sécurité dans Microsoft 365 implique la coordination avec plusieurs groupes répartis dans différentes organisations au sein de Microsoft, et potentiellement même des organisations externes appropriées telles que les forces de l’ordre. Nous savons qu’il est essentiel d’évaluer nos réponses après chaque incident de sécurité à la fois pour la sotivité et l’intégralité. Pour toutes les améliorations ou modifications identifiées, l’équipe de réponse de sécurité Microsoft 365 évalue les suggestions en consultation avec les équipes et les parties prenantes appropriées, et, le cas échéant, les intègre dans les procédures de fonctionnement standard. Toutes les modifications, bogues ou améliorations de service requises identifiés lors de la réponse aux incidents de sécurité ou de l’activité post-mortem sont consignés et suivis dans une base de données d’ingénierie Microsoft 365 interne. Tous les bogues ou fonctionnalités potentiels sont affectés au propriétaire approprié. L’équipe de réponse de sécurité Microsoft 365 examine toutes les entrées jusqu’à ce que le problème soit résolu.
 
 ## <a name="related-articles"></a>Articles connexes
 

@@ -17,12 +17,13 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 - MS-Compliance
-ms.openlocfilehash: f0faaefd7ff3feae482ad62b506163796d80eec5
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: 702a51589a3ce7118b8d3a8dafb6c96db247232f
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121513"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496178"
 ---
 # <a name="data-processor-service-for-windows-enterprise-data-subject-requests-for-the-gdpr-and-ccpa"></a>Service de processeur de données pour les demandes des personnes concernées Windows Entreprise pour le RGPD et le CCPA 
 
@@ -31,7 +32,7 @@ ms.locfileid: "50121513"
 
 ## <a name="introduction-to-data-subject-requests-dsrs"></a>Introduction aux demandes des personnes concernées (DSR) 
 
-Le Règlement général sur la protection des données (RGPD) de l’Union européenne permet aux utilisateurs (désignés dans le règlement comme étant les _personnes concernées_) de gérer les données personnelles collectées par un employeur ou tout autre type d’agence ou organisation (le _contrôleur des données_ ou le _contrôleur_ uniquement). Les données personnelles sont définies de manière générale dans le cadre du RGPD comme correspondant aux données associées à une personne physique identifiée ou identifiable. Le RGPD octroie aux personnes concernées des droits spécifiques sur leurs données personnelles. Ces droits incluent l’obtention de copies des données personnelles, les demandes de corrections de ces dernières, la restriction de leur traitement, leur suppression ou leur réception dans un format électronique afin de les transférer à un autre contrôleur. Toute demande formelle effectuée par une personne concernée à un contrôleur au sujet de la prise de mesure sur ses données personnelles est appelée _demande de personne concernée_ ou DSR.  
+Le Règlement général sur la protection des données (RGPD) de l’UE permet aux utilisateurs (désignés dans le règlement comme étant les _personnes concernées_) de gérer les données personnelles collectées par un employeur ou tout autre type d’agence ou organisation (le _contrôleur des données_ ou le _contrôleur_ uniquement). Les données personnelles sont définies de manière générale dans le cadre du RGPD comme correspondant aux données associées à une personne physique identifiée ou identifiable. Le RGPD octroie aux personnes concernées des droits spécifiques sur leurs données personnelles. Ces droits incluent l’obtention de copies des données personnelles, les demandes de corrections de ces dernières, la restriction de leur traitement, leur suppression ou leur réception dans un format électronique afin de les transférer à un autre contrôleur. Toute demande formelle effectuée par une personne concernée à un contrôleur au sujet de la prise de mesure sur ses données personnelles est appelée _demande de personne concernée_ ou DSR.  
 
 De même, le CCPA (California Consumer Privacy Act), prévoit des droits de confidentialité et des obligations pour les consommateurs de la Californie, y compris des droits similaires aux droits des personnes concernées du RGPD, tels que le droit de supprimer, d’accéder et de recevoir (portabilité) leurs informations personnelles. Le CCPA prévoit également des publications d’informations, des protections contre la discrimination des personnes faisant usage de leurs droits et la possibilité d’opter pour ou contre certains transferts de données classés en tant que « ventes ». Les ventes sont largement définies pour inclure le partage de données à des fins importantes. Pour plus d’informations sur le CCPA, voir le [California Consumer Privacy Act](/microsoft-365/compliance/offering-ccpa) et le [Forum aux questions California Consumer Privacy Act](/microsoft-365/compliance/ccpa-faq).
 

@@ -18,16 +18,17 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance0
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 9a76a258edf77708786cf19b160c4c5ee7af7ee6
-ms.sourcegitcommit: 2973d25e9e0185b84d281f963553a332eac1c1a3
+hideEdit: true
+ms.openlocfilehash: a61a4406c4951c4d4584831cf58030545955fd35
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50040357"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496778"
 ---
 # <a name="microsoft-365-security-incident-management"></a>Gestion des incidents de sécurité de Microsoft 365
 
-Microsoft travaille en permanence pour fournir des services hautement sécurisés de qualité entreprise pour les clients Microsoft 365. Ce document décrit comment Microsoft gère les incidents de sécurité dans Microsoft 365. Un incident de sécurité fait référence à tout accès illégal aux données client stockées sur l’équipement de Microsoft ou dans les installations de Microsoft, ou à un accès non autorisé à ces équipements ou installations qui peuvent entraîner la perte, la divulgation ou l’altération de données client. Les objectifs de Microsoft lors de la réponse aux incidents de sécurité sont de protéger les données client et les services Microsoft 365.
+Microsoft travaille en permanence pour fournir des services hautement sécurisés de qualité entreprise pour les clients Microsoft 365. Ce document décrit comment Microsoft gère les incidents de sécurité dans Microsoft 365. Un incident de sécurité fait référence à tout accès illégal aux données client stockées sur l’équipement de Microsoft ou dans les installations de Microsoft, ou à un accès non autorisé à ces équipements ou installations qui peuvent entraîner la perte, la divulgation ou l’altération des données client. Les objectifs de Microsoft lors de la réponse aux incidents de sécurité sont de protéger les données client et les services Microsoft 365.
 
 L’équipe de sécurité Microsoft 365 et les différentes équipes de service travaillent ensemble et utilisent la même approche pour les incidents de sécurité :
 
@@ -44,7 +45,7 @@ L’approche de Microsoft en matière de gestion d’un incident de sécurité e
 
 |**Équipe/zone**|**Description**|
 |:------------|:--------------|
-| Centre de réponse aux problèmes de sécurité Microsoft | Identifie, surveille, résout et répond aux incidents de sécurité et aux vulnérabilités de sécurité logicielle Microsoft. |
+| Centre de réponse aux problèmes de sécurité Microsoft | Identifie, surveille, résout et répond aux incidents de sécurité et aux vulnérabilités de sécurité des logiciels Microsoft. |
 | Centre des opérations de cyber-défense | Le Centre des opérations de cybersécurité est l’emplacement physique qui regroupe les équipes de réponse à la sécurité et les experts de toute l’entreprise pour vous aider à protéger, détecter et répondre aux menaces en temps réel. |
 | Affaires d’entreprise, externes et juridiques | Fournit des conseils juridiques et réglementaires pour un incident de sécurité suspecté. |
 | Équipe de réponse à la sécurité Microsoft 365 | Partenaires avec les équipes du service Microsoft 365 pour créer le processus de gestion des incidents de sécurité approprié et pour piloter toute réponse aux incidents de sécurité. |
@@ -66,7 +67,7 @@ L’équipe de sécurité Microsoft 365 et les équipes de service travaillent e
 
 ## <a name="federated-security-response-model"></a>Modèle de réponse de sécurité fédérée
 
-Les services Microsoft 365 incluent les services en ligne Microsoft principaux (Exchange, SharePoint, Microsoft Teams, etc.) et d’autres services cloud Microsoft, tels qu’Azure Active Directory, la plateforme de commerce Microsoft et MSTIC. Ces services sont gérés par des équipes distinctes avec leurs propres processus opérationnels de sécurité. D’autres équipes chez Microsoft sont également engagées dans différents aspects de sécurité de Microsoft 365. En raison de la multitude d’équipes qui travaillent sur la gestion des opérations de sécurité dans tous les différents services qui font partie de Microsoft 365, Microsoft a implémenté un modèle de réponse de sécurité fédérée.
+Les services Microsoft 365 incluent les services en ligne Microsoft principaux (Exchange, SharePoint, Microsoft Teams, etc.) et d’autres services cloud De Microsoft, tels qu’Azure Active Directory, la plateforme de commerce Microsoft et MSTIC. Ces services sont gérés par des équipes distinctes avec leurs propres processus opérationnels de sécurité. D’autres équipes chez Microsoft sont également engagées dans différents aspects de sécurité de Microsoft 365. En raison de la multitude d’équipes qui travaillent sur la gestion des opérations de sécurité dans tous les différents services qui font partie de Microsoft 365, Microsoft a implémenté un modèle de réponse de sécurité fédérée.
 
 Ce tableau présente les limites opérationnelles entre les différentes équipes d’opérations de sécurité Microsoft 365 et les équipes de service Microsoft 365 :
 

@@ -17,12 +17,13 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: b4c46e63ecbde1d160b0e0224a77ead751c37557
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+hideEdit: true
+ms.openlocfilehash: 134bf099671830856f97bf4dd770123d7efaf41a
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507414"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496110"
 ---
 # <a name="fasttrack-migration-toolset-for-submitting-delete-request"></a>Ensemble d’outils de migration FastTrack pour envoyer une demande de suppression
 
@@ -34,9 +35,9 @@ Si vous êtes un client actuellement engagé dans les migrations FastTrack, la s
 
 Microsoft prend en charge la version initiale de cet ensemble d’outils dans la console PowerShell et la plateforme Windows. Les plateformes connues suivantes sont prises en charge par cet ensemble d’outils :
 
-***Tableau 1 : plateformes prises en charge par cet ensemble d’outils** _
+***Tableau 1 : plateformes prises en charge par cet ensemble d’outils***
 
-_***
+****
 
 |Version de PowerShell|Windows 7|Windows 8|Windows 10|Windows Server 2012|Windows Server 2016|
 |:---:|:---:|:---:|:---:|:---:|:---:|
@@ -60,7 +61,7 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 
 Vous serez invité à confirmer cette action, car l’administrateur peut modifier l’étendue à sa guise.
 
-**_Définir la stratégie d’exécution_* _
+***Définir la stratégie d’exécution***
 
 ![Définir la modification de la stratégie d’exécution dans PowerShell](../media/powershell-set-execution-policy_image.png)
 
@@ -82,7 +83,7 @@ Login-FastTrackAccount -ApiKey <API Key provided by FastTrack MVM>
 
 Une fois que vous êtes connecté, les identifiants et la clé sont stockés pour être utilisés avec les modules FastTrack pendant le reste de la session PowerShell actuelle.
 
-Si vous avez besoin de vous connecter à un environnement cloud autre que commercial, vous devrez ajouter _-Environment à la commande *Login* avec l’un des environnements valides suivants :
+Si vous avez besoin de vous connecter à un environnement cloud autre que commercial, vous devrez ajouter *-Environment* à la commande *Login* avec l’un des environnements valides suivants :
 
 - AzureCloud
 - AzureChinaCloud

@@ -16,12 +16,13 @@ ms.collection:
 - Strat_O365_Enterprise
 - remotework
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 4d4b2f02eacb09f09aae4995f5ee2747fbfe59a6
-ms.sourcegitcommit: 693bc6b1b51a5a9c9ff1758fa7f7ca3a204f147e
+hideEdit: true
+ms.openlocfilehash: d0d19941bb64462423b8488d38fb151eaa1faeb8
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "49574806"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497359"
 ---
 # <a name="enterprise-business-continuity-management-ebcm-with-cloud-services"></a>Gestion de la continuité d’activité d’entreprise (EBCM) avec les services Cloud
 

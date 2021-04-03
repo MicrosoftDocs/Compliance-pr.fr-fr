@@ -18,18 +18,19 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 8a538ee055d10b002ea7efcc7d39ce20658df12b
-ms.sourcegitcommit: 7a5b6bc58fc4613b38f3fda20aebee5cec6a5730
+hideEdit: true
+ms.openlocfilehash: 7a38d4c16de5ee489dab76165b952140af6a4656
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49787353"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497422"
 ---
 # <a name="security-monitoring-overview"></a>Aperçu sur la surveillance de la sécurité
 
 ## <a name="what-is-microsofts-strategy-for-monitoring-security"></a>Quelle est la stratégie de Microsoft pour surveiller la sécurité ?
 
-Microsoft 365 est engagé dans la surveillance continue de la sécurité de ses systèmes pour détecter les menaces contre les services Microsoft 365 et y répondre. Nos principes clés pour la surveillance et l’alerte de sécurité sont les suivants :
+Microsoft 365 est engagé dans la surveillance continue de la sécurité de ses systèmes pour détecter les menaces contre les services Microsoft 365 et y répondre. Nos principes clés en matière de surveillance et d’alerte de sécurité sont les suivants :
 
 - Robustesse : signaux et logique pour détecter divers comportements d’attaque
 - Précision : alertes significatives pour éviter les distractions du bruit

@@ -18,12 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 916f26d5f2defdfb21cb9babe3a64cf618e8cd4a
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: df345d922bbd0c9106cf0714377803a9c0870d82
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120363"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497354"
 ---
 # <a name="yammer-enterprise-access-controls"></a>Yammer contrôles d’accès d’entreprise 
 

@@ -19,12 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: aa5c7c01b39feba21b3efa2a99267743379d8cec
-ms.sourcegitcommit: 7a5b6bc58fc4613b38f3fda20aebee5cec6a5730
+hideEdit: true
+ms.openlocfilehash: 69f23af93f6b41563fb3694436bf7272ac2d5b75
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49787333"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497183"
 ---
 # <a name="human-resources-overview"></a>Aperçu sur les ressources humaines
 
@@ -32,7 +33,7 @@ ms.locfileid: "49787333"
 
 Microsoft suit des exigences rigoureuses en matière de filtrage du personnel pour tous les employés, les internes et le personnel subordonné. Tous les candidats sont préalablement présentés à l’écran avant de commencer à travailler chez Microsoft.
 
-Les vérifications des antécédents sur les candidats au contrat de travail incluent généralement la révision des composants suivants, dans la mesure où la loi l’autorise :
+Les vérifications des antécédents des candidats au contrat de travail incluent généralement la révision des composants suivants, dans la mesure où la loi le permet :
 
 - Vérification de l’identité
 - Vérification de l’éducation
@@ -47,7 +48,7 @@ Outre le filtrage préalable à l’emploi, les employés de Microsoft qui fourn
 
 ## <a name="how-does-microsoft-ensure-employees-maintain-sufficient-skillset-and-knowledge-to-perform-their-responsibilities-and-follow-microsoft-policies"></a>Comment Microsoft s’assure-t-il que les employés conservent suffisamment de compétences et de connaissances pour assumer leurs responsabilités et suivre les stratégies de Microsoft ?
 
-Tous les employés de Microsoft sont tenus d’effectuer une formation de sensibilisation de base à la sécurité. Une formation initiale se produit lorsqu’un nouvel employé commence à travailler chez Microsoft, et une session annuelle de remise à niveau s’effectue tous les ans par la suite. La formation est conçue pour fournir à l’employé une compréhension de l’approche fondamentale de Microsoft en matière de sécurité. Une formation sur la sécurité basée sur les rôles applicable est également requise avant d’accorder tout accès spécifique nécessaire aux responsabilités d’un individu. La formation sur la sécurité des employés de Microsoft est actualisée sur une base annuelle, ainsi que lorsque les modifications apportées au système ou aux stratégies justifient une nouvelle formation.
+Tous les employés de Microsoft sont tenus d’effectuer une formation de sensibilisation de base à la sécurité. Une formation initiale se produit lorsqu’un nouvel employé commence à travailler chez Microsoft, et une session annuelle de remise à niveau s’effectue tous les ans par la suite. La formation est conçue pour fournir à l’employé une compréhension de l’approche fondamentale de Microsoft en matière de sécurité. Une formation sur la sécurité basée sur les rôles applicable est également requise avant d’accorder tout accès spécifique nécessaire aux responsabilités d’un individu. La formation sur la sécurité des employés de Microsoft est actualisée sur une base annuelle, ainsi que lorsque les modifications du système ou des stratégies justifient une nouvelle formation.
 
 En plus de la formation de sensibilisation à la sécurité, les employés de Microsoft doivent effectuer une formation sur les normes de conduite professionnelle. Cette formation inclut l’engagement commercial, la sécurité des employés, la confidentialité, la protection contre le harcèlement et la tolérance zéro pour les comportements non éthiques. À la fin du cours, les employés doivent attester qu'ils respecteront le code de conduite professionnelle de Microsoft, qui est suivi au niveau de l'organisation. La formation sur les normes de conduite professionnelle est actualisée sur une base annuelle.
 
@@ -67,8 +68,8 @@ Les services en ligne de Microsoft sont régulièrement audités pour assurer la
 
 | **Audits externes** | **Section** | **Date de rapport la plus récente** |
 |:--------------------|:------------|:-----------------------|  
-| [FedRAMP (Office 365)](https://compliance.microsoft.com/compliancemanager) | AT-2 : Sensibilisation à la sécurité <br> AT-3 : formation sur la sécurité basée sur les rôles <br> AT-4 : Enregistrements de formation sur la sécurité <br> PS-3 : filtrage du personnel <br> PS-4 : résiliation du personnel <br> PS-5 : transfert de personnel <br> PS-7 : sécurité du personnel tiers | 24 septembre 2020 |
+| [FedRAMP (Office 365)](https://compliance.microsoft.com/compliancemanager) | AT-2 : Sensibilisation à la sécurité <br> AT-3 : formation sur la sécurité basée sur les rôles <br> AT-4 : Enregistrements de formation sur la sécurité <br> PS-3 : Filtrage du personnel <br> PS-4 : résiliation du personnel <br> PS-5 : transfert de personnel <br> PS-7 : sécurité du personnel tiers | 24 septembre 2020 |
 | [ISO 27001/27002 (Office 365)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=d7864d4f-e053-4cc4-a964-fa526d07c3be&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [Déclaration d’applicabilité](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=8ee1e46b-2ada-4e7b-bb7d-4c55a8cb6fcd&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) <br> [Certification](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.7 : Sécurité des ressources humaines | 22 février 2020 |
 | [ISO 27017 (Office 365)](https://aka.ms/o365iso) <br><br> [Déclaration d’applicabilité](https://aka.ms/o365isosoa) <br> [Certification](https://aka.ms/Office365ISO27017Cert) | A.7 : Sécurité des ressources humaines | 22 février 2020 |
 | [SOC 1 (Office 365)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=90df3f9c-3aaf-4dbf-99d0-ca9f2991721b&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-08 : Vérifications en arrière-plan <br> CA-43 : Révocation de compte | 24 décembre 2020 |
-| [SOC 2 (Office 365)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-07 : Normes de conduite professionnelle (SBC) <br> CA-08 : Vérifications des antécédents <br> CA-43 : Révocation de compte | 24 décembre 2020 |
+| [SOC 2 (Office 365)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=a73c1738-7892-42b7-acd3-87b6371c53f6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-07 : Normes de conduite professionnelle (SBC) <br> CA-08 : Vérifications en arrière-plan <br> CA-43 : Révocation de compte | 24 décembre 2020 |

@@ -17,12 +17,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 - MS-Compliance
-ms.openlocfilehash: 220084ee9cd808d896a475a324c4bd55e58414e1
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 41e903a478559d942de2202ab89e05c8c46a8460
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121063"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496342"
 ---
 # <a name="data-processor-service-for-windows-enterprise-breach-notification-under-the-gdpr"></a>Service de traitement de données pour la notification de violation Windows Enterprise sous RGPD
 
@@ -36,9 +36,9 @@ La sécurité est intégrée dans le service de traitement des données de Micro
 |**Stade**|**Description**|
 |:------- |:------------- |
 | ***1 : Détecter*** | Première indication d’un incident potentiel. |
-| ***2 : Évaluer*** | Un membre de l’équipe d’invervention en cas d’incidents évalue les conséquences et la gravité de l’événement. En fonction des données probantes, l’évaluation peut ou non aboutir à un signalement supplémentaire à l’équipe d’intervention en matière de sécurité. |
-| ***3 : Diagnostiquer*** | Des spécialistes d’intervention en matière de sécurité effectuent une enquête technique ou scientifique, et identifient des stratégies de limitation, d’atténuation et de contournement. Si l’équipe de sécurité pense que les données client ont pu être exposées à un individu non autorisé ou ayant commis des actes illicites, l’exécution du processus de notification des incidents du client débute en parallèle. |
-| ***4 : Stabiliser et récupérer*** | L’équipe d’intervention en cas d’incidents crée un plan de récupération pour atténuer le problème. Les étapes de limitation de crise telles que la mise en quarantaine des systèmes concernés peuvent avoir lieu immédiatement et parallèlement au diagnostic. Des enquêtes à plus long terme peuvent être planifiées et avoir lieu une fois que le risque immédiat est passé. |
+| ***2 : Évaluer*** | Un membre de l’équipe de garde de réponse aux incidents de sécurité évalue les conséquences et la gravité de l’événement. En fonction des données probantes, l’évaluation peut ou non aboutir à un signalement supplémentaire à l’équipe de réponse aux incidents de sécurité. |
+| ***3 : Diagnostiquer*** | Des spécialistes de la réponse aux incidents de sécurité effectuent des examens techniques et mènent une enquête judiciaire, identifient des stratégies de limitation, d’atténuation et de contournement. Si l’équipe de sécurité pense que les données client ont peut-être été exposées à un individu non autorisé ou ayant commis des actes illicites, l’exécution du processus de notification des incidents du client débute en parallèle. |
+| ***4 : Stabiliser et récupérer*** | L’équipe de réponse aux incidents de sécurité crée un plan de récupération pour atténuer le problème. Les étapes de limitation de la crise telles que la mise en quarantaine des systèmes concernés peuvent avoir lieu immédiatement et parallèlement au diagnostic. Des enquêtes à plus long terme peuvent être planifiées et se produire une fois que le risque immédiat est passé. |
 | ***5 : Fermeture et post-mortem*** | L’équipe d’intervention en cas d’incidents crée un post-mortem qui décrit les détails de l’incident, avec l’intention de réviser les stratégies, procédures et processus afin d’éviter la récurrence de l’événement. |
 
 Les processus de détection utilisés par le service de traitement de données Microsoft pour Windows Enterprise sont conçus pour découvrir les événements susceptibles de menacer la confidentialité, l’intégrité et la disponibilité du service de traitement de données pour Windows Enterprise. Plusieurs événements peuvent déclencher un examen :

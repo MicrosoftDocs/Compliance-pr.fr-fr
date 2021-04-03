@@ -16,12 +16,13 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: ca2f69cdbc68a5dabcf5bf0f36cac0925bd87049
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: 44fb1842d315a0161255fd9a1b0165e2af2805c8
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121833"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51495901"
 ---
 # <a name="additional-steps-to-export-system-generated-log-data"></a>Étapes supplémentaires pour exporter les données des journaux générés par le système
 

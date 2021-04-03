@@ -92,12 +92,8 @@
   items:
     - name: Aperçu sur la sécurité réseau
       href: assurance-network-security.md
-    - name: Refus d’attaque de service
-      href: assurance-defending-cloud-services-against-dos-attacks.md
     - name: Stratégie de refus d’attaque de service
       href: assurance-microsoft-dos-defense-strategy.md
-    - name: Principes fondamentaux de refus d’attaque de service
-      href: assurance-core-principles-of-defense-against-dos-attacks.md
     - name: Détection de virus dans les services Microsoft 365
       href: /microsoft-365/security/office-365-security/virus-detection-in-spo?toc=/compliance/assurance/toc.json&bc=/compliance/assurance/breadcrumb/toc.json
 - name: Confidentialité
@@ -116,6 +112,10 @@
       href: assurance-sharepoint-online-data-deletion.md
     - name: Données d’immuabilité Microsoft 365
       href: assurance-data-immutability.md
+    - name: Classification des données et des étiquettes de confidentialité
+      href: assurance-data-classification-and-labels.md
+    - name: Créer une structure de classification des données
+      href: assurance-create-data-classification-framework.md
 - name: Résilience et continuité
   items:
     - name: Aperçu sur la résilience et la continuité

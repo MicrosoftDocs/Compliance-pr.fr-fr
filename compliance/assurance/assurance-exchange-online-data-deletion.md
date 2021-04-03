@@ -19,12 +19,13 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 527fb2d7ca1536c549990b0c7a4615e4fe3e8436
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: c88e7359931fb964fbc4cb6531c5151072a50df0
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120493"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497201"
 ---
 # <a name="exchange-online-data-deletion-in-microsoft-365"></a>Suppression de données Exchange Online dans Microsoft 365
 
@@ -50,7 +51,7 @@ Les scénarios de suppression ci-dessus supposent que la boîte aux lettres de l
 
 Lorsqu’un utilisateur supprime un élément de boîte aux lettres (tel qu’un message électronique, un contact, un rendez-vous de calendrier ou une tâche), l’élément est déplacé vers le dossier Éléments récupérables et dans un sous-dossier nommé « Suppressions ». C’est ce qu’on appelle une suppression souple. La durée de conservation dans le dossier Suppressions des éléments supprimés dépend de la période de rétention des éléments supprimés qui est définie pour la boîte aux lettres. Une boîte aux lettres Exchange Online conserve les éléments supprimés pendant 14 jours par défaut, mais les administrateurs Exchange Online peuvent modifier ce paramètre pour augmenter la période jusqu’à un maximum de 30 jours. (Pour obtenir la procédure détaillée d’augmentation de la période de rétention des éléments supprimés pour une boîte aux lettres Exchange Online, voir Modifier la durée de conservation des éléments supprimés définitivement pour une boîte aux lettres [Exchange Online.)](/exchange/recipients-in-exchange-online/manage-user-mailboxes/change-deleted-item-retention) Les utilisateurs peuvent récupérer ou purger des éléments supprimés avant l’expiration de la durée de rétention d’un élément supprimé. Pour ce faire, ils utilisent la fonctionnalité Récupérer les éléments supprimés dans Microsoft Outlook ou Outlook sur le web.
 
-Si un utilisateur purge un élément supprimé à l’aide de la fonctionnalité Récupérer les éléments supprimés dans Outlook ou Outlook sur le web, il s’agit d’une suppression dure. Dans Exchange Online, la récupération d’élément unique est activée par défaut [](/Exchange/recipients/user-mailboxes/recover-deleted-messages) lors de la création d’une nouvelle boîte aux lettres, afin qu’un administrateur puisse toujours récupérer les éléments supprimés définitivement avant l’expiration de la période de rétention des éléments supprimés. En outre, si un message est modifié par un utilisateur ou un processus, des copies de l'élément d'origine sont également conservées lorsque la fonctionnalité de récupération d'élément unique est activée.
+Si un utilisateur purge un élément supprimé à l’aide de la fonctionnalité Récupérer les éléments supprimés dans Outlook ou Outlook sur le web, il s’agit d’une suppression dure. Dans Exchange Online, la récupération d’élément unique est activée par défaut [](/Exchange/recipients/user-mailboxes/recover-deleted-messages) lors de la création d’une boîte aux lettres, de sorte qu’un administrateur peut toujours récupérer des éléments supprimés définitivement avant l’expiration de la période de rétention des éléments supprimés. En outre, si un message est modifié par un utilisateur ou un processus, des copies de l'élément d'origine sont également conservées lorsque la fonctionnalité de récupération d'élément unique est activée.
 
 ## <a name="page-zeroing"></a>Zéro des pages
 

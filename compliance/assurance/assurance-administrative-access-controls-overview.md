@@ -19,18 +19,19 @@ ms.collection:
 - MS-Compliance
 ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: d3d6cd30fbe682de979d5c04943c57cedc86552f
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: e7dc9d73b6eb1961387d85910bb558e85498ffae
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120713"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497703"
 ---
 # <a name="administrative-access-controls-in-microsoft-365"></a>Contrôles d’accès administratif dans Microsoft 365 
 
-Microsoft a lourdement investi dans les systèmes et les contrôles qui automatisent la plupart des opérations De Microsoft 365 tout en limitant intentionnellement l’accès au contenu client par Microsoft. Les humains régissent le service et les logiciels le gèrent. Cette structure permet à Microsoft de gérer Microsoft 365 à grande échelle et de gérer les risques de menaces internes sur le contenu des clients.
+Microsoft a lourdement investi dans des systèmes et des contrôles qui automatisent la plupart des opérations De Microsoft 365 tout en limitant intentionnellement l’accès au contenu client par Microsoft. Les humains régissent le service et les logiciels le gèrent. Cette structure permet à Microsoft de gérer Microsoft 365 à grande échelle et de gérer les risques de menaces internes sur le contenu des clients.
 
-Par défaut, les ingénieurs Microsoft n’ont aucun privilège administratif permanent et aucun accès permanent au contenu client dans Microsoft 365. Un ingénieur Microsoft peut avoir un accès limité, audité et sécurisé au contenu d’un client pendant une durée limitée. L’accès est uniquement nécessaire pour les opérations de service et uniquement lorsqu’il est approuvé par un membre de la direction de Microsoft. Pour les clients titulaires d’une licence Customer Lockbox, le client fournit l’approbation de l’accès à son contenu hébergé sur Microsoft 365.
+Par défaut, les ingénieurs Microsoft n’ont aucun privilège administratif permanent et aucun accès permanent au contenu client dans Microsoft 365. Un ingénieur Microsoft peut avoir un accès limité, audité et sécurisé au contenu d’un client pendant une durée limitée. L’accès est uniquement nécessaire pour les opérations de service et uniquement lorsqu’il est approuvé par un membre de la direction de Microsoft. Pour les clients titulaires d’une licence Customer Lockbox, le client donne accès à son contenu hébergé sur Microsoft 365.
 
 Microsoft fournit des services en ligne à l’aide de plusieurs formes de distribution cloud :
 
@@ -82,7 +83,7 @@ Il existe trois catégories de contrôles d’accès utilisées par Microsoft po
 
 Lorsqu’ils sont combinés, ces contrôles permettent de prévenir et de détecter les actions malveillantes dans Microsoft 365. Outre les contrôles d’isolation, de personnel et de technologie utilisés par Microsoft, il existe une quatrième catégorie de contrôles : ces contrôles implémentés par les clients.
 
-Microsoft 365 vous permet de gérer les données de la même façon que dans les environnements locaux. La personne qui a signé une organisation pour Microsoft 365 devient automatiquement un administrateur général. L’administrateur global a accès à toutes les fonctionnalités des portails de gestion et peut :
+Microsoft 365 vous permet de gérer les données de la même façon que dans les environnements locaux. La personne qui signe une organisation pour Microsoft 365 devient automatiquement un administrateur général. L’administrateur global a accès à toutes les fonctionnalités des portails de gestion et peut :
 
 - Créer ou modifier des utilisateurs
 - Attribuer des rôles d’administrateur à d’autres personnes

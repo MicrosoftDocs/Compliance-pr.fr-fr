@@ -16,12 +16,13 @@ ms.collection:
 - Strat_O365_Enterprise
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 74bbca3ff8b179208288651e5a8b4f4a9eac09e8
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: e8c031727c77d1106f8bd255a643fd9794cc856a
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120563"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497585"
 ---
 # <a name="developing-your-business-continuity-plan"></a>Développement de votre plan de continuité d’activité
 

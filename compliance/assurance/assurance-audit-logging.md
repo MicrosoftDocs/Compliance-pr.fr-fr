@@ -19,12 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 6e32e089a5b42f846a332e32218959fef5103615
-ms.sourcegitcommit: 7a5b6bc58fc4613b38f3fda20aebee5cec6a5730
+hideEdit: true
+ms.openlocfilehash: dc56d0413811d59309c974931e1fa50ee184e94a
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49787503"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497684"
 ---
 # <a name="audit-logging-overview"></a>Aperçu sur la journalisation d’audit
 
@@ -57,7 +58,7 @@ Les outils utilisés dans Microsoft 365 pour collecter et traiter les enregistre
 
 ## <a name="how-does-microsoft-365-protect-end-user-identifiable-information-that-may-be-captured-in-audit-logs"></a>Comment Microsoft 365 protège-t-il les informations d’identification de l’utilisateur final qui peuvent être capturées dans les journaux d’audit ?
 
-Avant de télécharger des données dans Cosmos, l’application ODL utilise un service de nettoyage pour obscurcir tous les champs qui contiennent des données client, telles que les informations client et les informations d’identification de l’utilisateur final, et remplace ces champs par une valeur de hachage. Les journaux anonymisés et hachés sont réécrits, puis chargés dans Cosmos.
+Avant de charger des données dans Cosmos, l’application ODL utilise un service de nettoyage pour obfusquer les champs qui contiennent des données client, telles que les informations client et les informations d’identification de l’utilisateur final, et remplacer ces champs par une valeur de hachage. Les journaux anonymisés et hachés sont réécrits, puis chargés dans Cosmos.
 
 ## <a name="related-external-regulations--certifications"></a>Réglementations externes associées & certifications
 
@@ -65,7 +66,7 @@ Les services en ligne de Microsoft sont régulièrement audités pour assurer la
 
 | **Audits externes** | **Section** | **Date de rapport la plus récente** |
 |:--------------------|:------------|:-----------------------|
-| [FedRAMP (Office 365)](https://compliance.microsoft.com/compliancemanager) | AU-2 : Événements d’audit <br> AU-3 : Contenu des enregistrements d’audit <br> AU-4 : Auditer la capacité de stockage <br> AU-5 : Réponse aux échecs de traitement d’audit <br> AU-6 : vérification, analyse et rapport d’audit <br> AU-7 : Réduction d’audit et génération de rapports <br> AU-8 : horodats <br> AU-9 : Protection des informations d’audit  <br> AU-10 : non-répudiation <br> AU-11 : Rétention d’enregistrement d’audit <br> AU-12 : génération d’audit  | 24 septembre 2020 | 
+| [FedRAMP (Office 365)](https://compliance.microsoft.com/compliancemanager) | AU-2 : Événements d’audit <br> AU-3 : Contenu des enregistrements d’audit <br> AU-4 : Auditer la capacité de stockage <br> AU-5 : Réponse aux échecs de traitement d’audit <br> AU-6 : vérification, analyse et rapport d’audit <br> AU-7 : Réduction d’audit et génération de rapports <br> AU-8 : Horodats <br> AU-9 : Protection des informations d’audit  <br> AU-10 : non-répudiation <br> AU-11 : Rétention d’enregistrement d’audit <br> AU-12 : génération d’audit  | 24 septembre 2020 | 
 | [ISO 27001/27002 (Office 365)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=d7864d4f-e053-4cc4-a964-fa526d07c3be&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [Déclaration d’applicabilité](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=8ee1e46b-2ada-4e7b-bb7d-4c55a8cb6fcd&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) <br> [Certification](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1e84a14a-2468-45ac-9412-5e53250d57ec&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.12.4 : Journalisation et surveillance | 22 février 2020 |
 | [ISO 27017 (Office 365)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=d7864d4f-e053-4cc4-a964-fa526d07c3be&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [Déclaration d’applicabilité](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=8ee1e46b-2ada-4e7b-bb7d-4c55a8cb6fcd&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) <br> [Certification](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=70de0999-5451-43a3-9ef4-761e8fbfb1a3&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.12.4 : Journalisation et surveillance | 22 février 2020 |
 | [SOC 1 (Office 365)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=90df3f9c-3aaf-4dbf-99d0-ca9f2991721b&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | CA-48 : journalisation du centre de données <br> CA-60 : Journalisation d’audit | 24 décembre 2020 |

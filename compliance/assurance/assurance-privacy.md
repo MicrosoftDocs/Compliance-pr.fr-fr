@@ -18,18 +18,19 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: c55d1202faee1a2640715ec1aef82d4956d92c38
-ms.sourcegitcommit: 7a5b6bc58fc4613b38f3fda20aebee5cec6a5730
+hideEdit: true
+ms.openlocfilehash: b94a8e610a782559a322eb9db812202f7f8698ed
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49787427"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496913"
 ---
 # <a name="privacy-overview"></a>Aperçu sur la confidentialité
 
 ## <a name="how-does-microsoft-approach-privacy-for-customers"></a>Comment Microsoft aborde-t-il la confidentialité pour les clients ?
 
-La base de [l’approche](https://privacy.microsoft.com/#whatinformationwecollectmodule) de Confidentialité de Microsoft repose sur les six principes suivants : contrôle client, transparence, sécurité, protections juridiques renforcées de la confidentialité, aucun ciblage basé sur le contenu et avantages pour les clients des données que nous collectons. Le cycle de vie du développement [](https://privacy.microsoft.com/privacystatement) de la sécurité [(SDL)](https://www.microsoft.com/securityengineering/sdl/) et la déclaration de confidentialité fournissent des détails sur notre processus de développement dans le cadre de nos pratiques transparentes en matière de confidentialité pour la protection de nos clients. En outre, Microsoft prend des engagements contractuels généraux dans les conditions d’ost [(Online Service Terms)](https://www.microsoft.com/licensing/product-licensing/products) et détaille nos obligations respectives concernant le traitement des données dans le [DPA (Online Services Data Protection Addendum).](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=67)
+La base de [l’approche](https://privacy.microsoft.com/#whatinformationwecollectmodule) de Confidentialité de Microsoft repose sur les six principes suivants : contrôle des clients, transparence, sécurité, protections juridiques renforcées de la confidentialité, aucun ciblage basé sur le contenu et avantages pour les clients des données que nous collectons. Le cycle de vie du développement [](https://privacy.microsoft.com/privacystatement) de la sécurité [(SDL)](https://www.microsoft.com/securityengineering/sdl/) et la déclaration de confidentialité fournissent des détails sur notre processus de développement dans le cadre de nos pratiques transparentes en matière de confidentialité pour la protection de nos clients. En outre, Microsoft prend des engagements contractuels généraux dans les conditions d’ost [(Online Service Terms)](https://www.microsoft.com/licensing/product-licensing/products) et détaille nos obligations respectives concernant le traitement des données dans le [DPA (Online Services Data Protection Addendum).](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=67)
 
 ## <a name="how-does-microsoft-implement-its-privacy-commitments"></a>Comment Microsoft met-il en œuvre ses engagements en matière de confidentialité ?
 
@@ -39,7 +40,7 @@ Microsoft maintient la politique de confidentialité de l’entreprise de Micros
 
 Le cycle de vie des données décrit comment Microsoft traite les données en fonction des conseils des clients et conformément aux lois applicables en matière de sécurité et de confidentialité. Les étapes du cycle de vie des données incluent la collecte, le traitement, le partage de tiers (le cas échéant), la rétention et la destruction. L’approche de Microsoft en matière de confidentialité informe chaque étape du cycle de vie des données afin de protéger la confidentialité de nos clients.
 
-Microsoft limite la collecte de données client à quatre catégories de données [spécifiques](https://www.microsoft.com/trust-center/privacy/customer-data-definitions?rtc=1): données client, données générées par le service, données de diagnostic et données de services professionnels. Microsoft utilise les données de ces catégories pour effectuer un ensemble limité d’opérations d’entreprise légitimes requises pour fournir des services à nos clients. Lorsque des données sont collectées et traitées pour effectuer des opérations DBE, Microsoft protège les clients et les utilisateurs individuels en pseudonymisant les données de diagnostic et en agrégeant les données avant de les utiliser. Nous n’accédons pas au contenu des données client pour déterminer les données spécifiques qui peuvent être considérées comme personnelles. Au lieu de cela, nous partons du principe que toutes les données client et toutes les données de services professionnels contiennent des données personnelles et protègent les données en conséquence.
+Microsoft limite la collecte de données client à quatre catégories de données [spécifiques](https://www.microsoft.com/trust-center/privacy/customer-data-definitions?rtc=1): données client, données générées par le service, données de diagnostic et données de services professionnels. Microsoft utilise les données de ces catégories pour effectuer un ensemble limité d’opérations d’entreprise légitimes requises pour fournir des services à nos clients. Lorsque des données sont collectées et traitées pour effectuer des opérations d’ABE, Microsoft protège les clients et les utilisateurs individuels en pseudonymisant les données de diagnostic et en agrégeant les données avant de les utiliser. Nous n’accédons pas au contenu des données client pour déterminer les données spécifiques qui peuvent être considérées comme personnelles. Au lieu de cela, nous partons du principe que toutes les données client et toutes les données de services professionnels contiennent des données personnelles et protègent les données en conséquence.
 
 ## <a name="how-does-microsoft-handle-third-party-sharing"></a>Comment Microsoft gère-t-il le partage tiers ?
 

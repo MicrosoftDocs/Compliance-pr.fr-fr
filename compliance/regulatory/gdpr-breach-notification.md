@@ -18,12 +18,13 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: f1171e8d5bcac53ad9ddb699a541c0e25494b238
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: 83d07d056656e76c49af015bcd3e7f0a3fe57e1f
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121083"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496411"
 ---
 # <a name="gdpr-breach-notification"></a>Notification de violation RGPD
 

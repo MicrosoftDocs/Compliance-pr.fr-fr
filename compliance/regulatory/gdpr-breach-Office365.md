@@ -16,12 +16,13 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 317a5bf64a5d10099b3fcf73190bb6e20ffc2999
-ms.sourcegitcommit: 7864222909b7d8d0b1dbdbbdee66f5697dac7940
+hideEdit: true
+ms.openlocfilehash: d9c879259b94229ea27f1f42132dc12a575e57e5
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "49757839"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496454"
 ---
 # <a name="breach-notification-under-the-gdpr"></a>Notification de violation dans le cadre du RGPD
 

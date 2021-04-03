@@ -18,12 +18,13 @@ ms.collection:
 f1.keywords:
 - NOCSH
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 3021ce1dd59d5d071edec22286ae9c63833f1277
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: e9a9ea713afbf7568c1ae67d31a57dd9dce51fc3
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120443"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497542"
 ---
 # <a name="monitoring-and-auditing-access-controls-in-microsoft-365"></a>Surveillance et audit des contrôles d’accès dans Microsoft 365
 
@@ -31,7 +32,7 @@ Microsoft effectue une surveillance et un audit étendus de toutes les délégat
 
 - Tous les accès autorisés sont accessibles à un utilisateur unique. Les administrateurs sont responsables de leur gestion du contenu client.
 - Les demandes de contrôle d’accès, les approbations et les journaux des opérations administratives sont capturés pour l’analyse des événements de sécurité et malveillants.
-- Les niveaux d’accès sont examinés en temps quasi réel en fonction de l’appartenance à un groupe de sécurité pour s’assurer que seuls les utilisateurs qui ont des justifications professionnelles autorisées et qui répondent aux exigences d’éligibilité ont accès aux systèmes.
+- Les niveaux d’accès sont examinés en temps quasi réel en fonction de l’appartenance à un groupe de sécurité pour s’assurer que seuls les utilisateurs qui ont des justifications professionnelles autorisées et qui répondent aux conditions d’éligibilité ont accès aux systèmes.
 - Microsoft 365, ses contrôles d’accès et les services de prise en charge, y compris Azure Active Directory et les centres de données physiques, sont régulièrement audités par des tiers indépendants pour assurer la conformité avec [la norme ISO/IEC 27001,](https://www.microsoft.com/TrustCenter/Compliance/iso-iec-27001) [ISO/IEC 27018,](https://www.microsoft.com/TrustCenter/Compliance/iso-iec-27018) [SOC,](https://www.microsoft.com/TrustCenter/Compliance/SOC) [FedRAMP (Office 365)](https://www.microsoft.com/TrustCenter/Compliance/FedRAMP)et d’autres [normes.](https://www.microsoft.com/TrustCenter/Compliance?service=Office#Icons)
 - Les ingénieurs Microsoft 365 doivent suivre une formation sur la sécurité chaque année, examiner les meilleures procédures d’accès élevé et reconnaître les stratégies de sécurité et de confidentialité de Microsoft pour conserver les droits au service.
 

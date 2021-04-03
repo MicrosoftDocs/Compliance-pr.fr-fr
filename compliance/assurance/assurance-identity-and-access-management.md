@@ -19,12 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: c07801fe5ef571ddb4c9efcbfe04a7b3e5faedb6
-ms.sourcegitcommit: 7a5b6bc58fc4613b38f3fda20aebee5cec6a5730
+hideEdit: true
+ms.openlocfilehash: d431a7f04b156b003f5f4e213aef9bb9792874fe
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "49787473"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497157"
 ---
 # <a name="identity-and-access-management-overview"></a>Aperçu sur la gestion des identités et des accès
 
@@ -44,7 +45,7 @@ Microsoft 365 utilise des stations de travail d’administration sécurisées (S
 
 ## <a name="how-does-customer-lockbox-add-additional-protection-for-customer-content"></a>Comment Customer Lockbox ajoute-t-il une protection supplémentaire pour le contenu client ?
 
-Les clients peuvent ajouter un niveau supplémentaire de contrôle d’accès à leur contenu en activant Customer Lockbox. Lorsqu’une demande d’élévation lockbox implique l’accès au contenu du client, Customer Lockbox requiert l’approbation du client comme dernière étape du flux de travail d’approbation. Cela permet aux organisations d’approuver ou de refuser ces demandes et fournit un contrôle d’accès direct au client. Si le client rejette une demande Customer Lockbox, l’accès au contenu demandé est refusé. Si le client ne rejette pas ou n’approuve pas la demande dans un certain délai, la demande expirera automatiquement sans que Microsoft n’obtienne l’accès au contenu du client. Si le client approuve la demande, l’accès temporaire de Microsoft au contenu du client est enregistré, auditable et révoqué automatiquement après l’expiration du délai d’expiration de l’opération de dépannage.
+Les clients peuvent ajouter un niveau supplémentaire de contrôle d’accès à leur contenu en activant Customer Lockbox. Lorsqu’une demande d’élévation lockbox implique l’accès au contenu du client, Customer Lockbox requiert l’approbation du client comme dernière étape du flux de travail d’approbation. Cela permet aux organisations d’approuver ou de refuser ces demandes et fournit un contrôle d’accès direct au client. Si le client rejette une demande Customer Lockbox, l’accès au contenu demandé est refusé. Si le client ne rejette pas ou n’approuve pas la demande dans un certain délai, la demande expirera automatiquement sans que Microsoft n’obtienne l’accès au contenu du client. Si le client approuve la demande, l’accès temporaire de Microsoft au contenu du client sera enregistré, auditable et révoqué automatiquement après l’expiration du délai d’expiration de l’opération de dépannage.
 
 ## <a name="related-external-regulations--certifications"></a>Réglementations externes associées & certifications
 

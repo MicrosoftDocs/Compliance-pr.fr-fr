@@ -18,12 +18,13 @@ ms.collection:
 - M365-security-compliance
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
-ms.openlocfilehash: 1fbdca0c0b08c793732ba31414bedd943d4dc115
-ms.sourcegitcommit: d67e4d4fdc664f1da450c8ef2f6732e19bdd403a
+hideEdit: true
+ms.openlocfilehash: 433b8da98e25c4f465473143074eda055419234d
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "50037601"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497404"
 ---
 # <a name="microsoft-365-security-incident-management-detection-and-analysis"></a>Gestion des incidents de sécurité Microsoft 365 : détection et analyse
 
@@ -37,10 +38,10 @@ Les mécanismes de détection de sécurité dans Microsoft 365 incluent égaleme
 
 L’un des principaux piliers de la détection est la notification :
 
-- Chaque équipe de service est responsable du journal de toute action ou événement à l’intérieur du service en fonction des exigences de l’équipe de sécurité Microsoft 365. Tous les journaux créés par les différentes équipes de service sont traitées par une solution SIEM (Security Information and Event Management) avec des règles de sécurité et de détection prédéfinës. Ces règles évoluent en fonction des recommandations de l’équipe de sécurité Microsoft 365, sur les informations acquises à partir d’incidents de sécurité précédents, afin de déterminer s’il existe des activités suspectes ou malveillantes.
+- Chaque équipe de service est responsable du journal de toute action ou événement à l’intérieur du service en fonction des exigences de l’équipe de sécurité Microsoft 365. Tous les journaux créés par les différentes équipes de service sont traitées par une solution SIEM (Security Information and Event Management) avec des règles de sécurité et de détection prédéfinës. Ces règles évoluent en fonction des recommandations de l’équipe de sécurité Microsoft 365, sur les informations acquises à partir des incidents de sécurité précédents, afin de déterminer s’il existe des activités suspectes ou malveillantes.
 - Si un client détermine qu’un incident de sécurité est en cours, il peut ouvrir un dossier de support auprès de Microsoft, qui est affecté à l’équipe de communications de Microsoft 365 Customer Experience (CxP) et transformé en escalade à toutes les équipes appropriées.
 
-Les équipes de service Microsoft 365 utilisent également les renseignements obtenus dans l’analyse des tendances par le biais de la surveillance et de la journalisation de la sécurité pour détecter les attaques dans les systèmes d’information Microsoft 365 qui peuvent indiquer une attaque ou un incident de sécurité. Les serveurs Microsoft 365 regroupent la sortie de ces journaux dans l’environnement de production dans un serveur de journalisation centralisée. À partir de ce serveur de journalisation centralisée, les journaux sont examinés pour repérer les tendances dans l’environnement de production. Les données agrégées sur le serveur centralisé sont transmises en toute sécurité dans un service de journalisation pour l’interrogation avancée, la création et la détection d’activités anormales et malveillantes. Le service utilise également l’apprentissage automatique pour détecter les anomalies avec la sortie du journal.
+Les équipes de service Microsoft 365 utilisent également les renseignements obtenus dans l’analyse de tendance par le biais de la surveillance et de la journalisation de la sécurité pour détecter les attaques dans les systèmes d’information Microsoft 365 qui peuvent indiquer une attaque ou un incident de sécurité. Les serveurs Microsoft 365 regroupent la sortie de ces journaux dans l’environnement de production dans un serveur de journalisation centralisée. À partir de ce serveur de journalisation centralisée, les journaux sont examinés pour repérer les tendances dans l’environnement de production. Les données agrégées sur le serveur centralisé sont transmises en toute sécurité dans un service de journalisation pour l’interrogation avancée, la création et la détection d’activités anormales et malveillantes. Le service utilise également l’apprentissage automatique pour détecter les anomalies avec la sortie du journal.
 
 Pendant la phase d’escalade et en fonction de la nature de l’incident de sécurité, l’équipe de réponse de sécurité Microsoft 365 peut impliquer un ou plusieurs experts techniques de différentes équipes chez Microsoft :
 

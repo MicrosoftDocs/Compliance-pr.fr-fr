@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f0ad19fdeb794d281342367ad9313ac159b9acf0
-ms.sourcegitcommit: 4f70b1fe53943f9d919e7e1f449093b90b30f046
+ms.openlocfilehash: 37a561845b4eaa4568ed71a4873bb5927a42f761
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50276032"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51497276"
 ---
 # <a name="iso-90012015-quality-management-systems-standards"></a>Normes des systèmes de gestion de la qualité ISO 9001:2015
 
@@ -33,14 +33,14 @@ ISO 9001:2015 est une norme internationale qui établit les critères propres à
 
 Une société d’audit tierce et indépendante a réalisé un examen rigoureux de la solution Microsoft Azure et de plusieurs services en ligne Microsoft pour vérifier leur conformité aux principes de gestion de la qualité établis par la norme ISO 9001:2015. La certification tierce disponible permet de confirmer en toute indépendance que la solution Azure et les services en ligne Microsoft couverts sont conformes aux exigences de la norme 9001:2015.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
+## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft concernés
 
 - [Azure, Azure Gouvernement et Azure Allemagne](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App Security
 - Dynamics 365, Dynamics 365 Gouvernement et Dynamics 365 Allemagne
 - Microsoft Graph
 - Intune
-- Microsoft Defender – Protection avancée contre les menaces
+- Microsoft Defender pour point de terminaison
 - Microsoft Healthcare Bot
 - [Microsoft Managed Desktop](/microsoft-365/managed-desktop/intro/compliance)
 - Service Cloud Power Automate (anciennement Microsoft Flow), soit en service autonome, soit inclus dans un plan ou une suite Office 365 ou Dynamics 365

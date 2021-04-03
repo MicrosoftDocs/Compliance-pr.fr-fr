@@ -15,12 +15,13 @@ ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: c254271c5e2514ef0d987c77172237b873dba212
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+hideEdit: true
+ms.openlocfilehash: bd85f647ab26112b7ad5d628b6b1849314026324
+ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121893"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "51496001"
 ---
 # <a name="gdpr-for-exchange-server"></a>RGPD pour Exchange Server
 

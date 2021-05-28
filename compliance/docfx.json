@@ -45,11 +45,12 @@
       "breadcrumb_path": "/compliance/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "None",
-      "hide_comments": true,
-      "bilingual_type": "hover over",
       "feedback_github_repo": "MicrosoftDocs/Compliance",
       "feedback_product_url": "https://github.com/MicrosoftDocs/Compliance",
-      "searchScope": ["Compliance"],
+      "searchScope": [
+        "Compliance"
+      ],
+      "recommendations": true,
       "contributors_to_exclude": [
         "rjagiewich",
         "traya1",
@@ -58,7 +59,9 @@
         "jborsecnik",
         "tiburd",
         "garycentric"
-      ]
+      ],
+      "bilingual_type": "hover over",
+      "hide_comments": true
     },
     "fileMetadata": {},
     "template": [],

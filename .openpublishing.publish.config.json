@@ -15,9 +15,15 @@
       "template_folder": "_themes"
     }
   ],
-  "notification_subscribers": ["mor-oitac-eng@moravia.com"],
+  "notification_subscribers": [
+    "mor-oitac-eng@moravia.com"
+  ],
   "sync_notification_subscribers": [],
-  "branches_to_filter": ["live","master-sxs","master"],
+  "branches_to_filter": [
+    "live",
+    "master-sxs",
+    "master"
+  ],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/Compliance",
   "git_repository_branch_open_to_public_contributors": "public",
   "skip_source_output_uploading": false,
@@ -31,12 +37,6 @@
       "branch_mapping": {}
     },
     {
-      "path_to_root": "_themes.pdf",
-      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-      "branch": "master",
-      "branch_mapping": {}
-    },
-    {
       "path_to_root": "_repo.en-us",
       "url": "https://github.com/MicrosoftDocs/Compliance-pr",
       "branch": "live",
@@ -44,6 +44,12 @@
         "live": "live",
         "main": "main"
       }
+    },
+    {
+      "path_to_root": "_themes.pdf",
+      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+      "branch": "master",
+      "branch_mapping": {}
     }
   ],
   "branch_target_mapping": {

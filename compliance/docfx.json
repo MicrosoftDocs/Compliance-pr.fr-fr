@@ -42,12 +42,27 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "ocv-translation-feedback": true,
       "breadcrumb_path": "/compliance/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "GitHub",
+      "feedback_system": "None",
       "feedback_github_repo": "MicrosoftDocs/Compliance",
       "feedback_product_url": "https://github.com/MicrosoftDocs/Compliance",
-      "searchScope": ["Compliance"]
+      "searchScope": [
+        "Compliance"
+      ],
+      "recommendations": true,
+      "contributors_to_exclude": [
+        "rjagiewich",
+        "traya1",
+        "rmca14",
+        "claydetels19",
+        "jborsecnik",
+        "tiburd",
+        "garycentric"
+      ],
+      "bilingual_type": "hover over",
+      "hide_comments": true
     },
     "fileMetadata": {},
     "template": [],

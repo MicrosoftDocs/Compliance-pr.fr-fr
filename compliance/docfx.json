@@ -42,6 +42,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "ocv-translation-feedback": true,
       "breadcrumb_path": "/compliance/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "None",

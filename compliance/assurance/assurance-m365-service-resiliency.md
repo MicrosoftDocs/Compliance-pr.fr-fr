@@ -1,6 +1,6 @@
 ---
 title: Résilience de service intégrée dans Microsoft 365
-description: Description de la résilience du service Microsoft 365
+description: Description de la résilience Microsoft 365 service
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: b97e8876f0ef69faefbeb5cf50a1891d36bf8795
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: fc8964f453c5a2924fc9a4b43a2c89aa1dec4271
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51497032"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088573"
 ---
 # <a name="built-in-service-resiliency-in-microsoft-365"></a>Résilience de service intégrée dans Microsoft 365
 
@@ -36,7 +36,7 @@ Pour réduire les temps d'indisponibilité, qu’ils soient planifiés ou impré
 
 ## <a name="activeactive-design"></a>Conception active/active
 
-Dans Microsoft 365, nous nous dirigeons vers l’architecture et l’exploitation de tous les services dans une conception active/active qui augmente la résilience. Cette conception signifie qu’il existe toujours plusieurs instances d’un service en cours d’exécution qui peuvent répondre aux demandes des utilisateurs et qu’elles sont hébergées dans des centres de données géographiquement dispersés. Tout le trafic utilisateur passe par le service Microsoft Front Door et est automatiquement acheminé vers l'instance du service la plus proche et autour de toute défaillance de service pour prévenir ou réduire son impact pour nos clients.
+Dans Microsoft 365, nous nous dirigeons vers l’architecture de tous les services et leur fonctionnement dans une conception active/active qui augmente la résilience. Cette conception signifie qu’il existe toujours plusieurs instances d’un service en cours d’exécution qui peuvent répondre aux demandes des utilisateurs et qu’elles sont hébergées dans des centres de données géographiquement dispersés. Tout le trafic utilisateur passe par le service Microsoft Front Door et est automatiquement acheminé vers l'instance du service la plus proche et autour de toute défaillance de service pour prévenir ou réduire son impact pour nos clients.
 
 ## <a name="reduce-incident-scope"></a>Réduction de la portée des incidents
 
@@ -46,7 +46,7 @@ L’étendue d’un incident de service est mesurée par sa gravité, sa durée 
 - déployer des mises à jour de manière contrôlée et graduelle à l’aide d’anneaux de validation, afin de détecter les problèmes pouvant découler de la mise à jour et de les éliminer au début du processus de déploiement. Cette conception permet la régression de la mise à jour si nécessaire et se produit d’abord dans un petit groupe à l’intérieur de Microsoft (anneau interne) avant d’être déployée pour des groupes plus importants comme tous les 140 000 employés de Microsoft (anneau 2), puis pour les anneaux d’utilisateur précoce (anneau 3) et finalement pour tous les clients globalement (anneau 4).
 - améliorer la surveillance grâce à l’automatisation. Microsoft 365 est un service de grande taille et le temps de travail cible du SLA est élevé. Au début d’un incident de service, si des humains devaient être impliqués dans la détection et l’intervention, nous ne pourrions pas réagir assez rapidement pour respecter les contrats SLA. L’automatisation permet de détecter et de répondre rapidement et efficacement aux incidents de service. Plus vite nous sommes au courant d’un incident, plus vite celui-ci pourra être réparé.
 
-Outre les fonctionnalités actives/actives intégrées à l’architecture de service Microsoft 365, ces efforts atténuent la gravité, la durée et le nombre de clients touchés au cours d’un incident de service.  
+Parallèlement aux fonctionnalités actives/actives intégrées à l’architecture de service Microsoft 365, ces efforts atténuent la gravité, la durée et le nombre de clients touchés au cours d’un incident de service.  
 
 ## <a name="fault-isolation"></a>Isolation des pannes
 
@@ -55,7 +55,7 @@ Les mesures d’isolation des pannes sont appliquées à plusieurs étapes du d�
 
 Le cycle de vie de développement de la sécurité Microsoft (SDL) favorise davantage la résilience et se compose d'un ensemble de pratiques qui prennent en charge les exigences de sécurité et de conformité. SDL guide nos développeurs dans le cadre de la création de services fiables, sécurisés et conformes. Les principaux éléments de SDL comprennent les révisions de codes, la modélisation des menaces, les tests d’intrusion et les processus normalisés de réponse aux incidents dans le Cloud Microsoft.
 
-Les services Microsoft 365 sont hautement interconnectés, mais les systèmes et la technologie derrière eux sont conçus d’une manière qui limite l’impact d’un incident de service sur d’autres services. Par exemple, un problème affectant Exchange Online n’affectera pas les principales fonctionnalités de Teams, ou un problème lié à la fonctionnalité de recherche dans SharePoint Online n’affectera pas la possibilité pour les utilisateurs de télécharger des fichiers.
+Microsoft 365 services sont hautement interconnectés, mais les systèmes et la technologie derrière eux sont conçus d’une manière qui limite l’impact d’un incident de service sur d’autres services. Par exemple, un problème affectant Exchange Online n’affectera pas les fonctionnalités principales dans Teams ou un problème avec la fonctionnalité de recherche dans SharePoint Online n’affectera pas la capacité des utilisateurs à télécharger ou télécharger des fichiers.
 
 ## <a name="continuous-service-improvement"></a>Amélioration continue du service
 

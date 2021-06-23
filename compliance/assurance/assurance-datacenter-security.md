@@ -22,24 +22,24 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: acf244f5a8e9ab10e2fea02e2dc1c115156c0297
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 0ac1cdfb315c872e78872d144fa24d28500be096
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51497600"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088653"
 ---
 # <a name="datacenter-security-overview"></a>Aperçu sur la sécurité des centres de données
 
 ## <a name="how-does-microsoft-host-its-online-services"></a>Comment Microsoft héberge-t-il ses services en ligne ?
 
-Microsoft fournit plus de 200 services cloud, y compris des services d’entreprise tels que Microsoft Azure, Microsoft 365 et Microsoft Dynamics 365, aux clients 24 x 7 x 365. Ces services sont hébergés dans l’infrastructure cloud de Microsoft composée de centres de données distribués globalement, de serveurs edge computing et de centres d’opérations de service. Ils sont pris en charge et connectés par l’un des plus grands réseaux globaux au monde, avec une fibre étendue.
+Microsoft fournit plus de 200 services cloud, notamment des services d’entreprise tels que Microsoft Azure, Microsoft 365 et Microsoft Dynamics 365, aux clients 24 x 7 x 365. Ces services sont hébergés dans l’infrastructure cloud de Microsoft composée de centres de données distribués globalement, de serveurs edge computing et de centres d’opérations de service. Ils sont pris en charge et connectés par l’un des plus grands réseaux globaux au monde, avec une fibre étendue.
 
 Les centres de données alimentant notre offres cloud se concentrent sur la fiabilité de haut niveau, l’excellence opérationnelle, la rentabilité, le respect de l’environnement et une expérience en ligne fiable pour nos clients et partenaires internationaux. Microsoft teste régulièrement la sécurité de nos centres de données par le biais d’audits internes et tiers. Par conséquent, les organisations les plus réglementées du monde approuvent le cloud Microsoft qui est compatible avec les certifications émanant d’autres fournisseurs de services cloud.
 
 ## <a name="how-does-microsoft-protect-its-datacenters-from-unauthorized-access"></a>Comment Microsoft protège-t-il ses centres de données contre tout accès non autorisé ?
 
-L’accès aux installations de centres de données physiques est étroitement contrôlé par les périmètres externes et internes, avec une sécurité accrue à chaque niveau, y compris les périmètres de périmètre, les agents de sécurité, les racks de serveurs verrouillés, les systèmes d’alarme intégrés, la surveillance vidéo 24 heures sur 24 par le centre des opérations et le contrôle d’accès multi-facteur. Seuls les membres du personnel requis sont autorisés à accéder aux centres de données Microsoft. L’accès logique à l’infrastructure Microsoft 365, y compris aux données client, est interdit dans les centres de données Microsoft.
+L’accès aux installations de centres de données physiques est étroitement contrôlé par les périmètres externes et internes, avec une sécurité accrue à chaque niveau, y compris les périmètres de périmètre, les agents de sécurité, les racks de serveurs verrouillés, les systèmes d’alarme intégrés, la surveillance vidéo 24 heures sur 24 par le centre des opérations et le contrôle d’accès multi-facteur. Seuls les membres du personnel requis sont autorisés à accéder aux centres de données Microsoft. L’accès logique à Microsoft 365'infrastructure, y compris aux données client, est interdit dans les centres de données Microsoft.
 
 Nos Centres des opérations de sécurité utilisent la surveillance vidéo et les systèmes de contrôle d’accès électronique intégrés pour surveiller les sites et installations des centres de données. Des caméras sont placées de façon stratégique pour assurer une couverture efficace du périmètre de l’installation, des entrées, des quais d’expédition, de la zone des serveurs, des couloirs intérieurs et d’autres points de sécurité sensibles. Dans le cadre de notre approche de sécurité multicouche, toute tentative d’entrée non autorisée détectée par les systèmes de sécurité intégrés génère des alertes auprès du personnel de sécurité dans le but de fournir une réponse et une mesure corrective immédiate.
 
@@ -61,6 +61,10 @@ Les services en ligne de Microsoft sont régulièrement audités pour assurer la
 
 | **Audits externes** | **Section** | **Date de rapport la plus récente** |
 |:--------------------|:------------|:-----------------------|  
-| [ISO 27001/27002 (Azure)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=e9116047-f327-430c-a83f-166b7e561ad6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [Déclaration d’applicabilité](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=00af6c3e-7f3e-4e0d-8b0e-79f45ef2cef1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [Certification](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=d7af5304-3a31-40e6-9abb-e26352305d41&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.11 : Sécurité physique et environnementale | 2 décembre 2020 |
+| [ISO 27001/27002 (Azure)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=e9116047-f327-430c-a83f-166b7e561ad6&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br><br> [Déclaration d’applicabilité](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=00af6c3e-7f3e-4e0d-8b0e-79f45ef2cef1&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) <br> [Certification](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=d7af5304-3a31-40e6-9abb-e26352305d41&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports) | A.11 : Sécurité physique et environnementale | 2 décembre 2020 |
 | [SOC 1 (Azure)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=66043614-5628-4e26-83be-057eb3bb026c&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | PE-1 : mise en service de l’accès physique au centre de données <br> PE-2 : vérification de la sécurité du centre de données <br> PE-3 : révision de l’accès des utilisateurs du centre de données <br> PE-4 : mécanismes d’accès physique au centre de données <br> PE-5 : surveillance physique du centre de données <br> PE-6 : maintenance de l’environnement critique du centre de données <br> PE-7 : contrôles environnementaux du centre de données <br> PE-8 : réponse aux incidents du centre de données | 30 octobre 2020 |
 | [SOC 2 (Azure)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=ce5bfbea-3514-40ae-a8a6-3617106a0b56&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_SOC_%2F_SSAE_16_Reports) | PE-1 : mise en service de l’accès physique au centre de données <br> PE-2 : vérification de la sécurité du centre de données <br> PE-3 : révision de l’accès des utilisateurs du centre de données <br> PE-4 : mécanismes d’accès physique au centre de données <br> PE-5 : surveillance physique du centre de données <br> PE-6 : maintenance de l’environnement critique du centre de données <br> PE-7 : contrôles environnementaux du centre de données <br> PE-8 : réponse aux incidents du centre de données | 30 octobre 2020 |
+
+## <a name="resources"></a>Ressources
+
+- [Laboratoires d’histoire Microsoft : nous sommes dans le cloud](https://news.microsoft.com/stories/microsoft-datacenter-tour/)

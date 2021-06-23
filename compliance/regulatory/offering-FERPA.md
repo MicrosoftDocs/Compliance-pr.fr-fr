@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f027f0ef83272c1102433f4c7534035f27f8a483
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 3f87b4d376c43db9d8524c200cd1fd86d2791b49
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496512"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089738"
 ---
 # <a name="family-educational-rights-and-privacy-act-ferpa"></a>Loi FERPA (Family Educational Rights and Privacy Act)
 
@@ -31,13 +31,13 @@ La LOI FERPA (Family Educational Rights and Privacy Act) est une loi fédérale 
 
 La loi s’applique aux établissements scolaires, aux districts scolaires et à tout autre établissement qui reçoit des fonds du département de l’Éducation des États-Unis, c’est-à-dire, pratiquement tous les établissements scolaires et districts scolaires publics, ainsi que la plupart des établissements post-secondaires, publics et privés.
 
-La sécurité est au cœur de la conformité avec la LOI FERPA, qui nécessite la protection des informations des étudiants contre les divulgations non autorisées. Les établissements d’enseignement qui utilisent le cloud computing ont besoin de garanties contractuelles qu’un fournisseur de technologies gère les données étudiant sensibles de manière appropriée.
+La sécurité est au cœur de la conformité avec la LOI FERPA, qui nécessite la protection des informations étudiant contre les divulgations non autorisées. Les établissements d’enseignement qui utilisent le cloud computing ont besoin de garanties contractuelles qu’un fournisseur de technologies gère les données étudiant sensibles de manière appropriée.
 
 ## <a name="microsoft-and-ferpa"></a>Microsoft et (FERPA)
 
-La FERPA ne nécessite pas ou ne reconnaît pas les audits ou d’autres certifications, de sorte que tout établissement scolaire soumis à la LOI FERPA doit évaluer lui-même si et comment son utilisation d’un service cloud affecte sa capacité à se conformer aux exigences de la FERPA. Toutefois, Microsoft a pris les engagements contractuels suivants qui attestent de sa conformité :
+La FERPA n’exige pas ou ne reconnaît pas les audits ou d’autres certifications, de sorte que tout établissement scolaire soumis à la LOI FERPA doit évaluer par lui-même si et comment son utilisation d’un service cloud affecte sa capacité à se conformer aux exigences de la FERPA. Toutefois, Microsoft a pris les engagements contractuels suivants qui attestent de sa conformité :
 
-- Dans ses [conditions d’utilisation](https://aka.ms/Online-Services-Terms)des services en ligne, Microsoft accepte d’être désigné en tant que « responsable scolaire » avec des « intérêts pédagogiques légitimes » dans les données client, comme défini dans la loi FERPA. (Les données client incluent tous les enregistrements d’étudiants fournis par le biais de l’utilisation des services cloud de Microsoft par un établissement scolaire.) Lors de la gestion des enregistrements de l’éducation des étudiants, Microsoft s’engage à respecter les limitations et exigences imposées par 34 CFR 99.33(a) tout comme les autorités scolaires.
+- Dans ses [conditions d’utilisation](https://aka.ms/Online-Services-Terms)des services en ligne, Microsoft accepte d’être désigné comme « officiel scolaire » avec des « intérêts pédagogiques légitimes » dans les données client, comme défini dans la LOI FERPA. (Les données client incluent tous les enregistrements d’étudiants fournis par le biais de l’utilisation des services cloud de Microsoft par un établissement scolaire.) Lors de la gestion des enregistrements de l’éducation des étudiants, Microsoft s’engage à respecter les limitations et exigences imposées par 34 CFR 99.33(a) tout comme les autorités scolaires.
 - En outre, Microsoft s’engage à utiliser les données client uniquement pour fournir aux organisations ses services cloud et ses objectifs compatibles (comme l’amélioration de la détection des programmes malveillants) et n’extrait pas les données client à des fins publicitaires.
 - Microsoft s’engage également contractuellement à ne pas divulguer de données client, sauf en tant que l’établissement d’enseignement le fait, comme décrit dans le contrat, ou comme le prévoit la loi. Les établissements scolaires qui fournissent des enregistrements d’enseignement à Microsoft par le biais de leur utilisation d’un service cloud Microsoft peuvent donc être assurés que ces enregistrements sont soumis à des restrictions contractuelles strictes concernant leur utilisation et leur divulgation.
 
@@ -51,7 +51,7 @@ Les services pour lesquels Microsoft accepte d’être désigné comme « respon
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
 - [Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Power BI, PowerApps et Power Automate (anciennement Microsoft Flow) en tant que service autonome ou inclus dans un plan ou une suite Office 365
+- Power BI, PowerApps et Power Automate (anciennement Microsoft Flow) en tant que service autonome ou inclus dans un plan ou une suite Office 365 personnalisé
 - Azure DevOps Services
 - Microsoft Defender pour point de terminaison
 
@@ -79,7 +79,7 @@ Cette loi fédérale américaine prévoit la protection de la confidentialité d
 - [Family Educational Rights and Privacy Act](https://www.ed.gov/policy/gen/guid/fpco/ferpa/index.html)
 - [Code électronique des réglementations fédérales : FERPA](https://aka.ms/FERPA-GPO)
 - [Registre fédéral : règle finale de la FERPA](https://aka.ms/ferpa-reg)
-- [Guide de mise en œuvre FERPA pour Microsoft Azure](https://aka.ms/azureferpa)
+- [Guide de mise en œuvre de la FERPA pour Microsoft Azure](https://aka.ms/azureferpa)
 - [Mappage de l’infrastructure de conformité AZURE FERPA](https://aka.ms/AzureFERPAMapping)
 - [Conditions de Microsoft Online Services](https://aka.ms/Online-Services-Terms)
 - [Conformité sur le site Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

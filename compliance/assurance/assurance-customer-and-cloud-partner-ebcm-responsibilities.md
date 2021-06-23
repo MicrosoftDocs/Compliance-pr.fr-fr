@@ -17,12 +17,12 @@ ms.collection:
 - MS-Compliance
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 74bdf63fcf704aa285a2803e5b7af7455a0291c6
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 1133c5467553eb5d158230c2d6e599187e507822
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51497656"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088663"
 ---
 # <a name="enterprise-business-continuity-management-customer-and-cloud-partner-responsibilities"></a>Gestion de la continuité des activités de l’entreprise et responsabilités des partenaires client et cloud
 
@@ -73,7 +73,7 @@ Pensez aux événements qui pourraient avoir un impact sur votre personnel, comm
 ### <a name="location"></a>L’emplacement
 
 De nombreuses organisations imposent aux employés de se trouver dans des emplacements physiques ou réseau spécifiques pour se connecter aux systèmes d’entreprise et aux services cloud.  
-Microsoft publie des [principes de connectivité réseau](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles) qui guident les entreprises avec des recommandations pour la configuration de la connectivité réseau aux ressources cloud. Les exemples d’optimisation incluent l’implémentation d’un VPN en tunnellisation partagée pour autoriser les connexions directement à partir du réseau d’un utilisateur plutôt que d’un tunnel VPN.  Bien que ces principes de connectivité soient importants pour maintenir les connexions à faible latence, la résilience de service nécessite d’autres méthodes de connexion aux ressources d’entreprise pour une collaboration générale.
+Microsoft publie des [principes de connectivité réseau](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles) qui guident les entreprises avec des recommandations pour la configuration de la connectivité réseau aux ressources cloud. Parmi les exemples d’optimisation, citons l’implémentation de VPN de tunnel partagé pour autoriser les connexions directement à partir du réseau d’un utilisateur plutôt que sur un tunnel VPN.  Bien que ces principes de connectivité soient importants pour maintenir les connexions à faible latence, la résilience de service nécessite d’autres méthodes de connexion aux ressources d’entreprise pour une collaboration générale.
 
 ### <a name="systems"></a>Les systèmes
 

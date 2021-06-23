@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e93f71a023fe79e768e96b3c8894bf09d0655b6e
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: d8ffd78c4d762d72310e3ac5b200d422b0af26cf
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506892"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089758"
 ---
 # <a name="good-clinical-laboratory-and-manufacturing-practices-gxp"></a>Bonnes pratiques cliniques, de laboratoire et de fabrication (GxP).
 
@@ -55,7 +55,7 @@ Les organisations de sciences de la vie qui créent des solutions GxP sur Azure 
 ## <a name="how-to-implement"></a>Modalités de mise en œuvre
 
 - [Instructions Microsoft 365 GxP](../downloads/microsoft-365-gxp-guidelines-july-2020.pdf) : Un guide pour l’utilisation de Microsoft 365 tout en respectant les meilleures pratiques et réglementations GxP.
-- [Instructions Microsoft Dynamics 365 GxP](../downloads/microsoft-dynamics-365-gxp-guidelines-july-2020.pdf): Un guide pour l’utilisation de Microsoft Dynamics 365 tout en respectant les meilleures pratiques et réglementations GxP.
+- [Instructions Microsoft Dynamics 365 GxP](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=fb579b09-0874-4197-a97e-a25992383482&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_Compliance_Guides): Un guide pour l’utilisation de Microsoft Dynamics 365 tout en respectant les meilleures pratiques et réglementations GxP.
 - [Instructions Azure GxP](https://aka.ms/gxpcompliance) : ensemble complet d’outils pour l’utilisation d’Azure tout en respectant les meilleures pratiques et réglementations GxP.
 - [Utilisation d’Azure avec les systèmes GxP](https://aka.ms/GXP-Azure-Strategies) : aide pour les organisations de sciences de la vie dans la définition d’une stratégie de création d’applications GxP.
 - Guides titre 21 partie 11 du CFR de la FDA : obtenez de l’aide pour l’établissement d’une stratégie de qualification [Azure](https://aka.ms/Azure-FDA-Guidelines) et [Office 365](https://aka.ms/o365-qualification-guideline) conforme aux directives FDA pour les enregistrements électroniques.

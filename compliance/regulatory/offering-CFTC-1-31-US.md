@@ -1,6 +1,6 @@
 ---
 title: Commodity Futures Trading Commission (CFTC) Rule 1.31(c-d) United States
-description: Une société d’évaluation indépendante a validé qu’Azure et Office 365 peuvent aider les entreprises financières à respecter les exigences de rétention et de stockage immuable des enregistrements de la règle CFTC 1.31.
+description: Une société d’évaluation indépendante a validé qu’Azure et Office 365 peuvent aider les entreprises financières à respecter les exigences de rétention et de stockage immuables des enregistrements de la règle CFTC 1.31.
 keywords: Offres pour la conformité Microsoft 365
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 474cd04d98dc91668e48d1999f4fbd91d81523ec
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 85a8a27b1478ef3cecccd15a4f01bba563a5e1ef
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121753"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53087623"
 ---
 # <a name="commodity-futures-trading-commission-cftc-rule-131c-d-united-states"></a>Commodity Futures Trading Commission (CFTC) Rule 1.31(c-d) United States
 
@@ -35,31 +35,31 @@ En 2017, la [CFTC](https://www.cftc.gov/sites/default/files/idc/groups/public/@l
 
 ## <a name="microsoft-and-cftc-rule-131c-d"></a>Microsoft et la règle CFTC 1.31(c-d)
 
-Les clients des services financiers, qui représentent l’un des secteurs les plus réglementés au monde, sont soumis à des dispositions complexes, telles que la conservation des transactions financières et des communications associées dans un état non révisable et non modifiable. L’une des plus normatives est la règle 1.31 de la COMMISSION CFTC (Commodity Futures Trading Commission) qui prévoit des exigences strictes pour les entités réglementées qui choisit de conserver des livres et des enregistrements sur des supports de stockage électronique. Les enregistrements stockés doivent être falsifiés sans possibilité de les modifier ou de les supprimer avant la période de rétention désignée. Microsoft Azure Immutable Blob Storage with Policy Lock and Microsoft Office 365 with Preservation Lock can help financial institutions meet the storage requirements of CFTC Rule 1.31(c-d).
+Les clients des services financiers, qui représentent l’un des secteurs les plus réglementés au monde, sont soumis à des dispositions complexes, telles que la conservation des transactions financières et des communications associées dans un état non révisable et non modifiable. L’une des plus normatives est la règle 1.31 de la CFTC (Commodity Futures Trading Commission) des États-Unis qui prévoit des exigences strictes pour les entités réglementées qui choisit de conserver des livres et des enregistrements sur des supports de stockage électronique. Les enregistrements stockés doivent être falsifiés sans possibilité de les modifier ou de les supprimer avant la période de rétention désignée. Microsoft Azure Les Stockage blob non permutables avec verrouillage de stratégie et Microsoft Office 365 avec verrouillage de conservation peuvent aider les institutions financières à répondre aux exigences de stockage de la règle CFTC 1.31(c-d).
 
 ### <a name="microsoft-azure"></a>Microsoft Azure
 
-Pour évaluer la conformité d’Azure avec la règle CFTC 1.31(c-d), Microsoft a conservé une société d’évaluation indépendante spécialisée dans la gestion des enregistrements et la gouvernance des informations, Cohasset Associates. Dans le rapport résultant, l’évaluation de la conformité [CFTC 1.31 (c)–(d)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=19b08fd4-d276-43e8-9461-715981d0ea20&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports): Microsoft Azure Storage , Cohasset a validé que le stockage [d’objets blob immuables Azure](/azure/storage/blobs/storage-blob-immutable-storage) avec l’option de verrouillage de stratégie, lorsqu’il est utilisé pour conserver les objets Blob basés sur le temps dans un format NON effacessable et non réécritable (WORM), répond aux exigences basées sur les principes de la règle CFTC. Chaque objet Blob (enregistrement) n’est pas modifié, remplacé ou supprimé tant que la période de rétention requise n’a pas expiré et que les conservations légales associées ont été libérées. Les fournisseurs de logiciels et les partenaires avec des charges de travail sensibles peuvent désormais s’appuyer sur le stockage blob immuable Azure comme solution cloud à un arrêt pour la rétention des enregistrements. Les institutions financières peuvent désormais créer leurs propres applications en profitant de ces fonctionnalités tout en restant conformes.
+Pour évaluer la conformité d’Azure avec la règle CFTC 1.31(c-d), Microsoft a conservé une société d’évaluation indépendante spécialisée dans la gestion des enregistrements et la gouvernance des informations, Cohasset Associates. Dans le rapport résultant, l’évaluation de la conformité [CFTC 1.31 (c)–(d)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=19b08fd4-d276-43e8-9461-715981d0ea20&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports): Stockage Microsoft Azure , Cohasset a validé qu’Azure [Immutable Blob Stockage](/azure/storage/blobs/storage-blob-immutable-storage) avec l’option de verrouillage de stratégie, lorsqu’il est utilisé pour conserver les objets Blob basés sur le temps dans un format non effacesable et non réécritable (WORM), répond aux exigences basées sur les principes de la règle CFTC. Chaque objet Blob (enregistrement) n’est pas modifié, remplacé ou supprimé tant que la période de rétention requise n’a pas expiré et que les conservations légales associées ont été libérées. Les fournisseurs de logiciels et les partenaires avec des charges de travail sensibles peuvent désormais s’appuyer sur Azure Immutable Blob Stockage comme solution cloud à un arrêt pour la rétention des enregistrements. Les institutions financières peuvent désormais créer leurs propres applications en profitant de ces fonctionnalités tout en restant conformes.
 
-### <a name="microsoft-365"></a>Microsoft 365
+### <a name="microsoft-365"></a>Microsoft 365
 
-Pour les exigences [CFTC 1.31(c)-(d),](/microsoft-365/compliance/retention-regulatory-requirements#sec-17a-4f-finra-4511c-and-cftc-131c-d) Cohasset a validé que Microsoft 365 inclut des fonctionnalités d’archivage qui permettent aux clients réglementés, y compris les courtiers, de stocker des données d’une manière qui les aide à se conformer aux exigences de la SEC pour la rétention des enregistrements. Les fonctionnalités de rétention de Microsoft 365 permettent de conserver un large éventail de données, notamment la messagerie électronique, la messagerie vocale, les documents partagés, les messages instantanés et les données tierces. En particulier, l’archivage dans Microsoft 365 permet aux clients de définir des stratégies de rétention de messagerie globales ou granulaires pour stocker les données pour une période définie et au-delà dans un format non réécritable et non effaçable.
+Pour les exigences [CFTC 1.31(c)-(d),](/microsoft-365/compliance/retention-regulatory-requirements#sec-17a-4f-finra-4511c-and-cftc-131c-d) Cohasset a validé que Microsoft 365 inclut des fonctionnalités d’archivage qui permettent aux clients réglementés, y compris les courtiers, de stocker des données d’une manière qui les aide à se conformer aux exigences de la SEC pour la rétention des enregistrements. Les fonctionnalités de rétention Microsoft 365 permettent de conserver un large éventail de données, notamment la messagerie électronique, la messagerie vocale, les documents partagés, les messages instantanés et les données tierces. En particulier, l’archivage dans Microsoft 365 permet aux clients de définir des stratégies de rétention de messagerie globales ou granulaires pour stocker les données pour une période définie et au-delà dans un format non réécritable et non effaçable.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
+## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft concernés
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Office 365](https://aka.ms/o365-compliance-framework)
 
 ## <a name="audits-reports-and-certificates"></a>Audits, rapports et certificats
 
-[Azure & CFTC Rule 1.31: SEC 17a-4(f) & CFTC 1.31(c-d) Compliance Assessment of Azure Storage
+[Azure & CFTC Rule 1.31: SEC 17a-4(f) & CFTC 1.31(c-d) Compliance Assessment of stockage Azure
 
-[Office 365 & CFTC Rule 1.31 : Archivage dans Office 365, rétention des données et conformité à la règle SEC 17a-4
+[Office 365 & 1.31 de la CFTC : archivage dans Office 365, rétention des données et conformité à la règle SEC 17a-4
 
 ## <a name="how-to-implement"></a>Modalités de mise en œuvre
 
 - [Réglementation des services financiers](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides): carte de conformité des principaux principes réglementaires américains pour le cloud computing et les services en ligne Microsoft.
-- [Guide d'évaluation des risques et de la conformité](https://aka.ms/RiskGovernanceGuide): créez un modèle de gouvernance pour l'évaluation des risques des services de cloud computing Microsoft et la notification aux autorités de régulation.
+- [Guide d'évaluation des risques et de conformité](https://aka.ms/RiskGovernanceGuide): créez un modèle de gouvernance pour l'évaluation des risques des services de cloud computing Microsoft et la notification aux autorités de réglementation.
 - [Cas d'utilisation financière](/azure/industry/financial/) : utilisez des aperçus de cas, des didacticiels et d'autres ressources pour créer des solutions Azure pour services financiers.
 
 ## <a name="resources"></a>Ressources
@@ -67,6 +67,6 @@ Pour les exigences [CFTC 1.31(c)-(d),](/microsoft-365/compliance/retention-regul
 - [Programme de mise en conformité destiné au secteur des services financiers Microsoft](https://aka.ms/FSCP-Print)
 - [Services commerciaux cloud computing et services financiers Microsoft](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
 - [Conformité des services financiers dans Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Microsoft Office stratégies de rétention 365](/office365/securitycompliance/retention-policies)
+- [Microsoft Office 365 Stratégies de rétention](/office365/securitycompliance/retention-policies)
 - [Blog Microsoft Financial Services](https://techcommunity.microsoft.com/t5/Financial-Services-Blog/bg-p/FinancialServicesBlog)
 - [Conformité sur le site Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

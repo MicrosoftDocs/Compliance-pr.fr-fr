@@ -1,6 +1,6 @@
 ---
 title: N’instruction du comité sur les systèmes de sécurité nationaux. 1253 (CNSSI 1253)
-description: Azure Government est conforme aux contrôles de sécurité CNSSI 1253 pour les systèmes du gouvernement américain nécessitant une haute confidentialité, une haute intégrité et une haute disponibilité.
+description: Azure Government est conforme aux contrôles de sécurité CNSSI 1253 pour les systèmes du gouvernement américain nécessitant la haute confidentialité, la haute intégrité et la haute disponibilité.
 keywords: Offres pour la conformité Microsoft 365
 localization_priority: None
 ms.prod: microsoft-365-enterprise
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 87d74d3e8c6a23c17ac0515601cbe140b760efcf
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 67d596faea5e531d22289e2ad744a7aeff9c9441
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121353"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088503"
 ---
 # <a name="committee-on-national-security-systems-instruction-no-1253-cnssi-1253"></a>N’instruction du comité sur les systèmes de sécurité nationaux. 1253 (CNSSI 1253)
 
@@ -41,7 +41,7 @@ Azure Government détient actuellement une autorisation d’exploitation proviso
   
 La conformité d’Azure Government avec les exigences strictes de CNSSI 1253 signifie qu’Azure peut offrir aux clients du secteur public aux États-Unis un riche éventail de services conformes à CNSSI 1253, ce qui leur permet de bénéficier des économies et d’une sécurité rigoureuse de Microsoft Cloud.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
+## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft concernés
 
 - [Azure Government](https://aka.ms/AzureCompliance)
 
@@ -53,7 +53,7 @@ Attestation CNSSI 1253 Azure Government de conformité avec la ligne de base CNS
 
 - [Documentation pour le gouvernement Azure](/azure/azure-government/): des didacticiels et des guides de gestion aident les développeurs à déployer et gérer des services à l’aide d’Azure Government.
 
-## <a name="frequently-asked-questions"></a>Questions fréquemment posées
+## <a name="frequently-asked-questions"></a>Foire aux questions
 
 **À qui cnssi 1253 s’applique-t-il ?**
 

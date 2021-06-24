@@ -1,7 +1,7 @@
 ---
 title: Autorité monétaire de Singapour (AMS) et Association des banques de Singapour (ABS)
 description: Microsoft aide les clients financiers à se conformer aux normes d’externalisation de l’Autorité monétaire de Singapour et à appliquer des recommandations de l’Association des banques de Singapour.
-keywords: Offres pour la conformité Microsoft 365
+keywords: Offres pour la conformité Microsoft 365
 localization_priority: Priority
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a076f51bbbefe60b1bdb41e656398da9e6d41825
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 379720a1769048fea6abc22f850a6ef54f601351
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507565"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089053"
 ---
 # <a name="monetary-authority-of-singapore-mas-and-association-of-banks-in-singapore-abs"></a>Autorité monétaire de Singapour (AMS) et Association des banques de Singapour (ABS)
 
@@ -31,7 +31,7 @@ ms.locfileid: "49507565"
 
 En juillet 2016, l’AMS, le seul régulateur bancaire de Singapour et sa banque centrale, a publié ses [Instructions sur l’externalisation de la gestion des risques](https://www.mas.gov.sg/~/media/MAS/Regulations%20and%20Financial%20Stability/Regulatory%20and%20Supervisory%20Framework/Risk%20Management/Outsourcing%20Guidelines_Jul%202016.pdf). Dans les instructions, l’AMS a défini ses attentes pour l’externalisation des services Cloud par les institutions financières de Singapour, y compris les banques, compagnies d’assurances et sociétés fiduciaire. Il s’agit du résultat d’une consultation à l’échelle de l’industrie qui a débuté en octobre 2014 et qui comprenait la participation de Microsoft.
 
-Les instructions de l’AMS simplifient considérablement le processus d’adoption des technologies, clarifient les attentes du régulateur et dissipent bon nombre des idées fausses qui avaient précédemment ralenti l’adoption par le secteur financier des solutions cloud.
+Les instructions NAM simplifient considérablement le processus d’adoption des technologies, clarifient les attentes du régulateur et traitent bon nombre des erreurs de conception qui avaient précédemment ralenti l’adoption par le secteur financier des solutions cloud.
 
 Par ailleurs, les instructions ne sont pas équivoques dans leur prise en charge de l’utilisation des services cloud, y compris un cloud public, par les institutions financières. D’autre part, une telle action ne peut que leur être bénéfique. Désormais, il ne faut plus s’attendre à ce que les institutions financières informent l’AMS avant tout engagement important en matière d’externalisation matérielle. Au lieu de cela, les établissements soumis à la réglementation de l’AMS doivent affiner leur approche basée sur le risque lors de l’évaluation de l’externalisation matérielle et mener une auto-évaluation de toutes les dispositions relatives à l’externalisation par rapport à ces instructions. (Pour l’instant, ces instructions ne sont pas juridiquement contraignante, mais l’AMS a indiqué qu’elle émettra une mention légale ultérieurement.)
 
@@ -54,7 +54,7 @@ Avec la prise en charge du cloud computing, y compris l’utilisation de nuages 
 
 Bénéficiez d’un support pratique pour déplacer des données et des charges de travail vers Microsoft Cloud conformément aux instructions de l’AMS.
 
-[Téléchargement du guide Trouver son chemin vers le cloud : réponse de Microsoft aux instructions de l’AMS sur l’externalisation et aux conseils de l’ABS](https://download.microsoft.com/download/3/E/8/3E80AACD-86A0-478E-BF94-DDBDA5B2E8AF/Navigating%20a%20Path%20to%20the%20Cloud%20-%20Singapore.pdf)
+[Téléchargement du guide Trouver son chemin vers le cloud : réponse de Microsoft aux instructions de sous-traitance NAM et aux instructions l’ABS](https://download.microsoft.com/download/3/E/8/3E80AACD-86A0-478E-BF94-DDBDA5B2E8AF/Navigating%20a%20Path%20to%20the%20Cloud%20-%20Singapore.pdf)
 
 Liste de contrôle de conformité pour les institutions financières à Singapour
 
@@ -69,29 +69,29 @@ Bénéficiez d’un support pratique pour déplacer des données et des charges 
 ## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
 
 - [Azure](https://aka.ms/AzureCompliance)
-- [Dynamics 365](https://aka.ms/d365-compliance-list)
+- [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- Service Cloud Power BI soit en service autonome, soit inclus dans un plan ou une suite Office 365
-- [Office 365](https://aka.ms/o365-compliance-framework)
+- Service Cloud Power BI soit en service autonome, soit inclus dans un plan ou une suite Office 365
+- [Office 365](https://aka.ms/o365-compliance-framework)
 
 ## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
-**L’approbation réglementaire est-elle nécessaire ?**
+**L’approbation réglementaire est-elle nécessaire ?**
 
-Non, il n’est pas nécessaire de disposer d’une notification, d’une consultation ou d’une approbation préalable des dispositions relatives à l’externalisation. Cependant, l’AMS prévoit que les institutions financières doivent être prêtes à prouver leur conformité et à informer l’AMS dans les plus brefs délais des développements indésirables découlant des dispositions relatives à l’externalisation d’une institution financière (par exemple, incident de violation de données).
+Non, la notification, la consultation, ou l’approbation préalable ne sont pas obligatoires. Cependant, la valeur NAM attend des institutions financières qu’elles soient prêtes à prouver leur conformité et à informer le NAM dans les plus brefs délais des développements indésirables découlant des dispositions relatives à l’externalisation d’une institution financière (par exemple, incident de violation de données).
 
-**Qu’est-ce qu’une disposition relative à l’externalisation « matérielle » et pourquoi la définition est-elle importante ?**
+**Qu’est-ce qu’une disposition relative à l’externalisation « matérielle » et pourquoi la définition est-elle importante ?**
 
-Une disposition relative à l’externalisation est « matérielle » si une panne ou une violation de service est susceptible d’affecter de façon significative les opérations commerciales d’une société financière ou sa capacité à gérer les risques et à respecter les lois et réglementations applicables ; ou si ce problème implique des informations client et, en cas d’accès non autorisé à de telles informations ou de divulgation, de perte ou de vol de ces informations, a un impact important sur les clients d’une entreprise. La définition des « informations client » exclut expressément les informations chiffrées de façon sécurisée.
+Une disposition relative à l’externalisation est « matérielle » si une panne ou une violation de service est susceptible d’affecter de façon matérielle les opérations commerciales d’une société financière ou sa capacité à gérer les risques et à respecter les lois et réglementations applicables ; ou si ce problème implique des informations client et, en cas d’accès non autorisé à de telles informations ou de divulgation, de perte, ou de vol de ces informations, a un impact matériel sur les clients d’une entreprise. La définition des « informations d’un client » exclut expressément les informations chiffrées en toute sécurité.
 
-Cette définition est importante car certaines dispositions des instructions de l’AMS relatives à l’externalisation s’appliquent uniquement aux « dispositions matérielles relatives à l’externalisation ». Celles-ci incluent une obligation d’effectuer des révisions annuelles, des clauses contractuelles obligatoires concernant les droits d’audit et de s’assurer que l’externalisation en dehors de Singapour n’affecte pas les efforts de supervision de l’AMS.
+Cette définition est importante car certaines dispositions des instructions de NAM relatives à l’externalisation s’appliquent uniquement aux « dispositions matérielles relatives à l’externalisation » Celles-ci incluent une obligation d’effectuer des révisions annuelles, des clauses contractuelles obligatoires concernant les droits d’audit et de s’assurer que l’externalisation en dehors de Singapour n’affecte pas les efforts de supervision de l’AMS.
 
 ## <a name="resources"></a>Ressources
 
 - [Instructions de l’AMS sur la gestion des risques d’externalisation](https://www.mas.gov.sg/~/media/MAS/Regulations%20and%20Financial%20Stability/Regulatory%20and%20Supervisory%20Framework/Risk%20Management/Outsourcing%20Guidelines_Jul%202016.pdf)
 - [Foire aux questions concernant les instructions de l’AMS l’externalisation](https://www.mas.gov.sg/~/media/MAS/Regulations%20and%20Financial%20Stability/Regulatory%20and%20Supervisory%20Framework/Risk%20Management/Outsourcing%20Guidelines%20Jul%202016_FAQ.pdf)
 - [Guide de mise en œuvre du cloud computing de l’ABS 1.1](https://abs.org.sg/docs/library/abs-cloud-computing-implementation-guide.pdf)
-- [Trouver son chemin vers le cloud : réponse de Microsoft aux instructions de l’AMS sur l’externalisation et au Guide de mise en œuvre du cloud de l’ABS**](https://download.microsoft.com/download/3/E/8/3E80AACD-86A0-478E-BF94-DDBDA5B2E8AF/Navigating%20a%20Path%20to%20the%20Cloud%20-%20Singapore.pdf)
+- [Trouver son chemin vers le cloud : réponse de Microsoft aux instructions de l’AMS sur l’externalisation et au Guide de mise en œuvre du cloud de l’ABS**](https://download.microsoft.com/download/3/E/8/3E80AACD-86A0-478E-BF94-DDBDA5B2E8AF/Navigating%20a%20Path%20to%20the%20Cloud%20-%20Singapore.pdf)
 - [Centre de conformité Microsoft](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=37557722-d5ed-419b-9365-2762982bacbf&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 
 ## <a name="other-microsoft-resources-for-financial-services"></a>Autres ressources Microsoft pour les services financiers

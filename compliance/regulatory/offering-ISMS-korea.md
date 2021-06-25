@@ -1,7 +1,7 @@
 ---
 title: Système de gestion de la sécurité des informations en République de Corée (K-ISMS)
 description: Microsoft Azure a obtenu une certification pour le système de gestion de la sécurité des informations en République de Corée (K-ISMS).
-keywords: Offres pour la conformité Microsoft 365
+keywords: Offres pour la conformité Microsoft 365
 localization_priority: Priority
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d542698eff82fa8f24a32d9f831553a9807609ce
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 43d95a4bedeca768dd6e9bf8bb4e38655382bd05
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49506760"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089698"
 ---
 # <a name="korea-information-security-management-system-k-isms"></a>Système de gestion de la sécurité des informations en République de Corée (K-ISMS)
 
@@ -41,7 +41,7 @@ Sur la base d’une évaluation rigoureuse par l’agence coréenne sur la sécu
 
 L’obtention de cette certification signifie que les clients Azure en République de Corée peuvent prouver plus facilement le respect des exigences légales locales pour protéger les informations numériques clés et pour respecter plus facilement les normes de conformité KISA. De plus, les organisations coréennes ayant un mandat législatif pour obtenir leur propre certification K-ISMS, à savoir certains fournisseurs de services de réseau Internet et d’information, les grands hôpitaux, les écoles, etc., peuvent satisfaire plus efficacement leurs propres exigences de conformité KISMS en tirant partie de la certification Azure.
 
-L’audit a couvert les mesures prises par Microsoft pour sécuriser les données et protéger leur confidentialité, notamment ce qui suit :
+L’audit a couvert les mesures prises par Microsoft pour sécuriser les données et protéger leur confidentialité, notamment ce qui suit :
 
 - Certification des services cloud commerciaux Microsoft (avec des audits annuels pour la conformité) aux [normes de gestion de la sécurité des informations ISO/IEC 27001:2013](offering-iso-27001.md).
 - Haut niveau de protection de la confidentialité sur la base de conformité de Microsoft au [code de pratique pour la protection des données personnelles dans le cloud ISO/IEC 27018](offering-iso-27018.md).
@@ -60,21 +60,21 @@ La certification Azure est valable pendant trois ans à compter de la date de ce
 
 ## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
-**Qui doit obtenir la certification K-ISMS ?**
+**Qui doit obtenir la certification K-ISMS ?**
 
-Cette certification est facultative pour certains et obligatoire pour d’autres. Les organismes pour lesquels elle est facultative, tels que Microsoft, demandent la certification K-ISMS s’ils le souhaitent. Toutefois, l’agence KISA impose la certification pour certains organismes qui incluent les suivants :
+Cette certification est facultative pour certains et obligatoire pour d’autres. Les organismes pour lesquels elle est facultative, tels que Microsoft, demandent la certification K-ISMS s’ils le souhaitent. Toutefois, l’agence KISA impose la certification pour certains organismes qui incluent les suivants :
 
 - Fournisseurs de services Internet qui sont autorisés par l’article 6, section 1, de la loi sur les entreprises de télécommunication et fournissent des services réseau d’informations à Séoul et toutes les villes métropolitaines.
 
-- Centres de données Internet désignés comme « installations intégrées de communication et de communication » par l’article 46 de la loi sur la promotion des informations, de l’utilisation du réseau d’information et des protection des informations.
+- Centres de données Internet désignés comme « installations intégrées de communication et de communication » par l’article 46 de la loi sur la promotion des informations, de l’utilisation du réseau d’information et des protection des informations.
 
-- Toutes les organisations qui remplissent les conditions suivantes :
+- Toutes les organisations qui remplissent les conditions suivantes :
 
-    - Hôpitaux classés comme « hôpitaux généraux plus importants » selon l’article 3, section 4 de la loi sur les services médicaux et dont les ventes annuelles ou les recettes fiscales sont d’au moins 150 millions de dollars américains.
+    - Hôpitaux classés comme « hôpitaux généraux plus importants » selon l’article 3, section 4 de la loi sur les services médicaux et dont les ventes annuelles ou les recettes fiscales sont d’au moins 150 millions de dollars américains.
     - Écoles, conformément à l’article 2 de la loi d’enseignement supérieur, dont le nombre d’étudiants inscrits est d’au moins 10 000 à partir du 31 décembre de l’année précédente.
-    - Fournisseurs de services de réseau d’information dont les ventes de services d’informations et de communication sont d’au moins 10 millions de dollars américains ou qui comptent en moyenne au moins 1 million utilisateurs par jour au cours des trois mois précédents ; sauf, en revanche, les sociétés financières visées au sous-paragraphe 3 de l’article 2 de la loi sur les transactions financières électroniques.
+    - Fournisseurs de services de réseau d’information dont les ventes de services d’informations et de communication sont d’au moins 10 millions de dollars américains ou qui comptent en moyenne au moins 1 million utilisateurs par jour au cours des trois mois précédents ; sauf, en revanche, les sociétés financières visées au sous-paragraphe 3 de l’article 2 de la loi sur les transactions financières électroniques.
 
-**Comment l’intégration de K-ISMS et de K-PIMS a-t-elle un impact sur la certification Microsoft ?**
+**Comment l’intégration de K-ISMS et de K-PIMS a-t-elle un impact sur la certification Microsoft ?**
 
 En novembre 2018, le MSIT, la commission des communications de la République de Corée et le ministère coréen de l’intérieur et de la sécurité ont fusionné le système K-IMS et le système coréen de gestion des informations personnelles (K-PIMS) dans un nouveau système de certification, à savoir le système de gestion de la sécurité des informations personnelles (ISMS-P).
 
@@ -86,5 +86,5 @@ Les organisations peuvent demander la certification K-ISMS sur la base des 80 co
 
 - [Organisations certifiées K-ISMS](https://isms.kisa.or.kr/main/isms/issue/?certificationMode=list&crtfYear=2018&searchCondition=2&searchKeyword=%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%86%8C%ED%94%84%ED%8A%B8) (coréen)
 - [Documents et instructions K-ISMS](https://isms.kisa.or.kr/main/isms/notice/) (coréen)
-- [Régions Azure](https://azure.microsoft.com/global-infrastructure/regions/)
+- [Régions Azure](https://azure.microsoft.com/global-infrastructure/regions/)
 - [Conformité sur le site Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

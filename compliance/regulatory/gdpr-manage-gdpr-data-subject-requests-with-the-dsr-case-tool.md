@@ -9,7 +9,7 @@ manager: laurawi
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-localization_priority: Normal
+localization_priority: Priority
 search.appverid:
 - MET150
 ms.collection:
@@ -20,12 +20,12 @@ ms.collection:
 ms.assetid: ce9eb942-3589-42cb-88fd-1576ecb09c5c
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: f89faf915e31e375674020fda1fe56fe7cd78410
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 8448d9a77352491ce0066dbf74ed5aea0e8f7a29
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496063"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089577"
 ---
 # <a name="manage-gdpr-data-subject-requests-with-the-dsr-case-tool-in-the-security--compliance-center"></a>Gérer les Demandes des personnes associées aux données RGPD à l’aide de l’outil de dossier de DPC dans le Centre de sécurité et conformité.
 
@@ -340,7 +340,7 @@ Lorsque vous exportez des données du service d’itinérance Office, les donné
     
     b. Sous **Exporter le contenu Exchange en tant que**, sélectionnez la deuxième option, **Un fichier PST contenant tous les messages**.
     
-    c. Ne pas sélectionner les autres options d’exportation.
+    c. Ne sélectionnez pas les autres options d’exportation.
     
 4. Après avoir choisi les paramètres d’exportation, cliquez sur **Exporter**.
     

@@ -1,7 +1,7 @@
 ---
 title: Autorité de surveillance financière (KNF) Pologne
 description: Microsoft a publié des recommandations pour aider les institutions financières en Pologne avec l’adoption de Cloud.
-keywords: Offres pour la conformité Microsoft 365
+keywords: Offres pour la conformité Microsoft 365
 localization_priority: Priority
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7cb696db772f0bffda701c7ecadbb768c2575343
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 68d5fc100ac504eaed07f45dabbfe37c82e1c66a
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120153"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089587"
 ---
 # <a name="financial-supervision-authority-knf-poland"></a>Autorité de surveillance financière (KNF) Pologne
 
@@ -48,28 +48,28 @@ Lorsque les institutions financières polonaises externalisent des activités co
 La liste de contrôle Microsoft permet aux entreprises financières polonaises d’effectuer des évaluations de la diligence raisonnable des services cloud entreprises Microsoft et inclut :
 
 - Vue d’ensemble du paysage de la réglementation pour le contexte.
-- Liste de contrôle qui signale les problèmes qui doivent être résolus et met en correspondance Microsoft Azure, Microsoft Dynamics 365 et les services Microsoft 365 par rapport aux obligations réglementaires. La liste de contrôle peut être utilisée comme outil pour mesurer la conformité par rapport à un cadre réglementaire et fournir une structure interne pour documenter la conformité, et aider les clients à effectuer leurs propres évaluations des risques des services Cloud entreprise Microsoft.
+- Liste de contrôle qui signale les problèmes qui doivent être résolus et met en correspondance Microsoft Azure, Microsoft Dynamics 365 et les services Microsoft 365 par rapport aux obligations réglementaires. La liste de contrôle peut être utilisée comme outil pour mesurer la conformité par rapport à un cadre réglementaire et fournir une structure interne pour documenter la conformité, et aider les clients à effectuer leurs propres évaluations des risques des services Cloud entreprise Microsoft.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
 
 - [Azure](https://aka.ms/AzureCompliance)
-- [Dynamics 365](https://aka.ms/d365-compliance-list)
-- [Microsoft 365](https://aka.ms/o365-compliance-framework)
+- [Dynamics 365](https://aka.ms/d365-compliance-list)
+- [Microsoft 365](https://aka.ms/o365-compliance-framework)
 
 ## <a name="how-to-implement"></a>Modalités de mise en œuvre
 
-- [Liste de contrôle de conformité : Pologne](https://aka.ms/FinServ-Guide-Poland): les entreprises financières peuvent obtenir de l'aide pour évaluer les risques liés aux services cloud entreprise Microsoft.
+- [Liste de contrôle de conformité : Pologne](https://aka.ms/FinServ-Guide-Poland): les entreprises financières peuvent obtenir de l'aide pour évaluer les risques liés aux services cloud entreprise Microsoft.
 - [Guide d'évaluation des risques et de conformité](https://aka.ms/RiskGovernanceGuide): créez un modèle de gouvernance pour l'évaluation des risques des services de cloud computing Microsoft et la notification aux autorités de réglementation.
 - [Cas d'utilisation financière](/azure/industry/financial/) : utilisez des aperçus de cas, des didacticiels et d'autres ressources pour créer des solutions Azure pour les services financiers.
 - [Confidentialité dans Cloud Microsoft](https://aka.ms/MCSPrivacy) : Obtenez des informations sur les principes et normes de confidentialité de Microsoft et sur les lois sur la confidentialité spécifiques en Pologne.
 
 ## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
-**L’approbation réglementaire est-elle nécessaire ?**
+**L’approbation réglementaire est-elle nécessaire ?**
 
 Non. Toutefois, en vertu de la loi bancaire de 1997, si le fournisseur de services est basé en dehors de l'espace économique européen (EEE) ou si des opérations externalisées doivent être exécutées en dehors de l'EEE, les banques doivent obtenir au préalable une approbation KNF pour conclure des contrats.
 
-**Existe-t-il des conditions impératives devant être incluses dans le contrat avec le fournisseur de services Cloud ?**
+**Existe-t-il des conditions impératives devant être incluses dans le contrat avec le fournisseur de services Cloud ?**
 
 Oui. La partie 2 de la [liste de contrôle Microsoft](https://aka.ms/FinServ-Guide-Poland) (page 77) contient une liste complète des exigences à inclure dans les contrats avec les fournisseurs de services Cloud.
 

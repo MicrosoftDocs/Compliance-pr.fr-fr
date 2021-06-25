@@ -1,7 +1,7 @@
 ---
 title: Lois canadiennes sur la protection de la vie privée
 description: Azure et Intune peuvent aider les clients à respecter les obligations qui leur incombent dans le cadre de la législation canadienne sur la protection de la vie privée.
-keywords: Offres pour la conformité Microsoft 365
+keywords: Offres pour la conformité Microsoft 365
 localization_priority: Priority
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b5921a0535b9fe3dd84f4faf57dca4d7d117498e
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 16965373da1be8289a86319bb715f987624badd4
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121303"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53088823"
 ---
 # <a name="canadian-privacy-laws"></a>Lois canadiennes sur la protection de la vie privée
 
@@ -31,9 +31,9 @@ Les lois canadiennes sur la protection de la vie privée ont été établies pou
 
 La [loi sur la protection des renseignements personnels](https://privacy.microsoft.com/fr-FR/#heading-0-0-2-1) régule la manière dont les organisations gouvernementales fédérales recueillent, utilisent et divulguent les informations nominatives personnelles, y compris celles des agents fédéraux. La [loi sur la protection des renseignements personnels et les documents électroniques](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/) (LPRPDE) régit la même chose pour les activités des entreprises commerciales et pour les employés d’entreprises réglementées au niveau fédéral, telles que les banques, les compagnies aériennes et les télécom.
 
-La LPRPDE est fondée sur 10 [principes relatifs à l’équité dans le traitement de l’information](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/) que les entreprises doivent suivre pour être conformes. Par exemple, le principe de base du consentement implique dans la LPRPDE que les organisations doivent obtenir l’autorisation d’un individu pour recueillir ou utiliser ses informations personnelles. Les individus ont le droit d’accéder à ces informations personnelles et de contester leur précision (fondé sur le principe de « l’accès aux renseignements personnels »). Le principe de la « détermination des fins de la collecte de renseignements » conduit à la règle selon laquelle les informations personnelles peuvent être utilisées uniquement aux fins convenues.
+La LPRPDE est fondée sur 10 [principes relatifs à l’équité dans le traitement de l’information](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/) que les entreprises doivent suivre pour être conformes. Par exemple, le principe de base du consentement implique dans la LPRPDE que les organisations doivent obtenir l’autorisation d’un individu pour recueillir ou utiliser ses informations personnelles. Les individus ont le droit d’accéder à ces informations personnelles et de contester leur précision (fondé sur le principe de « l’accès aux renseignements personnels »). Le principe de la « détermination des fins de la collecte de renseignements » conduit à la règle selon laquelle les informations personnelles peuvent être utilisées uniquement aux fins convenues.
 
-En général, la LPRPDE s’applique aux activités commerciales de toutes les provinces et territoires, à l’exception de ceux qui opèrent uniquement au sein de provinces disposant de leurs propres lois sur la vie privée qui ont été déclarées « essentiellement similaires » à la loi fédérale. Par exemple, la Colombie Britannique, l’Alberta et le Québec ont une législation sur la confidentialité dans le secteur privé jugée très similaire à la LPRPDE, et les lois provinciales sont alors appliquées à la place de la législation fédérale.
+En général, la LPRPDE s’applique aux activités commerciales de toutes les provinces et territoires, à l’exception de ceux qui opèrent uniquement au sein de provinces disposant de leurs propres lois sur la vie privée qui ont été déclarées « essentiellement similaires » à la loi fédérale. Par exemple, la Colombie Britannique, l’Alberta et le Québec ont une législation sur la confidentialité dans le secteur privé jugée très similaire à la LPRPDE, et les lois provinciales sont alors appliquées à la place de la législation fédérale.
 
 ## <a name="microsoft-and-canadian-privacy-laws"></a>Microsoft et les lois canadiennes sur la protection de la vie privée
 
@@ -51,24 +51,24 @@ Pour aider les clients canadiens qui envisagent d'externaliser des fonctions pro
 ## <a name="how-to-implement"></a>Modalités de mise en œuvre
 
 - [La confidentialité chez Microsoft](https://www.microsoft.com/download/details.aspx?id=55710) : obtenez des informations sur les principes et normes de confidentialité de Microsoft et sur les lois sur la confidentialité spécifiques au Canada.
-- [Liste de contrôle de conformité pour le Canada](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=626fb641-9dca-45c0-abaf-0a7849c15f81&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) : en savoir plus sur les fonctionnalités Azure et Intune qui vous aideront à respecter les lois canadiennes sur la protection de la vie privée.
-- [Protection des données Azure](/azure/security/fundamentals/protection-customer-data) : Azure offre à ses clients une sécurité des données renforcée, par défaut et via des options.
+- [Liste de contrôle de conformité pour le Canada](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=626fb641-9dca-45c0-abaf-0a7849c15f81&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) : en savoir plus sur les fonctionnalités Azure et Intune qui vous aideront à respecter les lois canadiennes sur la protection de la vie privée.
+- [Protection des données Azure](/azure/security/fundamentals/protection-customer-data) : Azure offre à ses clients une sécurité des données renforcée, par défaut et via des options.
 
 ## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
-**Est-ce que les clients qui utilisent Azure et Intune respectent la LPRPDE et les autres lois canadiennes sur la protection de la vie privée ?**
+**Est-ce que les clients qui utilisent Azure et Intune respectent la LPRPDE et les autres lois canadiennes sur la protection de la vie privée ?**
 
 Microsoft s’engage dans le cadre de ses [Termes des services en ligne](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31) à respecter les lois et réglementations qui s’appliquent à sa prestation de services en ligne. Toutefois, les organisations qui utilisent les services cloud de Microsoft Business restent responsables du respect de la législation canadienne sur la protection de la vie privée. Les lois sont claires sur le fait que les organisations sont responsables en dernier recours de s’assurer que les données sensibles qu’elles recueillent sont gérées honnêtement et correctement protégées.  
 
-Par conséquent, la confidentialité est une responsabilité partagée entre Microsoft en tant que fournisseur de services Cloud et le client utilisant les services Cloud. À un niveau élevé, cela signifie que les clients doivent s’assurer que leurs solutions mises en place dans les environnements Microsoft respectent les 10 principes codifiés dans la LPRPDE. Par exemple, en obtenant le consentement des individus pour collecter leurs données et en les protégeant avec des mesures de sécurité appropriées. Par exemple, obtenir le consentement de particuliers pour recueillir et protéger leurs données à l’aide de mesures de sécurité adéquates.
+Par conséquent, la confidentialité est une responsabilité partagée entre Microsoft en tant que fournisseur de services Cloud et le client utilisant les services Cloud. À un niveau élevé, cela signifie que les clients doivent s’assurer que leurs solutions mises en place dans les environnements Microsoft respectent les 10 principes codifiés dans la LPRPDE. Par exemple, en obtenant le consentement des individus pour collecter leurs données et en les protégeant avec des mesures de sécurité appropriées. Par exemple, obtenir le consentement de particuliers pour recueillir et protéger leurs données à l’aide de mesures de sécurité adéquates.
 
-**Quels audits tiers valident l’environnement de contrôle de sécurité d’Azure et Intune ?**
+**Quels audits tiers valident l’environnement de contrôle de sécurité d’Azure et Intune ?**
 
 Azure et Intune sont basés sur des normes de sécurité reconnues telles que [ISO/CEI 27001](offering-ISO-27001.md) et le [cadre SOC](https://privacy.microsoft.com/privacystatement). Leur conformité à ces normes est confirmée par des auditeurs tiers qui assurent une validation indépendante de la mise en place des contrôles de sécurité et de leur fonctionnement efficace.  
 
 Chaque audit génère la génération d’un rapport que Microsoft met à disposition soit sur le [portail d’approbation de services Microsoft](https://servicetrust.microsoft.com/), soit à un autre emplacement. Microsoft fournit des rapports d’audit aux clients qui le demandent, sous réserve de non-divulgation et de limitation de distribution par Microsoft et l’auditeur.
 
-**Les clients connaissent-ils l’emplacement physique dans lequel leurs données sont stockées ?**
+**Les clients connaissent-ils l’emplacement physique dans lequel leurs données sont stockées ?**
 
 Les clients canadiens des services Cloud de Microsoft Business peuvent [connaitre l’emplacement de stockage de leur données client](https://www.microsoft.com/trust-center/privacy/data-location). De plus, quelle que soit la localisation des données client, Microsoft ne contrôle ni ne limite les emplacements géographiques à partir desquels les clients ou leurs utilisateurs finaux peuvent y accéder.  
 

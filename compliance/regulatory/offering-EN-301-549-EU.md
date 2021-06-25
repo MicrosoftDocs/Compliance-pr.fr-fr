@@ -1,7 +1,7 @@
 ---
 title: Normes européennes EN 301 549
 description: Microsoft Cloud comprend de nombreux services et est inclus dans de nombreux rapports de conformité individuels.
-keywords: Microsoft 365, conformité, offres
+keywords: Microsoft 365, conformité, offres
 localization_priority: Priority
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,18 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d9dfe0936b6df031fd8d50fff3554e9c9cb5ced1
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 4ec39ccbeb9780c51ef813c1520675abb1d19cc9
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507641"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089567"
 ---
 # <a name="european-standards-en-301-549"></a>Normes européennes EN 301 549
 
 ## <a name="about-en-301-549"></a>À propos des normes EN.301 549
 
-Les exigences d’accessibilité pour les produits et services de technologies de l’information et des communications (TIC) sont stipulées dans les normes EN 301 549, qui constituent un ensemble de normes concernant les produits et services TIC, notamment les sites Web, les logiciels et les appareils numériques. La norme EN 301 549 a été publiée en 2014 par l'Institut européen des normes de télécommunications (ETSI) en réponse à une demande de la Commission européenne, qui a été mis à jour pour la dernière fois en novembre 2019 à la version 3.1.1. La norme EN 301 549 3.1.1 intègre les normes [WCAG ](offering-WCAG-2-1.md) concernant l'accessibilité du web.
+Les exigences d’accessibilité pour les produits et services de technologies de l’information et des communications (TIC) sont stipulées dans les normes EN 301 549, qui constituent un ensemble de normes concernant les produits et services TIC, notamment les sites Web, les logiciels et les appareils numériques. La norme EN 301 549 a été publiée en 2014 par l'Institut européen des normes de télécommunications (ETSI) en réponse à une demande de la Commission européenne, qui a été mis à jour pour la dernière fois en novembre 2019 à la version 3.1.1. La norme EN 301 549 3.1.1 intègre les normes [WCAG ](offering-WCAG-2-1.md) concernant l'accessibilité du web.
 
 Microsoft est un fournisseur important de services de cloud computing pour les États européens. Pour aider les clients gouvernementaux à prendre des décisions d’approvisionnement, Microsoft publie des rapports de conformité de l’accessibilité (ACR) qui décrivent la mesure dans laquelle nos produits et services prennent en charge les critères de la norme EN 301 549. Les informations contenues dans les ACR peuvent aider les clients Microsoft à déterminer si un produit ou un service répondra à leurs besoins spécifiques.
 
@@ -35,15 +35,15 @@ Microsoft est un fournisseur important de services de cloud computing pour les �
 
 La prise en compte de la norme EN 301 549 par Microsoft dans le développement de ses produits et services a pour objectif l’accessibilité de l’accessibilité pour tous les clients.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services cloud Microsoft concernés
+## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft concernés
 
 - [Azure et Azure Government](https://go.microsoft.com/fwlink/p/?linkid=2051569)
 - Azure DevOps Services
-- Dynamics 365 et Dynamics 365 U.S. Governement
+- Dynamics 365 et Dynamics 365 U.S. Governement
 - Intune
-- [Office 365 et Office 365 U.S. Governement](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Office 365 U.S. Government Defense
-- Windows Server 2016
+- [Office 365 et Office 365 U.S. Governement](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- Office 365 U.S. Government Defense
+- Windows Server 2016
 
 ## <a name="microsoft-accessibility-conformance-reports"></a>Rapports de conformité de l’accessibilité Microsoft
 

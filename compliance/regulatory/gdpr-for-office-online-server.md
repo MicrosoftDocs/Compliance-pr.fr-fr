@@ -1,5 +1,5 @@
 ---
-title: RGPD pour Office Online Server et Office Web Apps Server
+title: RGPD pour Office Online Server et Office Web Apps Server
 description: Dans cet article, vous allez découvrir comment répondre aux exigences du RGPD pour Office Online Server et Office Web Apps Server.
 f1.keywords:
 - NOCSH
@@ -15,16 +15,16 @@ ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
 hideEdit: true
-ms.openlocfilehash: b047b4ccf7fa9745a7237de79bbaa198e079865e
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 298f0efe74539c8a8bd10330cfeb80894ef9edb1
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496017"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089013"
 ---
-# <a name="gdpr-for-office-web-apps-server-and-office-online-server"></a>RGPD pour Office Web Apps Server et Office Online Server
+# <a name="gdpr-for-office-web-apps-server-and-office-online-server"></a>RGPD pour Office Web Apps Server et Office Online Server
 
-Les données de télémétrie Office Online Server et Office Web Apps Server sont stockées sous forme de journaux ULS. Vous pouvez utiliser la [visionneuse ULS](https://www.microsoft.com/download/details.aspx?id=44020) pour afficher les journaux ULS depuis votre client local.
+Les données de télémétrie Office Online Server et Office Web Apps Server sont stockées sous forme de journaux ULS. Vous pouvez utiliser la [visionneuse ULS](https://www.microsoft.com/download/details.aspx?id=44020) pour afficher les journaux ULS depuis votre client local.
 
 Chaque ligne de journal contient un élément CorrelationID. Les lignes de journal connexes partagent le même CorrelationID. Chacun de ces éléments CorrelationID est lié à un seul élément SessionID, qui, lui, peut être associé à plusieurs éléments CorrelationID. Chaque SessionID peut être lié à un seul UserID, bien que certaines sessions puissent être anonymes et donc ne pas avoir d’élément UserID associé. Afin de déterminer les données qui sont associées à un utilisateur particulier, il est donc possible d’établir un mappage à partir d’un seul élément UserID vers les éléments SessionID associés à cet utilisateur, à partir de ces éléments SessionID vers les éléments CorrelationID associés et à partir de ces éléments CorrelationID vers tous les journaux de ces corrélations. Reportez-vous au diagramme ci-dessous pour voir la relation entre les différents ID.
 
@@ -32,15 +32,15 @@ Chaque ligne de journal contient un élément CorrelationID. Les lignes de journ
 
 ## <a name="gathering-logs"></a>Collecte de journaux
 
-Afin de collecter tous les journaux associés à l’élément UserID 1, par exemple, la première étape consisterait à collecter toutes les sessions associées à cet élément UserID 1 (c'est-à-dire, les éléments SessionID 1 et SessionID 2). L’étape suivante consisterait à collecter toutes les corrélations associées aux éléments SessionID 1 (c'est-à-dire, les éléments CorrelationID 1, 2 et 3) et SessionID 2 (c'est-à-dire, l’élément CorrelationID 4). Enfin, il faudrait collecter tous les journaux associés à chacune des corrélations de la liste.
+Afin de collecter tous les journaux associés à l’élément UserID 1, par exemple, la première étape consisterait à collecter toutes les sessions associées à cet élément UserID 1 (c'est-à-dire, les éléments SessionID 1 et SessionID 2). L’étape suivante consisterait à collecter toutes les corrélations associées aux éléments SessionID 1 (c'est-à-dire, les éléments CorrelationID 1, 2 et 3) et SessionID 2 (c'est-à-dire, l’élément CorrelationID 4). Enfin, il faudrait collecter tous les journaux associés à chacune des corrélations de la liste.
 
 1. Lancez ULSViewer.
 
-2. Ouvrez le journal ULS correspondant à la période souhaitée ; les journaux ULS sont stockés dans %PROGRAMDATA%\\Microsoft\\OfficeWebApps\\Data\\Logs\\ULS.
+2. Ouvrez le journal ULS correspondant à la période souhaitée ; les journaux ULS sont stockés dans %PROGRAMDATA%\\Microsoft\\OfficeWebApps\\Data\\Logs\\ULS.
 
-3. Éditez | Modifiez le filtre.
+3. Éditez | Modifiez le filtre.
 
-4. Appliquez le filtre suivant :
+4. Appliquez le filtre suivant :
 
     - EventID est égal à apr3y
 
@@ -58,21 +58,21 @@ Afin de collecter tous les journaux associés à l’élément UserID 1, par ex
 
 9. Collectez toutes les valeurs WacSessionId associées à l’utilisateur en question.
 
-10. Filtrez tous les éléments EventID dont la valeur est « xmnv », le message obtenu sera « UserSessionId=\<WacSessionId\>WacSessionId » pour le premier élément WacSessionId de la liste (en remplaçant l’élément \<WacSessionId\> du filtre par votre élément WacSessionId).
+10. Filtrez tous les éléments EventID dont la valeur est « xmnv », le message obtenu sera « UserSessionId=\<WacSessionId\>WacSessionId » pour le premier élément WacSessionId de la liste (en remplaçant l’élément \<WacSessionId\> du filtre par votre élément WacSessionId).
 
 11. Collectez toutes les valeurs de corrélation qui correspondent à cet élément WacSessionId.
 
-12. Répétez les étapes 10 et 11 pour toutes les valeurs de WacSessionId dans votre liste pour l’utilisateur en question.
+12. Répétez les étapes 10 et 11 pour toutes les valeurs de WacSessionId dans votre liste pour l’utilisateur en question.
 
 13. Filtrez toutes les corrélations qui correspondent à la première corrélation de votre liste.
 
 14. Collectez tous les journaux correspondant à cette corrélation.
 
-15. Répétez les étapes 13 et 14 pour toutes les valeurs de la corrélation de votre liste pour l’utilisateur en question.
+15. Répétez les étapes 13 et 14 pour toutes les valeurs de la corrélation de votre liste pour l’utilisateur en question.
 
 ## <a name="types-of-data"></a>Types de données
 
-Les journaux Office contiennent de nombreux types de données différents. Voici quelques exemples de données que contiennent les journaux ULS :
+Les journaux Office contiennent de nombreux types de données différents. Voici quelques exemples de données que peuvent contenir les journaux ULS :
 
 - Des codes d’erreur pour les problèmes rencontrés lors de l’utilisation du produit
 
@@ -80,7 +80,7 @@ Les journaux Office contiennent de nombreux types de données différents. Voici
 
 - Des données sur les performances de l’application et/ou des fonctionnalités particulières au sein de l’application
 
-- Des informations générales sur l’emplacement de l’ordinateur de l’utilisateur (par exemple, le pays/la région, le département et la ville, issus de l’adresse IP), mais pas une géolocalisation précise.
+- Des informations générales sur l’emplacement de l’ordinateur de l’utilisateur (par exemple, le pays/la région, le département et la ville, issus de l’adresse IP), mais pas une géolocalisation précise.
 
 - Des métadonnées de base sur le navigateur, par exemple, le nom et la version du navigateur, et sur l’ordinateur, par exemple, son type de système d’exploitation et sa version
 

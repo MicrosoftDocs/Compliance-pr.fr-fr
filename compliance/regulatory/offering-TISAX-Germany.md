@@ -1,7 +1,7 @@
 ---
 title: Trusted Information Security Assessment Exchange (TISAX) Allemagne
 description: Un auditeur indépendant, accrédité ENX, a évalué les centres de données cloud Microsoft contre les besoins en matière de sécurité TISAX.
-keywords: Offres pour la conformité Microsoft 365
+keywords: Offres pour la conformité Microsoft 365
 localization_priority: Priority
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 420f95b0a7f7625ff10d76baf5f1c9d9efb69c6a
-ms.sourcegitcommit: 2b347c9b778ac9b6450daf20fdf8eb74ed14cbbd
+ms.openlocfilehash: 9d228a02e9c2eaa268d36a8948dbcbb417580f0c
+ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51002194"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53089778"
 ---
 # <a name="trusted-information-security-assessment-exchange-tisax-germany"></a>Trusted Information Security Assessment Exchange (TISAX) Allemagne
 
@@ -35,7 +35,7 @@ Afin de rationaliser les évaluations, VDA a mis en place un mécanisme commun d
 
 ## <a name="microsoft-and-tisax"></a>Microsoft et TISAX
 
-Les constructeurs automobiles européens comptent sur la confiance pour développer, construire et exploiter de nouvelles voitures. Ils utilisent le Trusted Information Security Assessment Exchange (TISAX) pour fournir une évaluation commune de la sécurité de l'information pour l'analyse interne, une évaluation des fournisseurs et un mécanisme d'échange des informations. Un auditeur indépendant accrédité ENX a réalisé l'évaluation TISAX des centres de données et des centres d'opérations Microsoft par rapport aux spécifications TISAX et aux exigences de sécurité informatique. Ces centres de données certifiés TISAX fournissent l’infrastructure physique pour les services en ligne Microsoft décrites dans le rapport d’évaluation. Ces services incluent Azure, Dynamics 365 et Microsoft 365.
+Les constructeurs automobiles européens comptent sur la confiance pour développer, construire et exploiter de nouvelles voitures. Ils utilisent le Trusted Information Security Assessment Exchange (TISAX) pour fournir une évaluation commune de la sécurité de l'information pour l'analyse interne, une évaluation des fournisseurs et un mécanisme d'échange des informations. Un auditeur indépendant accrédité ENX a réalisé l'évaluation TISAX des centres de données et des centres d'opérations Microsoft par rapport aux spécifications TISAX et aux exigences de sécurité informatique. Ces centres de données certifiés TISAX fournissent l’infrastructure physique pour les services en ligne Microsoft décrites dans le rapport d’évaluation. Ces services incluent Azure, Dynamics 365 et Microsoft 365.
 
 Les constructeurs automobiles du monde entier peuvent désormais évaluer l'évaluation TISAX de Microsoft pour créer des solutions cloud qui intègrent une sécurité de l'information et une protection des données solides. Les entreprises peuvent utiliser l'évaluation TISAX de Microsoft pour échanger en toute confiance des données avec les fournisseurs qui utilisent des postes de travail basés sur les services Cloud de Microsoft 365.
 
@@ -46,9 +46,9 @@ Microsoft a fourni une auto-évaluation de ses services Cloud, et l'auditeur a e
 
 ## <a name="audits-reports-and-certificates"></a>Audits, rapports et certificats
 
-Les représentants du secteur inscrits auprès d’ENX peuvent trouver des informations sur l’évaluation TISAX de Microsoft sur le [Portail ENX](https://portal.enx.com/fr-FR/). Pour rechercher les résultats de l’évaluation Microsoft, connectez-vous à votre compte TISAX existant et effectuez une recherche sur Microsoft. Vous pouvez également affiner votre recherche à l’aide des informations suivantes :
+Les représentants du secteur inscrits auprès d’ENX peuvent trouver des informations sur l’évaluation TISAX de Microsoft sur le [Portail ENX](https://portal.enx.com/fr-FR/). Pour rechercher les résultats de l’évaluation Microsoft, connectez-vous à votre compte TISAX existant et effectuez une recherche sur Microsoft. Vous pouvez également affiner votre recherche à l’aide des informations suivantes :
 
-- ID du participant Microsoft : PGKYK0
+- ID du participant Microsoft : PGKYK0
 - ID champ d’application niveau d’évaluation (AL) 3 de Microsoft Corp. UE : SY869K
 - ID champ d’application niveau d’évaluation (AL) 2 de Microsoft Corp. UE : S08NT9
 
@@ -64,7 +64,7 @@ Utilisez des aperçus de cas, des guides de solutions, des didacticiels et d’a
 
 **Pourquoi ne puis-je pas voir une copie de la certification Microsoft TISAX?**
 
-ENX fournit une confirmation de certification uniquement aux représentants du secteur enregistrés via le portail ENX. Pour plus d’informations sur la procédure à suivre, voir la section « audits, rapports et certificats » ci-dessus.
+ENX fournit une confirmation de certification uniquement aux représentants du secteur enregistrés via le portail ENX. Pour plus d’informations sur la procédure à suivre, voir la section « audits, rapports et certificats » ci-dessus.
 
 ## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de Conformité Microsoft pour évaluer vos risques
 
@@ -74,7 +74,7 @@ ENX fournit une confirmation de certification uniquement aux représentants du s
 
 - [Foire aux Questions TISAX](https://portal.enx.com/fr-FR/TISAX/faqs/)
 - [Volkswagen et Microsoft annoncent un partenariat stratégique](https://www.volkswagen-newsroom.com/en/press-releases/volkswagen-and-microsoft-announce-strategic-partnership-4234)
-- [Office dans votre voiture : BMW offre Skype Entreprise](https://news.microsoft.com/de-de/skype-business-ab-sofort-fahrzeugen-von-bmw-verfugbar/) (Allemand) 
+- [Office dans votre voiture : BMW offre Skype Entreprise](https://news.microsoft.com/de-de/skype-business-ab-sofort-fahrzeugen-von-bmw-verfugbar/) (Allemand) 
 - [Connectez les véhicules pour de longues distances : Daimler](https://customers.microsoft.com/story/daimlertrucks)
 - [Continental a adopté Microsoft Office 365 pour améliorer la productivité](https://www.avanade.com/en/clients/continental)
 - [Microsoft et la norme ISO/IEC 27001:2013](offering-iso-27001.md)

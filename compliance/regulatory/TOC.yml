@@ -7,27 +7,27 @@
         - name: Point de référence CIS
           href: offering-cis-benchmark.md
         - name: Attestation CSA-STAR
-          href: offering-csa-star-attestation.md
+          href: /azure/compliance/offerings/offering-csa-star-attestation?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
         - name: Certification CSA-STAR
-          href: offering-csa-star-certification.md
+          href: /azure/compliance/offerings/offering-csa-star-certification?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
         - name: Auto-évaluation CSA-STAR
-          href: offering-csa-star-self-assessment.md
+          href: /azure/compliance/offerings/offering-csa-star-self-assessment?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
         - name: ISO – Plan d’action recommandé
           href: iso-action-plan.md
-        - name: "ISO\_20000-1-2011"
-          href: offering-iso-20000-1-2011.md
-        - name: "ISO\_22301"
+        - name: ISO 20000-1-2011
+          href: /azure/compliance/offerings/offering-iso-20000-1?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
+        - name: ISO 22301
           href: offering-iso-22301.md
-        - name: "ISO\_27001"
+        - name: ISO 27001
           href: offering-iso-27001.md
-        - name: "ISO\_27017"
+        - name: ISO 27017
           href: offering-iso-27017.md
         - name: ISO 27018
           href: offering-iso-27018.md
         - name: ISO 27701
-          href: offering-iso-27701.md
+          href: /azure/compliance/offerings/offering-iso-27701?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
         - name: ISO-9001
-          href: offering-iso-9001.md
+          href: /azure/compliance/offerings/offering-iso-9001?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
         - name: SOC
           href: offering-soc.md
         - name: WCAG
@@ -37,14 +37,14 @@
         - name: CJIS
           href: offering-cjis.md
         - name: CNSSI 1253
-          href: offering-cnssi-1253.md
+          href: /azure/compliance/offerings/offering-cnssi-1253?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
         - name: DFARS
           href: offering-dfars.md
         - name: 'DoD DISA L2, L4, L5'
           href: offering-dod-disa-l2-l4-l5.md
         - name: DoE 10 CFR Part 810
-          href: offering-doe-10-cfr-part-810.md
-        - name: EAR (admin. rég. export des États-Unis)
+          href: /azure/compliance/offerings/offering-doe-10-cfr-part-810?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
+        - name: EAR
           href: offering-ear.md
         - name: FedRAMP
           href: offering-fedramp.md
@@ -54,40 +54,50 @@
           href: offering-irs-1075.md
         - name: ITAR
           href: offering-itar.md
-        - name: NIST – Plan d’action recommandé
-          href: nist-action-plan.md
+        - name: Section NDAA 889
+          href: /azure/compliance/offerings/offering-ndaa-section-889?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
+        - name: NIST 800-161
+          href: /azure/compliance/offerings/offering-nist-800-161?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
         - name: NIST 800-171
           href: offering-nist-sp-800-171.md
-        - name: CSF
+        - name: NIST 800-53
+          href: /azure/compliance/offerings/offering-nist-800-53?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
+        - name: NIST 800-63
+          href: /azure/compliance/offerings/offering-nist-800-63?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
+        - name: NIST CSF
           href: offering-nist-csf.md
-        - name: Section 508 VPATS
+        - name: Section 508 VPATs
           href: offering-section-508-vpats.md
     - name: Secteur d’activité
       items:
+        - name: Automobile
+          items:
+            - name: TISAX (Allemagne)
+              href: /azure/compliance/offerings/offering-tisax?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
         - name: Éducation
           items:
-            - name: FERPA
+            - name: FERPA (États-Unis)
               href: offering-ferpa.md
         - name: Énergie
           items:
             - name: NERC
-              href: offering-nerc-cip.md
-        - name: Financier
+              href: /azure/compliance/offerings/offering-nerc?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
+        - name: Services financiers
           items:
             - name: 23 NYCRR Part 500
               href: offering-23-nycrr-part-500.md
             - name: AFM + DNB (Pays-Bas)
               href: offering-afm-dnb-netherlands.md
+            - name: AMF + ACPR (France)
+              href: offering-amf-acpr-france.md
             - name: APRA (Australie)
               href: offering-apra-australia.md
-            - name: AMF et ACPR (France)
-              href: offering-amf-acpr-france.md
-            - name: "CFTC\_1.31 (ÉTATS-UNIS)"
+            - name: CFTC 1.31 (ÉTATS-UNIS)
               href: offering-cftc-1-31-us.md
             - name: EBA (UE)
               href: offering-eba-eu.md
-            - name: FCA (Royaume-Uni)
-              href: offering-fca-uk.md
+            - name: FCA + PRA (Royaume-Uni)
+              href: /azure/compliance/offerings/offering-fca-pra-uk?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
             - name: FFIEC (États-Unis)
               href: offering-ffiec-us.md
             - name: FINMA (Suisse)
@@ -108,192 +118,122 @@
               href: offering-nbb-fsma-belgium.md
             - name: OSFI (Canada)
               href: offering-osfi-canada.md
+            - name: OSPAR (Singapour)
+              href: /azure/compliance/offerings/offering-ospar-singapore?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
+            - name: PCI 3DS
+              href: /azure/compliance/offerings/offering-pci-3ds?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
             - name: PCI DSS
-              href: offering-pci-dss.md
+              href: offering-PCI-DSS.md
             - name: RBI + IRDAI (Inde)
               href: offering-rbi-irdai-india.md
-            - name: SEC 17a-4
+            - name: SEC 17a-4 (États-Unis)
               href: offering-sec-17a-4.md
-            - name: Règlement SEC (SIC)
-              href: offering-sec-reg-sci.md
-            - name: SOC
-              href: offering-soc.md
-            - name: SOX
+            - name: Règlement SEC (États-Unis)
+              href: /azure/compliance/offerings/offering-sec-reg-sci-us?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
+            - name: Évaluations partagées
+              href: /azure/compliance/offerings/offering-shared-assessments?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
+            - name: SOX (États-Unis)
               href: offering-sox.md
             - name: TruSight
               href: offering-trusight.md
-        - name: Intégrité
+        - name: Santé et sciences de la vie
           items:
-            - name: HDS (France)
+            - name: ASIP HDS (France)
               href: offering-hds-france.md
-            - name: HIPAA/HITECH
-              href: offering-hipaa-hitech.md
-            - name: HITRUST
-              href: offering-hitrust.md
-            - name: MARS-E
-              href: offering-mars-e.md
-            - name: NEN-7510 (Pays-Bas)
-              href: offering-nen-7510-netherlands.md
-        - name: Fabrication
-          items:
+            - name: EPCS (États-Unis)
+              href: /azure/compliance/offerings/offering-epcs-us?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
             - name: FDA CFR titre 21 partie 11
               href: offering-fda-cfr-title-21-part-11.md
             - name: GxP
               href: offering-gxp.md
-            - name: TISAX (Allemagne)
-              href: offering-tisax-germany.md
-        - name: Multimédia
-          items:
-            - name: CDSA
-              href: offering-cdsa.md
-            - name: DPP (Royaume-Uni)
-              href: offering-dpp-uk.md
-            - name: FACT (Royaume-Uni)
-              href: offering-fact-uk.md
-            - name: MPAA
-              href: offering-mpaa.md
-        - name: Commerce
-          items:
-            - name: 23 NYCRR Part 500
-              href: offering-23-nycrr-part-500.md
-            - name: AFM + DNB (Pays-Bas)
-              href: offering-afm-dnb-netherlands.md
-            - name: AMF et ACPR (France)
-              href: offering-amf-acpr-france.md
-            - name: CDSA
-              href: offering-cdsa.md
-            - name: Point de référence CIS
-              href: offering-cis-benchmark.md
-            - name: Attestation CSA-STAR
-              href: offering-csa-star-attestation.md
-            - name: DoE 10 CFR Part 810
-              href: offering-doe-10-cfr-part-810.md
-            - name: DPP (Royaume-Uni)
-              href: offering-dpp-uk.md
-            - name: EAR (admin. rég. export des États-Unis)
-              href: offering-ear.md
-            - name: ENISA IAF (UE)
-              href: offering-enisa.md
-            - name: Clauses types de l’UE
-              href: offering-eu-model-clauses.md
-            - name: EBA (UE)
-              href: offering-eba-eu.md
-            - name: Bouclier de protection des données UE-États-Unis
-              href: offering-eu-us-privacy-shield.md
-            - name: FACT (Royaume-Uni)
-              href: offering-fact-uk.md
-            - name: FCA (Royaume-Uni)
-              href: offering-fca-uk.md
-            - name: FFIEC (États-Unis)
-              href: offering-ffiec-us.md
-            - name: FINMA (Suisse)
-              href: offering-finma-switzerland.md
-            - name: GLBA
-              href: offering-glba.md
+            - name: HIPAA/HITECH (États-Unis)
+              href: offering-hipaa-hitech.md
             - name: HITRUST
               href: offering-hitrust.md
-            - name: IRS 1075
-              href: offering-irs-1075.md
-            - name: ISO 27018
-              href: offering-iso-27018.md
-            - name: ISO-9001
-              href: offering-iso-9001.md
-            - name: ITAR
-              href: offering-itar.md
-            - name: DNF (Pologne)
-              href: offering-knf-poland.md
-            - name: MARS-E
-              href: offering-mars-e.md
-            - name: MPAA
-              href: offering-mpaa.md
-            - name: NBB + FSMA (Belgique)
-              href: offering-nbb-fsma-belgium.md
-            - name: CSF
-              href: offering-nist-csf.md
-            - name: PCI DSS
-              href: offering-pci-dss.md
-            - name: Section 508 VPATS
-              href: offering-section-508-vpats.md
-            - name: Évaluations partagées
-              href: offering-shared-assessments.md
-            - name: SOC
-              href: offering-soc.md
-            - name: LOPD (Espagne)
-              href: offering-lopd-spain.md
-            - name: Cyber Essentials plus (Royaume-Uni)
-              href: offering-cyber-essentials-plus-uk.md
-            - name: G-Cloud (Royaume-Uni)
-              href: offering-g-cloud-uk.md
-    - name: Régionaux
+            - name: MARS-E (États-Unis)
+              href: /azure/compliance/offerings/offering-mars-e-us?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
+            - name: NEN-7510 (Pays-Bas)
+              href: offering-nen-7510-netherlands.md
+        - name: Médias et divertissement
+          items:
+            - name: CDSA
+              href: /azure/compliance/offerings/offering-cdsa?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
+            - name: DPP (Royaume-Uni)
+              href: /azure/compliance/offerings/offering-dpp-uk?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
+            - name: FACT (Royaume-Uni)
+              href: /azure/compliance/offerings/offering-fact-uk?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
+            - name: MPA
+              href: /azure/compliance/offerings/offering-mpa?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
+        - name: Télécommunications
+          items:
+            - name: GSMA
+              href: /azure/compliance/offerings/offering-gsma?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
+    - name: Régional
       items:
-        - name: Asie
+        - name: Amériques
           items:
-            - name: ABS OSPAR (Singapour)
-              href: offering-abs-ospar.md
-            - name: CS Mark (Gold) (Japon)
-              href: offering-cs-mark-gold-japan.md
-            - name: DJCP (Chine)
-              href: 'https://www.trustcenter.cn/compliance/default.html#DJCP'
-            - name: GB 18030 (Chine)
-              href: 'https://www.trustcenter.cn/compliance/default.html#GB18030'
-            - name: ISMS (Corée du Sud)
-              href: offering-ISMS-korea.md
-            - name: MeitY (Inde)
-              href: offering-meity-india.md
-            - name: MTCS (Singapour)
-              href: offering-mtcs-singapore.md
-            - name: My Number (Japon)
-              href: offering-my-number-act-japan.md
-            - name: TRUCS (Chine)
-              href: 'https://aka.ms/TRUCS-Compliance'
-        - name: Australie/Pacifique
-          items:
-            - name: APRA (Australie)
-              href: offering-APRA-Australia.md
-            - name: IRAP (Australie)
-              href: offering-IRAP-Australia.md
-            - name: NZ CC Framework (Nouvelle-Zélande)
-              href: offering-nz-cc-framework-nz.md
-        - name: Europe
-          items:
-            - name: BIR-2012 (Pays-Bas)
-              href: offering-bir-2012-netherlands.md
-            - name: C5 (Allemagne)
-              href: offering-c5-germany.md
-            - name: Cyber Essentials plus (Royaume-Uni)
-              href: offering-cyber-essentials-plus-uk.md
-            - name: "EN\_301 549 (UE)"
-              href: offering-en-301-549-eu.md
-            - name: ENS (Espagne)
-              href: offering-ens-spain.md
-            - name: ENISA IAF (UE)
-              href: offering-enisa.md
-            - name: Clauses types de l’UE
-              href: offering-eu-model-clauses.md
-            - name: Bouclier de protection des données UE-États-Unis
-              href: offering-eu-us-privacy-shield.md
-            - name: G-Cloud (Royaume-Uni)
-              href: offering-g-cloud-uk.md
-            - name: IDW PS 951 (Allemagne)
-              href: 'https://www.idw.de/the-idw/about-the-idw'
-            - name: IT Grundschutz Workbook (Allemagne)
-              href: offering-it-grundschutz-workbook-germany.md
-            - name: LOPD (Espagne)
-              href: offering-lopd-spain.md
-            - name: PASF (Royaume-Uni)
-              href: offering-pasf-uk.md
-            - name: Localisation de données personnelles (Russie)
-              href: offering-russia-data-localization.md
-        - name: Amérique du Nord
-          items:
-            - name: California Consumer Privacy Act (CCPA)
-              href: offering-ccpa.md
-            - name: Lois canadiennes sur la protection de la vie privée
-              href: offering-canadian-privacy-laws.md
-        - name: Amérique du Sud
-          items:
-            - name: PDPA (Argentine)
+            - name: PDPA Argentine
               href: offering-pdpa-argentina.md
+            - name: Lois sur la confidentialité du Canada
+              href: /azure/compliance/offerings/offering-canada-privacy-laws?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
+            - name: CCPA (États-Unis)
+              href: offering-ccpa.md
+        - name: Asie-Pacifique
+          items:
+            - name: IRAP Australie
+              href: offering-IRAP-Australia.md
+            - name: GB 18030 Chine
+              href: 'https://www.trustcenter.cn/compliance/default.html#GB18030'
+            - name: DJCP Chine (MLPS)
+              href: 'https://www.trustcenter.cn/compliance/default.html#DJCP'
+            - name: TCS Chine
+              href: 'https://aka.ms/TRUCS-Compliance'
+            - name: Inde MeitY
+              href: offering-meity-india.md
+            - name: CS Mark Japon (Gold)
+              href: offering-cs-mark-gold-japan.md
+            - name: ISMAP Japon
+              href: offering-ismap.md
+            - name: My Number Act (Japon)
+              href: offering-my-number-act-japan.md
+            - name: K-ISMS Corée
+              href: /azure/compliance/offerings/offering-korea-k-isms?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
+            - name: ISPC Nouvelle-Zélande
+              href: offering-nz-cc-framework-nz.md
+            - name: MTCS Singapour
+              href: offering-mtcs-singapore.md
+        - name: EMEA
+          items:
+            - name: 'EU EN 301 549 '
+              href: offering-en-301-549-eu.md
+            - name: EU ENISA IAF
+              href: /azure/compliance/offerings/offering-eu-enisa-iaf?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
+            - name: RGPD de l'UE
+              href: gdpr.md
+            - name: Clauses contractuelles types de l’UE
+              href: offering-eu-model-clauses.md
+            - name: C5 Allemagne
+              href: offering-c5-germany.md
+            - name: IDW PS 951 Allemagne
+              href: 'https://www.idw.de/the-idw/about-the-idw'
+            - name: IT Grundschutz Workbook Allemagne
+              href: /azure/compliance/offerings/offering-germany-it-grundschutz-workbook?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
+            - name: BIR 2012 Pays-Bas
+              href: offering-bir-2012-netherlands.md
+            - name: Localisation de données personnelles Russie
+              href: offering-russia-data-localization.md
+            - name: ENS High Espagne
+              href: offering-ens-spain.md
+            - name: LOPD Espagne
+              href: offering-lopd-spain.md
+            - name: DESC Émirats arabes unis
+              href: /azure/compliance/offerings/offering-uae-desc?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
+            - name: Cyber Essentials plus Royaume-Uni
+              href: /azure/compliance/offerings/offering-uk-cyber-essentials-plus?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
+            - name: G-Cloud Royaume-Uni
+              href: offering-g-cloud-uk.md
+            - name: PASF Royaume-Uni
+              href: /azure/compliance/offerings/offering-uk-pasf?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
 - name: Règlement général sur la protection des données (RGPD)
   items:
     - name: Vue d’ensemble du RGPD
@@ -308,11 +248,11 @@
       items:
         - name: Listes de vérification de préparation sur la responsabilité
           href: gdpr-arc.md
-        - name: "Azure et Dynamics\_365"
+        - name: Azure et Dynamics 365
           href: gdpr-arc-azure-dynamics.md
         - name: Aide et support Microsoft et services professionnels
           href: gdpr-arc-prof-services.md
-        - name: "Office\_365"
+        - name: Office 365
           href: gdpr-arc-office365.md
     - name: Demandes des personnes concernées
       items:
@@ -324,13 +264,13 @@
           href: gdpr-dsr-azure.md
         - name: Azure DevOps Services
           href: gdpr-dsr-vsts.md
-        - name: "Dynamics\_365"
+        - name: Dynamics 365
           href: gdpr-dsr-dynamics365.md
         - name: Intune
           href: gdpr-dsr-intune.md
         - name: Aide et support Microsoft et services professionnels
           href: gdpr-dsr-prof-services.md
-        - name: "Office\_365"
+        - name: Office 365
           href: gdpr-dsr-office365.md
         - name: Visual Studio Family
           href: gdpr-dsr-visual-studio-family.md
@@ -340,11 +280,11 @@
       items:
         - name: Notification de violation
           href: gdpr-breach-notification.md
-        - name: "Azure et Dynamics\_365"
+        - name: Azure et Dynamics 365
           href: gdpr-breach-azure-dynamics.md
         - name: Aide et support Microsoft et services professionnels
           href: gdpr-breach-microsoft-support-professional-services.md
-        - name: "Office\_365"
+        - name: Office 365
           href: gdpr-breach-office365.md
         - name: Windows Entreprise
           href: gdpr-breach-windows.md
@@ -354,11 +294,11 @@
           href: gdpr-data-protection-impact-assessments.md
         - name: Azure
           href: gdpr-dpia-azure.md
-        - name: "Dynamics\_365"
+        - name: Dynamics 365
           href: gdpr-dpia-dynamics.md
         - name: Aide et support Microsoft et services professionnels
           href: gdpr-dpia-prof-services.md
-        - name: "Office\_365"
+        - name: Office 365
           href: gdpr-dpia-office365.md
         - name: Windows Entreprise
           href: gdpr-dpia-windows.md
@@ -366,21 +306,21 @@
       items:
         - name: RGPD pour les serveurs Office locaux
           href: gdpr-for-office-servers.md
-        - name: "RGPD pour SharePoint\_Server"
+        - name: RGPD pour SharePoint Server
           href: gdpr-for-sharepoint-server.md
-        - name: "RGPD pour Exchange\_Server"
+        - name: RGPD pour Exchange Server
           href: gdpr-for-exchange-server.md
-        - name: "RGPD pour Skype\_Entreprise\_Server et Lync\_Server"
+        - name: RGPD pour Skype Entreprise Server et Lync Server
           href: gdpr-for-skype-for-business-server.md
-        - name: "RGPD pour Project\_Server"
+        - name: RGPD pour Project Server
           href: gdpr-for-project-server.md
-        - name: "RGPD pour Office\_Web\_Apps\_Server et Office\_Online\_Server"
+        - name: RGPD pour Office Web Apps Server et Office Online Server
           href: gdpr-for-office-online-server.md
-        - name: "RGPD pour les partages de fichiers Windows\_Server locaux"
+        - name: RGPD pour les partages de fichiers Windows Server locaux
           href: gdpr-for-on-premises-file-shares.md
     - name: Étapes supplémentaires pour exporter des données
       href: gdpr-system-generated-log-data.md
-    - name: "RGPD pour les environnements de développement/test Office\_365"
+    - name: RGPD pour les environnements de développement/test Office 365
       href: gdpr-discovery-protection-reporting-in-Office365-dev-test-environment.md
 - name: California Consumer Privacy Act (CCPA)
   items:

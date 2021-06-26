@@ -325,4 +325,4 @@
 - name: California Consumer Privacy Act (CCPA)
   items:
     - name: CCPA – Questions fréquentes
-      href: ccpa-faq.md
+      href: ccpa-faq.yml

@@ -1,0 +1,230 @@
+### YamlMime:FAQ
+metadata:
+  title: California Consumer Privacy Act (CCPA) FAQ
+  description: Forum aux questions sur les services Microsoft et le California Consumer Privacy Act (CCPA).
+  keywords: Microsoft 365, compliance, CCPA, GDPR
+  localization_priority: Priority
+  ms.prod: microsoft-365-enterprise
+  ms.topic: article
+  f1.keywords:
+  - NOCSH
+  ms.author: robmazz
+  author: robmazz
+  manager: laurawi
+  audience: itpro
+  ms.collection:
+  - M365-security-compliance
+  - MS-Compliance
+  ms.openlocfilehash: 2c0cbda2280ee8fad77dd5d879341b291bbe3aa2
+  ms.sourcegitcommit: 5d8e670e9d9968458047b51b6b2930f7bd14a011
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 06/25/2021
+  ms.locfileid: "53142279"
+title: Forum aux questions sur le California Consumer Privacy Act (CCPA)
+summary: >
+  > [!Note]
+
+  > Cette rubrique est proposée « tel quel ». Les informations et opinions exprimées dans cette rubrique, y compris l’URL et autres sites web références, sont susceptibles d’être modifiées sans préavis. Les risques inhérents à l’utilisation de ce document vous incombent. Cette rubrique a été pensée comme un guide et ne doit pas être interprétée comme une recommandation légale. Il est attendu que vous consultiez vos propres professionnels juridiques. Cette rubrique ne vous octroie aucun droit à une propriété intellectuelle vis-à-vis d'un quelconque produit Microsoft. Vous pouvez copier et utiliser cette rubrique à des fins internes de référence.
+sections:
+- name: FAQ rapide
+  questions:
+  - question: >
+      Qu’est-ce que le CCPA ?
+    answer: >
+      Le California Consumer Privacy Act (CCPA) est la première loi de confidentialité globale aux États-Unis. Elle a été promulguée à la fin du mois de juin 2018 et garantit des droits de confidentialité aux consommateurs de Californie. Les entreprises réglementées par le CCPA auront un certain nombre d’obligations envers ces consommateurs, notamment des divulgations, des droits de même que le Règlement général sur la protection des données (R GDPR) pour les consommateurs, un « désistement » pour certains transferts de données et une obligation de « refuser » pour les mineurs.
+  - question: >
+      Qui a besoin d’être informé sur le CCPA ?
+    answer: >
+      Le CCPA s’applique uniquement aux entreprises qui opèrent en Californie et qui remplissent annuellement une ou plusieurs des conditions suivantes : (1) elles présentent un revenu brut supérieur à 25 millions de dollars, (2) elles tirent 50% ou plus de leurs recettes annuelles de la vente d’informations personnelles, ou (3) elles achètent, vendent ou partagent les informations personnelles de plus de 50 000 consommateurs.
+  - question: >
+      Quand le CCPA entrera-t-elle en vigueur ?
+    answer: >
+      Le CCPA sera applicable à partir du 1er janvier 2020. Toutefois, il ne sera pas mis en vigueur par le Procureur Général avant le 1er juillet 2020.
+  - question: >
+      Quel effet le CCPA aura-t-il sur mon entreprise ?
+    answer: >
+      La plupart des droits du CCPA dont disposent les Californiens sont similaires aux droits que le R GDPR fournit, y compris les demandes de divulgation et de consommateur similaires aux demandes de droits de la personne autorisée (DSR), telles que l’accès, la suppression et la portabilité. Ainsi, les clients peuvent se tourner vers nos solutions RGPD existantes pour se mettre en conformité avec le CCPA.
+
+
+      Pour commencer votre parcours de mise en conformité avec le CCPA, il vous faudra vous concentrer sur cinq étapes clé :
+
+
+      - **Découvrir** : identifiez les informations personnelles dont vous disposez et où elles sont placées.
+
+      - **Mapper**: déterminez la manière dont vous partagez les informations personnelles avec des tiers et identifiez si ces tiers font l’objet d’une exception à l’obligation d’offrir la possibilité de refuser définie par le CCPA.
+
+      - **Gérer** : contrôlez la manière dont les données sont utilisées et accessibles.
+
+      - **Protéger** : Mettez en œuvre des contrôles de sécurité pour prévenir, détecter et réagir en cas de vulnérabilités ou de violations de données.
+
+      - **Documenter** : documentez un programme de réponse aux violations de données et assurez-vous que vos contrats avec des tiers concernés vous permettent de tirer parti des exceptions à l’obligation d’offrir la possibilité de refuser.
+
+
+      Vous devez comprendre les obligations spécifiques de votre organisation dans le cadre du CCPA et la façon dont vous les respectez, même si Microsoft est là pour vous aider dans votre parcours.
+- name: FAQ complète
+  questions:
+  - question: >
+      Quels droits les entreprises doivent-elles respecter dans le cadre du CCPA ?
+    answer: >
+      Le CCPA impose notamment aux entreprises réglementées qui collectent, utilisent, transfèrent et vendent des informations personnelles, de :
+
+
+      - Avant la collecte, mettre à disposition des consommateurs des informations concernant les catégories et objets de la collecte.
+
+      - Fournir des informations détaillées dans le cadre d’une politique de confidentialité concernant les sources, les objectifs commerciaux et les catégories d’informations personnelles collectées, notamment la façon dont ces catégories sont vendues ou transférées à d’autres entités.
+
+      - Rendre possible l’exercice des droits des consommateurs liés à l’accès, la suppression et la portabilité des éléments d’informations personnelles spécifiques que vous avez collectés.
+
+      - Activez un contrôle qui permettra aux consommateurs de refuser la « vente » des données du consommateur. Cependant, certains transferts, tels que les transferts vers les fournisseurs de services, restent autorisés.
+
+      - Pour les mineurs de moins de 16 ans, activez un processus d’opt-in afin qu’aucune vente d’informations personnelles de mineur ne puisse se produire sans participer activement à la vente.
+
+      - S’assurer que les consommateurs ne subissent pas de discriminations pour avoir exercé l’un des droits garantis par le CCPA.
+  - question: >
+      Quelles sont les obligations d’information requises par le CCPA ?
+    answer: >
+      La CCPA oblige à informer sur les éléments suivants :
+
+
+      - Les catégories d’informations personnelles du consommateur qui ont été collectées.
+
+      - Les catégories de sources utilisées dans la collecte.
+
+      - Les objectifs professionnels ou commerciaux de la collecte.
+
+      - Catégories de tiers avec lesquels les informations personnelles sont « partagées ».
+
+      - Catégories d’informations personnelles « vendues » et catégories de « tiers » auxquels chaque catégorie d’informations personnelles a été vendue.
+
+      - Les catégories d’informations personnelles qui ont été « divulguées à des fins commerciales » (c’est-à-dire transférées mais pas une « vente ») et les catégories de « tiers » auxquels chaque catégorie d’informations personnelles a été transférée.
+
+      - Les informations personnelles spécifiques qui ont été collectées sur ce consommateur.
+  - question: >
+      Comment les données sont-elles « vendues » dans le cadre du CCPA ?
+    answer: >
+      La définition de « vendre » dans le CCPA est extrêmement large, y compris « mettre à disposition des informations personnelles » à un tiers à des titres monétaires ou à d’autres considérations importantes. Lorsqu’un consommateur a choisi de « refuser », l’entreprise devra désactiver le flux d’informations personnelles vers n’importe quel tiers.
+
+
+      Le CCPA fournit un certain nombre de carve-outs à ce contrôle de désins opt-out « vente ». Les trois principales carve-outs sont les transferts (i) vers un fournisseur de services, (ii) vers une « entité exemptée » ou « annexe » et (iii) à la direction du consommateur. Même si un consommateur a choisi de « refuser », les informations personnelles peuvent continuer à être transférés à des tiers qui s’intègrent dans ces carve-outs.
+
+
+      Pour tirer parti des deux premières exceptions, les entreprises doivent s’assurer que les transferts sont régis par des contrats écrits énonçant les conditions spécifiques requises par le CCPA.
+  - question: >
+      Que signifient « Entreprises » et « Fournisseurs de services » dans le contexte du CCPA ?
+    answer: >
+      Dans le contexte du CCPA, les entreprises sont des individus ou des entités qui déterminent les objectifs et les moyens du traitement des données personnelles du consommateur, et les fournisseurs de services sont des individus ou des entités qui traitent des informations au nom d’une entreprise. Ils sont largement synonymes des termes *« Responsable de traitement »* et *« Sous-traitant »* utilisés dans le RGPD.
+  - question: >
+      Quel est le montant des amendes auxquelles les entreprises s’exposent en cas de non-conformité ?
+    answer: >
+      Le droit d’action privé dans le cadre du CCPA est limité aux violations de données. Dans le cadre du droit d’action privé, les dommages et intérêts peuvent être compris entre 100 $ et 750 $ par incident par client. Le procureur général de Californie peut également faire appliquer le CCPA dans son intégralité, avec la possibilité de percevoir une sanction civile d’au maximum 2 500 $ par violation ou 7 500 $ par violation intentionnelle.
+  - question: >
+      Quelles actions sont effectuées par Microsoft pour assurer la conformité avec le CCPA ?
+    answer: >
+      Puisque Microsoft a exécuté des DPC dans le cadre du RGPD dans le monde entier, nous sommes très bien placés pour répondre aux exigences du CCPA. Nous avons également examiné nos accords de partage de données tiers et pris des mesures pour établir que les conditions contractuelles nécessaires sont en place pour nous assurer que nous ne « vendons » pas d’informations personnelles.
+  - question: >
+      Quels outils peuvent aider mon organisation à commencer à se préparer pour le CCPA ?
+    answer: >
+      - Commencez à tirer parti de l’évaluation RGPD du Gestionnaire de Conformité dans le cadre de votre programme de confidentialité CCPA.
+
+      - Établissez un processus pour répondre efficacement aux demandes des consommateurs.
+
+      - Configurez les étiquettes et les stratégies de façon à découvrir, classifier et étiqueter, ainsi que protéger les données sensibles à l’aide de Microsoft Information Protection.
+
+      - Utilisez les fonctionnalités de chiffrement du courrier électronique pour contrôler davantage les informations sensibles.
+
+      - Pour plus d’informations, consultez ce [billet de blog](https://aka.ms/M365ComplianceBlog_RSA).
+  - question: >
+      Quelles sont les différences entre le RGPD et le CCPA ?
+    answer: >
+      Il existe de nombreuses différences. Il est plus facile de se concentrer sur les similitudes, notamment :
+
+
+      - Les obligations de transparence et d’information.
+
+      - Le droit des consommateurs d’accéder à, de supprimer et de recevoir une copie des données.
+
+      - Définition des « fournisseurs de services » qui est similaire à la façon dont le R GDPR définit les « processeurs » avec une obligation contractuelle similaire.
+
+      - Définition des « entreprises » qui englobe la définition R GDPR des « contrôleurs ».
+
+
+      La plus grande différence dans le CCPA est l’obligation principale d’activer une dés opposition aux ventes de données à des tiers (avec la « vente » largement définie pour inclure le partage de données à des considérations importantes). Il s’agit d’une obligation plus étroite et plus spécifique que le droit large du R GDPR à s’objecter au traitement, qui englobe ce type de « vente », mais n’est pas spécifiquement limité à couvrir ce type de partage.
+  - question: >
+      Que sont les « processeurs » et les « contrôleurs » ?
+    answer: >
+      Un responsable du traitement est une personne physique ou morale, une autorité publique, une agence ou un autre organisme qui, seul ou conjointement avec d’autres, détermine les finalités et les moyens du traitement des données à caractère personnel. Un sous-traitant est une personne physique ou morale, une autorité publique, une agence ou un autre organisme qui traite les données à caractère personnel pour le compte du responsable du traitement.
+  - question: >
+      Quelles informations sont spécifiquement considérées comme étant de caractère personnel ?
+    answer: >
+      Les informations à caractère personnel englobent toutes les informations relatives à une personne identifiée ou identifiable. Aucune distinction n’est faite entre les rôles privé, public et professionnel d’une personne. Le terme défini « informations personnelles » s’ajoute à peu près aux « données personnelles » dans le cadre du R GDPR. Toutefois, le CCPA inclut également les données relatives à la famille et au foyer.
+
+
+      Voici des exemples de données à caractère personnel :
+
+
+      *Identité*
+
+
+      - Nom
+
+      - Adresse privée
+
+      - Adresse de travail
+
+      - Numéro de téléphone
+
+      - Numéro de portable
+
+      - Adresse e-mail
+
+      - Numéro de passeport
+
+      - Numéro de carte d’identité nationale
+
+      - Numéro de sécurité sociale (ou équivalent)
+
+      - Permis de conduire
+
+      - Informations physiques, physiologiques ou génétiques
+
+      - Informations médicales
+
+      - Identité culturelle
+
+
+      *Finances*
+
+
+      - Coordonnées bancaires / numéros de compte
+
+      - Numéro de dossier fiscal
+
+      - Numéro de carte de crédit/débit
+
+      - Publications sur les réseaux sociaux
+
+
+      *Artefacts en ligne*
+
+
+      - Publications sur les réseaux sociaux
+
+      - Adresse IP (région UE)
+
+      - Données de localisation/GPS
+
+      - Cookies
+  - question: >
+      Comment le CCPA s’applique-t-il aux enfants ?
+    answer: >
+      - Le CCPA présente des obligations en matière de consentement parental en accord avec la réglementation COPPA (Children’s Online Privacy Protection Act) pour les enfants âgés de moins de 13 ans.
+
+      - Pour les enfants de 13 à 16 ans, le CCPA impose une nouvelle obligation d’obtenir le consentement de l’enfant pour toute « vente » de ses informations personnelles.
+  - question: >
+      Qu’en est-il des données personnelles de mes employés ?
+    answer: >
+      En octobre 2019, un certain nombre d’amendements ont été apportés au CCPA. Un avenant a clarifié que les obligations inscrites au CCPA ne s’appliquent pas aux informations personnelles des employés de l’entreprise. Cependant, le législateur a placé une temporisation d’un an sur cette exemption. Il est probable que la Californie établira une nouvelle loi sur la protection des données pour les employés en 2020.  
+  - question: >
+      En tant que client Microsoft, dois-je implémenter un bouton « Refuser » pour les transferts vers Microsoft ?
+    answer: Non. En tant que fournisseur de services en ligne, nous prenons des mesures pour nous assurer que nous sommes éligibles en tant que « fournisseur de services » dans le cadre du CCPA. Comme indiqué ci-dessus, les transferts d’informations personnelles aux prestataires de service sont autorisés, même si le consommateur a choisi de refuser.

@@ -20,18 +20,18 @@ ms.workload:
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-mar2020
 hideEdit: true
-ms.openlocfilehash: 5511888b34cd9e3eb7f4e76d86c91cea4f4924c6
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: a22c6af5ff43d2641299a460d7c34c730827a62a
+ms.sourcegitcommit: 5d8e670e9d9968458047b51b6b2930f7bd14a011
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088523"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53141495"
 ---
 # <a name="azure-devops-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>Demandes des personnes concernées par les données Azure DevOps Services pour le RGPD et le CCPA
 
 Le [Règlement général sur la protection des données (RGPD)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) de l’Union européenne permet aux utilisateurs, désignés dans le règlement comme les *personnes concernées*, de gérer les données personnelles collectées par le *contrôleur des données*. Le contrôleur des données, ou simplement *contrôleur*, est un employeur ou tout autre type d’agence ou organisation. Les données personnelles sont définies de manière générale dans le cadre du RGPD comme étant les données associées à une personne physique identifiée ou identifiable. Le RGPD octroie aux personnes concernées des droits spécifiques sur leurs données personnelles. Ces droits incluent l’obtention de copies des données personnelles, les demandes de correction de ces dernières, la restriction de leur traitement, leur suppression ou leur réception dans un format électronique afin de les transférer à un autre contrôleur. Toute demande formelle effectuée par une personne concernée à un contrôleur au sujet de la prise de mesure sur ses données personnelles est appelée *demande de personne concernée* ou DSR.
 
-De même, le CCPA (California Consumer Privacy Act), prévoit des droits de confidentialité et des obligations pour les consommateurs de la Californie, y compris des droits similaires aux droits des personnes concernées du RGPD, tels que le droit de supprimer, d’accéder et de recevoir (portabilité) leurs informations personnelles.  Le CCPA prévoit également des publications d’informations, des protections contre la discrimination des personnes faisant usage de leurs droits et la possibilité d’opter pour ou contre certains transferts de données classés en tant que « ventes ». Les ventes sont largement définies pour inclure le partage de données à des fins importantes. Pour plus d’informations sur le CCPA, voir le [California Consumer Privacy Act](offering-ccpa.md) et le [Forum aux questions California Consumer Privacy Act](ccpa-faq.md).
+De même, le CCPA (California Consumer Privacy Act), prévoit des droits de confidentialité et des obligations pour les consommateurs de la Californie, y compris des droits similaires aux droits des personnes concernées du RGPD, tels que le droit de supprimer, d’accéder et de recevoir (portabilité) leurs informations personnelles.  Le CCPA prévoit également des publications d’informations, des protections contre la discrimination des personnes faisant usage de leurs droits et la possibilité d’opter pour ou contre certains transferts de données classés en tant que « ventes ». Les ventes sont largement définies pour inclure le partage de données à des fins importantes. Pour plus d’informations sur le CCPA, voir le [California Consumer Privacy Act](offering-ccpa.md) et le [Forum aux questions California Consumer Privacy Act](ccpa-faq.yml).
 
 Pour obtenir des informations générales sur le RGPD, consultez la [section RGPD du portail d’approbation de services](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted).
 

@@ -1,7 +1,7 @@
 ---
 title: California Consumer Privacy Act (CCPA)
-description: Services Microsoft et ccpa (California Consumer Privacy Act).
-keywords: Offres pour la conformité Microsoft 365
+description: services Microsoft et le CCPA (California Consumer Privacy Act).
+keywords: Offres pour la conformité Microsoft 365
 localization_priority: None
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: df5b77a9ae9e5f38e695294b1180bba5a4ef8eca
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 83fa62315fa141e19c5c838c4b2961c1af364531
+ms.sourcegitcommit: 5d8e670e9d9968458047b51b6b2930f7bd14a011
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50121143"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53141445"
 ---
 # <a name="california-consumer-privacy-act-ccpa"></a>California Consumer Privacy Act (CCPA)
 
@@ -37,7 +37,7 @@ L’ag de Californie appliquera le CCPA et aura le pouvoir d’émettre des amen
 
 ## <a name="microsoft-and-the-ccpa"></a>Microsoft et le CCPA
 
-Pour les clients commerciaux qui font des affaires en Californie, Microsoft agit en tant que « fournisseur de services » par rapport à notre offre de services en ligne et professionnels.  Les conditions des conditions d’utilisation des services en ligne (OST) et du MSDPA (Microsoft Professional Services Data Protection Addendum) répondent déjà aux exigences des fournisseurs de services dans le cadre du CCPA et sont généralement suffisantes pour permettre aux clients de continuer à transférer des données vers nos services en ligne. Ainsi, aucune modification contractuelle supplémentaire n’est requise pour que les clients puissent compter sur Microsoft en tant que fournisseur de services dans le cadre du CCPA.
+Pour les clients commerciaux qui font des affaires en Californie, Microsoft agit en tant que « fournisseur de services » en ce qui concerne notre offre de services en ligne et Professional services.  Les conditions des conditions d’utilisation des services en ligne (OST) et du MSDPA (Microsoft Professional Services Data Protection Addendum) répondent déjà aux exigences des fournisseurs de services dans le cadre du CCPA et sont généralement suffisantes pour permettre aux clients de continuer à transférer des données vers nos services en ligne. Ainsi, aucune modification contractuelle supplémentaire n’est requise pour que les clients puissent compter sur Microsoft en tant que fournisseur de services dans le cadre du CCPA.
 
 Comme le prévoit le OST, Microsoft est conforme à toutes les lois et réglementations applicables à sa mise en service des services en ligne, qui comprendraient le CCPA.  
 
@@ -45,10 +45,10 @@ Comme le prévoit le OST, Microsoft est conforme à toutes les lois et réglemen
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Azure Dev Ops
-- [Dynamics 365](https://aka.ms/d365-compliance-list)
+- [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- [Office 365](https://aka.ms/o365-compliance-framework)
-- Support et services professionnels
+- [Office 365](https://aka.ms/o365-compliance-framework)
+- Prise en charge et Professional services
 - Visual Studio
 
 ## <a name="how-you-can-prepare-for-your-ccpa-compliance-when-using-microsoft-products-and-services"></a>Comment préparer votre conformité CCPA lors de l’utilisation des produits et services Microsoft
@@ -60,7 +60,7 @@ Voici quelques étapes que vous pouvez suivre pour vous préparer au CCPA :
 - Configurez les étiquettes et les stratégies de façon à découvrir, classifier et étiqueter, ainsi que protéger les données sensibles à l’aide de Microsoft Information Protection.
 - Utilisez les fonctionnalités de chiffrement du courrier électronique pour contrôler davantage les informations sensibles.
 
-## <a name="frequently-asked-questions"></a>Questions fréquemment posées
+## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
 **Quel effet le CCPA aura-t-il sur mon entreprise ?**
 
@@ -74,10 +74,10 @@ Il existe de nombreuses différences. Il est plus facile de se concentrer sur le
 
 - Obligations de transparence/divulgation,
 - Droits des consommateurs pour accéder à, supprimer et recevoir une copie des données,
-- Définition des « fournisseurs de services » qui est similaire à la façon dont le R GDPR définit les « processeurs » avec une obligation contractuelle similaire, et
+- Définition des « fournisseurs de services » qui est similaire à la façon dont le R GDPR définit les « processeurs » avec une obligation contractuelle similaire et
 - Définition des « entreprises » qui englobe la définition R GDPR des « contrôleurs ».
 
-La plus grande différence dans le CCPA est l’obligation principale d’activer une désentraiement des ventes de données à des tiers (avec « vente » définie à grande fin pour inclure le partage de données à des considérations importantes).
+La plus grande différence dans le CCPA est l’obligation principale d’activer une désentraiement des ventes de données à des tiers (avec la « vente » définie à grande fin pour inclure le partage de données à des considérations importantes).
 
 **Quels droits les entreprises doivent-elles respecter dans le cadre du CCPA ?**
 
@@ -104,5 +104,5 @@ Le CCPA nécessite des entreprises réglementées qui collectent, transfèrent e
 - [5 conseils pour vous aider à préparer la nouvelle loi californien sur la confidentialité des consommateurs](https://aka.ms/M365ComplianceBlog_RSA)
 - [Guide de mise en place du CCPA](https://info.microsoft.com/ww-landing-Five-tips-to-help-you-prepare-for-the-California-Consumer-Privacy-Act.html)
 - [Demandes des personnes soumises aux données et R GDPR](gdpr-data-subject-requests.md)
-- [California Consumer Privacy Act (CCPA) FAQ](ccpa-faq.md)
+- [California Consumer Privacy Act (CCPA) FAQ](ccpa-faq.yml)
 - [Conformité sur le site Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

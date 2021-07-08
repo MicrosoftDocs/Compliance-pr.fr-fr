@@ -7,6 +7,11 @@
       "redirect_document_id": true
     },
     {
+      "source_path": "compliance/regulatory/gdpr-breach-windows.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/compliance/regulatory/gdpr-breach-azure-dynamics-windows",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "compliance/assurance/assurance-defending-cloud-services-against-dos-attacks.md",
       "redirect_url": "https://docs.microsoft.com/compliance/assurance/assurance-microsoft-dos-defense-strategy",
       "redirect_document_id": true

@@ -39,15 +39,15 @@ conceptualContent:
           text: 'ISO 20000-1:2011'
         - url: /azure/compliance/offerings/offering-iso-20000-1
           itemType: reference
-          text: "ISO\_22301"
+          text: ISO 22301
         - url: offering-ISO-27001.md
           itemType: reference
-          text: "ISO\_27001"
-    - title: Global
-      links:
+          text: ISO 27001
         - url: offering-ISO-27017.md
           itemType: reference
-          text: "ISO\_27017"
+          text: ISO 27017
+    - title: Global
+      links:
         - url: offering-ISO-27018.md
           itemType: reference
           text: ISO 27018
@@ -57,9 +57,15 @@ conceptualContent:
         - url: /azure/compliance/offerings/offering-iso-9001
           itemType: reference
           text: ISO 9001
-        - url: offering-soc.md
+        - url: offering-soc-1.md
           itemType: reference
-          text: SOC
+          text: SOC 1
+        - url: offering-soc-2.md
+          itemType: reference
+          text: SOC 2
+        - url: offering-soc-3.md
+          itemType: reference
+          text: SOC 3
         - url: offering-wcag-2-1.md
           itemType: reference
           text: WCAG
@@ -74,20 +80,23 @@ conceptualContent:
         - url: offering-dfars.md
           itemType: reference
           text: DFARS
-        - url: offering-dod-disa-l2-l4-l5.md
+        - url: offering-dod-il2.md
           itemType: reference
-          text: 'DoD DISA L2, L4, L5'
-        - url: offering-doe-10-cfr-part-810.md
+          text: DoD IL2
+        - url: offering-dod-il5.md
           itemType: reference
-          text: DoE 10 CFR Part 810
+          text: DoD IL5
         - url: /azure/compliance/offerings/offering-doe-10-cfr-part-810
           itemType: reference
+          text: DoE 10 CFR Part 810
+        - url: offering-ear.md
+          itemType: reference
           text: EAR (US Export Adm. Reg.)
+    - title: Gouvernement américain
+      links:
         - url: offering-fedramp.md
           itemType: reference
           text: FedRAMP
-    - title: Gouvernement américain
-      links:
         - url: offering-fips-140-2.md
           itemType: reference
           text: FIPS 140-2
@@ -125,7 +134,7 @@ conceptualContent:
           text: CDSA
         - url: offering-cftc-1-31-us.md
           itemType: reference
-          text: "CFTC\_1.31 (ÉTATS-UNIS)"
+          text: CFTC 1.31 (ÉTATS-UNIS)
         - url: /azure/compliance/offerings/offering-dpp-uk
           itemType: reference
           text: DPP (Royaume-Uni)
@@ -221,7 +230,7 @@ conceptualContent:
           text: SEC 17a-4
         - url: /azure/compliance/offerings/offering-sec-reg-sci-us
           itemType: reference
-          text: SEC Regulation SCI (US)
+          text: Règlement SEC (États-Unis)
         - url: /azure/compliance/offerings/offering-shared-assessments
           itemType: reference
           text: Évaluations partagées
@@ -234,7 +243,7 @@ conceptualContent:
         - url: offering-trusight.md
           itemType: reference
           text: TruSight
-    - title: Régionaux
+    - title: Régional
       links:
         - url: /azure/compliance/offerings/offering-ospar-singapore
           itemType: reference
@@ -260,7 +269,7 @@ conceptualContent:
         - url: offering-cs-mark-gold-japan.md
           itemType: reference
           text: CS Mark Gold (Japon)
-    - title: Régionaux
+    - title: Régional
       links:
         - url: 'https://www.trustcenter.cn/compliance/default.html#DJCP'
           itemType: reference
@@ -276,17 +285,14 @@ conceptualContent:
           text: ENS (Espagne)
         - url: offering-eu-model-clauses.md
           itemType: reference
-          text: Clauses types de l’UE
-        - url: offering-eu-us-privacy-shield.md
-          itemType: reference
-          text: Bouclier de protection des données UE-ÉTATS-UNIS
+          text: Clauses contractuelles types de l’UE
         - url: 'https://www.trustcenter.cn/compliance/default.html#GB18030'
           itemType: reference
           text: GB 18030 (Chine)
         - url: gdpr.md
           itemType: reference
           text: GDPR (UE)
-    - title: Régionaux
+    - title: Régional
       links:
         - url: offering-g-cloud-uk.md
           itemType: reference
@@ -312,7 +318,7 @@ conceptualContent:
         - url: offering-mtcs-singapore.md
           itemType: reference
           text: MTCS (Singapour)
-    - title: Régionaux
+    - title: Régional
       links:
         - url: offering-my-number-act-japan.md
           itemType: reference

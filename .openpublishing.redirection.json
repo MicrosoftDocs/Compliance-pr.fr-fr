@@ -25,6 +25,16 @@
       "source_path": "compliance/regulatory/offering-EU-US-Privacy-Shield.md",
       "redirect_url": "https://docs.microsoft.com/compliance/regulatory/offering-home",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-soc.md",
+      "redirect_url": "https://docs.microsoft.com/compliance/regulatory/offering-home",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-DoD-DISA-L2-L4-L5.md",
+      "redirect_url": "https://docs.microsoft.com/compliance/regulatory/offering-home",
+      "redirect_document_id": false
     }
   ]
 }

@@ -1,5 +1,5 @@
 ---
-title: Décret Royal espagnol 1720/2007, Loi organique espagnole 15/1999
+title: Décret Royal espagnol 1720/2007, Loi organique espagnole 15/1999 (LOPD)
 description: Les clients de Microsoft Cloud sont autorisés par l’Agence espagnole de protection des données (AEPD) à réaliser des transferts de données internationaux.
 keywords: Offres pour la conformité Microsoft 365
 localization_priority: Priority
@@ -16,14 +16,14 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a665e6be33d42901597de23f39b6e71ae9c2fe70
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 29b4c3bf83d2fea147e2e7ce5294136040fa58ba
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089798"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384564"
 ---
-# <a name="spanish-royal-decree-17202007-spanish-organic-law-151999"></a>Décret Royal espagnol 1720/2007, Loi organique espagnole 15/1999
+# <a name="spanish-royal-decree-17202007-spanish-organic-law-151999-lopd"></a>Décret Royal espagnol 1720/2007, Loi organique espagnole 15/1999 (LOPD)
 
 ## <a name="spanish-royal-decree-17202007-spanish-organic-law-151999-overview"></a>Présentation du Décret Royal espagnol 1720/2007, Loi organique espagnole 15/1999
 
@@ -35,12 +35,26 @@ Le Titre VIII du Décret royal 1720/2007 établit également des exigences stric
 
 Microsoft a été le premier fournisseur de services Cloud à grande échelle à recevoir, pour le bénéfice de ses clients, une autorisation de l’Agence espagnole de Protection des données (Agencia Española de Protección de Datos, ou AEPD) pour sa conformité aux normes strictes régissant les transferts de données internationaux en vertu de la Loi organique espagnole 15/1999 (Ley Orgánica 15/1999 de Protección de Datos, ou LOPD). Microsoft est également le premier fournisseur de services Cloud à grande échelle à obtenir une certification d’audit tierce pour la conformité de ses services en ligne avec les mesures de sécurité énoncées au titre VIII du Décret Royal 1720/2007. Cette autorisation permet aux clients de réaliser des transferts de données à caractère personnel vers les services Microsoft Azure, Dynamics 365 et Office 365, couverts par les clauses contractuelles types de l’Union européenne.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Plateformes cloud et services Microsoft dans l’étendue
 
-- [Microsoft Azure](https://aka.ms/AzureCompliance)
-- [Microsoft Dynamics 365](https://aka.ms/d365-compliance-list)
+- Azure
+- [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- [Microsoft Office 365](https://aka.ms/o365-compliance-framework)
+- Office 365
+
+## <a name="office-365-and-lopd"></a>Office 365 et LOPD
+
+### <a name="office-365-cloud-environments"></a>Environnements cloud Office 365
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Applicabilité Office 365 et services dans l’étendue
+
+Utilisez le tableau suivant pour déterminer l’applicabilité de vos services et abonnements Office 365 :
+
+| **Applicabilité** | **Services dans l’étendue** |
+|:------------------|:----------------------|
+| **Office 365** | Azure Active Directory, Azure Information Protection, Bookings, Gestionnaire de conformité, Delve, Exchange Online, Exchange Online Protection, Formulaires, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender pour Office 365, Microsoft Graph, Microsoft Teams, Microsoft To-Do pour le web, MyAnalytics, module complémentaire Conformité avancée Office 365, office 365 Cloud App Security, groupes Office 365, Office 365 Centre de sécurité et de conformité, Office 365 Vidéo , Office Online, Office Pro Plus, OneDrive Entreprise, Planificateur, PowerApps, Power Automate, Power BI, SharePoint Online, Skype Entreprise, StaffHub, Stream, Sway, Yammer Entreprise |
 
 ## <a name="audits-reports-and-certificates"></a>Audits, rapports et certificats
 

@@ -20,18 +20,18 @@ ms.workload:
 titleSuffix: Microsoft GDPR
 ms.custom: seo-marvel-apr2020
 hideEdit: true
-ms.openlocfilehash: 46b59094b188e6ceac58c4aa1fac6dedf8c55671
-ms.sourcegitcommit: 5d8e670e9d9968458047b51b6b2930f7bd14a011
+ms.openlocfilehash: 4a4ec723a046b65ade51b2e7aaa08fcda3a1908d
+ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53141465"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377941"
 ---
 # <a name="visual-studio-family-data-subject-requests-for-the-gdpr-and-ccpa"></a>Demandes des personnes concernées par le traitement des données pour Visual Studio Family concernant le RGPD et le CCPA
 
-Le [Règlement général sur la protection des données (RGPD)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) de l’Union européenne permet aux utilisateurs (désignés dans le règlement comme étant les _personnes concernées par le traitement des données_) de gérer leurs données personnelles. Les données personnelles sont définies de manière générale dans le cadre du RGPD comme toutes données associées à une personne physique identifiée ou identifiable. Le RGPD octroie aux personnes concernées par le traitement des données des droits spécifiques sur leurs données personnelles. Ces droits incluent l’obtention de copies des données personnelles, les demandes de corrections de ces dernières, la restriction de leur traitement, leur suppression ou leur réception dans un format électronique. Toute demande formelle effectuée par une personne concernée par le traitement des données à une entité de contrôle des données (un employeur ou tout autre type d’agence ou d’organisation qui contrôle des données personnelles) au sujet de la prise de mesure sur ses données personnelles est appelée _demande de la personne concernée par le traitement des données_ ou « DPC ».
+Le [Règlement général sur la protection des données](https://ec.europa.eu/justice/data-protection/reform/index_en.htm) de l’Union européenne (RGPD) donne aux personnes (connues dans la réglementation comme _personnes concernées par les données_) le droit de gérer leurs données personnelles. Dans le RGPD, les données personnelles sont définies de façon générale comme toute donnée relative à une personne physique identifiée ou identifiable. Le RGPD accorde aux personnes concernées des droits spécifiques sur leurs données personnelles ; ces droits incluent l’obtention de copies de données personnelles, la demande de corrections, la restriction de leur traitement, leur suppression ou leur réception dans un format électronique. Une demande formelle d’une personne concernée par un contrôleur de données (un employeur ou un autre type d’agence ou d’organisation qui a le contrôle sur les données personnelles) d’entreprendre une action sur les données personnelles de cette personne est appelée _Demande de la personne concernée_ ou DPC.
 
-De même, le CCPA (California Consumer Privacy Act), prévoit des droits de confidentialité et des obligations pour les consommateurs de la Californie, y compris des droits similaires aux droits des personnes concernées du RGPD, tels que le droit de supprimer, d’accéder et de recevoir (portabilité) leurs informations personnelles.  Le CCPA prévoit également des publications d’informations, des protections contre la discrimination des personnes faisant usage de leurs droits et la possibilité d’opter pour ou contre certains transferts de données classés en tant que « ventes ». Les ventes sont largement définies pour inclure le partage de données à des fins importantes. Pour plus d’informations sur le CCPA, voir le [California Consumer Privacy Act](offering-ccpa.md) et le [Forum aux questions California Consumer Privacy Act](ccpa-faq.yml).
+De même, le CCPA (California Consumer Privacy Act) prévoit des droits de confidentialité et des obligations pour les consommateurs de la Californie, y compris des droits similaires aux droits des personnes concernées en vertu du RGPD, tels que le droit de supprimer, d’accéder et de recevoir (portabilité) leurs informations personnelles.  Le CCPA prévoit également des publications d’informations, des protections contre la discrimination des personnes faisant usage de leurs droits et la possibilité d’opter pour ou contre certains transferts de données classés en tant que « ventes ». Les ventes sont largement définies pour inclure le partage de données à des fins importantes. Pour plus d’informations sur le CCPA, voir le [California Consumer Privacy Act](offering-ccpa.md) et le [Forum aux questions California Consumer Privacy Act](ccpa-faq.yml).
 
 Pour obtenir des informations générales sur le RGPD, consultez la [section RGPD du portail d’approbation de services](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted).
 
@@ -212,9 +212,9 @@ Pour obtenir plus d’informations relatives aux DSR pour le site web IIS.NET, c
 
 ## <a name="other-visual-studio-family-services"></a>Autres services Visual Studio Family
 
-### <a name="surveymonkey"></a>SurveyMonkey
+### <a name="survey-monkey"></a>Survey Monkey
 
-De temps à autre, nous invitons des clients à fournir des commentaires sur ces produits par l’intermédiaire de SurveyMonkey. Ces données sont supprimées dans un délai de 28 jours. Lors du traitement des demandes des personnes concernées par le traitement des données pour ces produits, si nous avons des réponses de sondage authentifiées, nous les incluons dans l’exportation et la suppression desdites demandes.
+De temps à autre, nous invitons les clients à fournir des commentaires sur ces produits via Survey Monkey. Ces données sont supprimées de Survey Monkey sous un délai de 28 jours. Microsoft peut conserver ces données en interne pendant 18 mois maximum. Si les réponses à l’enquête sont authentifiées, nous les incluons dans les demandes d’exportation et de suppression des personnes concernées lors de la maintenance des demandes des personnes concernées pour ces produits.
 
 ## <a name="learn-more"></a>En savoir plus
 

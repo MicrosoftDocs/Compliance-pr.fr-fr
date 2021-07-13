@@ -1,7 +1,7 @@
 ---
 title: Reserve Bank of India (RBI) and Insurance Regulatory and Development Authority of India (IRDAI)
 description: Microsoft a publié des conseils pour aider les institutions financières en Inde avec l’adoption du cloud.
-keywords: Offres pour la conformité Microsoft 365
+keywords: Offres pour la conformité Microsoft 365
 localization_priority: None
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6d94152e51345631b2fe1650f9324183d3fd300e
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: fbeb7cefc0096225b5de012f62da951ae41d7045
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50119983"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384354"
 ---
 # <a name="reserve-bank-of-india-rbi-and-insurance-regulatory-and-development-authority-of-india-irdai"></a>Reserve Bank of India (RBI) and Insurance Regulatory and Development Authority of India (IRDAI)
 
@@ -46,13 +46,13 @@ Lorsque les institutions financières indiens externalisent des activités comme
 La liste de contrôle Microsoft aide les entreprises financières en Inde qui effectuent des évaluations de la diligence raisonnable des services cloud de Microsoft Business et inclut :
 
 - Vue d’ensemble du paysage réglementaire dans le contexte.
-- Liste de vérification qui définit les problèmes à résoudre et met en conformité Microsoft Azure, Microsoft Dynamics 365 et les services Microsoft Office 365 avec ces obligations réglementaires. La liste de contrôle peut être utilisée comme outil pour mesurer la conformité par rapport à un cadre réglementaire et fournir une structure interne pour documenter la conformité, et aider les clients à effectuer leurs propres évaluations des risques des services Cloud entreprise Microsoft.
+- Liste de contrôle qui définit les problèmes à résoudre et met en Microsoft Azure, Microsoft Dynamics 365 et les services Microsoft Office 365 les obligations réglementaires. La liste de contrôle peut être utilisée comme outil pour mesurer la conformité par rapport à un cadre réglementaire et fournir une structure interne pour documenter la conformité, et aider les clients à effectuer leurs propres évaluations des risques des services Cloud entreprise Microsoft.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Plateformes cloud microsoft dans l’étendue & services
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
-- [Dynamics 365](https://download.microsoft.com/download/E/1/9/E1977163-7A86-4812-AC18-C03ADC958AAF/Microsoft_Dynamics_365_Cloud_Service_Compliance_Datasheet.pdf)
-- [Microsoft 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9f756cce-b15d-45a9-94d7-6a583dee4401&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
+- [Dynamics 365](https://aka.ms/d365-compliance-list)
+- [Microsoft 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9f756cce-b15d-45a9-94d7-6a583dee4401&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 
 ## <a name="how-to-implement"></a>Modalités de mise en œuvre
 
@@ -62,7 +62,7 @@ La liste de contrôle Microsoft aide les entreprises financières en Inde qui ef
 
 ## <a name="frequently-asked-questions"></a>Questions fréquemment posées
 
-**Existe-t-il des conditions impératives devant être incluses dans le contrat avec le fournisseur de services cloud computing ?**
+**Existe-t-il des conditions impératives devant être incluses dans le contrat avec le fournisseur de services Cloud ?**
 
 Oui. Les instructions référencés ci-dessus stipulent certains points spécifiques que les institutions financières doivent incorporer dans leurs contrats de services cloud. La partie 2 de la liste de [contrôle](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) (page 70) les mase avec les sections des documents contractuels Microsoft où elles sont traitées.
 

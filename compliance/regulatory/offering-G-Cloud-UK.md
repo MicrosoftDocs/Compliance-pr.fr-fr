@@ -1,7 +1,7 @@
 ---
 title: Government-Cloud Royaume-Uni (G-Cloud)
 description: Le service commercial de l’État a renouvelé la classification des services cloud de Microsoft vers le cloud du secteur public v.6.
-keywords: Offres pour la conformité Microsoft 365
+keywords: Offres pour la conformité Microsoft 365
 localization_priority: None
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,16 +16,16 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 887d6a2be0ef4b1d9f1d22eefc53e3fc23e75e22
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: b39c658a768dc106008dcd73a064b05706f734c6
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088813"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384964"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>Government-Cloud Royaume-Uni (G-Cloud)
 
-## <a name="uk-g-cloud-overview"></a>Vue d’ensemble du G-Cloud au Royaume-Uni
+## <a name="uk-g-cloud-overview"></a>Vue d’ensemble de G-Cloud au Royaume-Uni
 
 Le cloud du secteur public (G-Cloud) est une initiative du gouvernement du Royaume-Uni visant à faciliter l’approvisionnement des services cloud par les services du gouvernement et à promouvoir l’adoption du cloud computing à l’échelle du gouvernement. G-Cloud comprend une série d’accords d’infrastructure avec des fournisseurs de services cloud (tels que Microsoft) et une liste de leurs services dans une boutique en ligne, la Place de marché numérique. Celles-ci permettent aux organisations du secteur public de comparer et d’obtenir ces services sans avoir à faire leur propre processus de révision complète. L’inclusion sur la place de marché numérique nécessite une auto-attestation de conformité, suivie d’une vérification effectuée par la branche Service numérique du secteur public (GDS) à sa discrétion.
 
@@ -39,18 +39,32 @@ Chaque année, Microsoft prépare la documentation et envoie des preuves pour at
 
 Le rendez-vous de services Microsoft sur la place de marché numérique signifie que les agences gouvernementales et partenaires du Royaume-Uni peuvent utiliser des services dans le cadre pour stocker et traiter les données officielles du gouvernement du Royaume-Uni, la plupart des données gouvernementales. En outre, plus de 450 partenaires Microsoft sont désormais inclus dans G-Cloud et sont des revendeurs des services cloud de Microsoft. Ils peuvent directement s’assurer de la conformité des services dans l’étendue avec les 14 principes dans leurs propres applications. Toutefois, les clients et les partenaires doivent se conformer à tous les composants qui ne sont pas inclus dans l’attestation et la détermination de la conformité pour les services cloud de Microsoft.
 
- [14](https://azure.microsoft.com/resources/14-cloud-security-controls-for-uk-cloud-using-microsoft-azure/) Cloud Security Controls for UK cloud using Microsoft Azure provides customer strategies to move their services to Azure and help meet their UK obligations mandated by the CESG/NCSC. Le livre blanc fournit des informations sur la façon dont Azure peut être utilisé pour vous aider à résoudre les 14 contrôles décrits dans les principaux de sécurité cloud, et explique comment les clients peuvent aller plus rapidement et gagner plus d’argent tout en économiseant de l’argent à mesure qu’ils adoptent des services Microsoft Azure.
+ [14](https://azure.microsoft.com/resources/14-cloud-security-controls-for-uk-cloud-using-microsoft-azure/) Cloud Security Controls for UK cloud using Microsoft Azure provides customer strategies to move their services to Azure and help meet their UK obligations mandated by the CESG/NCSC. Le livre blanc fournit des informations sur la façon dont Azure peut être utilisé pour vous aider à résoudre les 14 contrôles décrits dans les principaux de sécurité cloud, et explique comment les clients peuvent se déplacer plus rapidement et gagner plus d’argent tout en économisent de l’argent lorsqu’ils adoptent des services Microsoft Azure.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft concernés
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Plateformes cloud microsoft dans l’étendue & services
 
-- [Azure](https://aka.ms/AzureCompliance)
+- Azure
 - Microsoft Cloud App Security
-- [Dynamics 365](https://aka.ms/d365-compliance-list)
+- [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- Service Cloud Power Automate (anciennement Microsoft Flow), soit en service autonome, soit inclus dans un plan ou une suite Office 365 ou Dynamics 365
-- Office 365 : Exchange Online, SharePoint Online et Skype Entreprise Online
-- Service Cloud Microsoft PowerApps, soit en service autonome, soit inclus dans un plan ou une suite Office 365 ou Dynamics 365
-- Service Cloud Power BI soit en service autonome, soit inclus dans un plan ou une suite Office 365
+- Office 365
+- Power Automate service cloud (anciennement Microsoft Flow) (en tant que service autonome ou inclus dans un plan ou une suite Office 365 ou Dynamics 365)
+- Service cloud PowerApps (en tant que service autonome ou inclus dans un plan ou une suite Office 365 ou Dynamics 365)
+- Power BI service cloud (en tant que service autonome ou inclus dans Office 365 plan ou suite personnalisé)
+
+## <a name="office-365-and-uk-g-cloud"></a>Office 365 et G-Cloud (Royaume-Uni)
+
+### <a name="office-365-cloud-environments"></a>Office 365 cloud
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 applicabilité et services dans l’étendue
+
+Utilisez le tableau suivant pour déterminer l’applicabilité de vos services Office 365 et de votre abonnement :
+
+| **Applicabilité** | **Services dans l’étendue** |
+|:------------------|:----------------------|
+| **Office 365** | Exchange Online, SharePoint Online, Skype Entreprise |
 
 ## <a name="audits-reports-and-certificates"></a>Audits, rapports et certificats
 
@@ -82,7 +96,7 @@ Le déplacement de vos services publics vers le cloud est désormais plus facile
 
 [Commencer à utiliser azure UK G-Cloud Blueprint](https://aka.ms/ukofficialblueprint)
 
-## <a name="frequently-asked-questions"></a>Foire aux questions
+## <a name="frequently-asked-questions"></a>Questions fréquemment posées
 
 **Qui est-il éligible pour utiliser la Place de marché numérique ?**
 
@@ -99,7 +113,7 @@ Microsoft Cloud au Royaume-Uni fournit une fiabilité et des performances combin
 - Vous pouvez voir les nouvelles régions Azure, le Royaume-Uni et le Sud du Royaume-Uni, sur la [carte Azure globale.](https://azuredatacentermap.azurewebsites.net/)
 - Par Office 365, les centres de données du Royaume-Uni constituent collectivement la nouvelle région Office 365 Royaume-Uni. Vous pouvez en savoir plus sur la [carte Office 365 globale.](https://o365datacentermap.azurewebsites.net/)
 
-**Où se trouvent les autres centres de données De l’UE Microsoft ?**
+**Où se trouvent les autres centres de données Microsoft UE ?**
 
 Outre les centres de données au Royaume-Uni, les services cloud de Microsoft disposent de centres de données dans plusieurs emplacements. Pour obtenir la liste la plus à jour de tous les centres, visitez notre [page d’emplacement des données.](https://www.microsoft.com/TrustCenter/Privacy/where-your-data-is-located)
 

@@ -19,18 +19,18 @@ search.appverid:
 - MOE150
 titleSuffix: Microsoft Service Assurance
 hideEdit: true
-ms.openlocfilehash: 9ac4a87670d1889e9c74e5ec6afe8920b96946fc
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 65462901c72bcda1af4e1b58bc0df2caa6cbaec9
+ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088773"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377561"
 ---
 # <a name="resiliency-and-continuity-overview"></a>Aperçu sur la résilience et la continuité
 
 ## <a name="how-does-microsoft-ensure-business-continuity-in-the-case-of-a-disaster-or-other-threat-to-service-availability"></a>Comment Microsoft assure-t-il la continuité de l’activité en cas d’urgence ou d’une autre menace pour la disponibilité du service ?
 
-L’équipe Enterprise gestion de la continuité d’activité (EBCM) de Microsoft supervise la gestion de la continuité des opérations et les activités de récupération d’urgence au sein des offres services Microsoft et cloud. Les représentants des unités commerciales Microsoft, telles que Microsoft 365, se coordonnent avec l’équipe EBCM pour développer des plans de continuité d’activité et valider la conformité avec les exigences de continuité d’activité.
+L’équipe Enterprise gestion de la continuité d’activité (EBCM) de Microsoft supervise la gestion de la continuité des opérations et les activités de récupération d’urgence au sein services Microsoft et les offres cloud. Les représentants des unités commerciales Microsoft, telles que Microsoft 365, se coordonnent avec l’équipe EBCM pour développer des plans de continuité d’activité et valider la conformité avec les exigences de continuité d’activité.
 
 Le cycle de vie bcm est au cœur de notre méthodologie de gestion de la continuité d’activité (BCM). Ce processus en trois phases est conçu pour être adaptable afin qu’il puisse être implémenté par un large éventail de modèles métiers dans Microsoft. Elle commence par une **phase** d’évaluation pour identifier les processus et objectifs critiques qui doivent être inclus dans le programme de continuité d’activité. La phase d’évaluation nécessite également une analyse d’impact commercial (BIA). La phase de **Planification** se concentre sur le développement et l’implémentation de stratégies de résilience et de récupération, ainsi que sur leur documentation dans les plans de continuité de l’activité officiel. Enfin, la **validation des fonctionnalités** teste les plans de continuité d’activité et leurs implémentations pour vérifier l’efficacité et identifier les améliorations potentielles.
 
@@ -52,7 +52,7 @@ Les données brutes pour la planification de la capacité sont conservées par c
 
 ## <a name="how-does-microsoft-365-maintain-service-availability-during-routine-system-failures"></a>Comment maintenir la disponibilité Microsoft 365 service en cas de défaillances système de routine ?
 
-Microsoft 365 une résilience de service par le biais d’une architecture redondante, d’une réplication des données et d’une vérification automatisée de l’intégrité. L’architecture redondante implique le déploiement de plusieurs instances d’un service sur du matériel géographiquement et physiquement distinct, offrant ainsi une tolérance de panne accrue pour Microsoft 365 services. La réplication des données garantit qu’il existe toujours plusieurs copies de données client dans différentes zones d’erreur, ce qui permet de récupérer des données client critiques en cas de corruption, de perte ou même de suppression accidentelle par le client. La vérification automatisée de l’intégrité augmente la disponibilité des données en restaurant automatiquement les données touchées par de nombreux types d’altération physique ou logique.
+Microsoft 365 une résilience de service par le biais d’une architecture redondante, d’une réplication des données et d’une vérification automatisée de l’intégrité. L’architecture redondante implique le déploiement de plusieurs instances d’un service sur du matériel géographiquement et physiquement distinct, offrant ainsi une tolérance de panne accrue pour Microsoft 365 services. La réplication des données garantit qu’il existe toujours plusieurs copies de données client dans différentes zones d’erreur, ce qui permet de récupérer des données client critiques si elles sont endommagées, perdues ou même supprimées accidentellement par le client. La vérification automatisée de l’intégrité augmente la disponibilité des données en restaurant automatiquement les données touchées par de nombreux types d’altération physique ou logique.
 
 ## <a name="related-external-regulations--certifications"></a>Réglementations externes associées & certifications
 
@@ -70,7 +70,7 @@ Les services en ligne de Microsoft sont régulièrement audités pour assurer la
 ## <a name="resources"></a>Ressources
 
 - [Livre blanc Enterprise du programme de gestion de la continuité d’activité de Microsoft](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=64f922a6-d624-40dd-a8ae-6f996b5186f3&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f) 
-- [Microsoft Cloud EBCM and Disaster Recovery Plan Validation Report: FY21 Q3](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=c072d11c-9cc9-42e1-b1cf-7281572fb1dd&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_FAQ_and_White_Papers)
+- [Microsoft Cloud EBCM and Disaster Recovery Plan Validation Report: FY21 Q4](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=83dc940a-2078-4e14-8b7d-07128e5b453d&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_FAQ_and_White_Papers)
 
 ## <a name="legal-disclaimer"></a>Clause d’exclusion de responsabilité légale
 

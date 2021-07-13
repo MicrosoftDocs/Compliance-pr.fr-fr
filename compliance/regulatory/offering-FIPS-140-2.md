@@ -1,7 +1,7 @@
 ---
 title: Publication FIPS (Federal Information Processing Standard) 140-2
 description: Microsoft certifie que ses modules de chiffrement sont conformes à la norme de traitement des informations fédérales des États-Unis.
-keywords: Offres pour la conformité Microsoft 365
+keywords: Offres pour la conformité Microsoft 365
 localization_priority: None
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0838ce11e732f5c6e8c79c40af0e85bff9d22caf
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 2c51979122aaedda90bac74740e95c9d1265de74
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089728"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385004"
 ---
 # <a name="federal-information-processing-standard-fips-publication-140-2"></a>Publication FIPS (Federal Information Processing Standard) 140-2
 
@@ -37,19 +37,37 @@ Microsoft s’engage activement à répondre aux exigences 140-2, ayant validé 
 
 Pour plus d’informations techniques sur les modules de chiffrement Microsoft Windows, la stratégie de sécurité pour chaque module et le catalogue de détails de certificat CMVP, voir le contenu WINDOWS et [Windows Server FIPS 140-2.](https://aka.ms/AA6ehud)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft concernés
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Plateformes cloud microsoft dans l’étendue & services
 
 Alors que les recommandations d’implémentation FIPS 140-2 CMVP actuelles empêchent une validation FIPS 140-2 pour un service cloud lui-même ; Les fournisseurs de services cloud peuvent choisir d’obtenir et d’exploiter des modules de chiffrement validés PAR LA FIPS 140 pour les éléments informatiques qui composent leur service cloud. Les services en ligne Microsoft qui incluent des composants, qui ont été validés par la fiPS 140-2, incluent, entre autres :
 
-- [Azure et Azure Government](/azure/azure-government/documentation-government-plan-security)
-- [Dynamics 365 et Dynamics 365 Government](/microsoft-365/compliance/office-365-encryption-in-microsoft-dynamics-365)
-- [Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense](/microsoft-365/compliance/office-365-encryption-risks-and-protections)
+- Azure et Azure Government
+- Dynamics 365 et Dynamics 365 Government
+- Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense
 
-## <a name="frequently-asked-questions"></a>Foire aux questions
+## <a name="azure-dynamics-365-and-fips-140-2"></a>Azure, Dynamics 365 et FIPS 140-2
 
-**Quelle est la différence entre « FIPS 140 Validé » et « FIPS 140 conforme » ?**
+Pour plus d’informations sur Azure, Dynamics 365 et d’autres services en ligne, voir l’offre [FiPS 140-2 Azure.](/azure/compliance/offerings/offering-fips-140-2)
 
-« FIPS 140 Validé » signifie que le module de chiffrement ou un produit qui incorpore le module a été validé (« certifié ») par le CMVP comme étant satisfait aux exigences fiPS 140-2. « Conforme à la norme FIPS 140 » est un terme du secteur pour les produits qui s’appuient sur les produits validés FIPS 140 pour la fonctionnalité de chiffrement.
+## <a name="office-365-and-fips-140-2"></a>Office 365 et FIPS 140-2
+
+### <a name="office-365-cloud-environments"></a>Office 365 cloud
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 applicabilité et services dans l’étendue
+
+Utilisez le tableau suivant pour déterminer l’applicabilité de vos services Office 365 et de votre abonnement :
+
+| **Applicabilité** | **Services dans l’étendue** |
+|:------------------|:----------------------|
+| Office 365, Cloud de la communauté du secteur public, Cloud de la communauté du secteur public High, DoD | Voir [Validation FIPS 140-2](/windows/security/threat-protection/fips-140-validation) |
+
+### <a name="frequently-asked-questions"></a>Questions fréquemment posées
+
+**Quelle est la différence entre « FIPS 140 Validé » et « FiPS 140 conforme » ?**
+
+« FIPS 140 Validé » signifie que le module de chiffrement, ou un produit qui incorpore le module, a été validé (« certifié » par le CMVP pour répondre aux exigences FIPS 140-2. La « conformité FIPS 140 » est un terme du secteur pour les produits it qui s’appuient sur les produits validés FIPS 140 pour la fonctionnalité de chiffrement.
 
 **Quand Microsoft entre-t-il en validation FIPS 140 ?**
 
@@ -71,19 +89,15 @@ Cette mise en garde informe le lecteur que les règles de configuration et de s�
 
 Oui, le Programme de gestion des risques et d’autorisations (FedRAMP) s’appuie sur les lignes de base de contrôle définies par le [NIST SP 800-53 Revision 4,](https://nvd.nist.gov/800-53/Rev4/)y compris la protection cryptographique [SC-13](https://nvd.nist.gov/800-53/Rev4/control/SC-13) qui impose l’utilisation du chiffrement validé par fiPS ou du chiffrement approuvé par la NSA.
 
-**Comment la Microsoft Azure la fiPS 140-2 ?**
-
-Azure est créé avec une combinaison de matériel, de systèmes d’exploitation disponibles sur le marché (Linux et Windows) et d’une version spécifique d’Azure Windows. Via le cycle de vie de développement de la sécurité [Microsoft](https://www.microsoft.com/securityengineering/sdl/) (SDL), tous les services Azure utilisent des algorithmes approuvés FIPS 140-2 pour la sécurité des données, car le système d’exploitation utilise des algorithmes approuvés FIPS 140-2 tout en fonctionnant sur un cloud à grande échelle.
-
 **Puis-je utiliser l’adhésion de Microsoft à FIPS 140-2 dans le processus de certification de mon agence ?**
 
 Pour se conformer à fiPS 140-2, votre système doit être configuré pour s’exécuter dans un mode de fonctionnement approuvé PAR FIPS, ce qui inclut la garantie qu’un module de chiffrement utilise uniquement les algorithmes approuvés par FIPS. Pour plus d’informations sur la configuration de systèmes conformes, voir le contenu [Windows et Windows Server FIPS 140-2.](https://aka.ms/AA6ehud)
 
 **Quelle est la relation entre fiPS 140-2 et critères communs ?**
 
-Il s’existe deux normes de sécurité distinctes à des fins différentes, mais complémentaires. FIPS 140-2 est conçu spécifiquement pour valider les modules de chiffrement logiciels et matériels, tandis que les critères communs sont conçus pour évaluer les fonctions de sécurité dans les logiciels informatiques et les produits matériels. Les évaluations des critères courants s’appuient souvent sur les validations FIPS 140-2 pour garantir que la fonctionnalité de chiffrement de base est correctement implémentée.
+Il s’existe deux normes de sécurité distinctes à des fins différentes, mais complémentaires. FIPS 140-2 est conçu spécifiquement pour valider les modules de chiffrement logiciels et matériels, tandis que les critères communs sont conçus pour évaluer les fonctions de sécurité dans les logiciels informatiques et les produits matériels. Les évaluations de critères courants s’appuient souvent sur les validations FIPS 140-2 pour garantir que la fonctionnalité de chiffrement de base est correctement implémentée.
 
-## <a name="resources"></a>Ressources
+### <a name="resources"></a>Ressources
 
 - [Exigences de sécurité fiPS Pub 140-2 pour les modules de chiffrement](https://csrc.nist.gov/publications/fips/fips140-2/fips1402.pdf)
 - [Programme de validation de module de chiffrement NIST](https://csrc.nist.gov/groups/STM/cmvp/index.html)

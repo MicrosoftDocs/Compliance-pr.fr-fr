@@ -1,7 +1,7 @@
 ---
 title: Programme d’évaluation de sécurité des informations pour le gouvernement australien (IRAP)
 description: Microsoft est inclus dans la liste des services cloud certifiés australiens pour les données DLM (Unclassified Dissemination Limiting Markers) et PROTECTED basées sur une évaluation et une certification IRAP par le Centre australien de cybersécurité (ACSC).
-keywords: Microsoft 365, conformité, offres
+keywords: Offres pour la conformité Microsoft 365
 localization_priority: None
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 340d805c3b339eaa8082f7be00ad20ef54e3e8e4
-ms.sourcegitcommit: 68d927bc03a6e03aecdeac25aba9ae0265d7baf4
+ms.openlocfilehash: 8fb98bfab57008cdee3c2fbb049c7f34af361c37
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "50715036"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384824"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>Programme d’évaluation de sécurité des informations pour le gouvernement australien (IRAP)
 
@@ -32,20 +32,20 @@ Le programme IRAP (Information Security Registered Assessor Program) fournit un 
 Le programme IRAP (Information Security Registered Assessors Program) est régi et administré par le Centre australien de cybersécurité (ACSC). L’IRAP fournit l’infrastructure permettant d’approuver les individus des secteurs privé et public afin de fournir des services d’évaluation de la cybersécurité au gouvernement australien. Les évaluateurs IRAP approuvés peuvent fournir une évaluation indépendante de la sécurité TIC, suggérer des atténuations et mettre en évidence les risques inhérents. L’IRAP fournit un processus complet pour l’évaluation indépendante de la sécurité d’un système par rapport aux politiques et directives du gouvernement australien. L’objectif de l’IRAP est d’optimiser la sécurité des données fédérales, gouvernementales et locales australiens en se concentrant sur l’infrastructure des technologies de l’information et des communications qui stocke, traite et communique.
 
 - En 2014, Azure a été lancé en tant que premier service cloud évalué par l’IRAP en Australie, hébergé à partir de centres de données à Melbourne et Sydney. Ces deux centres de données donnent aux clients australiens le contrôle sur l’endroit où leurs données client sont stockées, tout en fournissant une meilleure protection des données en cas de catastrophes par le biais de sauvegardes aux deux emplacements.
-- Début 2015, Office 365 est devenu le premier service de productivité cloud à effectuer cette évaluation.
-- En avril 2015, l’ASD a annoncé la certification CCSL d’Azure et d’Office 365, et de Dynamics 365 en novembre 2015.
-- En juin 2017, ASD a annoncé la nouvelleertification de Microsoft Azure et d’Office 365 pour un ensemble de services très étendu.
-- En avril 2018, l’ACSC a annoncé la certification d’Azure et d’Office 365 au niveau de la classification PROTECTED. Microsoft est le premier et le seul fournisseur de cloud public à obtenir ce niveau de certification.
+- Au début de 2015, Office 365 est devenu le premier service de productivité cloud à effectuer cette évaluation.
+- En avril 2015, l’ASD a annoncé la certification CCSL d’Azure et de Office 365, et en novembre 2015, de Dynamics 365.
+- En juin 2017, l’ASD a annoncé la nouvelleertification de Microsoft Azure et Office 365 pour un ensemble de services très étendu.
+- En avril 2018, l’ACSC a annoncé la certification d’Azure et Office 365 la classification PROTECTED. Microsoft est le premier et le seul fournisseur de cloud public à obtenir ce niveau de certification.
 - En septembre 2019, l’étendue d’évaluation IRAP mise à jour de Microsoft a été étendue pour inclure 113 services au niveau de la classification PROTECTED.
-- En décembre 2020, Microsoft a publié deux évaluations IRAP incrémentielles pour Azure et Office 365. Ces rapports ont utilisé les nouvelles instructions après la cessation de la liste des services cloud certifiés (CCSL). Les rapports contiennent à la fois une évaluation de Microsoft en tant que fournisseur de services Cloud (CSP) et d’autres services qui sont incrémentielles dans les rapports 2019 dans Azure, Dynamics et Office 365.
+- En décembre 2020, Microsoft a publié deux évaluations IRAP incrémentielles pour Azure et Office 365. Ces rapports ont utilisé les nouvelles instructions après la cessation de la liste des services cloud certifiés (CCSL). Les rapports contiennent une évaluation de Microsoft en tant que fournisseur de services Cloud (CSP) et d’autres services qui sont incrémentielles dans les rapports 2019 dans Azure, Dynamics et Office 365.
 
 ## <a name="microsoft-and-irap"></a>Microsoft et IRAP
 
-En décembre 2020, Microsoft a effectué deux évaluations Incrémentielles Azure & Dynamics et Office 365. Ces évaluations ont ajouté d’autres services évalués au niveau de classification de PROTECTED. En outre, ces évaluations [ont](https://www.cyber.gov.au/acsc/government/cloud-security-guidance) été effectuées dans le cadre des nouvelles recommandations en matière de sécurité cloud après CCSL, comme indiqué dans l’anatomie d’une évaluation cloud et des instructions d’autorisation de l’ACSC.
+En décembre 2020, Microsoft a effectué deux évaluations incrémentielles d’Azure & Dynamics et Office 365 d’évaluation. Ces évaluations ont ajouté d’autres services évalués au niveau de classification de PROTECTED. En outre, ces évaluations [ont](https://www.cyber.gov.au/acsc/government/cloud-security-guidance) été effectuées dans le cadre des nouvelles recommandations en matière de sécurité cloud après CCSL, comme indiqué dans l’anatomie d’une évaluation cloud et des instructions d’autorisation de l’ACSC.
 
 Pour chaque évaluation, Microsoft a engagé un évaluateur IRAP agréé acSC qui a examiné les contrôles et processus de sécurité utilisés par l’équipe des opérations informatiques de Microsoft, les centres de données physiques, la détection des intrusions, le chiffrement, la sécurité entre domaines et réseau, le contrôle d’accès et la gestion des risques de sécurité des informations des services dans l’étendue. Les évaluations de l’IRAP ont découvert que l’architecture du système Microsoft est basée sur des principes de sécurité solide et que les contrôles applicables du Manuel de sécurité des informations du gouvernement australien (ISM) sont en place et totalement efficaces dans nos services évalués.
 
-L’infrastructure de gestion des risques utilisée par l’ISM s’appuie sur la publication spéciale [800-37 rev. 2 du National Institute of Standards and Technology (NIST) 800-37 Rev. 2](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final), « Risk Management Framework for Information Systems and Organizations: A System Life-Cycle Approach for Security and Privacy ». Dans cette infrastructure de gestion des risques, l’identification des risques et la sélection des contrôles de sécurité peuvent être entreprises à l’aide de différentes normes de gestion des risques, telles que l’Organisation internationale de normalisation [(ISO) 31000:2018,](https://www.iso.org/standard/65694.html)la gestion des risques - Recommandations. Globalement, l’infrastructure de gestion des risques utilisée par l’ISM est en six étapes :
+L’infrastructure de gestion des risques utilisée par l’ISM s’appuie sur le [NIST (National Institute of Standards and Technology) Special Publication (SP) 800-37 Rev. 2](https://csrc.nist.gov/publications/detail/sp/800-37/rev-2/final). Dans cette infrastructure de gestion des risques, l’identification des risques et la sélection des contrôles de sécurité peuvent être entreprises à l’aide de différentes normes de gestion des risques, telles que l’Organisation internationale de normalisation [(ISO) 31000:2018,](https://www.iso.org/standard/65694.html)la gestion des risques - Recommandations. Globalement, l’infrastructure de gestion des risques utilisée par l’ISM est en six étapes :
 
 - Définir le système
 - Sélectionner des contrôles de sécurité
@@ -58,14 +58,32 @@ Comme toujours, des contrôles de compensation supplémentaires peuvent être im
 
 L’évaluation IRAP des services et des opérations cloud de Microsoft permet d’assurer aux clients du secteur public et à leurs partenaires que Microsoft dispose de contrôles de sécurité appropriés et efficaces en place pour le traitement, le stockage et la transmission des données classées jusqu’au niveau protégé et y compris le niveau de protection. Cette évaluation inclut la plupart des données relatives au secteur public, aux soins de santé et à l’éducation en Australie.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft concernés
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Plateformes cloud microsoft dans l’étendue & services
 
-- [Azure](https://aka.ms/AzureCompliance)
-- [Dynamics 365](https://aka.ms/d365-compliance-list)
+- Azure
+- [Dynamics 365](https://aka.ms/d365-compliance-list)
 - [Bureau géré Microsoft](/microsoft-365/managed-desktop/intro/compliance)
-- [Office 365](https://aka.ms/Office365ComplianceOfferings)
+- Office 365
 
-## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
+## <a name="azure-dynamics-365-and-irap"></a>Azure, Dynamics 365 et IRAP
+
+Pour plus d’informations sur Azure, Dynamics 365 et d’autres services en ligne de conformité, voir l’offre [IRAP Azure.](/azure/compliance/offerings/offering-australia-irap)
+
+## <a name="office-365-and-irap"></a>Office 365 et IRAP
+
+### <a name="office-365-cloud-environments"></a>Office 365 cloud
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Office 365 applicabilité et services dans l’étendue
+
+Utilisez le tableau suivant pour déterminer l’applicabilité de vos services Office 365 et de votre abonnement :
+
+| **Applicabilité** | **Services dans l’étendue** |
+|:------------------|:----------------------|
+| **Office 365** | Exchange Online, Exchange Online Protection, Formulaires, Microsoft Teams, portail client Office 365, Office Online, infrastructure de service Office, OneDrive Entreprise, Planificateur, SharePoint Online, Skype Entreprise, Tableau blanc, Yammer |
+
+### <a name="frequently-asked-questions"></a>Questions fréquemment posées
 
 **À qui l’IRAP s’applique-t-il ?**
 
@@ -73,17 +91,17 @@ L’IRAP s’applique à toutes les agences fédérales, gouvernementales et loc
 
 **Puis-je utiliser la conformité de Microsoft dans le processus d’évaluation et d’approbation des risques de mon organisation ?**
 
-Oui. Si votre organisation nécessite ou cherche une approbation pour fonctionner en ligne avec l’ISM, vous pouvez utiliser les évaluations de sécurité IRAP d’Azure, Dynamics 365, Bureau géré Microsoft et Office 365 dans votre évaluation des risques. Toutefois, vous êtes responsable de l’implication d’un évaluateur pour évaluer votre implémentation telle qu’elle est déployée sur les plateformes de Microsoft, ainsi que pour les contrôles et les processus au sein de votre propre organisation.
+Oui. Si votre organisation a besoin d’une approbation pour fonctionner en ligne avec l’ISM, vous pouvez utiliser les évaluations de sécurité IRAP d’Azure, Dynamics 365, Microsoft Manged Desktop et Office 365 dans votre évaluation des risques. Toutefois, vous êtes responsable de l’implication d’un évaluateur pour évaluer votre implémentation telle qu’elle est déployée sur les plateformes de Microsoft, ainsi que pour les contrôles et les processus au sein de votre propre organisation.
 
 **Par où commencer avec l’évaluation et l’approbation des risques propres à mon organisation pour fonctionner ?**
 
 Il est recommandé de lire les recommandations en matière d’évaluations de sécurité dans le [Cloud](https://www.cyber.gov.au/acsc/government/cloud-security-guidance) du AcSC.
 
-## <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de Conformité Microsoft pour évaluer vos risques
+### <a name="use-microsoft-compliance-manager-to-assess-your-risk"></a>Utilisez le Gestionnaire de Conformité Microsoft pour évaluer vos risques
 
 [Le Gestionnaire de Conformité Microsoft](/microsoft-365/compliance/compliance-manager) est une fonctionnalité dans le [centre de conformité Microsoft 365](/microsoft-365/compliance/microsoft-365-compliance-center) pour vous aider à comprendre la position de la conformité de votre organisation et à prendre des mesures pour réduire les risques. Le Gestionnaire de Conformité offre un modèle Premium pour la création d’une évaluation de ce règlement. Recherchez le modèle sur la page **modèles d’évaluation** dans le Gestionnaire de Conformité. Découvrez comment [créer des évaluations dans le Gestionnaire de Conformité](/microsoft-365/compliance/compliance-manager-assessments).
 
-## <a name="resources"></a>Ressources
+### <a name="resources"></a>Ressources
 
 - [ISM pour le gouvernement australien](https://acsc.gov.au/infosec/ism/index.htm)
 - [Page Australie du portail d’confiance des services Microsoft (STP)](https://aka.ms/au-irap)

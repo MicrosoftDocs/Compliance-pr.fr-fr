@@ -1,7 +1,7 @@
 ---
 title: Financial Industry Regulatory Authority (FINRA) Rule 4511(c) United States
 description: Une société d’évaluation indépendante a validé qu’Azure et Office 365 peuvent aider les entreprises financières à respecter les exigences de rétention et de stockage immuables des enregistrements de la RÈGLE 4511 de la FINRA.
-keywords: Offres pour la conformité Microsoft 365
+keywords: Offres pour la conformité Microsoft 365
 localization_priority: None
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 35c24da993fd40cd787650389ab8324eca1cf828
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 5db72902615eef26b45b5d4eeaa52132ee3703b1
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089537"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385024"
 ---
 # <a name="financial-industry-regulatory-authority-finra-rule-4511c-united-states"></a>Financial Industry Regulatory Authority (FINRA) Rule 4511(c) United States
 
@@ -33,11 +33,11 @@ En 2011, la Commission de sécurité et d’Exchange (SEC) des États-Unis a app
 
 En outre, la règle 4511(c) de la FINRA exige que les entreprises conservent pendant une période d’au moins six ans ces livres et enregistrements pour lesquels il n’existe aucune période de rétention spécifiée en vertu des règles FINRA ou SEA applicables. En fait, si les livres et les enregistrements concernent un compte, la période de rétention est obligatoire pour être de six ans après la fermeture du compte. Sinon, la période de rétention est de six ans après la création de ces livres et enregistrements.
 
-## <a name="microsoft-and-finra-rule-4511c"></a>Microsoft et la règle FINRA 4511(c)
+## <a name="microsoft-and-finra-rule-4511c"></a>Microsoft et la RÈGLE FINRA 4511(c)
 
-Les clients des services financiers, qui représentent l’un des secteurs les plus réglementés au monde, sont soumis à des dispositions complexes, telles que la conservation des transactions financières et des communications associées dans un état non révisable et non modifiable. Parmi celles-ci figure la règle 4511 de l’Autorité de régulation financière (FINRA) qui prévoit des exigences strictes pour les entités réglementées qui choisient de conserver des livres et des enregistrements sur des supports de stockage électronique. Les enregistrements stockés doivent être falsifiés sans possibilité de les modifier ou de les supprimer avant la période de rétention désignée.
+Les clients des services financiers, qui représentent l’un des secteurs les plus réglementés au monde, sont soumis à des dispositions complexes telles que la conservation des transactions financières et des communications associées dans un état non révolu et non modifiable. Parmi celles-ci figure la règle 4511 de l’Autorité de régulation financière (FINRA) qui prévoit des exigences strictes pour les entités réglementées qui choisient de conserver des livres et des enregistrements sur des supports de stockage électronique. Les enregistrements stockés doivent être falsifiés sans possibilité de les modifier ou de les supprimer avant la période de rétention désignée.
 
-Microsoft Azure Les Stockage blob non permutables avec verrouillage de stratégie et Microsoft Office 365 avec verrouillage de conservation peuvent aider les institutions financières à répondre aux exigences de stockage immuables de la règle 4511(c) de la FINRA.
+Microsoft Azure Les Stockage blob non permutables avec verrouillage de stratégie et Microsoft Office 365 avec verrouillage de conservation peuvent aider les institutions financières à répondre aux exigences de stockage immuables de la règle FINRA 4511(c).
 
 ## <a name="microsoft-azure"></a>Microsoft Azure
 
@@ -51,7 +51,7 @@ Les fournisseurs de logiciels et les partenaires avec des charges de travail sen
 
 Pour les exigences de la [RÈGLE 4511(c)](/microsoft-365/compliance/retention-regulatory-requirements#sec-17a-4f-finra-4511c-and-cftc-131c-d) de la FINRA, Cohasset a validé que Microsoft 365 inclut des fonctionnalités d’archivage qui permettent aux clients réglementés, y compris les courtiers, de stocker des données d’une manière qui les aide à se conformer aux exigences de la SEC pour la rétention des enregistrements. Les fonctionnalités de rétention Microsoft 365 permettent de conserver un large éventail de données, notamment la messagerie électronique, la messagerie vocale, les documents partagés, les messages instantanés et les données tierces. En particulier, l’archivage dans Microsoft 365 permet aux clients de définir des stratégies de rétention de messagerie globales ou granulaires pour stocker les données pour une période définie et au-delà dans un format non réécritable et non effaçable.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft concernés
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Plateformes cloud microsoft dans l’étendue & services
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
 - [Office 365](https://aka.ms/Office365ComplianceOfferings)
@@ -69,7 +69,7 @@ Pour les exigences de la [RÈGLE 4511(c)](/microsoft-365/compliance/retention-re
 ## <a name="how-to-implement"></a>Modalités de mise en œuvre
 
 - **Réglementation des services financiers**: carte de conformité des principaux principes réglementaires américains pour le cloud computing et les services en ligne Microsoft. [En savoir plus](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
-- **Guide d'évaluation des risques et de conformité**: créez un modèle de gouvernance pour l'évaluation des risques des services de cloud computing Microsoft et la notification aux autorités de réglementation. [En savoir plus](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+- **Guide d'évaluation des risques et de la conformité**: créez un modèle de gouvernance pour l'évaluation des risques des services de cloud computing Microsoft et la notification aux autorités de régulation. [En savoir plus](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 - **Cas d'utilisation financière** : utilisez des aperçus de cas, des didacticiels et d'autres ressources pour créer des solutions Azure pour services financiers. [En savoir plus](/azure/industry/financial/)
 
 ## <a name="resources"></a>Ressources

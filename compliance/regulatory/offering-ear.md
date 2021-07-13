@@ -1,7 +1,7 @@
 ---
 title: Réglementations américaines en matière d’administration des exportations (EAR)
 description: Les services cloud de Microsoft aident les clients soumis aux réglementations américaines en matière d’administration des exportations (EAR) à respecter leurs exigences de conformité et à gérer les risques de contrôle d’exportation.
-keywords: Offres pour la conformité Microsoft 365
+keywords: Offres pour la conformité Microsoft 365
 localization_priority: None
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0c05010d43ea345024b63e2653e37eb0f42443f4
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: b3867c9d8c165c451813929d49dc5936e643e95c
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089768"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384224"
 ---
 # <a name="us-export-administration-regulations-ear"></a>Réglementations américaines en matière d’administration des exportations (EAR)
 
@@ -37,7 +37,7 @@ Les conseils bis indiquent que, lorsque des données ou des logiciels sont tél�
 - Ré-exporte ou retransférer des éléments d’origine américaine et certains éléments d’origine étrangère avec plus d’une partie *de minimis* du contenu d’origine américaine.
 - Transferts ou divulgations à des personnes d’autres pays.
 
-Les éléments soumis à la fonction EAR se trouvent dans la liste de contrôle commercial (CCL) où chaque élément est affecté d’un numéro [eccn (Export Control Classification Number)](https://www.bis.doc.gov/index.php/licensing/commerce-control-list-classification/export-control-classification-number-eccn)unique. Les éléments qui ne sont pas répertoriés dans la liste de contrôle d’accès sont désignés comme EAR99 et la plupart des produits commerciaux EAR99 ne nécessitent pas de licence pour être exportés. Toutefois, selon la destination, l’utilisateur final ou l’utilisation finale de l’élément, même un élément EAR99 peut nécessiter une licence d’exportation BIS.
+Les éléments soumis à l’ear se trouvent dans la liste de contrôle commercial (CCL) où chaque élément est affecté d’un numéro [eccn (Export Control Classification Number)](https://www.bis.doc.gov/index.php/licensing/commerce-control-list-classification/export-control-classification-number-eccn)unique. Les éléments qui ne sont pas répertoriés dans la liste de contrôle d’accès sont désignés comme EAR99 et la plupart des produits commerciaux EAR99 ne nécessitent pas de licence pour être exportés. Toutefois, selon la destination, l’utilisateur final ou l’utilisation finale de l’élément, même un élément EAR99 peut nécessiter une licence d’exportation BIS.
 
 La dernière [règle,](https://www.federalregister.gov/documents/2016/06/03/2016-12734/revisions-to-definitions-in-the-export-administration-regulations)publiée en juin 2016, a permis de clarifier que les exigences de licence EAR ne s’appliquent pas non plus à la transmission et au stockage de données techniques et de logiciels non classifiés s’ils sont chiffrés de bout en bout à l’aide de modules de chiffrement validés par la FIPS 140-2 et qu’ils n’ont pas été stockés intentionnellement dans un pays étranger ou dans la Fédération de Russie.
 
@@ -48,10 +48,10 @@ Les technologies, produits et services Microsoft sont soumis aux réglementation
 Le département du Commerce des États-Unis, qui applique l’ear, a pris la position selon laquelle les clients, et non les fournisseurs de services cloud tels que Microsoft, sont considérés comme des exportateurs de leurs propres données client. Bien que la plupart des données client ne soient pas considérées comme des « technologies » ou des « données techniques » soumises aux contrôles d’exportation EAR, les services cloud microsoft dans l’étendue sont structurés pour aider les clients à gérer et atténuer considérablement les risques potentiels liés au contrôle d’exportation auxquels ils sont confrontés. Microsoft recommande généralement, mais pas exclusivement, l’utilisation de ses services cloud pour le gouvernement pour les clients éligibles. Avec une planification appropriée, les clients peuvent utiliser les outils suivants et leurs propres procédures internes pour garantir la conformité totale avec les contrôles d’exportation américains.
 
 - **Contrôles sur l’emplacement des données**. Les clients ont une visibilité sur l’endroit où leurs données sont stockées et ont accès à des outils robustes pour limiter leur stockage. Ils peuvent par conséquent s’assurer que leurs données sont stockées aux États-Unis et minimiser le transfert de technologies contrôlées ou de données techniques en dehors des États-Unis. En outre, les données client ne sont pas stockées dans un emplacement non conforme, conformément aux interdictions EAR sur l’endroit où les données sont « stockées intentionnellement » : aucun centre de données Azure n’est situé dans l’un des 25 pays du groupe D:5 ou dans la Fédération de Russie.
-- **Chiffrement de bout en bout.** En profitant de la sphère de sécurité de chiffrement de bout en bout pour les emplacements de stockage physiques spécifiés dans l’ear, les services cloud microsoft dans le périmètre offrent des fonctionnalités de chiffrement qui peuvent vous protéger contre les risques de contrôle d’exportation. Ils offrent également aux clients un large éventail [d’options](https://aka.ms/Azure-Encryption-Overview) pour le chiffrement des données en transit et au repos, et la flexibilité de choix parmi les options de chiffrement.
+- **Chiffrement de bout en bout.** En profitant de la sphère de sécurité de chiffrement de bout en bout pour les emplacements de stockage physiques spécifiés dans l’ear, les services cloud microsoft dans le périmètre offrent des fonctionnalités de chiffrement qui peuvent vous protéger contre les risques de contrôle d’exportation. Ils offrent également aux clients un large éventail [d’options](https://aka.ms/Azure-Encryption-Overview) pour le chiffrement des données en transit et au repos, et offrent la possibilité de choisir parmi les options de chiffrement.
 - **Outils et protocoles permettant d’empêcher l’exportation considérée comme non autorisée.** L’utilisation du chiffrement permet également de se protéger contre une exportation considérée comme potentielle (ou considérée comme ré-exportée) sous l’ear, car même si une personne non américaine a accès à des données chiffrées, rien n’est révélé s’il ne peut pas lire ou comprendre les données pendant qu’elles sont chiffrées ; par conséquent, il n’existe aucune « publication » de données contrôlées.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft concernés
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Plateformes cloud microsoft dans l’étendue & services
 
 - [Azure et Azure Government](https://aka.ms/AzureCompliance)
 - [Office 365 Secteur Public (Cloud de la communauté du secteur public-High et DoD)](https://aka.ms/Office-365-Export-Controls)
@@ -75,7 +75,7 @@ Dans le cadre de la technologie EAR, lorsque les données sont téléchargées v
 La plupart des technologies, produits et services Microsoft :
 
 - Ne sont pas soumis à l’EAR et ne sont donc pas dans la liste de contrôles commerciaux et n’ont pas d’ECCN ;
-- Ou bien, ils sont éligibles au marché de masse EAR99 ou 5D992 pour une classification autonome par Microsoft et peuvent être exportés vers des pays non-abonnés sans licence en tant qu’aucune licence requise (NLR).
+- Ou bien, ils sont éligibles au marché de masse EAR99 ou 5D992 pour une classification autonome par Microsoft et peuvent être exportés vers des pays non-abonnés sans licence sans licence requise (NLR).
 
 Cela dit, certains produits Microsoft se sont vus attribuer un ECCN qui peut ou non nécessiter une licence. Consultez l’ear ou le conseiller juridique pour déterminer le type de licence approprié et les pays éligibles à des fins d’exportation.
 

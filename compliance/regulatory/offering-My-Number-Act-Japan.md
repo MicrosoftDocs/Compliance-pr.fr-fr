@@ -1,7 +1,7 @@
 ---
 title: My Number Act (Japon)
 description: Les services Cloud de Microsoft Entreprise respectent les normes My Number Act pour protéger la confidentialité des informations My Number.
-keywords: Offres pour la conformité Microsoft 365
+keywords: Offres pour la conformité Microsoft 365
 localization_priority: Priority
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f9c3ebd4c4988366d429f7b6cfc377f4f9c8a611
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 92e67729125916b1ec34f7e305468f7e07489d12
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120073"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384464"
 ---
 # <a name="my-number-act-japan"></a>My Number Act (Japon)
 
@@ -39,7 +39,7 @@ Le [Q\&A](https://www.ppc.go.jp/legal/policy/faq/) (japonais) publié par la Com
 
 Les services de Cloud Microsoft Entreprise (Microsoft Business cloud services) répondent à ces exigences dans les [termes de Services Microsoft Online](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)qui stipulent que la propriété et la responsabilité des données client contenant les données My Number incombent à nos clients, et non à Microsoft. Par conséquent, le client doit avoir des contrôles appropriés en place pour protéger les données My Number contenues dans les données des clients.
 
-Microsoft ne disposant pas d’un accès permanent aux données My Number stockées dans ses services Cloud, un contrat d’« externalisation » pour le traitement des données My Number n’est pas obligatoire. Si un client souhaite que Microsoft ait accès aux données client contenant les données My Number, il doit créer un contrat d’externalisation supplémentaire avec Microsoft pour chaque cas, avant de formuler une telle demande.
+Microsoft ne disposant pas d’un accès permanent aux données My Number stockées dans ses services Cloud, un contrat d’« externalisation » pour le traitement des données My Number n’est pas obligatoire. Si un client souhaite que Microsoft ait accès aux données client contenant les données My Number, il doit créer un contrat d’externalisation supplémentaire avec Microsoft pour chaque cas, avant de formuler une telle demande.
 
 Les conditions stipulent également que Microsoft s'engage à utiliser les données des clients uniquement pour fournir des services au client— et non à des fins publicitaires ou commerciales similaires, et que Microsoft a mis en place des systèmes de contrôle d'accès robustes.
 
@@ -47,28 +47,38 @@ En ce qui concerne les problèmes de sécurité, les services Cloud Microsoft En
 
 Par conséquent, les services de Cloud Microsoft Entreprise prennent en charge les exigences My Number Act et ne créent aucune obligation supplémentaire dans le cadre de la loi pour les clients, comme l’accord d’un propriétaire individuel de données personnelles.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Plateformes cloud et services Microsoft dans l’étendue
 
-- [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
-- [Dynamics 365](https://download.microsoft.com/download/E/1/9/E1977163-7A86-4812-AC18-C03ADC958AAF/Microsoft_Dynamics_365_Cloud_Service_Compliance_Datasheet.pdf)
+- Azure
+- [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- [Office 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9f756cce-b15d-45a9-94d7-6a583dee4401&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
+- Office 365
+
+## <a name="office-365-and-the-my-number-act"></a>Office 365 et My Number Act
+
+### <a name="office-365-cloud-environments"></a>Environnements cloud Office 365
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Applicabilité Office 365 et services dans l’étendue
+
+Utilisez le tableau suivant pour déterminer l’applicabilité de vos services et abonnements Office 365 :
+
+| **Applicabilité** | **Services dans l’étendue** |
+|:------------------|:----------------------|
+| **Office 365** | Azure Active Directory, Azure Information Protection, Bookings, Gestionnaire de conformité, Delve, Exchange Online, Exchange Online Protection, Formulaires, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Defender pour Office 365, Microsoft Graph, Microsoft Teams, Microsoft To-Do pour le web, MyAnalytics, module complémentaire Conformité avancée Office 365, office 365 Cloud App Security, groupes Office 365, Office 365 Centre de sécurité et de conformité, Office 365 Vidéo , Office Online, Office Pro Plus, OneDrive Entreprise, Planificateur, PowerApps, Power Automate, Power BI, SharePoint Online, Skype Entreprise, StaffHub, Stream, Sway, Yammer Entreprise |
 
 ## <a name="how-to-implement"></a>Modalités de mise en œuvre
 
 - [Stratégie de sécurité Microsoft](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=231213ea-9954-41fd-a757-ae62f3721dc7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers): comment Microsoft gère la sécurité des informations personnelles et organisationnelles dans ses services Cloud.
-
 - [Confidentialité dans Office 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=a1b48a5b-bcb1-4c19-9277-952c0df87113&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers): comment Microsoft crée des protections de confidentialité fortes dans Office 365.
-
-- [Accès administrateur dans Office 365](/office365/SecurityCompliance/office-365-administrative-access-controls-overview): comment Microsoft gère l’accès d’administration aux données client.
-
+- [Accès administrateur dans Office 365](/office365/SecurityCompliance/office-365-administrative-access-controls-overview): comment Microsoft gère l’accès d’administration aux données client.
 - [Audits & rapports dans Office 365](/office365/SecurityCompliance/office-365-auditing-and-reporting-overview): explorer les fonctionnalités que les clients peuvent utiliser pour suivre les activités des utilisateurs et des administrateurs au sein de leur client.
-
 - [Rétention des données dans Office 365](/office365/SecurityCompliance/office-365-data-retention-deletion-and-destruction-overview): comprendre la stratégie de gestion des données pour la durée de conservation des données client après leur suppression.
 
 ## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
-**Qui est responsable de la protection des données personnelles dans le cadre de My Number Act ?**
+**Qui est responsable de la protection des données personnelles dans le cadre de My Number Act ?**
 
 [La section Q3-13](https://www.ppc.go.jp/legal/policy/faq/) (japonais) du PPC Q\&A déclare que, étant donné que la propriété de données personnelles incombe aux clients Microsoft, ils doivent prendre les mesures de sécurité appropriées, telles que le contrôle des mots de passe d’administrateur, pour protéger les informations personnelles et les données My Number.
 

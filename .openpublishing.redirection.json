@@ -35,6 +35,121 @@
       "source_path": "compliance/regulatory/offering-DoD-DISA-L2-L4-L5.md",
       "redirect_url": "https://docs.microsoft.com/compliance/regulatory/offering-home",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-abs-ospar.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-ospar-singapore",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-Canadian-Privacy-Laws.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-canada-privacy-laws",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-cdsa.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-cdsa",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-cnssi-1253.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-cnssi-1253",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-csa-star-attestation.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-csa-star-attestation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-csa-star-certification.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-csa-star-certification",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-cyber-essentials-plus-uk.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-uk-cyber-essentials-plus",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-doe-10-cfr-part-810.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-doe-10-cfr-part-810",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-dpp-uk.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-dpp-uk",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-fact-uk.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-fact-uk",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-fca-uk.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-fca-pra-uk",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-isms-korea.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-korea-k-isms",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-iso-20000-1-2011.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-iso-20000-1",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-iso-27701.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-iso-27701",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-iso-9001.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-iso-9001",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-IT-Grundschutz-Workbook-Germany.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-germany-it-grundschutz-workbook",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-mars-e.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-mars-e-us",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-mpaa.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-mpa",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-nerc-cip.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-nerc",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-pasf-uk.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-uk-pasf",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-sec-reg-sci.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-sec-reg-sci-us",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-shared-assessments.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-shared-assessments",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "compliance/regulatory/offering-tisax-germany.md",
+      "redirect_url": "https://docs.microsoft.com/azure/compliance/offerings/offering-tisax",
+      "redirect_document_id": false
     }
   ]
 }

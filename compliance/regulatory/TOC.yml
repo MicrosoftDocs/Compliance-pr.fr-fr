@@ -248,8 +248,8 @@
       items:
         - name: Listes de vérification de préparation sur la responsabilité
           href: gdpr-arc.md
-        - name: Azure et Dynamics 365
-          href: gdpr-arc-azure-dynamics.md
+        - name: 'Azure, Dynamics 365, et Windows'
+          href: gdpr-arc-azure-dynamics-windows.md
         - name: Aide et support Microsoft et services professionnels
           href: gdpr-arc-prof-services.md
         - name: Office 365
@@ -274,20 +274,18 @@
           href: gdpr-dsr-office365.md
         - name: Visual Studio Family
           href: gdpr-dsr-visual-studio-family.md
-        - name: Windows Entreprise
+        - name: Windows
           href: gdpr-dsr-windows.md
     - name: Notification de violation
       items:
         - name: Notification de violation
           href: gdpr-breach-notification.md
-        - name: Azure et Dynamics 365
-          href: gdpr-breach-azure-dynamics.md
+        - name: 'Azure, Dynamics 365 et Windows'
+          href: gdpr-breach-azure-dynamics-windows.md
         - name: Aide et support Microsoft et services professionnels
           href: gdpr-breach-microsoft-support-professional-services.md
         - name: Office 365
           href: gdpr-breach-office365.md
-        - name: Windows Entreprise
-          href: gdpr-breach-windows.md
     - name: Déclarations d’impact sur la protection des données
       items:
         - name: Analyses d’impact sur la protection des données
@@ -300,7 +298,7 @@
           href: gdpr-dpia-prof-services.md
         - name: Office 365
           href: gdpr-dpia-office365.md
-        - name: Windows Entreprise
+        - name: Windows
           href: gdpr-dpia-windows.md
     - name: RGPD pour les serveurs Office locaux
       items:

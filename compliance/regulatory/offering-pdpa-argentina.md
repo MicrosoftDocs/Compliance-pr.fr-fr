@@ -1,7 +1,7 @@
 ---
 title: Loi argentine sur la protection des données à caractère personnel (PDCP)
 description: Les services Cloud de Microsoft Entreprise respectent les normes PDCP pour protéger la confidentialité des informations personnelles.
-keywords: Offres pour la conformité Microsoft 365
+keywords: Offres pour la conformité Microsoft 365
 localization_priority: Priority
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,14 +16,14 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 75ab80c2b017e7fe4576f145db50465ea71e2d41
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: e5b04f64d2dc0b31c8357a02930fa582b2fbae07
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50119913"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385644"
 ---
-# <a name="personal-data-protection-act-pdpa-argentina"></a>Loi argentine sur la protection des données à caractère personnel (PDCP)
+# <a name="argentina-personal-data-protection-act-pdpa"></a>Loi argentine sur la protection des données à caractère personnel (PDCP)
 
 ## <a name="about-the-pdpa"></a>À propos de PDCP
 
@@ -41,20 +41,34 @@ Les mesures de sécurité techniques et organisationnelles mises en œuvre dans 
 
 L’accord de transfert de données Microsoft est un avenant (ID d’avenant M314) aux conditions de traitement des données dans nos conditions d’utilisation des services en ligne. Il ajoute des engagements importants, notamment que Microsoft informe le client de toute demande juridique de divulguer ses données personnelles, doit soumettre ses installations de traitement des données à l’audit de la demande du client, soit par le client, soit par une tierce partie indépendante, et aura l’autorisation écrite préalable pour l’utilisation de sous-traitants.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Plateformes cloud et services Microsoft dans l’étendue
 
 - [Azure et Azure DevOps](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
-- [Dynamics 365](https://download.microsoft.com/download/E/1/9/E1977163-7A86-4812-AC18-C03ADC958AAF/Microsoft_Dynamics_365_Cloud_Service_Compliance_Datasheet.pdf)
-- [Microsoft 365](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=9f756cce-b15d-45a9-94d7-6a583dee4401&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
+- [Dynamics 365](https://download.microsoft.com/download/E/1/9/E1977163-7A86-4812-AC18-C03ADC958AAF/Microsoft_Dynamics_365_Cloud_Service_Compliance_Datasheet.pdf)
+- Office 365
+
+## <a name="office-365-and-the-pdpa"></a>Office 365 et la PDPA
+
+### <a name="office-365-cloud-environments"></a>Environnements cloud Office 365
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Applicabilité Office 365 et services dans l’étendue
+
+Utilisez le tableau suivant pour déterminer l’applicabilité de vos services et abonnements Office 365 :
+
+| **Applicabilité** | **Services dans l’étendue** |
+|:------------------|:----------------------|
+| **Office 365** | Azure Information Protection, Bookings, Exchange Online, Exchange Online Protection, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Graph, Microsoft Teams, Microsoft To-Do pour le web, MyAnalytics, Sécurité des Applications Cloud Office 365, Groupes Office 365, Office 365 Video, Office Delve, OneDrive Entreprise, Planificateur, Power Apps, Power BI pour Office 365, PowerApps, Power Automate, SharePoint Online, Skype Entreprise, StaffHub, Stream, Sway, Yammer Entreprise |
 
 ## <a name="how-to-implement"></a>Modalités de mise en œuvre
 
 - [Confidentialité dans les services Cloud Microsoft](https://www.microsoft.com/download/details.aspx?id=55710) : Obtenez des informations sur les principes et normes de confidentialité de Microsoft et sur les lois sur la confidentialité spécifiques en Argentine.  
-- [Protection des données Azure](/azure/security/azure-protection-of-customer-data) : Azure offre à ses clients une sécurité des données renforcée, par défaut et via des options.
+- [Protection des données Azure](/azure/security/azure-protection-of-customer-data) : Azure offre à ses clients une sécurité des données renforcée, par défaut et via des options.
 
 ## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
-**Comment le RGPD a-t-il modifié la Loi sur la protection des données personnelles ?**
+**Comment le RGPD a-t-il modifié la Loi sur la protection des données personnelles ?**
 
 Fin 2018, l’Argentine n’a pas encore adopté les réglementations liées au RGPD, mais elle a élaboré une nouvelle loi de protection des données, déjà soumise au Congrès par le responsable exécutif et sous la révision du Cabinet des représentants, afin de mettre en place sa loi sur la protection des données en alignement avec le RGPD. Elle traite des différences comme la définition des sujets de données et les préoccupations relatives au transfert transfrontalier d’informations personnelles.
 

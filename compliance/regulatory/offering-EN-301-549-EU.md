@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4ec39ccbeb9780c51ef813c1520675abb1d19cc9
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 2d02e7643ca554e55f4d901a95a39d1a8e5285f9
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089567"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385204"
 ---
 # <a name="european-standards-en-301-549"></a>Normes européennes EN 301 549
 
@@ -35,13 +35,13 @@ Microsoft est un fournisseur important de services de cloud computing pour les �
 
 La prise en compte de la norme EN 301 549 par Microsoft dans le développement de ses produits et services a pour objectif l’accessibilité de l’accessibilité pour tous les clients.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft concernés
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Plateformes et services du cloud computing de Microsoft dans le champ d’application
 
 - [Azure et Azure Government](https://go.microsoft.com/fwlink/p/?linkid=2051569)
 - Azure DevOps Services
 - Dynamics 365 et Dynamics 365 U.S. Governement
 - Intune
-- [Office 365 et Office 365 U.S. Governement](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- Office 365 et Office 365 U.S. Governement
 - Office 365 U.S. Government Defense
 - Windows Server 2016
 

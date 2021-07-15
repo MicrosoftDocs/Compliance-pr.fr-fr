@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 9ae0ba0b3ad10e4b1f2d308090f05c698bce092f
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 79dc7fc209b85048189016a9bed8f5ca45b99bdb
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088483"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384454"
 ---
 # <a name="nen-7510"></a>NEN 7510
 
@@ -35,17 +35,31 @@ Microsoft a analysé ses certifications et déclarations d’assurance actuelles
 
 Découvrez comment accélérer le déploiement de votre NEN 7510 grâce à nos plans de sécurité et de conformité Azure : [Téléchargez le Cloud Microsoft : Azure et Office 365 NEN7510-2011 Guide de l'utilisateur de la couverture standard ](https://aka.ms/Azure-NEN7510-2011)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Plateformes et services du cloud computing de Microsoft dans le champ d’application
 
-- [Azure et Azure Government](https://aka.ms/AzureCompliance)
+- Azure et Azure Government
 - Intune
-- [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- Office 365
+
+## <a name="office-365-and-iso-27001"></a>Office 365 and ISO 27001
+
+### <a name="office-365-cloud-environments"></a>Office 365 dans l’environnement cloud
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>Applicabilité Office 365 et services dans l’étendue
+
+Utilisez le tableau suivant pour déterminer l’applicabilité de vos services et abonnements Office 365 :
+
+| **Applicabilité** | **Services dans l’étendue** |
+|:------------------|:----------------------|
+| **Office 365** | Azure Information Protection, Bookings, Delve, Exchange Online, Exchange Online Protection, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Graph, Microsoft Teams, Microsoft To- Do for Web, MyAnalytics, Sécurité des applications cloud Office 365, Groupes Office 365, Office 365 Video, OneDrive Entreprise, Planner, Power Apps, Power Automate, Power BI pour Office 365, PowerApps, SharePoint Online, Skype Entreprise, StaffHub, Stream, Sway, Yammer Enterprise |
 
 ## <a name="audits-reports-and-certificates"></a>Audits, rapports et certificats
 
 - [Couverture norme NEN 7510:2011 Azure et Office 365](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=15d5a5fa-fbb6-4ea6-8126-2a2c684ae789&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_GRC_Assessment_Reports)
 
-## <a name="frequently-asked-questions"></a>Foire aux questions
+## <a name="frequently-asked-questions"></a>Questions fréquemment posées
 
 **Un client qui utilise les services de cloud computing de Microsoft est-il conforme à la norme NEN 7510 ?**
 

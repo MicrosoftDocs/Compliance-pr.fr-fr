@@ -1,7 +1,7 @@
 ---
 title: TruSight
 description: TruSight a procédé à une évaluation complète des risques des services de cloud computing Microsoft, conçus pour répondre aux exigences rigoureuses de ses clients de services financiers.
-keywords: Offres pour la conformité Microsoft 365
+keywords: Offres pour la conformité Microsoft 365
 localization_priority: Priority
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4fe0196ae019dbf35902c2fd0589db96ed1f1086
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: a29713d530542b64514f694eef67aabb09e303e0
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50119883"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385534"
 ---
 # <a name="trusight"></a>TruSight
 
@@ -41,11 +41,11 @@ En septembre 2018, TruSight a publié sa première évaluation des risques des s
 
 Suite à cette évaluation rigoureuse de la TruSight, les clients des services financiers ont désormais accès à une évaluation de haute qualité des services de cloud computing Microsoft sur la base d’une méthodologie normalisée et soutenue par le secteur, sans avoir à se soucier des ressources considérables dont ils ont besoin pour le mener eux-mêmes.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Plateformes et services du cloud computing de Microsoft dans le champ d’application
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 (version 9 et versions ultérieures)](https://aka.ms/d365-compliance-list)
-- Microsoft 365
+- Microsoft 365
 
 ## <a name="audits-reports-and-certificates"></a>Audits, rapports et certificats
 
@@ -59,9 +59,9 @@ Pour acheter le rapport de l’*évaluation complète de Microsoft Cloud*, conta
 
 ## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
-**Quels sont les avantages de l’évaluation TruSight des services de cloud computing Microsoft pour les entreprises ?**
+**Quels sont les avantages de l’évaluation TruSight des services de cloud computing Microsoft pour les entreprises ?**
 
-- **Réaffectation des coûts** : le rapport TruSight élimine la nécessité pour les institutions financières d'effectuer leurs propres évaluations coûteuses et fastidieuses, ce qui leur permet de concentrer leurs ressources sur la gestion, plutôt que sur l'évaluation du risque.
+- **Réaffectation des coûts** : le rapport TruSight élimine la nécessité pour les institutions financières d'effectuer leurs propres évaluations coûteuses et fastidieuses, ce qui leur permet de concentrer leurs ressources sur la gestion, plutôt que sur l'évaluation du risque.
 - **Meilleure qualité** : la méthodologie TruSight a mis en place un ensemble cohérent de normes, ce qui permet d’améliorer la qualité et la précision des informations disponibles auprès de tiers.
 
 ## <a name="resources"></a>Ressources

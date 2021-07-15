@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d87d143479cab3dffb881c58dc19d11a81b1c7a9
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 1c4cf624eb6f658bcdddde1acbef7bc43323f257
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088933"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384714"
 ---
 # <a name="iso-223012012-business-continuity-management-standard"></a>Norme de gestion de la continuité des activités ISO/IEC 22301:2012
 
@@ -35,7 +35,7 @@ Publiée en 2012 par le comité technique, ISO 22301:2012 est la première norme
 
 Microsoft est le premier fournisseur de services Cloud à grande échelle à obtenir la certification ISO 22301 pour la gestion de la continuité des activités. Une entité de certification indépendante a accordé cette certification à Microsoft Azure, Microsoft Azure Government, Microsoft Office 365 (y compris les offres commerciales, gouvernementales et éducatives), Microsoft Cloud App Security, Microsoft Intune et Microsoft Power BI à l’issue d’un audit rigoureux couvrant tous les aspects des processus de gestion de la continuité opérationnelle. L’audit a couvert les services dans le périmètre listés ci-dessous et les fonctions de gestion Azure, le portail Azure et les systèmes permettant de suivre, d’exploiter et de mettre à jour les services dans le périmètre.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft concernés
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Plateformes et services du cloud computing de Microsoft dans le champ d’application
 
 - [Azure, Azure Gouvernement et Azure Allemagne](https://aka.ms/AzureCompliance)
 - Microsoft Cloud App Security
@@ -46,7 +46,7 @@ Microsoft est le premier fournisseur de services Cloud à grande échelle à obt
 - Intune
 - [Bureau géré Microsoft](/microsoft-365/managed-desktop/intro/compliance)
 - Service Cloud Power Automate (anciennement Microsoft Flow), soit en service autonome, soit inclus dans un plan ou une suite Office 365 ou Dynamics 365
-- [Office 365 commercial, secteur public et éducation](https://go.microsoft.com/fwlink/p/?linkid=2077751)
+- Office 365 commercial, secteur public et éducation
 - Service Cloud Power Apps, soit en service autonome, soit inclus dans un plan ou une suite Office 365 ou Dynamics 365
 - Service Cloud Power BI soit en service autonome, soit inclus dans un plan ou une suite Office 365
 - Power BI intégré

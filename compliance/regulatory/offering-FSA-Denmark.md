@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 55f600c7b1fa5f4573c389ca2c5fc5f3b827bb10
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 2896f3dea06181ef11393a40a4822b3b6fd345a5
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089527"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384934"
 ---
 # <a name="financial-supervisory-authority-fsa-denmark"></a>Autorité de surveillance financière (FSA) Danemark
 
@@ -48,10 +48,10 @@ La liste de contrôle Microsoft permet aux entreprises financières danoises d�
 - Vue d’ensemble du paysage de la réglementation pour le contexte.
 - Liste de contrôle qui signale les problèmes qui doivent être résolus et met en correspondance Microsoft Azure, Microsoft Dynamics 365 et les services Microsoft 365 par rapport aux obligations réglementaires. La liste de contrôle peut être utilisée comme outil pour mesurer la conformité par rapport à un cadre réglementaire et fournir une structure interne pour documenter la conformité, et aider les clients à effectuer leurs propres évaluations des risques des services Cloud entreprise Microsoft.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Plateformes et services du cloud computing de Microsoft dans le champ d’application
 
 - [Azure](https://gallery.technet.microsoft.com/Overview-of-Azure-c1be3942)
-- [Dynamics 365](https://download.microsoft.com/download/E/1/9/E1977163-7A86-4812-AC18-C03ADC958AAF/Microsoft_Dynamics_365_Cloud_Service_Compliance_Datasheet.pdf)
+- [Dynamics 365](https://aka.ms/d365-compliance-list)
 - [Microsoft 365](https://aka.ms/RiskGovernanceGuide)
 
 ## <a name="how-to-implement"></a>Modalités de mise en œuvre

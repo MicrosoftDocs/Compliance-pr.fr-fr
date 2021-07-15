@@ -1,7 +1,7 @@
 ---
 title: Listes de vérification de préparation sur la responsabilité concernant le RGPD
 description: Dans cet articles, vous allez découvrir les listes de vérification de préparation sur la responsabilité pour accéder aux informations permettant de prendre en charge le RGPD lorsque vous utilisez les produits et services Microsoft.
-keywords: Microsoft 365, Microsoft 365 Éducation, documentation Microsoft 365, RGPD
+keywords: Microsoft 365, Microsoft 365 Éducation, documentation Microsoft 365, RGPD
 localization_priority: Priority
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
 hideEdit: true
-ms.openlocfilehash: f6b0582215242dd1de187b4cd0386e44b144dba8
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: b0b16b88ede35ed71cdc90b27a7e3076e51ae56b
+ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496477"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377811"
 ---
 # <a name="support-your-gdpr-program-with-accountability-readiness-checklists"></a>Prise en charge de votre programme RGPD avec des listes de vérification de préparation sur la responsabilité
 
@@ -34,20 +34,21 @@ Le règlement général sur la protection des données (RGPD) présente de nouve
 
 Les listes de vérification de préparation sur la responsabilité permettent d’accéder en toute simplicité aux informations dont vous pouvez avoir besoin pour prendre en charge le RGPD lorsque vous utilisez les produits et services Microsoft. Cette liste de vérification répertorie les obligations potentielles que vous pouvez rencontrer dans le cadre du RGPD et vous oriente vers les informations nécessaires à la mise en conformité de votre organisation.
 
-Il existe un guide spécifique pour quatre familles de produits et services Microsoft :
+Il existe un guide spécifique pour quatre familles de produits et services Microsoft :
 
-- [Office 365](gdpr-arc-Office365.md)
-- [Dynamics 365](gdpr-arc-azure-dynamics.md)
-- [Azure](gdpr-arc-azure-dynamics.md)
+- [Office 365](gdpr-arc-Office365.md)
+- [Dynamics 365](gdpr-arc-azure-dynamics-windows.md)
+- [Azure](gdpr-arc-azure-dynamics-windows.md)
+- [Windows](gdpr-arc-azure-dynamics-windows.md)
 - [Support Microsoft et services professionnels](gdpr-arc-prof-services.md)
 
-Vous pouvez gérer les éléments de cette liste de vérification à l’aide du [Gestionnaire de conformité](/microsoft-365/compliance/compliance-manager) en indiquant l’ID de contrôle et le titre de contrôle sous Contrôles gérés par le client dans la vignette RGPD.
+Vous pouvez gérer les éléments de cette liste de vérification à l’aide du [Gestionnaire de conformité](/microsoft-365/compliance/compliance-manager) en indiquant l’ID de contrôle et le titre de contrôle sous Contrôles gérés par le client dans la vignette RGPD.
 
 Ces listes de vérification comprennent les quatre catégories de considérations de base pour un programme de confidentialité compatible avec le RGPD répertoriées ci-dessous, ainsi que des exemples de configuration.
 
-1. Conditions de collecte et de traitement des données :
+1. Conditions de collecte et de traitement des données :
 
-    - Quand est-ce que le consentement est obtenu ?  
+    - Quand est-ce que le consentement est obtenu ?  
     - Identifier et documenter l’objectif  
     - Analyse d’impact sur la confidentialité
 

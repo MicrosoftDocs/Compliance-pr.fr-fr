@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 68d5fc100ac504eaed07f45dabbfe37c82e1c66a
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 66681ad614a004242447e605ae2e1105dc6ed5bd
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089587"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384594"
 ---
 # <a name="financial-supervision-authority-knf-poland"></a>Autorité de surveillance financière (KNF) Pologne
 
@@ -50,7 +50,7 @@ La liste de contrôle Microsoft permet aux entreprises financières polonaises d
 - Vue d’ensemble du paysage de la réglementation pour le contexte.
 - Liste de contrôle qui signale les problèmes qui doivent être résolus et met en correspondance Microsoft Azure, Microsoft Dynamics 365 et les services Microsoft 365 par rapport aux obligations réglementaires. La liste de contrôle peut être utilisée comme outil pour mesurer la conformité par rapport à un cadre réglementaire et fournir une structure interne pour documenter la conformité, et aider les clients à effectuer leurs propres évaluations des risques des services Cloud entreprise Microsoft.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Plateformes et services du cloud computing de Microsoft dans le champ d’application
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)

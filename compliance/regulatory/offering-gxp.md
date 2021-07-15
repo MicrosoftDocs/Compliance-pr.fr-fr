@@ -1,7 +1,7 @@
 ---
 title: Bonnes pratiques cliniques, de laboratoire et de fabrication (GxP).
 description: Azure et Office 365 peuvent aider les organisations de sciences de la vie à respecter les exigences réglementaires GxP.
-keywords: Offres pour la conformité Microsoft 365
+keywords: Offres pour la conformité Microsoft 365
 localization_priority: Priority
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,18 +16,18 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d8ffd78c4d762d72310e3ac5b200d422b0af26cf
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: a3801d434cb86f4157b70d1afcb0479365af3e9c
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089758"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384194"
 ---
 # <a name="good-clinical-laboratory-and-manufacturing-practices-gxp"></a>Bonnes pratiques cliniques, de laboratoire et de fabrication (GxP).
 
 ## <a name="about-gxp"></a>À propos de GxP
 
-Le terme *GxP* est une abréviation générale pour les recommandations et les réglementations de « bonnes pratiques ». Le 'x' représente un champ particulier; clinique (GCP), fabrication (GMP), distribution (GDP), laboratoire (GLP), agriculture (GAP), etc. Il n’existe aucune seule entité ou administration réglementaire ; chaque pays dispose de ses propres recommandations et régulateurs, bien que les exigences soient similaires d’un pays à l’autre. Les réglementations GxP incluent les conditions décrites dans le [Titre 21 partie 11 du CFR de la FDA des États-Unis d’Amérique](https://aka.ms/FDA-CFR) et [EudraLex volume 4; indications BPF, annexe 11](https://ec.europa.eu/health/documents/eudralex/vol-4_en) de l’Union Européenne (EU).
+Le terme *GxP* est une abréviation générale pour les recommandations et les réglementations de « bonnes pratiques ». Le 'x' représente un champ particulier; clinique (GCP), fabrication (GMP), distribution (GDP), laboratoire (GLP), agriculture (GAP), etc. Il n’existe aucune seule entité ou administration réglementaire ; chaque pays dispose de ses propres recommandations et régulateurs, bien que les exigences soient similaires d’un pays à l’autre. Les réglementations GxP incluent les conditions décrites dans le [Titre 21 partie 11 du CFR de la FDA des États-Unis d’Amérique](https://aka.ms/FDA-CFR) et [EudraLex volume 4; indications BPF, annexe 11](https://ec.europa.eu/health/documents/eudralex/vol-4_en) de l’Union Européenne (EU).
 
 Les objectifs réglementaires visent à s’assurer que les entreprises dans le cadre d’industries réglementées fabriquent des produits sécurisés et conformes aux normes de qualité pendant le processus de production. Les systèmes informatisés utilisant les processus GxP nécessitent une validation du respect des exigences GxP et sont considérés comme éligibles lorsque le système peut prouver sa capacité à les satisfaire.
 
@@ -35,7 +35,7 @@ Les objectifs réglementaires visent à s’assurer que les entreprises dans le 
 
 Microsoft peut aider les organisations qui traitent des aspects réglementés de la recherche, de l’étude clinique, de la maintenance, de la fabrication et de la distribution de produits et services de sciences de la vie répondent à leurs besoins dans le cadre de la gestion clinique, des laboratoires et de la fabrication Practices (GxP). Il s'agit notamment des réglementations mises en place par la FDA (Food and Drug Administration) des États-Unis dans la section CFR titre 21 partie 11 pour la sécurité des systèmes informatiques, ainsi que la fiabilité et la véracité des enregistrements électroniques, ainsi que EudraLex, volume 4, annexe 11, reconnus instructions relatives aux systèmes informatisés de l’UE.
 
-Il n’existe pas de certification GxP pour les fournisseurs de service Cloud ; néanmoins :
+Il n’existe pas de certification GxP pour les fournisseurs de service Cloud ; néanmoins :
 
 - Microsoft Azure et Microsoft Office 365 ont fait l'objet de nombreux audits indépendants pour la gestion de la qualité et la sécurité des informations, notamment les normes ISO 9001 (QMS) et ISO/IEC 27001 (ISMS). Cette revue contient les audits réguliers des contrôles procéduraux et techniques Microsoft, dont l'efficacité a été vérifiée.
 - L’approche de qualification de Microsoft est également basée sur les pratiques recommandées, notamment les *bonnes pratiques de fabrication automatisées* (GAMP) séries des guides pratiques de bonnes pratiques (de la société internationale pour l’ingénierie pharmaceutique (ISPE)), et *Bonnes pratiques pour les systèmes informatisés dans les environnements GxP réglementés* (tirées de Pharmaceutical Inspection Cooperation Scheme (PIC/S) PI 011-3)
@@ -46,11 +46,11 @@ Microsoft a retenu [Montrium](https://www.montrium.com/), une organisation indé
 
 Les organisations de sciences de la vie qui créent des solutions GxP sur Azure et Office 365 peuvent tirer parti des avantages du Cloud tout en protégeant la sécurité des patients, la qualité des produits et l’intégrité des données. Les clients bénéficient également de plusieurs couches de technologies de sécurité et de gouvernance, de pratiques opérationnelles et de stratégies de conformité qui renforcent la confidentialité et l’intégrité des données à des niveaux spécifiques.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Plateformes et services du cloud computing de Microsoft dans le champ d’application
 
 - [Azure](https://aka.ms/AzureCompliance)
-- Microsoft 365
-- Microsoft Dynamics 365
+- Microsoft 365
+- Microsoft Dynamics 365
 
 ## <a name="how-to-implement"></a>Modalités de mise en œuvre
 
@@ -58,17 +58,17 @@ Les organisations de sciences de la vie qui créent des solutions GxP sur Azure 
 - [Instructions Microsoft Dynamics 365 GxP](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=fb579b09-0874-4197-a97e-a25992383482&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_Compliance_Guides): Un guide pour l’utilisation de Microsoft Dynamics 365 tout en respectant les meilleures pratiques et réglementations GxP.
 - [Instructions Azure GxP](https://aka.ms/gxpcompliance) : ensemble complet d’outils pour l’utilisation d’Azure tout en respectant les meilleures pratiques et réglementations GxP.
 - [Utilisation d’Azure avec les systèmes GxP](https://aka.ms/GXP-Azure-Strategies) : aide pour les organisations de sciences de la vie dans la définition d’une stratégie de création d’applications GxP.
-- Guides titre 21 partie 11 du CFR de la FDA : obtenez de l’aide pour l’établissement d’une stratégie de qualification [Azure](https://aka.ms/Azure-FDA-Guidelines) et [Office 365](https://aka.ms/o365-qualification-guideline) conforme aux directives FDA pour les enregistrements électroniques.
+- Guides titre 21 partie 11 du CFR de la FDA : obtenez de l’aide pour l’établissement d’une stratégie de qualification [Azure](https://aka.ms/Azure-FDA-Guidelines) et [Office 365](https://aka.ms/o365-qualification-guideline) conforme aux directives FDA pour les enregistrements électroniques.
 
 ## <a name="frequently-asked-questions"></a>Questions fréquemment posées
 
-**Puis-je utiliser la conformité Microsoft GxP dans les efforts de conformité GxP de mon organisation ?**
+**Puis-je utiliser la conformité Microsoft GxP dans les efforts de conformité GxP de mon organisation ?**
 
 Les clients qui déploient des applications sur Azure doivent déterminer les exigences GxP qui s’appliquent à leurs systèmes informatisés en fonction de l’utilisation prévue, puis suivre les procédures internes régissant les processus de qualification et de validation pour prouver qu’ils satisfont à ces exigences.
 
 ## <a name="resources"></a>Ressources
 
-- [Microsoft et le titre 21 partie 11 du CFR de la FDA](offering-fda-cfr-title-21-part-11.md)
-- [Microsoft et la norme ISO/IEC 27001](offering-iso-27001.md)
+- [Microsoft et le titre 21 partie 11 du CFR de la FDA](offering-fda-cfr-title-21-part-11.md)
+- [Microsoft et la norme ISO/IEC 27001](offering-iso-27001.md)
 - [Microsoft et la norme ISO 9001](offering-iso-9001.md)
 - [Conformité sur le site Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

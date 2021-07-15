@@ -15,12 +15,12 @@ ms.custom:
 - seo-marvel-mar2020
 titleSuffix: Microsoft GDPR
 hideEdit: true
-ms.openlocfilehash: 298f0efe74539c8a8bd10330cfeb80894ef9edb1
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 6e088f64d6b0113640100269b29ef31737befe92
+ms.sourcegitcommit: 8bf2602d56eedee4447ddb374ef95b0587f254e7
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089013"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53377951"
 ---
 # <a name="gdpr-for-office-web-apps-server-and-office-online-server"></a>RGPD pour Office Web Apps Server et Office Online Server
 
@@ -80,7 +80,7 @@ Les journaux Office contiennent de nombreux types de données différents. Voici
 
 - Des données sur les performances de l’application et/ou des fonctionnalités particulières au sein de l’application
 
-- Des informations générales sur l’emplacement de l’ordinateur de l’utilisateur (par exemple, le pays/la région, le département et la ville, issus de l’adresse IP), mais pas une géolocalisation précise.
+- Des informations générales sur l’emplacement de l’ordinateur de l’utilisateur (par exemple, le pays/la région, le département et la ville, issus de l’adresse IP), mais pas de géolocalisation précise.
 
 - Des métadonnées de base sur le navigateur, par exemple, le nom et la version du navigateur, et sur l’ordinateur, par exemple, son type de système d’exploitation et sa version
 

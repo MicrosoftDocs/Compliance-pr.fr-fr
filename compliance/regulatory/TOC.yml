@@ -28,8 +28,12 @@
           href: /azure/compliance/offerings/offering-iso-27701?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
         - name: ISO-9001
           href: /azure/compliance/offerings/offering-iso-9001?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
-        - name: SOC
-          href: offering-soc.md
+        - name: SOC 1
+          href: offering-soc-1.md
+        - name: SOC 2
+          href: offering-soc-2.md
+        - name: SOC 3
+          href: offering-soc-3.md
         - name: WCAG
           href: offering-wcag-2-1.md
     - name: Gouvernement américain
@@ -40,8 +44,10 @@
           href: /azure/compliance/offerings/offering-cnssi-1253?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
         - name: DFARS
           href: offering-dfars.md
-        - name: 'DoD DISA L2, L4, L5'
-          href: offering-dod-disa-l2-l4-l5.md
+        - name: DoD IL2
+          href: offering-dod-il2.md
+        - name: DoD IL5
+          href: offering-dod-il5.md
         - name: DoE 10 CFR Part 810
           href: /azure/compliance/offerings/offering-doe-10-cfr-part-810?toc=/compliance/regulatory/toc.json&bc=/compliance/regulatory/breadcrumb/toc.json
         - name: EAR

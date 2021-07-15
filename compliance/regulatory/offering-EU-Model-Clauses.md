@@ -1,7 +1,7 @@
 ---
 title: Clauses contractuelles types de l’Union européenne
 description: Microsoft offre des clauses contractuelles standard de l’Union européenne qui fournissent des garanties concernant les transferts de données personnelles.
-keywords: Offres pour la conformité Microsoft 365
+keywords: Offres pour la conformité Microsoft 365
 localization_priority: Priority
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e50e5a8e0dd8ec400b4ca5ae053f3898e4cb0abc
-ms.sourcegitcommit: 024137a15ab23d26cac5ec14c36f3577fd8a0cc4
+ms.openlocfilehash: 456ce920d3327926541c78b1153577dcc6bb8e42
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "51496532"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385154"
 ---
 # <a name="european-union-model-clauses"></a>Clauses contractuelles types de l’Union européenne
 
@@ -37,23 +37,37 @@ Microsoft a investi dans les processus opérationnels nécessaires pour respecte
 
 Toutefois, les clients Entreprise Microsoft, qui sont les contrôleurs des données personnelles, assument la responsabilité première de protéger ces données. Cela signifie que les clients Entreprise de l’EEE ont fortement intérêt à s’assurer que leur fournisseur de service respecte les lois européennes sur la protection des données ou le client peut voir sa responsabilité engagée, et même sa capacité à utiliser un service bloquée.
 
-Microsoft a fourni ses clauses contractuelles types au groupe de travail « Article 29 » de l’UE pour examen et approbation. Le groupe de travail « Article 29 » inclut des représentants du Contrôleur européen de la protection des données, de la Commission européenne et chacune des 28 autorités de protection des données (DPA).
+Microsoft a fourni ses clauses contractuelles types au groupe de travail « Article 29 » de l’UE pour examen et approbation. Le groupe de travail « Article 29 » inclut des représentants du Contrôleur européen de la protection des données, de la Commission européenne et chacune des 28 autorités de protection des données (DPA).
 
 Le groupe a déterminé que la mise en œuvre des dispositions des accords avec Microsoft satisfaisait leurs exigences strictes. (Microsoft a été le premier fournisseur de service Cloud à recevoir une lettre de soutien et d'approbation du groupe.) L’approbation couvrait les engagements pris dans les clauses contractuelles types de l’Union européenne 2010/87/EU mais pas les annexes, qui décrivent les transferts de données et les mesures de sécurité mises en œuvre par l’importateur de données. Les annexes peuvent être analysées séparément par le DPA.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft concernés
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Plateformes et services du cloud computing de Microsoft dans le champ d’application
 
-- [Azure et Azure Government](https://aka.ms/AzureCompliance)
-- Microsoft Cloud App Security
-- Services professionnels Microsoft : Premier et sur site pour Azure, Dynamics 365, Intune et pour les clients des entreprises moyennes et grandes de Microsoft 365 Entreprise
-- [Dynamics 365](https://aka.ms/d365-compliance-list)
-- Intune : Portion du service cloud service d’Intune Add-on Product et de la gestion des périphériques mobiles pour Office 365
-- Service Cloud Power Automate (anciennement Microsoft Flow), soit en service autonome, soit inclus dans un plan ou une suite Office 365 ou Dynamics 365
-- [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Service Cloud Microsoft PowerApps, soit en service autonome, soit inclus dans un plan ou une suite Office 365 ou Dynamics 365
-- Service Cloud Power BI soit en service autonome, soit inclus dans un plan ou une suite Office 365
+- Azure et Azure Government
 - Azure DevOps Services
-- Microsoft Defender pour point de terminaison pour les sections suivantes du service cloud : détection de point de terminaison et réponse, enquête automatique et correction, niveau de sécurisé.
+- [Dynamics 365](https://aka.ms/d365-compliance-list)
+- Intune : Portion du service cloud service d’Intune Add-on Product et de la gestion des périphériques mobiles pour Office 365
+- Microsoft Cloud App Security
+- Microsoft Defender pour point de terminaison dans les sections suivantes du service cloud : détection de point de terminaison et réponse, enquête automatique et correction, niveau de sécurisé.
+- Services professionnels Microsoft : Premier et sur site pour Azure, Dynamics 365, Intune et pour les clients des entreprises moyennes et grandes de Microsoft 365 Entreprise
+- Office 365
+- Service Cloud Power Automate (anciennement Microsoft Flow), soit en service autonome, soit inclus dans un plan ou une suite Office 365 ou Dynamics 365
+- Service Cloud PowerApps, soit en service autonome, soit inclus dans un plan ou une suite Office 365 ou Dynamics 365
+- Service Cloud Power BI soit en service autonome, soit inclus dans un plan ou une suite Office 365
+
+## <a name="office-365-and-european-union-model-clauses"></a>Office 365 et les clauses types de l’Union Européenne
+
+### <a name="office-365-cloud-environments"></a>Office 365 dans le cloud
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>L’applicabilité d’Office 365 et des services dans l’étendue
+
+Utilisez le tableau suivant pour déterminer l’applicabilité de vos services et abonnements Office 365 :
+
+| **L’applicabilité** | **Les Services dans l’étendue** |
+|:------------------|:----------------------|
+| **Office 365** | Protection contre les menaces avancées, Azure Active Directory Domain Services, Azure Information Protection, Bookings, Gestionnaire de Compliance, Delve, Exchange Online, Exchange Online Protection, Formulaires, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Graph, Microsoft Teams, Microsoft To-Do for Web, MyAnalytics, Office 365 Advanced Compliance add-on, Office 365 Cloud App Security, Office 365 Groups, Office 365 Security & Compliance Center, Office 365 Video, Office Online, Office Pro Plus, OneDrive Entreprise, Planner, PowerApps, Power Automate, Power BI, SharePoint Online, Skype for Business, StaffHub, Stream, Sway, Yammer Enterprise |
 
 ## <a name="audits-reports-and-certificates"></a>Audits, rapports et certificats
 
@@ -61,25 +75,25 @@ Microsoft évalue constamment les normes de l’UE et met à jour ses services s
 
 ## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
-**Qu'est-ce que la directive de l’Union européenne sur la protection des données (95/46/CE) ?**
+**Qu'est-ce que la directive de l’Union européenne sur la protection des données (95/46/CE) ?**
 
 Cette directive définit la base de référence de la gestion des données personnelles dans l’UE. Elle fournit également l’infrastructure réglementaire au sein de laquelle Microsoft transfère des données personnelles en dehors de l’UE. Dans le cadre de cette directive et de nos accords contractuels, Microsoft agit en tant que processeur de données client. Le client agit en tant que contrôleur de données, avec la propriété et la responsabilité finales de garantir que les données puissent être légalement fournies à Microsoft pour traitement en dehors de l’EEE.
 
-**Pourquoi la conformité avec les clauses contractuelles types est-elle importante ?**
+**Pourquoi la conformité avec les clauses contractuelles types est-elle importante ?**
 
 Un fournisseur de service qui s’engage contractuellement dans les clauses contractuelles types donne l’assurance aux clients que les données personnelles seront transférées et traitées conformément à la loi européenne de protection des données. L’utilisation des clauses contractuelles types signifie également que les clients doivent obtenir un nombre moindre d’approbations de la part de différentes autorités de protection des données pour transférer les données personnelles en dehors de l’UE.
 
-**Où puis-je consulter les informations de conformité concernant les services Microsoft ?**
+**Où puis-je consulter les informations de conformité concernant les services Microsoft ?**
 
-La conformité est un engagement contractuel. Les clauses contractuelles standard de Microsoft sont accessibles à tous les clients cloud dans les [Conditions d’Online Services](https://aka.ms/Online-Services-Terms) ; pour les autres services, consultez votre contrat existant avec Microsoft.
+La conformité est un engagement contractuel. Les clauses contractuelles standard de Microsoft sont accessibles à tous les clients cloud dans les [Conditions d’Online Services](https://aka.ms/Online-Services-Terms) ; pour les autres services, consultez votre contrat existant avec Microsoft.
 
-**Qu'est-ce qu’un « sous-processeur » ?**
+**Qu'est-ce qu’un « sous-processeur » ?**
 
-Un « sous-processeur » est une personne qui traite les données personnelles en suivant les instructions du contrôleur de données et les conditions des clauses contractuelles types de l’Union européenne et le sous-contrat. Les clients Microsoft (en particulier les éditeurs de logiciels indépendants) sont parfois eux-mêmes des processeurs de données. Dans ces cas, Microsoft est le sous-processeur.
+Un « sous-processeur » est une personne qui traite les données personnelles en suivant les instructions du contrôleur de données et les conditions des clauses contractuelles types de l’Union européenne et le sous-contrat. Les clients Microsoft (en particulier les éditeurs de logiciels indépendants) sont parfois eux-mêmes des processeurs de données. Dans ces cas, Microsoft est le sous-processeur.
 
-**Quelles sont les démarches à suivre en matière de conformité de mon organisation ?**
+**Quelles sont les démarches à suivre en matière de conformité de mon organisation ?**
 
-Vous pouvez vous Lier à un contrat tel que les [Conditions d'Online Services](https://aka.ms/Online-Services-Terms) ou envisager de modifier votre contrat existant pour intégrer les clauses contractuelles standard.
+Vous pouvez vous Lier à un contrat tel que les [Conditions d'Online Services](https://aka.ms/Online-Services-Terms) ou envisager de modifier votre contrat existant pour intégrer les clauses contractuelles standard.
 
 ## <a name="resources"></a>Ressources
 
@@ -88,7 +102,6 @@ Vous pouvez vous Lier à un contrat tel que les [Conditions d'Online Services](
 - [Directive de l'UE sur la protection des données](https://aka.ms/EU-DPD)
 - [Comité européen de la protection des données](https://edpb.europa.eu/)
 - [Forum aux questions sur les clauses contractuelles types de l’UE pour Dynamics 365 et Office 365](https://products.office.com/business/office-365-trust-center-eu-model-clauses-faq)
-- [Microsoft et le Bouclier de protection des données UE-ÉTATS-UNIS](offering-eu-us-privacy-shield.md)
 - [Infrastructure de conformité Microsoft Common Controls Hub](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Conditions de Microsoft Online Services](https://aka.ms/Online-Services-Terms)
 - [Conformité sur le site Microsoft Trust Center](https://www.microsoft.com/trust-center/compliance/compliance-overview)

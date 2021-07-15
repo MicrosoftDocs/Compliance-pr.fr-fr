@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 285b2d041b5ca1d7c3366cb98274a5aa8a812638
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: ca869ce3fe1bc6111cf975296993c655040be4d1
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53089828"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385474"
 ---
 # <a name="baseline-informatiebeveiliging-rijksdienst-standard-bir-2012"></a>Norme standard Informatiebeveiliging Rijksdienst (BIR 2012)
 
@@ -37,11 +37,25 @@ Bien que Microsoft ne soit pas tenu de se conformer à la norme BIR 2012, les cl
 
 [Téléchargez le guide de l’utilisateur Microsoft Cloud : couverture de la norme standard BIR 2012 par Azure et Office 365](https://go.microsoft.com/fwlink/p/?linkid=2099461)
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services cloud Microsoft concernés
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Plateformes et services du cloud computing de Microsoft dans le champ d’application
 
-- [Azure](https://aka.ms/AzureCompliance)
+- Azure
 - Intune
-- [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- Office 365
+
+## <a name="office-365-and-bir-2012"></a>Office 365 et BIR 2012
+
+### <a name="office-365-cloud-environments"></a>Office 365 dans le cloud
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>L’applicabilité d’Office 365 et des services dans l’étendue
+
+Utilisez le tableau suivant pour déterminer l’applicabilité de vos services et abonnements Office 365 :
+
+| **L’applicabilité** | **Les Services dans l’étendue** |
+|:------------------|:----------------------|
+| **Office 365** | Azure Information Protection, Bookings, Exchange Online Protection, Exchange Online, Kaizala, Microsoft Analytics, Microsoft Booking, Microsoft Graph graphique, Microsoft Teams, Microsoft To-Do pour le web, MyAnalytics, Sécurité des Applications Cloud Office 365, Groupes Office 365, Office 365 Video, Office Delve, OneDrive Entreprise, Planificateur, Power Apps, Power BI pour Office 365, PowerApps, Power Automate, SharePoint Online, Skype Entreprise, StaffHub, Stream, Sway, Yammer Entreprise |
 
 ## <a name="audits-reports-and-certificates"></a>Audits, rapports et certificats
 

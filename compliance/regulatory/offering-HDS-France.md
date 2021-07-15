@@ -1,7 +1,7 @@
 ---
 title: Hébergement de données de santé (HDS) France
 description: Les services de cloud Computing Microsoft sont certifiés pour assurer leur conformité avec la norme Health Data Hosting (Hébergeurs de Données de Santé).
-keywords: Offres pour la conformité Microsoft 365
+keywords: Offres pour la conformité Microsoft 365
 localization_priority: Priority
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 84af03217d697f6f54db1a7d87230ae08c2b02b4
-ms.sourcegitcommit: 626b0076d133e588cd28598c149a7f272fc18bae
+ms.openlocfilehash: 65739fcf3b787ea50523c3195ffaf7e31d315d3f
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "49507312"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53384904"
 ---
 # <a name="health-data-hosting-hds-france"></a>Hébergement de données de santé (HDS) France
 
@@ -41,18 +41,18 @@ La conformité Microsoft aux exigences HDS a été auditée et certifiée par le
 
 La certification HDS permet aux prestataires de santé en France d’utiliser les services de cloud computing Microsoft pour réduire les coûts en améliorant l’efficacité clinique et opérationnelle, et ouvre la porte au développement de solutions innovantes de pointe pour la santé. Les fournisseurs peuvent développer des applications intelligentes ou utiliser des applications tierces hébergées sur Azure pour implémenter des analyses prédictives servant à personnaliser les soins de santé, évaluer et traiter les patients à distance (télémédecine), et améliorer la supervision de médicaments thérapeutiques.
 
-L'audit rigoureux a porté sur les mesures prises par Microsoft pour sécuriser les données de santé personnelles et protéger leur confidentialité, notamment ce qui suit :
+L'audit rigoureux a porté sur les mesures prises par Microsoft pour sécuriser les données de santé personnelles et protéger leur confidentialité, notamment ce qui suit :
 
 - La certification de la [gestion de la sécurité des informations ISO/IEC 27001:2013](offering-iso-27001.md) de services de cloud computing Microsoft qui font l'objet d'un audit annuel de conformité.
 - Haut niveau de protection de la confidentialité sur la base de conformité avec le RGPD et le [code de pratique pour la protection des données personnelles dans le cloud ISO/IEC 27018](offering-iso-27018.md).
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Plateformes et services du cloud computing de Microsoft dans le champ d’application
 
 - [Azure](https://aka.ms/AzureCompliance). Le certificat HDS s’applique aux services Azure répertoriés comme étant conformes à la norme ISO/IEC 27001 dans les offres de conformité Azure, et fournis par les régions Azure France Centre, France Sud, Europe de l’Ouest, et Europe de Nord.
-- Dynamics 365. Le certificat HDS s’applique aux [Services en ligne principaux](https://aka.ms/Online-Services-Terms) Dynamics 365 fournis depuis la France et l’Union européenne.
+- Dynamics 365. Le certificat HDS s’applique aux [Services en ligne principaux](https://aka.ms/Online-Services-Terms) Dynamics 365 fournis depuis la France et l’Union européenne.
 - Intune
-- Microsoft 365. Le certificat HDS s’applique aux [Services en ligne principaux](https://aka.ms/Online-Services-Terms) Office 365 fournis depuis la France et l’Union européenne.
-- Service Cloud Power BI soit en service autonome, soit inclus dans un plan ou une suite Office 365
+- Microsoft 365. Le certificat HDS s’applique aux [Services en ligne principaux](https://aka.ms/Online-Services-Terms) Office 365 fournis depuis la France et l’Union européenne.
+- Service Cloud Power BI soit en service autonome, soit inclus dans un plan ou une suite Office 365
 
 Le certificat HDS ne s’applique pas aux services en ligne Microsoft en version préliminaire ou en version préliminaire.
 
@@ -60,7 +60,7 @@ Le certificat HDS ne s’applique pas aux services en ligne Microsoft en version
 
 La certification HDS est valable trois ans.
 
-- HDS : 2018 : [ASIP SANTÉ](https://esante.gouv.fr/)
+- HDS : 2018 : [ASIP SANTÉ](https://esante.gouv.fr/)
 - [Groupe BSI](https://www.bsigroup.com/fr-FR/Nos-services/Certification/Recherche-dans-le-repertoire-des-certificats-et-des-clients/Resultats-de-la-recherche-dans-le-repertoire-des-certificats-et-des-clients/?searchkey=licence%3dHDS%2b701569%26company%3dMicrosoft%2bCorp&licencenumber=HDS%20701569)
 
 ## <a name="how-to-implement"></a>Modalités de mise en œuvre

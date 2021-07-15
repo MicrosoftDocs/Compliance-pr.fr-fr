@@ -1,7 +1,7 @@
 ---
 title: Autorité bancaire européenne (ABE)
 description: Recommandations de Microsoft pour aider les institutions financières au sein de l’Union européenne à respecter les recommandations de l’ABE pour l’adoption dans le Cloud.
-keywords: Offres pour la conformité Microsoft 365
+keywords: Offres pour la conformité Microsoft 365
 localization_priority: Priority
 ms.prod: microsoft-365-enterprise
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c753092f26df4a0d8ebcb5fc2a7921cee9e79f93
-ms.sourcegitcommit: 21ed42335efd37774ff5d17d9586d5546147241a
+ms.openlocfilehash: 18abcba03796d7f6563c65cebcbbafd63759dc7c
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "50120923"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385224"
 ---
 # <a name="european-banking-authority-eba"></a>Autorité bancaire européenne (ABE)
 
@@ -37,19 +37,19 @@ Pour aider les institutions financières au sein de l'UE à suivre les recommand
 
 Le guide Microsoft aborde, point par point, chacune des recommandations de l'ABE :
 
-- Droits d’audit. Microsoft fournit des droits d’audit contractuel pour les clients et les droits d’examen pour les autorités de réglementation dans son avenant aux services financiers, leader du secteur.
-- Notification concernant l’externalisation. Microsoft peut aider ses clients à notifier aux autorités de réglementation les activités importantes à externaliser.
+- Les droits d’audit. Microsoft offre des droits d'audit contractuels aux clients et des droits d'examen aux autorités de réglementation dans son amendement sur les services financiers, qui est à la pointe du secteur d’activité.
+- Notification à propos de l’externalisation. Microsoft peut aider ses clients à notifier aux autorités de réglementation les activités importantes à externaliser.
 - Résidence de données. Avec 36 régions, dont six en Europe, Microsoft offre le plus grand nombre de centres de données dans le monde de tout fournisseur de services Cloud. Les organisations peuvent déployer les charges de travail dans une région sans être tenus d’héberger des données en Europe.
 - Notification concernant les sous-traitants. Microsoft domine l’industrie avec un engagement contractuel de fournir aux clients un préavis de 180 jours pour les nouveaux sous-traitants et un droit de résiliation si le client n’approuve pas la désignation d’un nouveau sous-traitant.
-- Continuité d’entreprise. Microsoft fournit des dispositions de continuité et de résolution des activités dans le cadre de notre avenant aux services financiers, y compris la volonté de fournir une assistance de transition par le biais de Microsoft Consulting Services.
-- Évaluation des risques et surveillance de la sécurité. Microsoft permet aux clients de mener leurs propres évaluations des risques et fournit des outils et des tableaux de bord pour leur permettre de superviser et de surveiller nos services Cloud.
+- La continuité des activités. Microsoft prévoit des dispositions relatives à la continuité des activités et à la résolution des problèmes dans son amendement relatif aux services financiers, notamment la volonté de fournir une assistance à la transition par le biais des services de conseil Microsoft.
+- Évaluation des risques et surveillance de la sécurité. Microsoft permet aux clients de mener leurs propres évaluations des risques en fournissant des outils et des tableaux de bord pour leur permettre de superviser et de surveiller nos services Cloud.
 
 Pour les institutions financières de l'UE, Microsoft a également publié [Guide relatif à l’évaluation et à la conformité des risques pour les institutions financières dans le Cloud Microsoft](https://aka.ms/RiskGovernanceGuide), une liste de contrôle modelée à l’aide du guide de l’ABE. Il explique comment établir un modèle de gouvernance optimisé pour répondre aux exigences réglementaires et évaluer de façon efficace les risques liés à l’utilisation des services de cloud computing Microsoft, suivis de l’envoi d’une approbation réglementaire. Notre guide comprend une liste de questions auxquelles il faut répondre dans le cadre d'une soumission réglementaire et qui sont extraites du guide de l'ABE sur l'externalisation aux fournisseurs de services cloud et qui y répondent.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Plateformes et services du cloud computing de Microsoft dans le champ d’application
 
 - [Azure](https://aka.ms/AzureCompliance)
-- [Microsoft 365](https://aka.ms/o365-compliance-framework)
+- [Microsoft 365](https://aka.ms/o365-compliance-framework)
 
 ## <a name="how-to-implement"></a>Modalités de mise en œuvre
 
@@ -59,7 +59,7 @@ Pour les institutions financières de l'UE, Microsoft a également publié [Guid
 
 ## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
-**Quelles informations doivent être incluses dans une soumission aux organismes de réglementation ?**
+**Quelles informations doivent être incluses dans une soumission aux organismes de réglementation ?**
 
 La publication Microsoft, [Guide de conformité et d’évaluation des risques pour les institutions financières dans le Cloud Microsoft](https://aka.ms/RiskGovernanceGuide), offre une liste de contrôle des questions que le guide de l’ABE préconisent de répondre dans le cadre d’une soumission réglementaire et fournissent des suggestions sur la manière pour répondre à ces questions.
 

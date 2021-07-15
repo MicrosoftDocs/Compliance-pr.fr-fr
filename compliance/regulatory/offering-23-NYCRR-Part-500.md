@@ -16,12 +16,12 @@ ms.collection:
 - MS-Compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f48ba2f7bd10167d5e4cb384a7740df5e48b7617
-ms.sourcegitcommit: fb379d1110a9a86c7f9bab8c484dc3f4b3dfd6f0
+ms.openlocfilehash: 93a45f3da668ef9f6115fe352b5bbbce49e15d7f
+ms.sourcegitcommit: 9b0c8852e73e2be54a0f9c6570da67f4964f616c
 ms.translationtype: HT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53088713"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "53385524"
 ---
 # <a name="title-23-nycrr-part-500"></a>Titre 23 NYCRR partie 500
 
@@ -32,8 +32,6 @@ En réponse aux menaces importantes et croissantes pour la cybersécurité des s
 ## <a name="microsoft-and-title-23-nycrr-part-500"></a>Microsoft et titre 23 NYCRR partie 500
 
 Microsoft fournit un guide complet, [Microsoft Cloud Services: Supporting Compliance with NYDFS Cybersecurity Requirements](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=f7e56dc6-4e52-4e9a-af06-aa41d5851d36&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides), pour les services financiers réglementés par le titre 23 NYCRR partie 500. Ce guide explique en détail comment les services Cloud Azure, Office 365 et Power BI prennent en charge la conformité aux exigences. Les institutions financières qui cherchent à opérer dans le centre financier mondial de New York doivent les satisfaire, si bien que la conformité est critique pour de nombreuses institutions.
-
-Suivez les conseils ci-dessous pour optimiser votre conformité au titre 23 NYCRR partie 500 : services de cloud computing Microsoft : [prise en charge de la conformité aux exigences de cybersécurité de NYDFS](https://go.microsoft.com/fwlink/p/?linkid=2098969).
 
 Les réglementations de New York exigent de chaque institution financière les actions suivantes :
 
@@ -51,24 +49,37 @@ Les réglementations de New York exigent de chaque institution financière les a
 - **Surveillance de l’activité des utilisateurs autorisés, détection de l’accès non autorisé et formation régulières de sensibilisation des employés à la cybersécurité** : Azure, Office 365 et Power BI incluent la surveillance en extérieur pour déclencher des alertes sur les incidents et des diagnostics complets pour la journalisation et l’audit. [Microsoft Virtual Academy](https://mva.microsoft.com/) propose une formation en ligne couvrant la cybersécurité des services de cloud computing de Microsoft.
 - **Développement de plans pour répondre aux incidents de cybersécurité et restaurer le système** : Microsoft vous aide à préparer les incidents de cybersécurité en utilisant une stratégie défensive pour détecter, prédire et prévenir les violations de la sécurité avant qu’elles ne se produisent. Lorsque vous développez vos propres plans, vous pouvez tirer parti de notre plan de gestion des incidents afin de répondre aux violations de la cybersécurité.
 
-## <a name="microsoft-in-scope-cloud-services"></a>Services Cloud Microsoft dans le périmètre
+## <a name="microsoft-in-scope-cloud-platforms--services"></a>Plateformes et services du cloud computing de Microsoft dans le champ d’application
 
-- [Azure](https://aka.ms/AzureCompliance)
+- Azure
 - Intune
-- [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Service Cloud Power BI soit en service autonome, soit inclus dans un plan ou une suite Office 365
+- Office 365
+
+## <a name="office-365-and-title-23-nycrr-part-500"></a>Office 365 et le titre NYCRR 23 partie 500
+
+### <a name="office-365-cloud-environments"></a>Office 365 dans le cloud
+
+[!INCLUDE [Office 365 offering intro](../includes/o365-offering-introduction.md)]
+
+### <a name="office-365-applicability-and-in-scope-services"></a>L’applicabilité d’Office 365 et des services dans l’étendue
+
+Utilisez le tableau suivant pour déterminer l’applicabilité de vos services et abonnements Office 365 :
+
+| **l’applicabilité** | **Les Services dans l’étendue** |
+|:------------------|:----------------------|
+| **Office 365** | Exchange Online Protection, Exchange Online, Office 365 Customer Portal, Office Online, Infrastructure des services Office, OneDrive Entreprise, SharePoint Online, Skype Entreprise |
 
 ## <a name="frequently-asked-questions"></a>Questions fréquentes (FAQ)
 
 **Quelles sont les institutions couvertes par le présent règlement ?**
 
-Pour déterminer si votre institution est régie par le présent règlement, consultez le département des services financiers de New York ([Qui nous supervisons](https://go.microsoft.com/fwlink/p/?linkid=2099374)).
+Pour déterminer si votre institution est régie par le présent règlement, consultez le [département des services financiers de New York (Que nous supervisons](https://go.microsoft.com/fwlink/p/?linkid=2099374)).
 
 ## <a name="resources"></a>Ressources
 
 - [Ressources proposées](https://www.microsoft.com/trustcenter/compliance/NYCRR)
 - [Département des services financiers de l’État de New York 23 NYCRR 500 : exigences de cybersécurité pour les sociétés de services financiers](https://go.microsoft.com/fwlink/p/?linkid=2098976)
-- [FAQ : 23 NYCRR partie 500 : cybersécurité](https://go.microsoft.com/fwlink/p/?linkid=2098977)
+- [FAQ : NYCRR 23 partie 500 : cybersécurité](https://go.microsoft.com/fwlink/p/?linkid=2098977)
 - [Services de cloud computing de Microsoft : prise en charge de la conformité avec les exigences de cybersécurité du NYDFS](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=f7e56dc6-4e52-4e9a-af06-aa41d5851d36&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 - [Conformité sur le centre de gestion de la confidentialité Microsoft](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
@@ -76,5 +87,4 @@ Pour déterminer si votre institution est régie par le présent règlement, con
 
 - [Services Enterprise Cloud et financiers Microsoft](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
 - [Programme de conformité des services financiers de Microsoft Cloud](https://www.microsoft.com/download/confirmation.aspx?id=55332)
-- [Conformité destinée au secteur des services financiers dans Azure](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [Responsabilités partagées pour le cloud computing](https://aka.ms/sharedresponsibility)- 
